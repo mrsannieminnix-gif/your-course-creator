@@ -6,6 +6,7 @@ import { EditableList } from "./EditableList";
 import { DiagramSection } from "./DiagramSection";
 import { ChecklistSection } from "./ChecklistSection";
 import { WeekTracker } from "./WeekTracker";
+import logo from "@/assets/logo.jpg";
 
 interface WorkbookPageProps {
   page: WorkbookPageType;
@@ -171,6 +172,15 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
             <WeekTracker />
           </div>
         )}
+      </div>
+
+      {/* Logo in bottom right corner */}
+      <div className="absolute bottom-4 right-4 z-20">
+        <img 
+          src={logo} 
+          alt="The Model Parenting Method" 
+          className="w-20 h-auto opacity-80"
+        />
       </div>
     </div>
   );
