@@ -118,6 +118,26 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
           </div>
         );
 
+      case "weekly-tracker":
+        return (
+          <div className="mt-6 pt-4 border-t border-border/50">
+            <WeekTracker />
+          </div>
+        );
+
+      case "goal-phrases":
+        return (
+          <div className="my-4 p-6 bg-primary/10 rounded-xl border-2 border-primary/30">
+            {section.items?.map((phrase, idx) => (
+              <div key={idx} className="py-3 text-center">
+                <span className="font-handwritten text-2xl text-primary font-semibold">
+                  {phrase}
+                </span>
+              </div>
+            ))}
+          </div>
+        );
+
       default:
         return null;
     }
@@ -133,23 +153,25 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
 
       {/* Page content */}
       <div className="relative z-10">
+        {/* Section label */}
+        <div className="text-center mb-2">
+          <span className="text-xs tracking-[0.3em] uppercase text-muted-foreground">
+            SECTION {page.section} • {page.sectionTitle}
+          </span>
+        </div>
+
         {/* Page header */}
         <div className="text-center mb-8">
           {page.title && (
-            <div className="mb-2">
-              <span className="text-xs tracking-[0.3em] uppercase text-muted-foreground">
-                {page.type === "foundation" ? "SECTION 1" : ""}
-              </span>
-              <h1 className="font-serif text-3xl md:text-4xl font-bold text-primary tracking-wide">
-                <EditableText
-                  value={page.title}
-                  onChange={(title) => onUpdatePage({ ...page, title })}
-                />
-              </h1>
-            </div>
+            <h1 className="font-serif text-3xl md:text-4xl font-bold text-primary tracking-wide">
+              <EditableText
+                value={page.title}
+                onChange={(title) => onUpdatePage({ ...page, title })}
+              />
+            </h1>
           )}
           {page.subtitle && (
-            <h2 className="font-serif text-xl md:text-2xl text-primary/80 font-medium italic">
+            <h2 className="font-serif text-xl md:text-2xl text-primary/80 font-medium italic mt-2">
               <EditableText
                 value={page.subtitle}
                 onChange={(subtitle) => onUpdatePage({ ...page, subtitle })}
@@ -165,13 +187,6 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
             <div key={section.id}>{renderSection(section)}</div>
           ))}
         </div>
-
-        {/* Week tracker for checklist pages */}
-        {page.type === "checklist" && (
-          <div className="mt-8 pt-6 border-t border-border/50">
-            <WeekTracker />
-          </div>
-        )}
       </div>
 
       {/* Logo in bottom right corner */}
