@@ -128,13 +128,13 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
       case "goal-phrases":
         return (
           <div className="my-4 p-6 bg-primary/10 rounded-xl border-2 border-primary/30">
-            {section.items?.map((phrase, idx) => (
-              <div key={idx} className="py-3 text-center">
-                <span className="font-handwritten text-2xl text-primary font-semibold">
-                  {phrase}
-                </span>
-              </div>
-            ))}
+            <EditableList
+              items={section.items || []}
+              onChange={(items) => updateSection(section.id, { items })}
+              bulletStyle="none"
+              className="text-center"
+              itemClassName="font-handwritten text-2xl text-primary font-semibold py-2 justify-center"
+            />
           </div>
         );
 

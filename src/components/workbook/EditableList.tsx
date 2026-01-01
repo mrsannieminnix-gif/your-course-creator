@@ -5,13 +5,17 @@ import { EditableText } from "./EditableText";
 interface EditableListProps {
   items: string[];
   onChange: (items: string[]) => void;
-  bulletStyle?: "disc" | "circle" | "dash" | "number";
+  bulletStyle?: "disc" | "circle" | "dash" | "number" | "none";
+  className?: string;
+  itemClassName?: string;
 }
 
 export const EditableList: React.FC<EditableListProps> = ({
   items,
   onChange,
-  bulletStyle = "disc"
+  bulletStyle = "disc",
+  className,
+  itemClassName
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
@@ -44,22 +48,24 @@ export const EditableList: React.FC<EditableListProps> = ({
   };
 
   return (
-    <ul className="space-y-2">
+    <ul className={`space-y-2 ${className || ""}`}>
       {items.map((item, index) => (
         <li
           key={index}
-          className="flex items-start gap-2 group"
+          className={`flex items-start gap-2 group ${itemClassName || ""}`}
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-          <span className="text-primary/70 mt-0.5 font-medium min-w-[1rem]">
-            {getBullet(index)}
-          </span>
+          {bulletStyle !== "none" && (
+            <span className="text-primary/70 mt-0.5 font-medium min-w-[1rem]">
+              {getBullet(index)}
+            </span>
+          )}
           <div className="flex-1">
             <EditableText
               value={item}
               onChange={(value) => handleItemChange(index, value)}
-              placeholder="Enter list item..."
+              placeholder="Enter item..."
             />
           </div>
           {hoveredIndex === index && items.length > 1 && (
