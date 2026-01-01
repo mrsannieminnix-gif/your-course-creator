@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { ChevronLeft, ChevronRight, Menu, Printer, Download, X } from "lucide-react";
+import React, { useState, useRef } from "react";
+import { ChevronLeft, ChevronRight, Menu, Printer, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { WorkbookPage as WorkbookPageType, WorkbookData } from "@/types/workbook";
 import { WorkbookPage } from "./WorkbookPage";
@@ -10,12 +10,21 @@ export const WorkbookEditor: React.FC = () => {
   const [workbook, setWorkbook] = useState<WorkbookData>(initialWorkbookData);
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [isPrintMode, setIsPrintMode] = useState(false);
+  const printRef = useRef<HTMLDivElement>(null);
 
   const currentPage = workbook.pages[currentPageIndex];
 
   const updatePage = (updatedPage: WorkbookPageType) => {
     const newPages = workbook.pages.map((page, index) =>
       index === currentPageIndex ? updatedPage : page
+    );
+    setWorkbook({ ...workbook, pages: newPages });
+  };
+
+  const updatePageByIndex = (index: number, updatedPage: WorkbookPageType) => {
+    const newPages = workbook.pages.map((page, i) =>
+      i === index ? updatedPage : page
     );
     setWorkbook({ ...workbook, pages: newPages });
   };
@@ -33,10 +42,27 @@ export const WorkbookEditor: React.FC = () => {
   };
 
   const handlePrint = () => {
-    window.print();
+    setIsPrintMode(true);
+    setTimeout(() => {
+      window.print();
+      setIsPrintMode(false);
+    }, 100);
   };
 
   return (
+    <>
+      {/* Print-only view with all pages */}
+      {isPrintMode && (
+        <div className="print-container print-all-pages fixed inset-0 z-50 bg-background overflow-auto">
+          {workbook.pages.map((page, index) => (
+            <WorkbookPage
+              key={page.id}
+              page={page}
+              onUpdatePage={(p) => updatePageByIndex(index, p)}
+            />
+          ))}
+        </div>
+      )}
     <div className="min-h-screen bg-background flex">
       {/* Sidebar */}
       <aside
@@ -201,5 +227,6 @@ export const WorkbookEditor: React.FC = () => {
         </footer>
       </main>
     </div>
+    </>
   );
 };
