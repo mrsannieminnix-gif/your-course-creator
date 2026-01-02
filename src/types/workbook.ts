@@ -1,8 +1,9 @@
 export interface WorkbookPage {
   id: string;
-  type: 'outline' | 'reflection' | 'goals' | 'goals-faith' | 'visuals';
-  section: number; // 1-7 for the 7 sections
-  sectionTitle: string; // e.g., "Foundation", "Tool 1: Anchoring"
+  type?: 'outline' | 'reflection' | 'goals' | 'goals-faith' | 'visuals';
+  pageType?: 'outline' | 'reflection' | 'goals' | 'goals-faith' | 'visuals';
+  section: number;
+  sectionTitle: string;
   title: string;
   subtitle?: string;
   sections: PageSection[];
@@ -11,7 +12,7 @@ export interface WorkbookPage {
 export interface PageSection {
   id: string;
   type: 'header' | 'subheader' | 'paragraph' | 'list' | 'scripture' | 'quote' | 'diagram' | 'checklist' | 'weekly-tracker' | 'goal-phrases';
-  content: string;
+  content?: string;
   items?: string[];
   editable?: boolean;
 }

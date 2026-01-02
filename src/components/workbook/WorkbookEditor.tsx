@@ -6,8 +6,12 @@ import { WorkbookPage } from "./WorkbookPage";
 import { PageThumbnail } from "./PageThumbnail";
 import { initialWorkbookData } from "@/data/workbookContent";
 
-export const WorkbookEditor: React.FC = () => {
-  const [workbook, setWorkbook] = useState<WorkbookData>(initialWorkbookData);
+interface WorkbookEditorProps {
+  initialData?: WorkbookData;
+}
+
+export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) => {
+  const [workbook, setWorkbook] = useState<WorkbookData>(initialData || initialWorkbookData);
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const printRef = useRef<HTMLDivElement>(null);
