@@ -10,7 +10,6 @@ export const WorkbookEditor: React.FC = () => {
   const [workbook, setWorkbook] = useState<WorkbookData>(initialWorkbookData);
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [isPrintMode, setIsPrintMode] = useState(false);
   const printRef = useRef<HTMLDivElement>(null);
 
   const currentPage = workbook.pages[currentPageIndex];
@@ -42,27 +41,24 @@ export const WorkbookEditor: React.FC = () => {
   };
 
   const handlePrint = () => {
-    setIsPrintMode(true);
-    setTimeout(() => {
-      window.print();
-      setIsPrintMode(false);
-    }, 100);
+    window.print();
   };
 
   return (
     <>
-      {/* Print-only view with all pages */}
-      {isPrintMode && (
-        <div className="print-container print-all-pages fixed inset-0 z-50 bg-background overflow-auto">
+      {/* Print-only view with all pages - always rendered but hidden on screen */}
+      <div ref={printRef} className="print-container print-all-pages">
+        <div className="print-pages-wrapper">
           {workbook.pages.map((page, index) => (
-            <WorkbookPage
-              key={page.id}
-              page={page}
-              onUpdatePage={(p) => updatePageByIndex(index, p)}
-            />
+            <div key={page.id} className="print-page-wrapper">
+              <WorkbookPage
+                page={page}
+                onUpdatePage={(p) => updatePageByIndex(index, p)}
+              />
+            </div>
           ))}
         </div>
-      )}
+      </div>
     <div className="min-h-screen bg-background flex">
       {/* Sidebar */}
       <aside
