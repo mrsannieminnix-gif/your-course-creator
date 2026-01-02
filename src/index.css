@@ -162,51 +162,84 @@
     display: none !important;
   }
 
-  body {
+  html, body {
     background: white !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
-  }
-
-  .print-container {
-    display: block !important;
-    position: static !important;
-    overflow: visible !important;
-  }
-
-  .print-container > * {
-    display: block !important;
-  }
-  
-  .page-paper {
-    box-shadow: none !important;
-    break-inside: avoid;
-    page-break-inside: avoid;
-    page-break-after: always;
-    margin: 0 auto !important;
-    padding: 40px !important;
-    max-width: 100% !important;
-    min-height: auto !important;
-    border-radius: 0 !important;
-    background: white !important;
-  }
-
-  .page-paper:last-child {
-    page-break-after: auto;
-  }
-
-  .print-all-pages .page-paper {
-    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   /* Hide the main app during print */
   .min-h-screen.bg-background.flex {
     display: none !important;
   }
+
+  /* Show the print container */
+  .print-container {
+    display: block !important;
+    position: static !important;
+    visibility: visible !important;
+    overflow: visible !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .print-pages-wrapper {
+    display: block !important;
+  }
+
+  .print-page-wrapper {
+    display: block !important;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .print-page-wrapper:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+  
+  .page-paper {
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin: 0 auto !important;
+    padding: 30px !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    border-radius: 0 !important;
+    background: white !important;
+    background-image: none !important;
+  }
+
+  /* Make sure all content is visible */
+  .page-paper * {
+    visibility: visible !important;
+  }
+
+  /* Adjust colors for print */
+  .text-primary {
+    color: hsl(145 28% 35%) !important;
+  }
+
+  .text-foreground {
+    color: black !important;
+  }
+
+  .text-muted-foreground {
+    color: hsl(30 15% 35%) !important;
+  }
 }
 
 @media screen {
   .print-container {
-    display: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    top: 0 !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
   }
 }
