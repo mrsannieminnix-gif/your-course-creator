@@ -170,6 +170,12 @@
 
   .print-container {
     display: block !important;
+    position: static !important;
+    overflow: visible !important;
+  }
+
+  .print-container > * {
+    display: block !important;
   }
   
   .page-paper {
@@ -177,11 +183,12 @@
     break-inside: avoid;
     page-break-inside: avoid;
     page-break-after: always;
-    margin: 0 !important;
+    margin: 0 auto !important;
     padding: 40px !important;
     max-width: 100% !important;
     min-height: auto !important;
     border-radius: 0 !important;
+    background: white !important;
   }
 
   .page-paper:last-child {
@@ -191,10 +198,15 @@
   .print-all-pages .page-paper {
     display: block !important;
   }
+
+  /* Hide the main app during print */
+  .min-h-screen.bg-background.flex {
+    display: none !important;
+  }
 }
 
 @media screen {
   .print-container {
-    display: none;
+    display: none !important;
   }
 }
