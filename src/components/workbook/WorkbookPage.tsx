@@ -6,6 +6,7 @@ import { EditableList } from "./EditableList";
 import { DiagramSection } from "./DiagramSection";
 import { ChecklistSection } from "./ChecklistSection";
 import { WeekTracker } from "./WeekTracker";
+import { ComparisonImage } from "./ComparisonImage";
 import logo from "@/assets/logo.jpg";
 
 interface WorkbookPageProps {
@@ -124,6 +125,9 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
             <WeekTracker />
           </div>
         );
+
+      case "comparison-image":
+        return <ComparisonImage images={section.images} />;
 
       case "goal-phrases":
         return (

@@ -203,14 +203,20 @@ export const initialWorkbookData: WorkbookData = {
       type: "visuals",
       section: 1,
       sectionTitle: "The Foundation",
-      title: "Visual Reminders",
-      subtitle: "Print & Display",
+      title: "You Are The Model",
+      subtitle: "They Become What They See",
       sections: [
         {
           id: "s1-p4-1",
-          type: "diagram",
-          content: "Model Parenting Flow: Calm → Safety → Belonging → Values → Confidence",
-          editable: true
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "parent-stressed",
+            after: "parent-calm",
+            beforeLabel: "When I yell, they learn to yell.",
+            afterLabel: "When I'm calm, they learn calm."
+          },
+          editable: false
         },
         {
           id: "s1-p4-2",
@@ -218,8 +224,8 @@ export const initialWorkbookData: WorkbookData = {
           content: "",
           items: [
             "I AM THE MODEL",
-            "Connection Before Correction",
-            "Progress Over Perfection"
+            "My calm teaches their calm",
+            "My patience grows their patience"
           ],
           editable: true
         },
