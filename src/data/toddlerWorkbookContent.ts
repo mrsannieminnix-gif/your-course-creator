@@ -96,8 +96,8 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 1,
       sectionTitle: "The Developing Brain",
       pageType: "goals",
-      title: "Weekly Focus",
-      subtitle: "Brain Development Awareness",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         { id: "t1-3-1", type: "header", content: "This Week's Phrases" },
         {
@@ -113,23 +113,12 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t1-3-3", type: "header", content: "Daily Check-In" },
         { id: "t1-3-4", type: "paragraph", content: "Rate how well you applied brain-development awareness today (1 = struggled, 5 = nailed it):" },
-        { id: "t1-3-5", type: "weekly-tracker" }
-      ]
-    },
-    {
-      id: "toddler-1-4",
-      section: 1,
-      sectionTitle: "The Developing Brain",
-      pageType: "goals-faith",
-      title: "Faith-Based Focus",
-      subtitle: "Brain Development Awareness",
-      sections: [
-        { id: "t1-4-1", type: "header", content: "Scripture for This Week" },
-        { id: "t1-4-2", type: "scripture", content: "\"For you created my inmost being; you knit me together in my mother's womb. I praise you because I am fearfully and wonderfully made.\" - Psalm 139:13-14" },
-        { id: "t1-4-3", type: "paragraph", content: "God is still knitting your child together. Their brain, their emotions, their capacity for self-control - all still being formed by the Master Creator. Trust the process." },
-        { id: "t1-4-4", type: "header", content: "This Week's Faith Phrases" },
+        { id: "t1-3-5", type: "header", content: "FAITH-BASED FOCUS" },
+        { id: "t1-3-6", type: "scripture", content: "\"For you created my inmost being; you knit me together in my mother's womb. I praise you because I am fearfully and wonderfully made.\" - Psalm 139:13-14" },
+        { id: "t1-3-7", type: "paragraph", content: "God is still knitting your child together. Their brain, their emotions, their capacity for self-control - all still being formed by the Master Creator. Trust the process." },
+        { id: "t1-3-8", type: "header", content: "Faith Phrases" },
         {
-          id: "t1-4-5",
+          id: "t1-3-9",
           type: "goal-phrases",
           items: [
             "\"God is still forming them.\"",
@@ -138,21 +127,20 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"Lord, help me see them as You see them.\""
           ]
         },
-        { id: "t1-4-6", type: "header", content: "Daily Check-In" },
-        { id: "t1-4-7", type: "weekly-tracker" }
+        { id: "t1-3-10", type: "weekly-tracker" }
       ]
     },
     {
-      id: "toddler-1-5",
+      id: "toddler-1-4",
       section: 1,
       sectionTitle: "The Developing Brain",
       pageType: "visuals",
       title: "Visual Reminders",
       subtitle: "Print & Post These",
       sections: [
-        { id: "t1-5-1", type: "header", content: "Fridge-Worthy Reminders" },
+        { id: "t1-4-1", type: "header", content: "Fridge-Worthy Reminders" },
         {
-          id: "t1-5-2",
+          id: "t1-4-2",
           type: "goal-phrases",
           items: [
             "🧠 Their prefrontal cortex won't be fully developed until age 25",
@@ -162,9 +150,9 @@ export const toddlerWorkbookData: WorkbookData = {
             "🌱 Every interaction shapes their brain"
           ]
         },
-        { id: "t1-5-3", type: "header", content: "Quick Brain Facts" },
+        { id: "t1-4-3", type: "header", content: "Quick Brain Facts" },
         {
-          id: "t1-5-4",
+          id: "t1-4-4",
           type: "list",
           items: [
             "2-4 year olds have BIG emotions but SMALL regulation skills",
@@ -261,8 +249,8 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 2,
       sectionTitle: "Tantrums & Big Emotions",
       pageType: "goals",
-      title: "Weekly Focus",
-      subtitle: "Tantrum Navigation",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         { id: "t2-3-1", type: "header", content: "This Week's Phrases" },
         {
@@ -278,23 +266,12 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t2-3-3", type: "header", content: "Daily Check-In" },
         { id: "t2-3-4", type: "paragraph", content: "Rate how well you stayed anchored and validated during meltdowns today:" },
-        { id: "t2-3-5", type: "weekly-tracker" }
-      ]
-    },
-    {
-      id: "toddler-2-4",
-      section: 2,
-      sectionTitle: "Tantrums & Big Emotions",
-      pageType: "goals-faith",
-      title: "Faith-Based Focus",
-      subtitle: "Tantrum Navigation",
-      sections: [
-        { id: "t2-4-1", type: "header", content: "Scripture for This Week" },
-        { id: "t2-4-2", type: "scripture", content: "\"The Lord is close to the brokenhearted and saves those who are crushed in spirit.\" - Psalm 34:18" },
-        { id: "t2-4-3", type: "paragraph", content: "When your child is overwhelmed, you get to be God's presence to them. Just as He draws near to us in our pain, you draw near to them in their storm." },
-        { id: "t2-4-4", type: "header", content: "This Week's Faith Phrases" },
+        { id: "t2-3-5", type: "header", content: "FAITH-BASED FOCUS" },
+        { id: "t2-3-6", type: "scripture", content: "\"The Lord is close to the brokenhearted and saves those who are crushed in spirit.\" - Psalm 34:18" },
+        { id: "t2-3-7", type: "paragraph", content: "When your child is overwhelmed, you get to be God's presence to them. Just as He draws near to us in our pain, you draw near to them in their storm." },
+        { id: "t2-3-8", type: "header", content: "Faith Phrases" },
         {
-          id: "t2-4-5",
+          id: "t2-3-9",
           type: "goal-phrases",
           items: [
             "\"Lord, help me be Your calm.\"",
@@ -303,21 +280,20 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"Help me see their heart, not just their behavior.\""
           ]
         },
-        { id: "t2-4-6", type: "header", content: "Daily Check-In" },
-        { id: "t2-4-7", type: "weekly-tracker" }
+        { id: "t2-3-10", type: "weekly-tracker" }
       ]
     },
     {
-      id: "toddler-2-5",
+      id: "toddler-2-4",
       section: 2,
       sectionTitle: "Tantrums & Big Emotions",
       pageType: "visuals",
       title: "Visual Reminders",
       subtitle: "Print & Post These",
       sections: [
-        { id: "t2-5-1", type: "header", content: "Tantrum Response Steps" },
+        { id: "t2-4-1", type: "header", content: "Tantrum Response Steps" },
         {
-          id: "t2-5-2",
+          id: "t2-4-2",
           type: "goal-phrases",
           items: [
             "1️⃣ BREATHE - Anchor yourself first",
@@ -327,9 +303,9 @@ export const toddlerWorkbookData: WorkbookData = {
             "5️⃣ CONNECT - Offer comfort when ready"
           ]
         },
-        { id: "t2-5-3", type: "header", content: "Remember" },
+        { id: "t2-4-3", type: "header", content: "Remember" },
         {
-          id: "t2-5-4",
+          id: "t2-4-4",
           type: "list",
           items: [
             "Tantrums are NOT a reflection of your parenting",
@@ -425,8 +401,8 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 3,
       sectionTitle: "Defiance & Power Struggles",
       pageType: "goals",
-      title: "Weekly Focus",
-      subtitle: "Reducing Power Struggles",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         { id: "t3-3-1", type: "header", content: "This Week's Phrases" },
         {
@@ -442,23 +418,12 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t3-3-3", type: "header", content: "Daily Check-In" },
         { id: "t3-3-4", type: "paragraph", content: "Rate how well you offered choices and avoided power struggles today:" },
-        { id: "t3-3-5", type: "weekly-tracker" }
-      ]
-    },
-    {
-      id: "toddler-3-4",
-      section: 3,
-      sectionTitle: "Defiance & Power Struggles",
-      pageType: "goals-faith",
-      title: "Faith-Based Focus",
-      subtitle: "Reducing Power Struggles",
-      sections: [
-        { id: "t3-4-1", type: "header", content: "Scripture for This Week" },
-        { id: "t3-4-2", type: "scripture", content: "\"Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.\" - Ephesians 6:4" },
-        { id: "t3-4-3", type: "paragraph", content: "Even God gives us free will. He doesn't force obedience - He invites it through relationship. We can do the same with our children." },
-        { id: "t3-4-4", type: "header", content: "This Week's Faith Phrases" },
+        { id: "t3-3-5", type: "header", content: "FAITH-BASED FOCUS" },
+        { id: "t3-3-6", type: "scripture", content: "\"Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.\" - Ephesians 6:4" },
+        { id: "t3-3-7", type: "paragraph", content: "Even God gives us free will. He doesn't force obedience - He invites it through relationship. We can do the same with our children." },
+        { id: "t3-3-8", type: "header", content: "Faith Phrases" },
         {
-          id: "t3-4-5",
+          id: "t3-3-9",
           type: "goal-phrases",
           items: [
             "\"Lord, help me lead without provoking.\"",
@@ -467,21 +432,20 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"Help me choose connection over control.\""
           ]
         },
-        { id: "t3-4-6", type: "header", content: "Daily Check-In" },
-        { id: "t3-4-7", type: "weekly-tracker" }
+        { id: "t3-3-10", type: "weekly-tracker" }
       ]
     },
     {
-      id: "toddler-3-5",
+      id: "toddler-3-4",
       section: 3,
       sectionTitle: "Defiance & Power Struggles",
       pageType: "visuals",
       title: "Visual Reminders",
       subtitle: "Print & Post These",
       sections: [
-        { id: "t3-5-1", type: "header", content: "Choice-Giving Cheat Sheet" },
+        { id: "t3-4-1", type: "header", content: "Choice-Giving Cheat Sheet" },
         {
-          id: "t3-5-2",
+          id: "t3-4-2",
           type: "goal-phrases",
           items: [
             "🥣 \"Cereal or toast?\"",
@@ -491,9 +455,9 @@ export const toddlerWorkbookData: WorkbookData = {
             "🛁 \"Bath now or in 5 minutes?\""
           ]
         },
-        { id: "t3-5-3", type: "header", content: "Power Struggle Prevention" },
+        { id: "t3-4-3", type: "header", content: "Power Struggle Prevention" },
         {
-          id: "t3-5-4",
+          id: "t3-4-4",
           type: "list",
           items: [
             "Give choices BEFORE they dig in",
@@ -589,8 +553,8 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 4,
       sectionTitle: "Separation Anxiety",
       pageType: "goals",
-      title: "Weekly Focus",
-      subtitle: "Building Separation Confidence",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         { id: "t4-3-1", type: "header", content: "This Week's Phrases" },
         {
@@ -606,23 +570,12 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t4-3-3", type: "header", content: "Daily Check-In" },
         { id: "t4-3-4", type: "paragraph", content: "Rate how well you handled separations with calm confidence today:" },
-        { id: "t4-3-5", type: "weekly-tracker" }
-      ]
-    },
-    {
-      id: "toddler-4-4",
-      section: 4,
-      sectionTitle: "Separation Anxiety",
-      pageType: "goals-faith",
-      title: "Faith-Based Focus",
-      subtitle: "Building Separation Confidence",
-      sections: [
-        { id: "t4-4-1", type: "header", content: "Scripture for This Week" },
-        { id: "t4-4-2", type: "scripture", content: "\"Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you.\" - Deuteronomy 31:6" },
-        { id: "t4-4-3", type: "paragraph", content: "Just as God promises to never leave us, we can be that constant for our children. Our faithful returns teach them that love doesn't disappear." },
-        { id: "t4-4-4", type: "header", content: "This Week's Faith Phrases" },
+        { id: "t4-3-5", type: "header", content: "FAITH-BASED FOCUS" },
+        { id: "t4-3-6", type: "scripture", content: "\"Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you.\" - Deuteronomy 31:6" },
+        { id: "t4-3-7", type: "paragraph", content: "Just as God promises to never leave us, we can be that constant for our children. Our faithful returns teach them that love doesn't disappear." },
+        { id: "t4-3-8", type: "header", content: "Faith Phrases" },
         {
-          id: "t4-4-5",
+          id: "t4-3-9",
           type: "goal-phrases",
           items: [
             "\"God is with you even when I'm not.\"",
@@ -631,21 +584,20 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"Help me be a picture of Your faithfulness.\""
           ]
         },
-        { id: "t4-4-6", type: "header", content: "Daily Check-In" },
-        { id: "t4-4-7", type: "weekly-tracker" }
+        { id: "t4-3-10", type: "weekly-tracker" }
       ]
     },
     {
-      id: "toddler-4-5",
+      id: "toddler-4-4",
       section: 4,
       sectionTitle: "Separation Anxiety",
       pageType: "visuals",
       title: "Visual Reminders",
       subtitle: "Print & Post These",
       sections: [
-        { id: "t4-5-1", type: "header", content: "Goodbye Ritual Ideas" },
+        { id: "t4-4-1", type: "header", content: "Goodbye Ritual Ideas" },
         {
-          id: "t4-5-2",
+          id: "t4-4-2",
           type: "goal-phrases",
           items: [
             "💋 \"Kiss in your pocket\" - kiss their palm to hold",
@@ -655,9 +607,9 @@ export const toddlerWorkbookData: WorkbookData = {
             "👋 Wave from the window routine"
           ]
         },
-        { id: "t4-5-3", type: "header", content: "Drop-Off Success Tips" },
+        { id: "t4-4-3", type: "header", content: "Drop-Off Success Tips" },
         {
-          id: "t4-5-4",
+          id: "t4-4-4",
           type: "list",
           items: [
             "Keep goodbyes SHORT and confident",
@@ -753,8 +705,8 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 5,
       sectionTitle: "Sleep Challenges",
       pageType: "goals",
-      title: "Weekly Focus",
-      subtitle: "Peaceful Bedtimes",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         { id: "t5-3-1", type: "header", content: "This Week's Phrases" },
         {
@@ -770,23 +722,12 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t5-3-3", type: "header", content: "Daily Check-In" },
         { id: "t5-3-4", type: "paragraph", content: "Rate how well you held bedtime boundaries with warmth today:" },
-        { id: "t5-3-5", type: "weekly-tracker" }
-      ]
-    },
-    {
-      id: "toddler-5-4",
-      section: 5,
-      sectionTitle: "Sleep Challenges",
-      pageType: "goals-faith",
-      title: "Faith-Based Focus",
-      subtitle: "Peaceful Bedtimes",
-      sections: [
-        { id: "t5-4-1", type: "header", content: "Scripture for This Week" },
-        { id: "t5-4-2", type: "scripture", content: "\"In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety.\" - Psalm 4:8" },
-        { id: "t5-4-3", type: "paragraph", content: "We can speak peace over our children's sleep, trusting that God watches over them. Our calm presence at bedtime reflects His constant care." },
-        { id: "t5-4-4", type: "header", content: "This Week's Faith Phrases" },
+        { id: "t5-3-5", type: "header", content: "FAITH-BASED FOCUS" },
+        { id: "t5-3-6", type: "scripture", content: "\"In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety.\" - Psalm 4:8" },
+        { id: "t5-3-7", type: "paragraph", content: "We can speak peace over our children's sleep, trusting that God watches over them. Our calm presence at bedtime reflects His constant care." },
+        { id: "t5-3-8", type: "header", content: "Faith Phrases" },
         {
-          id: "t5-4-5",
+          id: "t5-3-9",
           type: "goal-phrases",
           items: [
             "\"God watches over you while you sleep.\"",
@@ -795,21 +736,20 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"Thank you, God, for this day. Amen.\""
           ]
         },
-        { id: "t5-4-6", type: "header", content: "Daily Check-In" },
-        { id: "t5-4-7", type: "weekly-tracker" }
+        { id: "t5-3-10", type: "weekly-tracker" }
       ]
     },
     {
-      id: "toddler-5-5",
+      id: "toddler-5-4",
       section: 5,
       sectionTitle: "Sleep Challenges",
       pageType: "visuals",
       title: "Visual Reminders",
       subtitle: "Print & Post These",
       sections: [
-        { id: "t5-5-1", type: "header", content: "Bedtime Routine Checklist" },
+        { id: "t5-4-1", type: "header", content: "Bedtime Routine Checklist" },
         {
-          id: "t5-5-2",
+          id: "t5-4-2",
           type: "goal-phrases",
           items: [
             "🛁 Bath time",
@@ -821,9 +761,9 @@ export const toddlerWorkbookData: WorkbookData = {
             "💡 Lights out"
           ]
         },
-        { id: "t5-5-3", type: "header", content: "Boundary-Holding Reminders" },
+        { id: "t5-4-3", type: "header", content: "Boundary-Holding Reminders" },
         {
-          id: "t5-5-4",
+          id: "t5-4-4",
           type: "list",
           items: [
             "Consistency is kindness",
@@ -919,8 +859,8 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 6,
       sectionTitle: "Aggression & Hitting",
       pageType: "goals",
-      title: "Weekly Focus",
-      subtitle: "Responding to Aggression",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         { id: "t6-3-1", type: "header", content: "This Week's Phrases" },
         {
@@ -936,23 +876,12 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t6-3-3", type: "header", content: "Daily Check-In" },
         { id: "t6-3-4", type: "paragraph", content: "Rate how well you stayed calm and taught alternatives during aggression today:" },
-        { id: "t6-3-5", type: "weekly-tracker" }
-      ]
-    },
-    {
-      id: "toddler-6-4",
-      section: 6,
-      sectionTitle: "Aggression & Hitting",
-      pageType: "goals-faith",
-      title: "Faith-Based Focus",
-      subtitle: "Responding to Aggression",
-      sections: [
-        { id: "t6-4-1", type: "header", content: "Scripture for This Week" },
-        { id: "t6-4-2", type: "scripture", content: "\"A gentle answer turns away wrath, but a harsh word stirs up anger.\" - Proverbs 15:1" },
-        { id: "t6-4-3", type: "paragraph", content: "When we meet their aggression with our calm, we model what we want to teach. Our gentle response is more powerful than any punishment." },
-        { id: "t6-4-4", type: "header", content: "This Week's Faith Phrases" },
+        { id: "t6-3-5", type: "header", content: "FAITH-BASED FOCUS" },
+        { id: "t6-3-6", type: "scripture", content: "\"A gentle answer turns away wrath, but a harsh word stirs up anger.\" - Proverbs 15:1" },
+        { id: "t6-3-7", type: "paragraph", content: "When we meet their aggression with our calm, we model what we want to teach. Our gentle response is more powerful than any punishment." },
+        { id: "t6-3-8", type: "header", content: "Faith Phrases" },
         {
-          id: "t6-4-5",
+          id: "t6-3-9",
           type: "goal-phrases",
           items: [
             "\"Lord, give me a gentle spirit.\"",
@@ -961,21 +890,20 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"They're learning - I'm teaching.\""
           ]
         },
-        { id: "t6-4-6", type: "header", content: "Daily Check-In" },
-        { id: "t6-4-7", type: "weekly-tracker" }
+        { id: "t6-3-10", type: "weekly-tracker" }
       ]
     },
     {
-      id: "toddler-6-5",
+      id: "toddler-6-4",
       section: 6,
       sectionTitle: "Aggression & Hitting",
       pageType: "visuals",
       title: "Visual Reminders",
       subtitle: "Print & Post These",
       sections: [
-        { id: "t6-5-1", type: "header", content: "When They Hit: 4 Steps" },
+        { id: "t6-4-1", type: "header", content: "When They Hit: 4 Steps" },
         {
-          id: "t6-5-2",
+          id: "t6-4-2",
           type: "goal-phrases",
           items: [
             "1️⃣ STOP - Gently block or remove",
@@ -984,9 +912,9 @@ export const toddlerWorkbookData: WorkbookData = {
             "4️⃣ REDIRECT - \"You can stomp your feet instead.\""
           ]
         },
-        { id: "t6-5-3", type: "header", content: "Safe Anger Outlets to Teach" },
+        { id: "t6-4-3", type: "header", content: "Safe Anger Outlets to Teach" },
         {
-          id: "t6-5-4",
+          id: "t6-4-4",
           type: "list",
           items: [
             "Stomp feet hard",
@@ -1084,8 +1012,8 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 7,
       sectionTitle: "Transitions & Change",
       pageType: "goals",
-      title: "Weekly Focus",
-      subtitle: "Smoother Transitions",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         { id: "t7-3-1", type: "header", content: "This Week's Phrases" },
         {
@@ -1101,23 +1029,12 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t7-3-3", type: "header", content: "Daily Check-In" },
         { id: "t7-3-4", type: "paragraph", content: "Rate how well you prepared for and supported transitions today:" },
-        { id: "t7-3-5", type: "weekly-tracker" }
-      ]
-    },
-    {
-      id: "toddler-7-4",
-      section: 7,
-      sectionTitle: "Transitions & Change",
-      pageType: "goals-faith",
-      title: "Faith-Based Focus",
-      subtitle: "Smoother Transitions",
-      sections: [
-        { id: "t7-4-1", type: "header", content: "Scripture for This Week" },
-        { id: "t7-4-2", type: "scripture", content: "\"For everything there is a season, and a time for every matter under heaven.\" - Ecclesiastes 3:1" },
-        { id: "t7-4-3", type: "paragraph", content: "Life is full of seasons and changes. As we help our children navigate small transitions, we're preparing them for the bigger changes life will bring." },
-        { id: "t7-4-4", type: "header", content: "This Week's Faith Phrases" },
+        { id: "t7-3-5", type: "header", content: "FAITH-BASED FOCUS" },
+        { id: "t7-3-6", type: "scripture", content: "\"For everything there is a season, and a time for every matter under heaven.\" - Ecclesiastes 3:1" },
+        { id: "t7-3-7", type: "paragraph", content: "Life is full of seasons and changes. As we help our children navigate small transitions, we're preparing them for the bigger changes life will bring." },
+        { id: "t7-3-8", type: "header", content: "Faith Phrases" },
         {
-          id: "t7-4-5",
+          id: "t7-3-9",
           type: "goal-phrases",
           items: [
             "\"God is with us in every change.\"",
@@ -1126,21 +1043,20 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"One season ends, another begins.\""
           ]
         },
-        { id: "t7-4-6", type: "header", content: "Daily Check-In" },
-        { id: "t7-4-7", type: "weekly-tracker" }
+        { id: "t7-3-10", type: "weekly-tracker" }
       ]
     },
     {
-      id: "toddler-7-5",
+      id: "toddler-7-4",
       section: 7,
       sectionTitle: "Transitions & Change",
       pageType: "visuals",
       title: "Visual Reminders",
       subtitle: "Print & Post These",
       sections: [
-        { id: "t7-5-1", type: "header", content: "Transition Success Formula" },
+        { id: "t7-4-1", type: "header", content: "Transition Success Formula" },
         {
-          id: "t7-5-2",
+          id: "t7-4-2",
           type: "goal-phrases",
           items: [
             "⏰ WARN - \"5 minutes left\"",
@@ -1150,9 +1066,9 @@ export const toddlerWorkbookData: WorkbookData = {
             "🎉 CELEBRATE - \"You did it!\""
           ]
         },
-        { id: "t7-5-3", type: "header", content: "Transition Helpers" },
+        { id: "t7-4-3", type: "header", content: "Transition Helpers" },
         {
-          id: "t7-5-4",
+          id: "t7-4-4",
           type: "list",
           items: [
             "Visual timers (they can SEE time passing)",

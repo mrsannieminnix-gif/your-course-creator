@@ -127,8 +127,8 @@ export const initialWorkbookData: WorkbookData = {
       type: "goals",
       section: 1,
       sectionTitle: "The Foundation",
-      title: "Weekly Goals",
-      subtitle: "Fridge Sheet",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         {
           id: "s1-p3-1",
@@ -161,34 +161,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s1-p3-4",
-          type: "weekly-tracker",
-          content: "",
-          editable: false
-        }
-      ]
-    },
-    {
-      id: "s1-p4",
-      type: "goals-faith",
-      section: 1,
-      sectionTitle: "The Foundation",
-      title: "Weekly Goals",
-      subtitle: "Faith-Based Edition",
-      sections: [
-        {
-          id: "s1-p4-1",
-          type: "subheader",
-          content: "THIS WEEK'S FOCUS: Foundation",
+          type: "header",
+          content: "FAITH-BASED FOCUS",
           editable: true
         },
         {
-          id: "s1-p4-2",
+          id: "s1-p3-5",
           type: "scripture",
           content: "\"Train up a child in the way he should go; even when he is old he will not depart from it.\"\n— Proverbs 22:6",
           editable: true
         },
         {
-          id: "s1-p4-3",
+          id: "s1-p3-6",
           type: "goal-phrases",
           content: "",
           items: [
@@ -199,25 +183,25 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s1-p4-4",
+          id: "s1-p3-7",
           type: "scripture",
           content: "\"Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.\"\n— Ephesians 6:4",
           editable: true
         },
         {
-          id: "s1-p4-5",
+          id: "s1-p3-8",
           type: "subheader",
           content: "Prayer Prompt:",
           editable: true
         },
         {
-          id: "s1-p4-6",
+          id: "s1-p3-9",
           type: "quote",
           content: "Lord, help me parent from wisdom, not fear. Help me model what I hope my child becomes.",
           editable: true
         },
         {
-          id: "s1-p4-7",
+          id: "s1-p3-10",
           type: "weekly-tracker",
           content: "",
           editable: false
@@ -225,7 +209,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
-      id: "s1-p5",
+      id: "s1-p4",
       type: "visuals",
       section: 1,
       sectionTitle: "The Foundation",
@@ -233,13 +217,13 @@ export const initialWorkbookData: WorkbookData = {
       subtitle: "Print & Display",
       sections: [
         {
-          id: "s1-p5-1",
+          id: "s1-p4-1",
           type: "diagram",
           content: "Model Parenting Flow: Calm → Safety → Belonging → Values → Confidence",
           editable: true
         },
         {
-          id: "s1-p5-2",
+          id: "s1-p4-2",
           type: "goal-phrases",
           content: "",
           items: [
@@ -250,7 +234,7 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s1-p5-3",
+          id: "s1-p4-3",
           type: "quote",
           content: "Children don't need perfect parents. They need present, repairing, and growing parents.",
           editable: true
@@ -380,8 +364,8 @@ export const initialWorkbookData: WorkbookData = {
       type: "goals",
       section: 2,
       sectionTitle: "Tool 1: Anchoring",
-      title: "Weekly Goals",
-      subtitle: "Fridge Sheet",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         {
           id: "s2-p3-1",
@@ -416,34 +400,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s2-p3-4",
-          type: "weekly-tracker",
-          content: "",
-          editable: false
-        }
-      ]
-    },
-    {
-      id: "s2-p4",
-      type: "goals-faith",
-      section: 2,
-      sectionTitle: "Tool 1: Anchoring",
-      title: "Weekly Goals",
-      subtitle: "Faith-Based Edition",
-      sections: [
-        {
-          id: "s2-p4-1",
-          type: "subheader",
-          content: "THIS WEEK'S TOOL: Anchoring",
+          type: "header",
+          content: "FAITH-BASED FOCUS",
           editable: true
         },
         {
-          id: "s2-p4-2",
+          id: "s2-p3-5",
           type: "scripture",
           content: "\"Be still, and know that I am God.\"\n— Psalm 46:10",
           editable: true
         },
         {
-          id: "s2-p4-3",
+          id: "s2-p3-6",
           type: "goal-phrases",
           content: "",
           items: [
@@ -454,25 +422,25 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s2-p4-4",
+          id: "s2-p3-7",
           type: "scripture",
           content: "\"A gentle answer turns away wrath, but a harsh word stirs up anger.\"\n— Proverbs 15:1",
           editable: true
         },
         {
-          id: "s2-p4-5",
+          id: "s2-p3-8",
           type: "subheader",
           content: "Prayer Prompt:",
           editable: true
         },
         {
-          id: "s2-p4-6",
+          id: "s2-p3-9",
           type: "quote",
           content: "Lord, when I feel overwhelmed, help me anchor in You. Give me patience and calm to respond, not react.",
           editable: true
         },
         {
-          id: "s2-p4-7",
+          id: "s2-p3-10",
           type: "weekly-tracker",
           content: "",
           editable: false
@@ -480,7 +448,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
-      id: "s2-p5",
+      id: "s2-p4",
       type: "visuals",
       section: 2,
       sectionTitle: "Tool 1: Anchoring",
@@ -488,7 +456,7 @@ export const initialWorkbookData: WorkbookData = {
       subtitle: "Print & Display",
       sections: [
         {
-          id: "s2-p5-1",
+          id: "s2-p4-1",
           type: "goal-phrases",
           content: "",
           items: [
@@ -499,13 +467,13 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s2-p5-2",
+          id: "s2-p4-2",
           type: "diagram",
           content: "Anchoring Steps: Notice → Pause → Breathe → Ground → Respond",
           editable: true
         },
         {
-          id: "s2-p5-3",
+          id: "s2-p4-3",
           type: "checklist",
           content: "Quick Anchoring Checklist:",
           items: [
@@ -642,8 +610,8 @@ export const initialWorkbookData: WorkbookData = {
       type: "goals",
       section: 3,
       sectionTitle: "Tool 2: Validation",
-      title: "Weekly Goals",
-      subtitle: "Fridge Sheet",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         {
           id: "s3-p3-1",
@@ -678,34 +646,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s3-p3-4",
-          type: "weekly-tracker",
-          content: "",
-          editable: false
-        }
-      ]
-    },
-    {
-      id: "s3-p4",
-      type: "goals-faith",
-      section: 3,
-      sectionTitle: "Tool 2: Validation",
-      title: "Weekly Goals",
-      subtitle: "Faith-Based Edition",
-      sections: [
-        {
-          id: "s3-p4-1",
-          type: "subheader",
-          content: "THIS WEEK'S TOOL: Validation",
+          type: "header",
+          content: "FAITH-BASED FOCUS",
           editable: true
         },
         {
-          id: "s3-p4-2",
+          id: "s3-p3-5",
           type: "scripture",
           content: "\"Rejoice with those who rejoice; mourn with those who mourn.\"\n— Romans 12:15",
           editable: true
         },
         {
-          id: "s3-p4-3",
+          id: "s3-p3-6",
           type: "goal-phrases",
           content: "",
           items: [
@@ -716,25 +668,25 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s3-p4-4",
+          id: "s3-p3-7",
           type: "scripture",
           content: "\"The Lord is close to the brokenhearted and saves those who are crushed in spirit.\"\n— Psalm 34:18",
           editable: true
         },
         {
-          id: "s3-p4-5",
+          id: "s3-p3-8",
           type: "subheader",
           content: "Prayer Prompt:",
           editable: true
         },
         {
-          id: "s3-p4-6",
+          id: "s3-p3-9",
           type: "quote",
           content: "Lord, help me be present with my child's emotions as You are present with mine. Give me ears to hear and a heart to understand.",
           editable: true
         },
         {
-          id: "s3-p4-7",
+          id: "s3-p3-10",
           type: "weekly-tracker",
           content: "",
           editable: false
@@ -742,7 +694,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
-      id: "s3-p5",
+      id: "s3-p4",
       type: "visuals",
       section: 3,
       sectionTitle: "Tool 2: Validation",
@@ -750,7 +702,7 @@ export const initialWorkbookData: WorkbookData = {
       subtitle: "Print & Display",
       sections: [
         {
-          id: "s3-p5-1",
+          id: "s3-p4-1",
           type: "goal-phrases",
           content: "",
           items: [
@@ -761,13 +713,13 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s3-p5-2",
+          id: "s3-p4-2",
           type: "diagram",
           content: "Validation Flow: Notice Emotion → Name It → Accept It → Connect → Then Redirect",
           editable: true
         },
         {
-          id: "s3-p5-3",
+          id: "s3-p4-3",
           type: "quote",
           content: "You can validate feelings while still setting limits on behavior.",
           editable: true
@@ -897,8 +849,8 @@ export const initialWorkbookData: WorkbookData = {
       type: "goals",
       section: 4,
       sectionTitle: "Tool 3: Connection",
-      title: "Weekly Goals",
-      subtitle: "Fridge Sheet",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         {
           id: "s4-p3-1",
@@ -933,34 +885,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s4-p3-4",
-          type: "weekly-tracker",
-          content: "",
-          editable: false
-        }
-      ]
-    },
-    {
-      id: "s4-p4",
-      type: "goals-faith",
-      section: 4,
-      sectionTitle: "Tool 3: Connection",
-      title: "Weekly Goals",
-      subtitle: "Faith-Based Edition",
-      sections: [
-        {
-          id: "s4-p4-1",
-          type: "subheader",
-          content: "THIS WEEK'S TOOL: Connection",
+          type: "header",
+          content: "FAITH-BASED FOCUS",
           editable: true
         },
         {
-          id: "s4-p4-2",
+          id: "s4-p3-5",
           type: "scripture",
           content: "\"And let us consider how we may spur one another on toward love and good deeds.\"\n— Hebrews 10:24",
           editable: true
         },
         {
-          id: "s4-p4-3",
+          id: "s4-p3-6",
           type: "goal-phrases",
           content: "",
           items: [
@@ -971,25 +907,25 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s4-p4-4",
+          id: "s4-p3-7",
           type: "scripture",
           content: "\"A cord of three strands is not quickly broken.\"\n— Ecclesiastes 4:12",
           editable: true
         },
         {
-          id: "s4-p4-5",
+          id: "s4-p3-8",
           type: "subheader",
           content: "Prayer Prompt:",
           editable: true
         },
         {
-          id: "s4-p4-6",
+          id: "s4-p3-9",
           type: "quote",
           content: "Lord, help me prioritize connection with my child. Let our bond reflect the love and security You offer me.",
           editable: true
         },
         {
-          id: "s4-p4-7",
+          id: "s4-p3-10",
           type: "weekly-tracker",
           content: "",
           editable: false
@@ -997,7 +933,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
-      id: "s4-p5",
+      id: "s4-p4",
       type: "visuals",
       section: 4,
       sectionTitle: "Tool 3: Connection",
@@ -1005,7 +941,7 @@ export const initialWorkbookData: WorkbookData = {
       subtitle: "Print & Display",
       sections: [
         {
-          id: "s4-p5-1",
+          id: "s4-p4-1",
           type: "goal-phrases",
           content: "",
           items: [
@@ -1016,13 +952,13 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s4-p5-2",
+          id: "s4-p4-2",
           type: "diagram",
           content: "Connection Cycle: Connect → Conflict → Repair → Reconnect → Stronger Bond",
           editable: true
         },
         {
-          id: "s4-p5-3",
+          id: "s4-p4-3",
           type: "quote",
           content: "It's not about perfect parenting. It's about always coming back to connection.",
           editable: true
@@ -1152,8 +1088,8 @@ export const initialWorkbookData: WorkbookData = {
       type: "goals",
       section: 5,
       sectionTitle: "Tool 4: Grow",
-      title: "Weekly Goals",
-      subtitle: "Fridge Sheet",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         {
           id: "s5-p3-1",
@@ -1188,34 +1124,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s5-p3-4",
-          type: "weekly-tracker",
-          content: "",
-          editable: false
-        }
-      ]
-    },
-    {
-      id: "s5-p4",
-      type: "goals-faith",
-      section: 5,
-      sectionTitle: "Tool 4: Grow",
-      title: "Weekly Goals",
-      subtitle: "Faith-Based Edition",
-      sections: [
-        {
-          id: "s5-p4-1",
-          type: "subheader",
-          content: "THIS WEEK'S TOOL: Grow",
+          type: "header",
+          content: "FAITH-BASED FOCUS",
           editable: true
         },
         {
-          id: "s5-p4-2",
+          id: "s5-p3-5",
           type: "scripture",
           content: "\"Being confident of this, that he who began a good work in you will carry it on to completion.\"\n— Philippians 1:6",
           editable: true
         },
         {
-          id: "s5-p4-3",
+          id: "s5-p3-6",
           type: "goal-phrases",
           content: "",
           items: [
@@ -1226,25 +1146,25 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s5-p4-4",
+          id: "s5-p3-7",
           type: "scripture",
           content: "\"But grow in the grace and knowledge of our Lord and Savior Jesus Christ.\"\n— 2 Peter 3:18",
           editable: true
         },
         {
-          id: "s5-p4-5",
+          id: "s5-p3-8",
           type: "subheader",
           content: "Prayer Prompt:",
           editable: true
         },
         {
-          id: "s5-p4-6",
+          id: "s5-p3-9",
           type: "quote",
           content: "Lord, help me see my child through Your eyes – as a work in progress, worthy of patience and grace.",
           editable: true
         },
         {
-          id: "s5-p4-7",
+          id: "s5-p3-10",
           type: "weekly-tracker",
           content: "",
           editable: false
@@ -1252,7 +1172,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
-      id: "s5-p5",
+      id: "s5-p4",
       type: "visuals",
       section: 5,
       sectionTitle: "Tool 4: Grow",
@@ -1260,7 +1180,7 @@ export const initialWorkbookData: WorkbookData = {
       subtitle: "Print & Display",
       sections: [
         {
-          id: "s5-p5-1",
+          id: "s5-p4-1",
           type: "goal-phrases",
           content: "",
           items: [
@@ -1271,13 +1191,13 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s5-p5-2",
+          id: "s5-p4-2",
           type: "diagram",
           content: "Growth Cycle: Try → Fail → Learn → Adjust → Try Again → Succeed",
           editable: true
         },
         {
-          id: "s5-p5-3",
+          id: "s5-p4-3",
           type: "quote",
           content: "Every skill your child lacks is an opportunity to teach, not punish.",
           editable: true
@@ -1407,8 +1327,8 @@ export const initialWorkbookData: WorkbookData = {
       type: "goals",
       section: 6,
       sectionTitle: "Tool 5: Empower",
-      title: "Weekly Goals",
-      subtitle: "Fridge Sheet",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         {
           id: "s6-p3-1",
@@ -1443,34 +1363,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s6-p3-4",
-          type: "weekly-tracker",
-          content: "",
-          editable: false
-        }
-      ]
-    },
-    {
-      id: "s6-p4",
-      type: "goals-faith",
-      section: 6,
-      sectionTitle: "Tool 5: Empower",
-      title: "Weekly Goals",
-      subtitle: "Faith-Based Edition",
-      sections: [
-        {
-          id: "s6-p4-1",
-          type: "subheader",
-          content: "THIS WEEK'S TOOL: Empower",
+          type: "header",
+          content: "FAITH-BASED FOCUS",
           editable: true
         },
         {
-          id: "s6-p4-2",
+          id: "s6-p3-5",
           type: "scripture",
           content: "\"For God gave us a spirit not of fear but of power and love and self-control.\"\n— 2 Timothy 1:7",
           editable: true
         },
         {
-          id: "s6-p4-3",
+          id: "s6-p3-6",
           type: "goal-phrases",
           content: "",
           items: [
@@ -1481,25 +1385,25 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s6-p4-4",
+          id: "s6-p3-7",
           type: "scripture",
           content: "\"I can do all things through him who strengthens me.\"\n— Philippians 4:13",
           editable: true
         },
         {
-          id: "s6-p4-5",
+          id: "s6-p3-8",
           type: "subheader",
           content: "Prayer Prompt:",
           editable: true
         },
         {
-          id: "s6-p4-6",
+          id: "s6-p3-9",
           type: "quote",
           content: "Lord, help me see the potential You placed in my child. Give me wisdom to empower, not control.",
           editable: true
         },
         {
-          id: "s6-p4-7",
+          id: "s6-p3-10",
           type: "weekly-tracker",
           content: "",
           editable: false
@@ -1507,7 +1411,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
-      id: "s6-p5",
+      id: "s6-p4",
       type: "visuals",
       section: 6,
       sectionTitle: "Tool 5: Empower",
@@ -1515,7 +1419,7 @@ export const initialWorkbookData: WorkbookData = {
       subtitle: "Print & Display",
       sections: [
         {
-          id: "s6-p5-1",
+          id: "s6-p4-1",
           type: "goal-phrases",
           content: "",
           items: [
@@ -1526,13 +1430,13 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s6-p5-2",
+          id: "s6-p4-2",
           type: "diagram",
           content: "Empowerment Path: Choice → Responsibility → Confidence → Independence → Maturity",
           editable: true
         },
         {
-          id: "s6-p5-3",
+          id: "s6-p4-3",
           type: "quote",
           content: "Empowered children become confident adults. Controlled children become dependent or defiant adults.",
           editable: true
@@ -1662,8 +1566,8 @@ export const initialWorkbookData: WorkbookData = {
       type: "goals",
       section: 7,
       sectionTitle: "Tool 6: Correction",
-      title: "Weekly Goals",
-      subtitle: "Fridge Sheet",
+      title: "Fridge Focus Sheet",
+      subtitle: "Weekly Goals & Faith Focus",
       sections: [
         {
           id: "s7-p3-1",
@@ -1698,34 +1602,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s7-p3-4",
-          type: "weekly-tracker",
-          content: "",
-          editable: false
-        }
-      ]
-    },
-    {
-      id: "s7-p4",
-      type: "goals-faith",
-      section: 7,
-      sectionTitle: "Tool 6: Correction",
-      title: "Weekly Goals",
-      subtitle: "Faith-Based Edition",
-      sections: [
-        {
-          id: "s7-p4-1",
-          type: "subheader",
-          content: "THIS WEEK'S TOOL: Correction",
+          type: "header",
+          content: "FAITH-BASED FOCUS",
           editable: true
         },
         {
-          id: "s7-p4-2",
+          id: "s7-p3-5",
           type: "scripture",
           content: "\"The Lord disciplines the one he loves, and he chastens everyone he accepts as his son.\"\n— Hebrews 12:6",
           editable: true
         },
         {
-          id: "s7-p4-3",
+          id: "s7-p3-6",
           type: "goal-phrases",
           content: "",
           items: [
@@ -1736,25 +1624,25 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s7-p4-4",
+          id: "s7-p3-7",
           type: "scripture",
           content: "\"No discipline seems pleasant at the time, but painful. Later on, however, it produces a harvest of righteousness and peace.\"\n— Hebrews 12:11",
           editable: true
         },
         {
-          id: "s7-p4-5",
+          id: "s7-p3-8",
           type: "subheader",
           content: "Prayer Prompt:",
           editable: true
         },
         {
-          id: "s7-p4-6",
+          id: "s7-p3-9",
           type: "quote",
           content: "Lord, help me correct with the same grace You show me. Let my discipline be wrapped in love and lead to growth.",
           editable: true
         },
         {
-          id: "s7-p4-7",
+          id: "s7-p3-10",
           type: "weekly-tracker",
           content: "",
           editable: false
@@ -1762,7 +1650,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
-      id: "s7-p5",
+      id: "s7-p4",
       type: "visuals",
       section: 7,
       sectionTitle: "Tool 6: Correction",
@@ -1770,7 +1658,7 @@ export const initialWorkbookData: WorkbookData = {
       subtitle: "Print & Display",
       sections: [
         {
-          id: "s7-p5-1",
+          id: "s7-p4-1",
           type: "goal-phrases",
           content: "",
           items: [
@@ -1781,13 +1669,13 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         },
         {
-          id: "s7-p5-2",
+          id: "s7-p4-2",
           type: "diagram",
           content: "Correction Flow: Pause → Connect → Validate → Set Boundary → Teach Skill → Repair",
           editable: true
         },
         {
-          id: "s7-p5-3",
+          id: "s7-p4-3",
           type: "quote",
           content: "Correction that maintains connection builds trust. Correction that breaks connection builds fear.",
           editable: true
