@@ -142,6 +142,7 @@ export const initialWorkbookData: WorkbookData = {
           content: "",
           items: [
             "I am the example my child is learning from.",
+            "I parent as God parents me – with patience and grace.",
             "Connection before correction.",
             "Progress over perfection.",
             "Repair is more powerful than perfection."
@@ -169,17 +170,6 @@ export const initialWorkbookData: WorkbookData = {
           id: "s1-p3-5",
           type: "scripture",
           content: "\"Train up a child in the way he should go; even when he is old he will not depart from it.\"\n— Proverbs 22:6",
-          editable: true
-        },
-        {
-          id: "s1-p3-6",
-          type: "goal-phrases",
-          content: "",
-          items: [
-            "I parent as God parents me – with patience and grace.",
-            "Connection before correction.",
-            "Progress over perfection."
-          ],
           editable: true
         },
         {
@@ -381,7 +371,10 @@ export const initialWorkbookData: WorkbookData = {
             "I pause before I respond.",
             "I breathe before I react.",
             "I anchor myself first.",
-            "Calm is contagious."
+            "Calm is contagious.",
+            "I pause and pray before I respond.",
+            "God is my anchor in chaos.",
+            "I choose peace over panic."
           ],
           editable: true
         },
@@ -408,17 +401,6 @@ export const initialWorkbookData: WorkbookData = {
           id: "s2-p3-5",
           type: "scripture",
           content: "\"Be still, and know that I am God.\"\n— Psalm 46:10",
-          editable: true
-        },
-        {
-          id: "s2-p3-6",
-          type: "goal-phrases",
-          content: "",
-          items: [
-            "I pause and pray before I respond.",
-            "God is my anchor in chaos.",
-            "I choose peace over panic."
-          ],
           editable: true
         },
         {
@@ -627,7 +609,10 @@ export const initialWorkbookData: WorkbookData = {
             "I see you're upset.",
             "That sounds really hard.",
             "Your feelings make sense.",
-            "I'm here with you."
+            "I'm here with you.",
+            "I see you and hear you.",
+            "Your feelings matter to me.",
+            "God sees your heart too."
           ],
           editable: true
         },
@@ -654,17 +639,6 @@ export const initialWorkbookData: WorkbookData = {
           id: "s3-p3-5",
           type: "scripture",
           content: "\"Rejoice with those who rejoice; mourn with those who mourn.\"\n— Romans 12:15",
-          editable: true
-        },
-        {
-          id: "s3-p3-6",
-          type: "goal-phrases",
-          content: "",
-          items: [
-            "I see you and hear you.",
-            "Your feelings matter to me.",
-            "God sees your heart too."
-          ],
           editable: true
         },
         {
@@ -866,7 +840,10 @@ export const initialWorkbookData: WorkbookData = {
             "Connection before correction.",
             "I choose presence over perfection.",
             "We repair, we reconnect.",
-            "You matter to me."
+            "You matter to me.",
+            "I am present like God is present.",
+            "Connection reflects God's love.",
+            "We repair because God repairs with us."
           ],
           editable: true
         },
@@ -893,17 +870,6 @@ export const initialWorkbookData: WorkbookData = {
           id: "s4-p3-5",
           type: "scripture",
           content: "\"And let us consider how we may spur one another on toward love and good deeds.\"\n— Hebrews 10:24",
-          editable: true
-        },
-        {
-          id: "s4-p3-6",
-          type: "goal-phrases",
-          content: "",
-          items: [
-            "I am present like God is present.",
-            "Connection reflects God's love.",
-            "We repair because God repairs with us."
-          ],
           editable: true
         },
         {
@@ -1105,7 +1071,10 @@ export const initialWorkbookData: WorkbookData = {
             "Mistakes are for learning.",
             "I praise effort, not perfection.",
             "Skills are taught, not demanded.",
-            "Growth takes time."
+            "Growth takes time.",
+            "God is patient with my growth.",
+            "I am patient with my child's growth.",
+            "We are all works in progress."
           ],
           editable: true
         },
@@ -1132,17 +1101,6 @@ export const initialWorkbookData: WorkbookData = {
           id: "s5-p3-5",
           type: "scripture",
           content: "\"Being confident of this, that he who began a good work in you will carry it on to completion.\"\n— Philippians 1:6",
-          editable: true
-        },
-        {
-          id: "s5-p3-6",
-          type: "goal-phrases",
-          content: "",
-          items: [
-            "God is patient with my growth.",
-            "I am patient with my child's growth.",
-            "We are all works in progress."
-          ],
           editable: true
         },
         {
@@ -1344,7 +1302,10 @@ export const initialWorkbookData: WorkbookData = {
             "Your voice matters.",
             "I trust you to choose.",
             "You are capable.",
-            "I believe in you."
+            "I believe in you.",
+            "God empowers me to empower others.",
+            "My child is made in God's image.",
+            "I nurture the gifts God placed in them."
           ],
           editable: true
         },
@@ -1371,17 +1332,6 @@ export const initialWorkbookData: WorkbookData = {
           id: "s6-p3-5",
           type: "scripture",
           content: "\"For God gave us a spirit not of fear but of power and love and self-control.\"\n— 2 Timothy 1:7",
-          editable: true
-        },
-        {
-          id: "s6-p3-6",
-          type: "goal-phrases",
-          content: "",
-          items: [
-            "God empowers me to empower others.",
-            "My child is made in God's image.",
-            "I nurture the gifts God placed in them."
-          ],
           editable: true
         },
         {
@@ -1583,7 +1533,10 @@ export const initialWorkbookData: WorkbookData = {
             "I correct from love, not frustration.",
             "Boundaries with empathy.",
             "Teaching, not punishing.",
-            "Connection before correction."
+            "Connection before correction.",
+            "God corrects from love, so do I.",
+            "Discipline is discipleship.",
+            "I teach with grace and truth."
           ],
           editable: true
         },
@@ -1610,17 +1563,6 @@ export const initialWorkbookData: WorkbookData = {
           id: "s7-p3-5",
           type: "scripture",
           content: "\"The Lord disciplines the one he loves, and he chastens everyone he accepts as his son.\"\n— Hebrews 12:6",
-          editable: true
-        },
-        {
-          id: "s7-p3-6",
-          type: "goal-phrases",
-          content: "",
-          items: [
-            "God corrects from love, so do I.",
-            "Discipline is discipleship.",
-            "I teach with grace and truth."
-          ],
           editable: true
         },
         {

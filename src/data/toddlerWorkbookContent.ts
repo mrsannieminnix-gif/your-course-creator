@@ -108,7 +108,10 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"They're not giving me a hard time - they're having a hard time.\"",
             "\"I am their calm.\"",
             "\"Connection before correction.\"",
-            "\"This is developmentally normal.\""
+            "\"This is developmentally normal.\"",
+            "\"God is still forming them.\"",
+            "\"I am God's hands in teaching patience.\"",
+            "\"Lord, help me see them as You see them.\""
           ]
         },
         { id: "t1-3-3", type: "header", content: "Daily Check-In" },
@@ -116,17 +119,6 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t1-3-5", type: "header", content: "FAITH-BASED FOCUS" },
         { id: "t1-3-6", type: "scripture", content: "\"For you created my inmost being; you knit me together in my mother's womb. I praise you because I am fearfully and wonderfully made.\" - Psalm 139:13-14" },
         { id: "t1-3-7", type: "paragraph", content: "God is still knitting your child together. Their brain, their emotions, their capacity for self-control - all still being formed by the Master Creator. Trust the process." },
-        { id: "t1-3-8", type: "header", content: "Faith Phrases" },
-        {
-          id: "t1-3-9",
-          type: "goal-phrases",
-          items: [
-            "\"God is still forming them.\"",
-            "\"I am God's hands in teaching patience.\"",
-            "\"Their brain is wonderfully made - and still developing.\"",
-            "\"Lord, help me see them as You see them.\""
-          ]
-        },
         { id: "t1-3-10", type: "weekly-tracker" }
       ]
     },
@@ -261,7 +253,10 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"You're safe to feel this.\"",
             "\"I can see you're really upset.\"",
             "\"I'll wait with you until this passes.\"",
-            "\"All feelings are welcome here.\""
+            "\"All feelings are welcome here.\"",
+            "\"Lord, help me be Your calm.\"",
+            "\"I am their safe place, as You are mine.\"",
+            "\"Help me see their heart, not just their behavior.\""
           ]
         },
         { id: "t2-3-3", type: "header", content: "Daily Check-In" },
@@ -269,17 +264,6 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t2-3-5", type: "header", content: "FAITH-BASED FOCUS" },
         { id: "t2-3-6", type: "scripture", content: "\"The Lord is close to the brokenhearted and saves those who are crushed in spirit.\" - Psalm 34:18" },
         { id: "t2-3-7", type: "paragraph", content: "When your child is overwhelmed, you get to be God's presence to them. Just as He draws near to us in our pain, you draw near to them in their storm." },
-        { id: "t2-3-8", type: "header", content: "Faith Phrases" },
-        {
-          id: "t2-3-9",
-          type: "goal-phrases",
-          items: [
-            "\"Lord, help me be Your calm.\"",
-            "\"I am their safe place, as You are mine.\"",
-            "\"This too shall pass.\"",
-            "\"Help me see their heart, not just their behavior.\""
-          ]
-        },
         { id: "t2-3-10", type: "weekly-tracker" }
       ]
     },
@@ -413,7 +397,10 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"I hear that you don't want to.\"",
             "\"You're learning to make decisions!\"",
             "\"What would help you feel ready?\"",
-            "\"Your opinion matters to me.\""
+            "\"Your opinion matters to me.\"",
+            "\"Lord, help me lead without provoking.\"",
+            "\"Their will is a gift, not a problem.\"",
+            "\"Help me choose connection over control.\""
           ]
         },
         { id: "t3-3-3", type: "header", content: "Daily Check-In" },
@@ -421,17 +408,6 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t3-3-5", type: "header", content: "FAITH-BASED FOCUS" },
         { id: "t3-3-6", type: "scripture", content: "\"Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.\" - Ephesians 6:4" },
         { id: "t3-3-7", type: "paragraph", content: "Even God gives us free will. He doesn't force obedience - He invites it through relationship. We can do the same with our children." },
-        { id: "t3-3-8", type: "header", content: "Faith Phrases" },
-        {
-          id: "t3-3-9",
-          type: "goal-phrases",
-          items: [
-            "\"Lord, help me lead without provoking.\"",
-            "\"Their will is a gift, not a problem.\"",
-            "\"Show me where to hold firm and where to flex.\"",
-            "\"Help me choose connection over control.\""
-          ]
-        },
         { id: "t3-3-10", type: "weekly-tracker" }
       ]
     },
@@ -565,7 +541,10 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"You can do hard things.\"",
             "\"I'll be back after [specific event].\"",
             "\"You're safe here.\"",
-            "\"I carry you in my heart when we're apart.\""
+            "\"I carry you in my heart when we're apart.\"",
+            "\"God is with you even when I'm not.\"",
+            "\"My love goes with you everywhere.\"",
+            "\"Help me be a picture of Your faithfulness.\""
           ]
         },
         { id: "t4-3-3", type: "header", content: "Daily Check-In" },
@@ -573,17 +552,6 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t4-3-5", type: "header", content: "FAITH-BASED FOCUS" },
         { id: "t4-3-6", type: "scripture", content: "\"Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you.\" - Deuteronomy 31:6" },
         { id: "t4-3-7", type: "paragraph", content: "Just as God promises to never leave us, we can be that constant for our children. Our faithful returns teach them that love doesn't disappear." },
-        { id: "t4-3-8", type: "header", content: "Faith Phrases" },
-        {
-          id: "t4-3-9",
-          type: "goal-phrases",
-          items: [
-            "\"God is with you even when I'm not.\"",
-            "\"My love goes with you everywhere.\"",
-            "\"Lord, comfort them when I cannot.\"",
-            "\"Help me be a picture of Your faithfulness.\""
-          ]
-        },
         { id: "t4-3-10", type: "weekly-tracker" }
       ]
     },
@@ -717,7 +685,10 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"Your body needs sleep to grow.\"",
             "\"I'll be right here. You're safe.\"",
             "\"We can play more tomorrow.\"",
-            "\"I love you. Goodnight.\""
+            "\"I love you. Goodnight.\"",
+            "\"God watches over you while you sleep.\"",
+            "\"Angels are all around you.\"",
+            "\"Thank you, God, for this day. Amen.\""
           ]
         },
         { id: "t5-3-3", type: "header", content: "Daily Check-In" },
@@ -725,17 +696,6 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t5-3-5", type: "header", content: "FAITH-BASED FOCUS" },
         { id: "t5-3-6", type: "scripture", content: "\"In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety.\" - Psalm 4:8" },
         { id: "t5-3-7", type: "paragraph", content: "We can speak peace over our children's sleep, trusting that God watches over them. Our calm presence at bedtime reflects His constant care." },
-        { id: "t5-3-8", type: "header", content: "Faith Phrases" },
-        {
-          id: "t5-3-9",
-          type: "goal-phrases",
-          items: [
-            "\"God watches over you while you sleep.\"",
-            "\"Angels are all around you.\"",
-            "\"Lord, give them peaceful dreams.\"",
-            "\"Thank you, God, for this day. Amen.\""
-          ]
-        },
         { id: "t5-3-10", type: "weekly-tracker" }
       ]
     },
@@ -871,7 +831,10 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"You can be mad. You can't hurt.\"",
             "\"Let's find a safe way to get that out.\"",
             "\"I see you're so frustrated.\"",
-            "\"I'm going to help you stop.\""
+            "\"I'm going to help you stop.\"",
+            "\"Lord, give me a gentle spirit.\"",
+            "\"Help me teach, not just punish.\"",
+            "\"Let my calm be contagious.\""
           ]
         },
         { id: "t6-3-3", type: "header", content: "Daily Check-In" },
@@ -879,17 +842,6 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t6-3-5", type: "header", content: "FAITH-BASED FOCUS" },
         { id: "t6-3-6", type: "scripture", content: "\"A gentle answer turns away wrath, but a harsh word stirs up anger.\" - Proverbs 15:1" },
         { id: "t6-3-7", type: "paragraph", content: "When we meet their aggression with our calm, we model what we want to teach. Our gentle response is more powerful than any punishment." },
-        { id: "t6-3-8", type: "header", content: "Faith Phrases" },
-        {
-          id: "t6-3-9",
-          type: "goal-phrases",
-          items: [
-            "\"Lord, give me a gentle spirit.\"",
-            "\"Help me teach, not just punish.\"",
-            "\"Let my calm be contagious.\"",
-            "\"They're learning - I'm teaching.\""
-          ]
-        },
         { id: "t6-3-10", type: "weekly-tracker" }
       ]
     },
@@ -1024,7 +976,10 @@ export const toddlerWorkbookData: WorkbookData = {
             "\"Let's say goodbye to the playground!\"",
             "\"We're going to do something new now.\"",
             "\"I know it's hard to stop. We can come back.\"",
-            "\"What should we do on the way to the car?\""
+            "\"What should we do on the way to the car?\"",
+            "\"God is with us in every change.\"",
+            "\"New things can be good things.\"",
+            "\"One season ends, another begins.\""
           ]
         },
         { id: "t7-3-3", type: "header", content: "Daily Check-In" },
@@ -1032,17 +987,6 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t7-3-5", type: "header", content: "FAITH-BASED FOCUS" },
         { id: "t7-3-6", type: "scripture", content: "\"For everything there is a season, and a time for every matter under heaven.\" - Ecclesiastes 3:1" },
         { id: "t7-3-7", type: "paragraph", content: "Life is full of seasons and changes. As we help our children navigate small transitions, we're preparing them for the bigger changes life will bring." },
-        { id: "t7-3-8", type: "header", content: "Faith Phrases" },
-        {
-          id: "t7-3-9",
-          type: "goal-phrases",
-          items: [
-            "\"God is with us in every change.\"",
-            "\"New things can be good things.\"",
-            "\"Lord, help me be patient with transitions.\"",
-            "\"One season ends, another begins.\""
-          ]
-        },
         { id: "t7-3-10", type: "weekly-tracker" }
       ]
     },
