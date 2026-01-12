@@ -440,37 +440,36 @@ export const initialWorkbookData: WorkbookData = {
       type: "visuals",
       section: 2,
       sectionTitle: "Tool 1: Anchoring",
-      title: "Visual Reminders",
-      subtitle: "Print & Display",
+      title: "Anchor First",
+      subtitle: "Your Calm Is Their Anchor",
       sections: [
         {
           id: "s2-p4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "anchoring-reactive",
+            after: "anchoring-calm",
+            beforeLabel: "When I react, they escalate.",
+            afterLabel: "When I anchor, they settle."
+          },
+          editable: false
+        },
+        {
+          id: "s2-p4-2",
           type: "goal-phrases",
           content: "",
           items: [
             "BREATHE FIRST",
-            "PAUSE BEFORE REACTING",
-            "CALM IS CONTAGIOUS"
+            "My calm is contagious",
+            "Pause before reacting"
           ],
-          editable: true
-        },
-        {
-          id: "s2-p4-2",
-          type: "diagram",
-          content: "Anchoring Steps: Notice → Pause → Breathe → Ground → Respond",
           editable: true
         },
         {
           id: "s2-p4-3",
-          type: "checklist",
-          content: "Quick Anchoring Checklist:",
-          items: [
-            "Hand on heart",
-            "Feet on floor",
-            "Deep breath",
-            "Slow exhale",
-            "Then respond"
-          ],
+          type: "quote",
+          content: "You cannot teach calm from chaos. Anchor yourself first.",
           editable: true
         }
       ]
@@ -678,24 +677,30 @@ export const initialWorkbookData: WorkbookData = {
       type: "visuals",
       section: 3,
       sectionTitle: "Tool 2: Validation",
-      title: "Visual Reminders",
-      subtitle: "Print & Display",
+      title: "Validate First",
+      subtitle: "Feelings Need Witnesses",
       sections: [
         {
           id: "s3-p4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "validation-dismissive",
+            after: "validation-empathy",
+            beforeLabel: "When I dismiss, they feel alone.",
+            afterLabel: "When I validate, they feel seen."
+          },
+          editable: false
+        },
+        {
+          id: "s3-p4-2",
           type: "goal-phrases",
           content: "",
           items: [
             "FEELINGS ARE VALID",
-            "LISTEN BEFORE FIXING",
-            "I HEAR YOU"
+            "Listen before fixing",
+            "I see you, I hear you"
           ],
-          editable: true
-        },
-        {
-          id: "s3-p4-2",
-          type: "diagram",
-          content: "Validation Flow: Notice Emotion → Name It → Accept It → Connect → Then Redirect",
           editable: true
         },
         {
@@ -909,24 +914,30 @@ export const initialWorkbookData: WorkbookData = {
       type: "visuals",
       section: 4,
       sectionTitle: "Tool 3: Connection",
-      title: "Visual Reminders",
-      subtitle: "Print & Display",
+      title: "Connect First",
+      subtitle: "Presence Over Perfection",
       sections: [
         {
           id: "s4-p4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "connection-distracted",
+            after: "connection-present",
+            beforeLabel: "When I'm distracted, they feel invisible.",
+            afterLabel: "When I'm present, they feel valued."
+          },
+          editable: false
+        },
+        {
+          id: "s4-p4-2",
           type: "goal-phrases",
           content: "",
           items: [
             "CONNECTION FIRST",
-            "BE PRESENT",
-            "REPAIR ALWAYS"
+            "Be fully present",
+            "Repair always"
           ],
-          editable: true
-        },
-        {
-          id: "s4-p4-2",
-          type: "diagram",
-          content: "Connection Cycle: Connect → Conflict → Repair → Reconnect → Stronger Bond",
           editable: true
         },
         {
@@ -1140,24 +1151,30 @@ export const initialWorkbookData: WorkbookData = {
       type: "visuals",
       section: 5,
       sectionTitle: "Tool 4: Grow",
-      title: "Visual Reminders",
-      subtitle: "Print & Display",
+      title: "Grow Together",
+      subtitle: "Mistakes Are For Learning",
       sections: [
         {
           id: "s5-p4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "grow-critical",
+            after: "grow-encourage",
+            beforeLabel: "When I criticize, they feel shame.",
+            afterLabel: "When I encourage, they grow resilient."
+          },
+          editable: false
+        },
+        {
+          id: "s5-p4-2",
           type: "goal-phrases",
           content: "",
           items: [
             "MISTAKES = LEARNING",
-            "EFFORT OVER OUTCOME",
-            "PROGRESS NOT PERFECTION"
+            "Effort over outcome",
+            "Progress not perfection"
           ],
-          editable: true
-        },
-        {
-          id: "s5-p4-2",
-          type: "diagram",
-          content: "Growth Cycle: Try → Fail → Learn → Adjust → Try Again → Succeed",
           editable: true
         },
         {
@@ -1371,24 +1388,30 @@ export const initialWorkbookData: WorkbookData = {
       type: "visuals",
       section: 6,
       sectionTitle: "Tool 5: Empower",
-      title: "Visual Reminders",
-      subtitle: "Print & Display",
+      title: "Empower Them",
+      subtitle: "Trust Builds Confidence",
       sections: [
         {
           id: "s6-p4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "empower-control",
+            after: "empower-trust",
+            beforeLabel: "When I control, they stay dependent.",
+            afterLabel: "When I empower, they grow confident."
+          },
+          editable: false
+        },
+        {
+          id: "s6-p4-2",
           type: "goal-phrases",
           content: "",
           items: [
             "YOUR VOICE MATTERS",
-            "YOU ARE CAPABLE",
-            "I BELIEVE IN YOU"
+            "You are capable",
+            "I believe in you"
           ],
-          editable: true
-        },
-        {
-          id: "s6-p4-2",
-          type: "diagram",
-          content: "Empowerment Path: Choice → Responsibility → Confidence → Independence → Maturity",
           editable: true
         },
         {
@@ -1602,24 +1625,30 @@ export const initialWorkbookData: WorkbookData = {
       type: "visuals",
       section: 7,
       sectionTitle: "Tool 6: Correction",
-      title: "Visual Reminders",
-      subtitle: "Print & Display",
+      title: "Correct With Love",
+      subtitle: "Teach, Don't Punish",
       sections: [
         {
           id: "s7-p4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "correction-punish",
+            after: "correction-teach",
+            beforeLabel: "When I punish, they fear me.",
+            afterLabel: "When I teach, they trust me."
+          },
+          editable: false
+        },
+        {
+          id: "s7-p4-2",
           type: "goal-phrases",
           content: "",
           items: [
             "LOVE AND LIMITS",
-            "TEACH, DON'T PUNISH",
-            "CONNECT THEN CORRECT"
+            "Teach, don't punish",
+            "Connect then correct"
           ],
-          editable: true
-        },
-        {
-          id: "s7-p4-2",
-          type: "diagram",
-          content: "Correction Flow: Pause → Connect → Validate → Set Boundary → Teach Skill → Repair",
           editable: true
         },
         {
