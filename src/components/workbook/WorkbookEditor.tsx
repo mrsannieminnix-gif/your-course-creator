@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { ChevronLeft, ChevronRight, Menu, Printer, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, Menu, Printer, Download, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { WorkbookPage as WorkbookPageType, WorkbookData } from "@/types/workbook";
 import { WorkbookPage } from "./WorkbookPage";
@@ -125,6 +125,14 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
           {/* Sidebar actions */}
           {sidebarOpen && (
             <div className="pt-4 border-t border-border space-y-2">
+              <Button
+                variant="default"
+                className="w-full justify-start gap-2"
+                onClick={handlePrint}
+              >
+                <Download className="w-4 h-4" />
+                Download PDF
+              </Button>
               <Button
                 variant="outline"
                 className="w-full justify-start gap-2"
