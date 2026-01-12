@@ -254,6 +254,15 @@ export const initialWorkbookData: WorkbookData = {
           editable: false
         },
         {
+          id: "s1-p4-1b",
+          type: "faith-image",
+          faithImage: {
+            src: "jesus-foundation",
+            caption: "Jesus walks with you in every parenting moment."
+          },
+          editable: false
+        },
+        {
           id: "s1-p4-2",
           type: "goal-phrases",
           content: "",
@@ -529,8 +538,8 @@ export const initialWorkbookData: WorkbookData = {
           id: "s2-p4-2",
           type: "faith-image",
           faithImage: {
-            src: "anchoring-with-god",
-            caption: "Borrow God's calm. You cannot give what you don't have."
+            src: "jesus-anchoring",
+            caption: "Jesus anchors with you. Breathe in His peace before you respond."
           },
           editable: false
         },
@@ -807,6 +816,15 @@ export const initialWorkbookData: WorkbookData = {
           editable: false
         },
         {
+          id: "s3-p4-1b",
+          type: "faith-image",
+          faithImage: {
+            src: "jesus-validation",
+            caption: "Jesus validates your child's heart. He sees every tear."
+          },
+          editable: false
+        },
+        {
           id: "s3-p4-2",
           type: "goal-phrases",
           content: "",
@@ -1075,6 +1093,15 @@ export const initialWorkbookData: WorkbookData = {
             after: "connection-present",
             beforeLabel: "When I'm distracted, they feel invisible.",
             afterLabel: "When I'm present, they feel valued."
+          },
+          editable: false
+        },
+        {
+          id: "s4-p4-1b",
+          type: "faith-image",
+          faithImage: {
+            src: "jesus-connection",
+            caption: "Jesus connects you together. His love binds your family."
           },
           editable: false
         },
@@ -1351,6 +1378,15 @@ export const initialWorkbookData: WorkbookData = {
           editable: false
         },
         {
+          id: "s5-p4-1b",
+          type: "faith-image",
+          faithImage: {
+            src: "jesus-grow",
+            caption: "Jesus nurtures growth. He celebrates effort, not perfection."
+          },
+          editable: false
+        },
+        {
           id: "s5-p4-2",
           type: "goal-phrases",
           content: "",
@@ -1623,6 +1659,15 @@ export const initialWorkbookData: WorkbookData = {
           editable: false
         },
         {
+          id: "s6-p4-1b",
+          type: "faith-image",
+          faithImage: {
+            src: "jesus-empower",
+            caption: "Jesus empowers your child. He trusts them with purpose."
+          },
+          editable: false
+        },
+        {
           id: "s6-p4-2",
           type: "goal-phrases",
           content: "",
@@ -1891,6 +1936,15 @@ export const initialWorkbookData: WorkbookData = {
             after: "correction-teach",
             beforeLabel: "When I punish, they fear me.",
             afterLabel: "When I teach, they trust me."
+          },
+          editable: false
+        },
+        {
+          id: "s7-p4-1b",
+          type: "faith-image",
+          faithImage: {
+            src: "jesus-correction",
+            caption: "Jesus corrects with love. He guides, never shames."
           },
           editable: false
         },

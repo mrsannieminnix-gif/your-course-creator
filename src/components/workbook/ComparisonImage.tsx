@@ -29,9 +29,24 @@ import toddlerHittingReact from "@/assets/toddler-hitting-react.png";
 import toddlerHittingTeach from "@/assets/toddler-hitting-teach.png";
 import toddlerTransitionDrag from "@/assets/toddler-transition-drag.png";
 import toddlerTransitionSmooth from "@/assets/toddler-transition-smooth.png";
+// Jesus faith images for each tool
+import jesusFoundation from "@/assets/jesus-foundation.png";
+import jesusAnchoring from "@/assets/jesus-anchoring.png";
+import jesusValidation from "@/assets/jesus-validation.png";
+import jesusConnection from "@/assets/jesus-connection.png";
+import jesusGrow from "@/assets/jesus-grow.png";
+import jesusEmpower from "@/assets/jesus-empower.png";
+import jesusCorrection from "@/assets/jesus-correction.png";
 
 export const faithImageMap: Record<string, string> = {
   "anchoring-with-god": anchoringWithGod,
+  "jesus-foundation": jesusFoundation,
+  "jesus-anchoring": jesusAnchoring,
+  "jesus-validation": jesusValidation,
+  "jesus-connection": jesusConnection,
+  "jesus-grow": jesusGrow,
+  "jesus-empower": jesusEmpower,
+  "jesus-correction": jesusCorrection,
 };
 
 interface ComparisonImageProps {
