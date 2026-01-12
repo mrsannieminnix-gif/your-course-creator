@@ -2,14 +2,27 @@ import { useState } from "react";
 import { WorkbookEditor } from "@/components/workbook/WorkbookEditor";
 import { initialWorkbookData } from "@/data/workbookContent";
 import { toddlerWorkbookData } from "@/data/toddlerWorkbookContent";
+import { earlyChildhoodWorkbookData } from "@/data/earlyChildhoodWorkbookContent";
+import { middleChildhoodWorkbookData } from "@/data/middleChildhoodWorkbookContent";
+import { teenWorkbookData } from "@/data/teenWorkbookContent";
 import { Button } from "@/components/ui/button";
 import { Book } from "lucide-react";
 
+type WorkbookType = "foundation" | "toddler" | "early" | "middle" | "teen" | null;
+
 const Index = () => {
-  const [selectedWorkbook, setSelectedWorkbook] = useState<"foundation" | "toddler" | null>(null);
+  const [selectedWorkbook, setSelectedWorkbook] = useState<WorkbookType>(null);
+
+  const workbookMap = {
+    foundation: initialWorkbookData,
+    toddler: toddlerWorkbookData,
+    early: earlyChildhoodWorkbookData,
+    middle: middleChildhoodWorkbookData,
+    teen: teenWorkbookData,
+  };
 
   if (selectedWorkbook) {
-    const workbookData = selectedWorkbook === "foundation" ? initialWorkbookData : toddlerWorkbookData;
+    const workbookData = workbookMap[selectedWorkbook];
     return (
       <div>
         <Button
@@ -25,9 +38,17 @@ const Index = () => {
     );
   }
 
+  const workbooks = [
+    { id: "foundation" as const, title: "Foundation Workbook", desc: "The core 6 tools of Model Parenting - anchoring, validation, connection, grow, empower, and correction." },
+    { id: "toddler" as const, title: "Ages 2-4 Workbook", desc: "Brain development, nervous system regulation, and applying the tools to common toddler challenges." },
+    { id: "early" as const, title: "Ages 5-7 Workbook", desc: "School readiness, lying, sibling conflict, emotional outbursts, and building responsibility." },
+    { id: "middle" as const, title: "Ages 8-12 Workbook", desc: "Peer influence, academics, technology, puberty, and building character in pre-teens." },
+    { id: "teen" as const, title: "Ages 13-18 Workbook", desc: "Communication, risky behavior, relationships, mental health, faith, and launching well." },
+  ];
+
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
-      <div className="max-w-2xl w-full space-y-8 text-center">
+      <div className="max-w-4xl w-full space-y-8 text-center">
         <h1 className="font-serif text-4xl md:text-5xl font-bold text-primary">
           The Model Parenting Method
         </h1>
@@ -36,31 +57,22 @@ const Index = () => {
           Choose a workbook to begin
         </p>
         
-        <div className="grid md:grid-cols-2 gap-6 mt-8">
-          <button
-            onClick={() => setSelectedWorkbook("foundation")}
-            className="page-paper p-8 text-left transition-transform cursor-pointer hover:scale-[1.02]"
-          >
-            <Book className="w-10 h-10 text-primary mb-4" />
-            <h2 className="font-serif text-2xl font-semibold text-primary mb-2">
-              Foundation Workbook
-            </h2>
-            <p className="text-muted-foreground">
-              The core 6 tools of Model Parenting - anchoring, validation, connection, grow, empower, and correction.
-            </p>
-          </button>
-          <button
-            onClick={() => setSelectedWorkbook("toddler")}
-            className="page-paper p-8 text-left transition-transform cursor-pointer hover:scale-[1.02]"
-          >
-            <Book className="w-10 h-10 text-primary mb-4" />
-            <h2 className="font-serif text-2xl font-semibold text-primary mb-2">
-              Ages 2-4 Workbook
-            </h2>
-            <p className="text-muted-foreground">
-              Brain development, nervous system regulation, and applying the tools to common toddler challenges.
-            </p>
-          </button>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+          {workbooks.map((wb) => (
+            <button
+              key={wb.id}
+              onClick={() => setSelectedWorkbook(wb.id)}
+              className="page-paper p-6 text-left transition-transform cursor-pointer hover:scale-[1.02]"
+            >
+              <Book className="w-8 h-8 text-primary mb-3" />
+              <h2 className="font-serif text-xl font-semibold text-primary mb-2">
+                {wb.title}
+              </h2>
+              <p className="text-muted-foreground text-sm">
+                {wb.desc}
+              </p>
+            </button>
+          ))}
         </div>
       </div>
     </div>
