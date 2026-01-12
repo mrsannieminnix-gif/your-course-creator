@@ -3,6 +3,7 @@ import parentStressed from "@/assets/parent-stressed-child-upset.png";
 import parentCalm from "@/assets/parent-calm-child-calm.png";
 import anchoringReactive from "@/assets/anchoring-reactive.png";
 import anchoringCalm from "@/assets/anchoring-calm.png";
+import anchoringWithGod from "@/assets/anchoring-with-god.png";
 import validationDismissive from "@/assets/validation-dismissive.png";
 import validationEmpathy from "@/assets/validation-empathy.png";
 import connectionDistracted from "@/assets/connection-distracted.png";
@@ -29,6 +30,10 @@ import toddlerHittingTeach from "@/assets/toddler-hitting-teach.png";
 import toddlerTransitionDrag from "@/assets/toddler-transition-drag.png";
 import toddlerTransitionSmooth from "@/assets/toddler-transition-smooth.png";
 
+export const faithImageMap: Record<string, string> = {
+  "anchoring-with-god": anchoringWithGod,
+};
+
 interface ComparisonImageProps {
   images?: {
     before: string;
@@ -44,6 +49,7 @@ const imageMap: Record<string, string> = {
   "parent-calm": parentCalm,
   "anchoring-reactive": anchoringReactive,
   "anchoring-calm": anchoringCalm,
+  "anchoring-with-god": anchoringWithGod,
   "validation-dismissive": validationDismissive,
   "validation-empathy": validationEmpathy,
   "connection-distracted": connectionDistracted,
