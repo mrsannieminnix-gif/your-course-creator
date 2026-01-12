@@ -42,7 +42,9 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t1-1-7", type: "header", content: "Nervous System Regulation" },
         { id: "t1-1-8", type: "paragraph", content: "Your child's nervous system is learning to regulate through CO-REGULATION with you. They cannot calm themselves alone - they need your calm nervous system to borrow from. When you stay regulated, you become their external regulator until they develop internal skills." },
-        { id: "t1-1-9", type: "quote", content: "\"You cannot pour from an empty cup. Your regulation is the foundation for their regulation.\"" }
+        { id: "t1-1-9", type: "header", content: "Growing Closer to God" },
+        { id: "t1-1-10", type: "paragraph", content: "Understanding your toddler's developing brain grows your patience and compassion - qualities that draw you closer to God. When you see them as 'still being built,' you practice the same grace God extends to you as His work in progress." },
+        { id: "t1-1-11", type: "quote", content: "\"You cannot pour from an empty cup. Your regulation is the foundation for their regulation.\"" }
       ]
     },
     {
@@ -87,6 +89,17 @@ export const toddlerWorkbookData: WorkbookData = {
             "Practice regulating my own nervous system before responding",
             "Lower one expectation that isn't developmentally appropriate",
             "Notice when I'm expecting adult-level behavior from my toddler"
+          ]
+        },
+        { id: "t1-2-7", type: "header", content: "Faith Reflection" },
+        {
+          id: "t1-2-8",
+          type: "checklist",
+          content: "Consider how God parents you:",
+          items: [
+            "Does God expect more from you than you're capable of?",
+            "How patient is God with your growth and development?",
+            "What would change if you saw your toddler as God sees them - fearfully and wonderfully made, still being formed?"
           ]
         }
       ]
@@ -152,6 +165,11 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         {
           id: "t1-4-3",
+          type: "scripture",
+          content: "\"For you created my inmost being; you knit me together.\"\n— Psalm 139:13"
+        },
+        {
+          id: "t1-4-4",
           type: "quote",
           content: "They're not giving you a hard time - they're having a hard time."
         }
@@ -188,7 +206,9 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t2-1-7", type: "paragraph", content: "YOU stay grounded first. Drop your shoulders, breathe slowly, lower your voice. Your regulated presence is the anchor in their storm." },
         { id: "t2-1-8", type: "subheader", content: "Tool 2: Validation" },
         { id: "t2-1-9", type: "paragraph", content: "Name what they're feeling without judgment: 'You're SO frustrated that we have to leave. You wanted to keep playing. That's really hard.'" },
-        { id: "t2-1-10", type: "quote", content: "\"The goal isn't to stop the tantrum - it's to be WITH them through it.\"" }
+        { id: "t2-1-10", type: "header", content: "Growing Closer to God" },
+        { id: "t2-1-11", type: "paragraph", content: "Your child's tantrums reveal your own capacity for patience - or lack of it. Each meltdown is an invitation to depend on God's peace that surpasses understanding. You cannot give calm you don't have; you must receive it from Him first." },
+        { id: "t2-1-12", type: "quote", content: "\"The goal isn't to stop the tantrum - it's to be WITH them through it.\"" }
       ]
     },
     {
@@ -233,6 +253,17 @@ export const toddlerWorkbookData: WorkbookData = {
             "Use one validation phrase during every meltdown",
             "Remind myself that tantrums are communication, not manipulation",
             "Stay physically present even when I want to walk away"
+          ]
+        },
+        { id: "t2-2-7", type: "header", content: "Faith Reflection" },
+        {
+          id: "t2-2-8",
+          type: "checklist",
+          content: "Consider how God responds to you:",
+          items: [
+            "When you're overwhelmed and falling apart, does God leave you?",
+            "How does God respond to your emotional meltdowns?",
+            "What would it mean to be God's calm, steady presence for your child in their storm?"
           ]
         }
       ]
@@ -298,6 +329,11 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         {
           id: "t2-4-3",
+          type: "scripture",
+          content: "\"The Lord is close to the brokenhearted.\"\n— Psalm 34:18"
+        },
+        {
+          id: "t2-4-4",
           type: "quote",
           content: "The goal isn't to stop the tantrum - it's to be WITH them through it."
         }
@@ -334,7 +370,9 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t3-1-7", type: "paragraph", content: "Power struggles dissolve when connection is strong. Spend 10 minutes of undivided attention daily - let THEM lead the play." },
         { id: "t3-1-8", type: "subheader", content: "Tool 5: Empowerment" },
         { id: "t3-1-9", type: "paragraph", content: "Give appropriate choices: 'Do you want to put on your shoes or your jacket first?' They get autonomy, you get cooperation." },
-        { id: "t3-1-10", type: "quote", content: "\"The more control you give in small things, the less they need to fight for it in big things.\"" }
+        { id: "t3-1-10", type: "header", content: "Growing Closer to God" },
+        { id: "t3-1-11", type: "paragraph", content: "Your toddler's strong will can trigger your need for control. But God gave humans free will because He wants relationship, not robots. Learning to guide without controlling teaches you to trust God with outcomes you can't force." },
+        { id: "t3-1-12", type: "quote", content: "\"The more control you give in small things, the less they need to fight for it in big things.\"" }
       ]
     },
     {
@@ -379,6 +417,17 @@ export const toddlerWorkbookData: WorkbookData = {
             "Spend 10 minutes in child-led play every day",
             "Let go of one battle that doesn't really matter",
             "Celebrate their independence instead of fighting it"
+          ]
+        },
+        { id: "t3-2-7", type: "header", content: "Faith Reflection" },
+        {
+          id: "t3-2-8",
+          type: "checklist",
+          content: "Consider God's approach to your will:",
+          items: [
+            "Does God force you to obey or invite you into relationship?",
+            "How does God respond when you say 'no' to Him?",
+            "What can you learn from God about guiding without controlling?"
           ]
         }
       ]
@@ -444,6 +493,11 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         {
           id: "t3-4-3",
+          type: "scripture",
+          content: "\"Fathers, do not provoke your children to anger.\"\n— Ephesians 6:4"
+        },
+        {
+          id: "t3-4-4",
           type: "quote",
           content: "A strong will is a gift - help them learn to use it well."
         }
@@ -480,7 +534,9 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t4-1-7", type: "paragraph", content: "Your calm confidence tells them: 'This is safe.' If you're anxious about leaving, they'll sense it. Anchor yourself first." },
         { id: "t4-1-8", type: "subheader", content: "Tool 3: Connection" },
         { id: "t4-1-9", type: "paragraph", content: "Create a goodbye ritual: special handshake, kiss on the palm to 'hold,' or a phrase you always say. Predictability builds security." },
-        { id: "t4-1-10", type: "quote", content: "\"Brave goodbyes come from secure connections, not from pushing them to be independent.\"" }
+        { id: "t4-1-10", type: "header", content: "Growing Closer to God" },
+        { id: "t4-1-11", type: "paragraph", content: "Separation anxiety reminds you that your child was designed for connection - with you and ultimately with God. As you faithfully return, you teach them about a God who never leaves or forsakes. Your presence teaches them about His." },
+        { id: "t4-1-12", type: "quote", content: "\"Brave goodbyes come from secure connections, not from pushing them to be independent.\"" }
       ]
     },
     {
@@ -525,6 +581,17 @@ export const toddlerWorkbookData: WorkbookData = {
             "Create a special goodbye ritual",
             "Stay calm and confident during drop-offs",
             "Fill their 'connection cup' before separations"
+          ]
+        },
+        { id: "t4-2-7", type: "header", content: "Faith Reflection" },
+        {
+          id: "t4-2-8",
+          type: "checklist",
+          content: "Consider God's faithfulness:",
+          items: [
+            "Has God ever left you or abandoned you?",
+            "How does knowing God is always with you affect your security?",
+            "How can you reflect God's constant presence to your child?"
           ]
         }
       ]
@@ -590,6 +657,11 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         {
           id: "t4-4-3",
+          type: "scripture",
+          content: "\"The Lord your God goes with you; he will never leave you nor forsake you.\"\n— Deuteronomy 31:6"
+        },
+        {
+          id: "t4-4-4",
           type: "quote",
           content: "Every return builds their trust that love doesn't disappear."
         }
@@ -626,7 +698,9 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t5-1-7", type: "paragraph", content: "Acknowledge their feelings: 'You wish you could stay up. It's hard to stop playing. I understand.' Validation doesn't mean changing the boundary." },
         { id: "t5-1-8", type: "subheader", content: "Tool 6: Correction" },
         { id: "t5-1-9", type: "paragraph", content: "Hold the boundary with warmth: 'It's bedtime. I'll check on you in a few minutes.' Consistent, calm limits create security." },
-        { id: "t5-1-10", type: "quote", content: "\"Boundaries are not walls to keep them out - they're guardrails to keep them safe.\"" }
+        { id: "t5-1-10", type: "header", content: "Growing Closer to God" },
+        { id: "t5-1-11", type: "paragraph", content: "Bedtime battles test your patience like few things do. But this is where God refines you. As you learn to stay calm and consistent, you grow in self-control - a fruit of the Spirit. Your bedtime presence becomes a prayer of surrender." },
+        { id: "t5-1-12", type: "quote", content: "\"Boundaries are not walls to keep them out - they're guardrails to keep them safe.\"" }
       ]
     },
     {
@@ -671,6 +745,17 @@ export const toddlerWorkbookData: WorkbookData = {
             "Validate feelings while holding the boundary",
             "Stay calm even when they push back",
             "Front-load connection before separation"
+          ]
+        },
+        { id: "t5-2-7", type: "header", content: "Faith Reflection" },
+        {
+          id: "t5-2-8",
+          type: "checklist",
+          content: "Consider God's loving limits:",
+          items: [
+            "Does God give you boundaries because He loves you or to control you?",
+            "How does God respond when you resist His guidance?",
+            "What can God's patient persistence teach you about bedtime battles?"
           ]
         }
       ]
@@ -736,6 +821,11 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         {
           id: "t5-4-3",
+          type: "scripture",
+          content: "\"In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety.\"\n— Psalm 4:8"
+        },
+        {
+          id: "t5-4-4",
           type: "quote",
           content: "They need YOU to hold the boundary for them - they can't do it alone yet."
         }
@@ -772,7 +862,9 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t6-1-7", type: "paragraph", content: "Calmly stop the behavior: 'I won't let you hit. Hitting hurts.' Remove them from the situation if needed. Keep it simple and brief." },
         { id: "t6-1-8", type: "subheader", content: "Tool 3: Connection" },
         { id: "t6-1-9", type: "paragraph", content: "After the correction, reconnect: 'You were so frustrated. Let's find another way to show that.' Teach alternatives." },
-        { id: "t6-1-10", type: "quote", content: "\"Correction without connection leads to rebellion. Connection without correction leads to chaos.\"" }
+        { id: "t6-1-10", type: "header", content: "Growing Closer to God" },
+        { id: "t6-1-11", type: "paragraph", content: "Your child's aggression can trigger your own anger. This is where God meets you. When you choose gentleness over reaction, you're leaning on strength that isn't your own. Each calm correction is a moment of dependence on the Holy Spirit." },
+        { id: "t6-1-12", type: "quote", content: "\"Correction without connection leads to rebellion. Connection without correction leads to chaos.\"" }
       ]
     },
     {
@@ -817,6 +909,17 @@ export const toddlerWorkbookData: WorkbookData = {
             "Use simple words: 'I won't let you hit. Hitting hurts.'",
             "Teach an alternative: stomp feet, squeeze pillow, use words",
             "Reconnect after correction"
+          ]
+        },
+        { id: "t6-2-7", type: "header", content: "Faith Reflection" },
+        {
+          id: "t6-2-8",
+          type: "checklist",
+          content: "Consider God's gentle strength:",
+          items: [
+            "How does God respond when you 'lash out' in sin or frustration?",
+            "What does 'a gentle answer turns away wrath' look like in parenting?",
+            "How can depending on God help you stay calm when you want to react?"
           ]
         }
       ]
@@ -882,6 +985,11 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         {
           id: "t6-4-3",
+          type: "scripture",
+          content: "\"A gentle answer turns away wrath.\"\n— Proverbs 15:1"
+        },
+        {
+          id: "t6-4-4",
           type: "quote",
           content: "A gentle answer turns away wrath. My response IS the lesson."
         }
@@ -918,7 +1026,9 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t7-1-7", type: "paragraph", content: "Build their skills: give warnings ('5 more minutes, then we go'), use visual timers, create transition songs. You're growing their ability to shift gears." },
         { id: "t7-1-8", type: "subheader", content: "Tool 5: Empowerment" },
         { id: "t7-1-9", type: "paragraph", content: "Give them some control in the transition: 'Do you want to walk or skip to the car?' 'Should we wave goodbye to the swings?'" },
-        { id: "t7-1-10", type: "quote", content: "\"Prepare them for what's coming - surprises feel like ambushes to little brains.\"" }
+        { id: "t7-1-10", type: "header", content: "Growing Closer to God" },
+        { id: "t7-1-11", type: "paragraph", content: "Life is full of transitions, and learning to navigate change with your toddler prepares both of you to trust God through bigger changes. As you help them move through small transitions, you're building faith for the seasons of life that are beyond your control." },
+        { id: "t7-1-12", type: "quote", content: "\"Prepare them for what's coming - surprises feel like ambushes to little brains.\"" }
       ]
     },
     {
@@ -963,6 +1073,17 @@ export const toddlerWorkbookData: WorkbookData = {
             "Use a visual timer they can see",
             "Build buffer time into our schedule",
             "Make transitions playful when possible"
+          ]
+        },
+        { id: "t7-2-7", type: "header", content: "Faith Reflection" },
+        {
+          id: "t7-2-8",
+          type: "checklist",
+          content: "Consider God's guidance through change:",
+          items: [
+            "How does God prepare you for changes in your life?",
+            "Do you trust that God is with you in every transition and season?",
+            "How can teaching your child about transitions point them toward trusting God?"
           ]
         }
       ]
@@ -1028,6 +1149,11 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         {
           id: "t7-4-3",
+          type: "scripture",
+          content: "\"For everything there is a season.\"\n— Ecclesiastes 3:1"
+        },
+        {
+          id: "t7-4-4",
           type: "quote",
           content: "For everything there is a season. Help them learn to flow with change."
         }

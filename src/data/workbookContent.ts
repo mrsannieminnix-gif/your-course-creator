@@ -43,6 +43,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s1-p1-4",
+          type: "header",
+          content: "Growing Closer to God Through Parenting",
+          editable: true
+        },
+        {
+          id: "s1-p1-5",
+          type: "paragraph",
+          content: "Parenting is one of God's greatest tools for your own spiritual growth. As you learn to parent with patience, grace, and intentionality, you'll discover more about God's heart for you as His child. Each parenting challenge is an invitation to depend on Him more deeply.",
+          editable: true
+        },
+        {
+          id: "s1-p1-6",
           type: "quote",
           content: "Children learn what to become by watching how we live, respond, and repair – not by being controlled or corrected into compliance.",
           editable: true
@@ -110,12 +122,29 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s1-p2-7",
+          type: "header",
+          content: "FAITH REFLECTION",
+          editable: true
+        },
+        {
+          id: "s1-p2-8",
+          type: "list",
+          content: "",
+          items: [
+            "How does God parent you? What can you learn from His patience?",
+            "In what areas is God inviting you to grow through parenting?",
+            "How might your parenting journey be drawing you closer to God?"
+          ],
+          editable: true
+        },
+        {
+          id: "s1-p2-9",
           type: "subheader",
           content: "This Week's Focus:",
           editable: true
         },
         {
-          id: "s1-p2-8",
+          id: "s1-p2-10",
           type: "paragraph",
           content: "Begin noticing your reactions. When do you respond from calm vs. react from stress?",
           editable: true
@@ -231,6 +260,12 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s1-p4-3",
+          type: "scripture",
+          content: "\"Imitate God, therefore, in everything you do, because you are his dear children.\"\n— Ephesians 5:1",
+          editable: true
+        },
+        {
+          id: "s1-p4-4",
           type: "quote",
           content: "Children don't need perfect parents. They need present, repairing, and growing parents.",
           editable: true
@@ -276,6 +311,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s2-p1-4",
+          type: "header",
+          content: "Growing Closer to God Through Anchoring",
+          editable: true
+        },
+        {
+          id: "s2-p1-5",
+          type: "paragraph",
+          content: "Learning to anchor yourself in moments of stress teaches you to anchor yourself in God. As you practice pausing before reacting, you create space to hear God's gentle guidance. Your parenting moments become opportunities for prayer and surrender.",
+          editable: true
+        },
+        {
+          id: "s2-p1-6",
           type: "quote",
           content: "You cannot expect children to regulate emotions you haven't modeled – become what you want them to become.",
           editable: true
@@ -343,12 +390,29 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s2-p2-7",
+          type: "header",
+          content: "FAITH REFLECTION",
+          editable: true
+        },
+        {
+          id: "s2-p2-8",
+          type: "list",
+          content: "",
+          items: [
+            "When you feel overwhelmed, do you turn to God first?",
+            "How does 'Be still and know that I am God' apply to parenting?",
+            "What would change if you invited God into your most stressful moments?"
+          ],
+          editable: true
+        },
+        {
+          id: "s2-p2-9",
           type: "subheader",
           content: "This Week's Application:",
           editable: true
         },
         {
-          id: "s2-p2-8",
+          id: "s2-p2-10",
           type: "paragraph",
           content: "Practice one anchoring technique daily: hand on chest, slow breathing, or touching a solid surface before responding.",
           editable: true
@@ -468,6 +532,12 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s2-p4-3",
+          type: "scripture",
+          content: "\"Be still, and know that I am God.\"\n— Psalm 46:10",
+          editable: true
+        },
+        {
+          id: "s2-p4-4",
           type: "quote",
           content: "You cannot teach calm from chaos. Anchor yourself first.",
           editable: true
@@ -513,6 +583,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s3-p1-4",
+          type: "header",
+          content: "Growing Closer to God Through Validation",
+          editable: true
+        },
+        {
+          id: "s3-p1-5",
+          type: "paragraph",
+          content: "God is the ultimate validator. He sees your pain, your struggles, your fears – and He doesn't minimize them. As you learn to validate your child's emotions, you're practicing the kind of compassion God shows you. You're becoming more like Him.",
+          editable: true
+        },
+        {
+          id: "s3-p1-6",
           type: "quote",
           content: "When we validate emotions, we say: 'Your feelings make sense.' This doesn't mean their behavior is okay – it means they are understood.",
           editable: true
@@ -580,12 +662,29 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s3-p2-7",
+          type: "header",
+          content: "FAITH REFLECTION",
+          editable: true
+        },
+        {
+          id: "s3-p2-8",
+          type: "list",
+          content: "",
+          items: [
+            "How does God respond when you bring Him your pain and frustration?",
+            "Do you feel validated by God, even in your struggles?",
+            "How can being more like God help you validate your child?"
+          ],
+          editable: true
+        },
+        {
+          id: "s3-p2-9",
           type: "subheader",
           content: "This Week's Application:",
           editable: true
         },
         {
-          id: "s3-p2-8",
+          id: "s3-p2-10",
           type: "paragraph",
           content: "Practice saying 'I can see you're really upset' or 'That must feel so frustrating' before offering solutions.",
           editable: true
@@ -705,6 +804,12 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s3-p4-3",
+          type: "scripture",
+          content: "\"The Lord is close to the brokenhearted.\"\n— Psalm 34:18",
+          editable: true
+        },
+        {
+          id: "s3-p4-4",
           type: "quote",
           content: "You can validate feelings while still setting limits on behavior.",
           editable: true
@@ -750,6 +855,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s4-p1-4",
+          type: "header",
+          content: "Growing Closer to God Through Connection",
+          editable: true
+        },
+        {
+          id: "s4-p1-5",
+          type: "paragraph",
+          content: "Connection mirrors the relationship God desires with you. Just as you long to connect with your child, God longs to connect with you. Prioritizing connection teaches you the value God places on relationship over performance, presence over perfection.",
+          editable: true
+        },
+        {
+          id: "s4-p1-6",
           type: "quote",
           content: "A child who feels connected to you wants to please you. A child who feels disconnected has no reason to.",
           editable: true
@@ -817,12 +934,29 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s4-p2-7",
+          type: "header",
+          content: "FAITH REFLECTION",
+          editable: true
+        },
+        {
+          id: "s4-p2-8",
+          type: "list",
+          content: "",
+          items: [
+            "How connected do you feel to God right now?",
+            "What rituals help you stay connected to God daily?",
+            "How does your connection with God affect your connection with your child?"
+          ],
+          editable: true
+        },
+        {
+          id: "s4-p2-9",
           type: "subheader",
           content: "This Week's Application:",
           editable: true
         },
         {
-          id: "s4-p2-8",
+          id: "s4-p2-10",
           type: "paragraph",
           content: "Create one daily connection ritual – 10 minutes of undivided attention with your child, phone-free.",
           editable: true
@@ -942,6 +1076,12 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s4-p4-3",
+          type: "scripture",
+          content: "\"Draw near to God, and he will draw near to you.\"\n— James 4:8",
+          editable: true
+        },
+        {
+          id: "s4-p4-4",
           type: "quote",
           content: "It's not about perfect parenting. It's about always coming back to connection.",
           editable: true
@@ -987,6 +1127,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s5-p1-4",
+          type: "header",
+          content: "Growing Closer to God Through Growth",
+          editable: true
+        },
+        {
+          id: "s5-p1-5",
+          type: "paragraph",
+          content: "God is infinitely patient with your growth. He doesn't expect perfection – He celebrates progress. As you learn to be patient with your child's development, you experience a glimpse of God's patience with you. Growth-focused parenting mirrors grace-filled faith.",
+          editable: true
+        },
+        {
+          id: "s5-p1-6",
           type: "quote",
           content: "Skills are taught, not demanded. Every skill your child lacks is an opportunity to teach, not punish.",
           editable: true
@@ -1054,12 +1206,29 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s5-p2-7",
+          type: "header",
+          content: "FAITH REFLECTION",
+          editable: true
+        },
+        {
+          id: "s5-p2-8",
+          type: "list",
+          content: "",
+          items: [
+            "How does God respond to your mistakes and failures?",
+            "Do you believe God is patient with your growth?",
+            "How can trusting God's patience help you be more patient with your child?"
+          ],
+          editable: true
+        },
+        {
+          id: "s5-p2-9",
           type: "subheader",
           content: "This Week's Application:",
           editable: true
         },
         {
-          id: "s5-p2-8",
+          id: "s5-p2-10",
           type: "paragraph",
           content: "Praise effort over results this week. Say 'I love how hard you tried' instead of 'Good job.'",
           editable: true
@@ -1179,6 +1348,12 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s5-p4-3",
+          type: "scripture",
+          content: "\"He who began a good work in you will carry it on to completion.\"\n— Philippians 1:6",
+          editable: true
+        },
+        {
+          id: "s5-p4-4",
           type: "quote",
           content: "Every skill your child lacks is an opportunity to teach, not punish.",
           editable: true
@@ -1224,6 +1399,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s6-p1-4",
+          type: "header",
+          content: "Growing Closer to God Through Empowerment",
+          editable: true
+        },
+        {
+          id: "s6-p1-5",
+          type: "paragraph",
+          content: "God gives us free will because He wants relationship, not robots. As you learn to empower your child with appropriate choices, you're reflecting God's trust in His children. Empowerment teaches you to release control and trust God with the outcome.",
+          editable: true
+        },
+        {
+          id: "s6-p1-6",
           type: "quote",
           content: "Children who feel empowered develop confidence. Children who are controlled develop dependence or defiance.",
           editable: true
@@ -1291,12 +1478,29 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s6-p2-7",
+          type: "header",
+          content: "FAITH REFLECTION",
+          editable: true
+        },
+        {
+          id: "s6-p2-8",
+          type: "list",
+          content: "",
+          items: [
+            "How does God empower you rather than control you?",
+            "What gifts has God placed in your child that you can nurture?",
+            "How can releasing control help you trust God more?"
+          ],
+          editable: true
+        },
+        {
+          id: "s6-p2-9",
           type: "subheader",
           content: "This Week's Application:",
           editable: true
         },
         {
-          id: "s6-p2-8",
+          id: "s6-p2-10",
           type: "paragraph",
           content: "Offer two choices instead of commands: 'Would you like to do homework before or after snack?'",
           editable: true
@@ -1416,6 +1620,12 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s6-p4-3",
+          type: "scripture",
+          content: "\"For God gave us a spirit not of fear but of power and love and self-control.\"\n— 2 Timothy 1:7",
+          editable: true
+        },
+        {
+          id: "s6-p4-4",
           type: "quote",
           content: "Empowered children become confident adults. Controlled children become dependent or defiant adults.",
           editable: true
@@ -1461,6 +1671,18 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s7-p1-4",
+          type: "header",
+          content: "Growing Closer to God Through Correction",
+          editable: true
+        },
+        {
+          id: "s7-p1-5",
+          type: "paragraph",
+          content: "God disciplines those He loves – not to punish, but to guide and grow. As you learn to correct from love rather than anger, you're reflecting God's heart. Each correction is an opportunity to show your child (and remind yourself) that love and limits go together.",
+          editable: true
+        },
+        {
+          id: "s7-p1-6",
           type: "quote",
           content: "The goal of correction is not obedience – it's teaching wisdom, building skills, and maintaining connection.",
           editable: true
@@ -1528,12 +1750,29 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s7-p2-7",
+          type: "header",
+          content: "FAITH REFLECTION",
+          editable: true
+        },
+        {
+          id: "s7-p2-8",
+          type: "list",
+          content: "",
+          items: [
+            "How do you feel when God corrects or convicts you?",
+            "Do you experience God's correction as loving or punishing?",
+            "How can God's grace-filled discipline inform how you correct your child?"
+          ],
+          editable: true
+        },
+        {
+          id: "s7-p2-9",
           type: "subheader",
           content: "This Week's Application:",
           editable: true
         },
         {
-          id: "s7-p2-8",
+          id: "s7-p2-10",
           type: "paragraph",
           content: "Before correcting, connect: 'I love you AND this behavior needs to change. Let's figure this out together.'",
           editable: true
@@ -1653,6 +1892,12 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s7-p4-3",
+          type: "scripture",
+          content: "\"The Lord disciplines the one he loves.\"\n— Hebrews 12:6",
+          editable: true
+        },
+        {
+          id: "s7-p4-4",
           type: "quote",
           content: "Correction that maintains connection builds trust. Correction that breaks connection builds fear.",
           editable: true
