@@ -1,6 +1,18 @@
 import React from "react";
 import parentStressed from "@/assets/parent-stressed-child-upset.png";
 import parentCalm from "@/assets/parent-calm-child-calm.png";
+import anchoringReactive from "@/assets/anchoring-reactive.png";
+import anchoringCalm from "@/assets/anchoring-calm.png";
+import validationDismissive from "@/assets/validation-dismissive.png";
+import validationEmpathy from "@/assets/validation-empathy.png";
+import connectionDistracted from "@/assets/connection-distracted.png";
+import connectionPresent from "@/assets/connection-present.png";
+import growCritical from "@/assets/grow-critical.png";
+import growEncourage from "@/assets/grow-encourage.png";
+import empowerControl from "@/assets/empower-control.png";
+import empowerTrust from "@/assets/empower-trust.png";
+import correctionPunish from "@/assets/correction-punish.png";
+import correctionTeach from "@/assets/correction-teach.png";
 
 interface ComparisonImageProps {
   images?: {
@@ -9,11 +21,24 @@ interface ComparisonImageProps {
     beforeLabel?: string;
     afterLabel?: string;
   };
+  tagline?: string;
 }
 
 const imageMap: Record<string, string> = {
   "parent-stressed": parentStressed,
   "parent-calm": parentCalm,
+  "anchoring-reactive": anchoringReactive,
+  "anchoring-calm": anchoringCalm,
+  "validation-dismissive": validationDismissive,
+  "validation-empathy": validationEmpathy,
+  "connection-distracted": connectionDistracted,
+  "connection-present": connectionPresent,
+  "grow-critical": growCritical,
+  "grow-encourage": growEncourage,
+  "empower-control": empowerControl,
+  "empower-trust": empowerTrust,
+  "correction-punish": correctionPunish,
+  "correction-teach": correctionTeach,
 };
 
 export const ComparisonImage: React.FC<ComparisonImageProps> = ({ images }) => {
