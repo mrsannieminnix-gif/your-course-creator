@@ -7,6 +7,7 @@ import { DiagramSection } from "./DiagramSection";
 import { ChecklistSection } from "./ChecklistSection";
 import { WeekTracker } from "./WeekTracker";
 import { ComparisonImage } from "./ComparisonImage";
+import { FaithImage } from "./FaithImage";
 import logo from "@/assets/logo.jpg";
 
 interface WorkbookPageProps {
@@ -128,6 +129,9 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
 
       case "comparison-image":
         return <ComparisonImage images={section.images} />;
+
+      case "faith-image":
+        return <FaithImage faithImage={section.faithImage} />;
 
       case "goal-phrases":
         return (

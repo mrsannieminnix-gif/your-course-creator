@@ -527,25 +527,34 @@ export const initialWorkbookData: WorkbookData = {
         },
         {
           id: "s2-p4-2",
+          type: "faith-image",
+          faithImage: {
+            src: "anchoring-with-god",
+            caption: "Borrow God's calm. You cannot give what you don't have."
+          },
+          editable: false
+        },
+        {
+          id: "s2-p4-3",
           type: "goal-phrases",
           content: "",
           items: [
             "BREATHE FIRST",
             "My calm is contagious",
-            "Pause before reacting"
+            "I borrow God's peace"
           ],
           editable: true
         },
         {
-          id: "s2-p4-3",
+          id: "s2-p4-4",
           type: "scripture",
           content: "\"Be still, and know that I am God.\"\n— Psalm 46:10",
           editable: true
         },
         {
-          id: "s2-p4-4",
+          id: "s2-p4-5",
           type: "quote",
-          content: "You cannot teach calm from chaos. Anchor yourself first.",
+          content: "You cannot teach calm from chaos. Anchor yourself in God first.",
           editable: true
         }
       ]
