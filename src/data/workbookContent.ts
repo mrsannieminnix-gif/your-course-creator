@@ -23,7 +23,7 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s1-p1-2",
           type: "paragraph",
-          content: "Welcome to The Model Parenting Method. This course will guide you through 6 essential tools for transforming your parenting approach from reactive to intentional.",
+          content: "Welcome to The Model Parenting Method. This course will guide you through 6 essential tools for transforming your parenting approach from reactive to intentional. More than parenting strategies, this is a journey of spiritual formation – learning to depend on God in your hardest parenting moments.",
           editable: true
         },
         {
@@ -44,17 +44,23 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s1-p1-4",
           type: "header",
-          content: "Growing Closer to God Through Parenting",
+          content: "Parenting as Spiritual Formation",
           editable: true
         },
         {
           id: "s1-p1-5",
           type: "paragraph",
-          content: "Parenting is one of God's greatest tools for your own spiritual growth. As you learn to parent with patience, grace, and intentionality, you'll discover more about God's heart for you as His child. Each parenting challenge is an invitation to depend on Him more deeply.",
+          content: "You cannot do this in your own strength. Parenting will push you to the end of yourself – and that's exactly where God meets you. This course isn't just about becoming a better parent; it's about learning to rely on God moment by moment. Every challenging behavior, every triggered reaction, every exhausted evening is an invitation to turn to Him.",
           editable: true
         },
         {
           id: "s1-p1-6",
+          type: "paragraph",
+          content: "As you practice these tools, you'll discover they require more than willpower – they require surrender. The patience you need? It comes from Him. The calm in chaos? It's His peace. The grace to repair? It mirrors His grace to you. This work will draw you closer to God because you simply cannot do it without Him.",
+          editable: true
+        },
+        {
+          id: "s1-p1-7",
           type: "quote",
           content: "Children learn what to become by watching how we live, respond, and repair – not by being controlled or corrected into compliance.",
           editable: true
@@ -318,7 +324,7 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s2-p1-5",
           type: "paragraph",
-          content: "Learning to anchor yourself in moments of stress teaches you to anchor yourself in God. As you practice pausing before reacting, you create space to hear God's gentle guidance. Your parenting moments become opportunities for prayer and surrender.",
+          content: "You don't have enough calm on your own. Learning to anchor yourself in stressful moments teaches you to anchor yourself in God. Each time you pause before reacting, you're practicing dependence on Him. Ask God for His peace before you respond – this is prayer in action.",
           editable: true
         },
         {
@@ -590,7 +596,7 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s3-p1-5",
           type: "paragraph",
-          content: "God is the ultimate validator. He sees your pain, your struggles, your fears – and He doesn't minimize them. As you learn to validate your child's emotions, you're practicing the kind of compassion God shows you. You're becoming more like Him.",
+          content: "Validation doesn't come naturally when you're frustrated. You need God's compassion flowing through you. As you ask Him to help you see your child's heart, you'll experience His compassion for you. This practice draws you into God's presence – you cannot validate from an empty well.",
           editable: true
         },
         {
@@ -862,7 +868,7 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s4-p1-5",
           type: "paragraph",
-          content: "Connection mirrors the relationship God desires with you. Just as you long to connect with your child, God longs to connect with you. Prioritizing connection teaches you the value God places on relationship over performance, presence over perfection.",
+          content: "You can't give connection you don't have. Your ability to be present with your child flows from your connection with God. As you prioritize time with Him, you'll have more to give. This tool will reveal the state of your own soul – let it drive you to the Father.",
           editable: true
         },
         {
@@ -1134,7 +1140,7 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s5-p1-5",
           type: "paragraph",
-          content: "God is infinitely patient with your growth. He doesn't expect perfection – He celebrates progress. As you learn to be patient with your child's development, you experience a glimpse of God's patience with you. Growth-focused parenting mirrors grace-filled faith.",
+          content: "Patience for your child's slow growth requires supernatural grace. You'll run out of patience quickly on your own. As you ask God to help you see your child through His eyes – as a work in progress – you'll experience how He sees you. Growth-focused parenting requires daily dependence on God's patience working through you.",
           editable: true
         },
         {
@@ -1406,7 +1412,7 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s6-p1-5",
           type: "paragraph",
-          content: "God gives us free will because He wants relationship, not robots. As you learn to empower your child with appropriate choices, you're reflecting God's trust in His children. Empowerment teaches you to release control and trust God with the outcome.",
+          content: "Letting go of control is terrifying – unless you trust God with the outcome. Empowering your child means releasing your grip and trusting that God is at work in them. This tool will expose your need for control and drive you to surrender it to Him. You cannot empower your child while clinging to outcomes only God can control.",
           editable: true
         },
         {
@@ -1678,7 +1684,7 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s7-p1-5",
           type: "paragraph",
-          content: "God disciplines those He loves – not to punish, but to guide and grow. As you learn to correct from love rather than anger, you're reflecting God's heart. Each correction is an opportunity to show your child (and remind yourself) that love and limits go together.",
+          content: "Correcting from love instead of anger requires God's help in the moment. When frustration rises, you need His spirit to respond with grace. Ask Him for wisdom before you speak. Let each correction become a prayer: 'Lord, help me teach, not punish. Help me guide, not control.' This is where parenting becomes worship.",
           editable: true
         },
         {

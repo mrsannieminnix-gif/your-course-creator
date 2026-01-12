@@ -15,7 +15,7 @@ export const toddlerWorkbookData: WorkbookData = {
       subtitle: "Brain Development, Milestones & Nervous System",
       sections: [
         { id: "t1-1-1", type: "header", content: "Course Outline" },
-        { id: "t1-1-2", type: "paragraph", content: "In this foundational section, you'll learn the science behind your toddler's developing brain, understand key milestones, and discover how nervous system regulation affects behavior." },
+        { id: "t1-1-2", type: "paragraph", content: "In this foundational section, you'll learn the science behind your toddler's developing brain, understand key milestones, and discover how nervous system regulation affects behavior. More importantly, you'll find that parenting a toddler will push you to rely on God like never before." },
         { id: "t1-1-3", type: "subheader", content: "What You'll Learn:" },
         {
           id: "t1-1-4",
@@ -42,8 +42,8 @@ export const toddlerWorkbookData: WorkbookData = {
         },
         { id: "t1-1-7", type: "header", content: "Nervous System Regulation" },
         { id: "t1-1-8", type: "paragraph", content: "Your child's nervous system is learning to regulate through CO-REGULATION with you. They cannot calm themselves alone - they need your calm nervous system to borrow from. When you stay regulated, you become their external regulator until they develop internal skills." },
-        { id: "t1-1-9", type: "header", content: "Growing Closer to God" },
-        { id: "t1-1-10", type: "paragraph", content: "Understanding your toddler's developing brain grows your patience and compassion - qualities that draw you closer to God. When you see them as 'still being built,' you practice the same grace God extends to you as His work in progress." },
+        { id: "t1-1-9", type: "header", content: "Relying on God Through This" },
+        { id: "t1-1-10", type: "paragraph", content: "You cannot parent a toddler in your own strength. Their needs will exhaust you, their behaviors will frustrate you, their demands will empty you. This is by design – God uses this season to teach you dependence on Him. Every overwhelming moment is an invitation to pray, 'Lord, I need You right now.'" },
         { id: "t1-1-11", type: "quote", content: "\"You cannot pour from an empty cup. Your regulation is the foundation for their regulation.\"" }
       ]
     },
@@ -206,8 +206,8 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t2-1-7", type: "paragraph", content: "YOU stay grounded first. Drop your shoulders, breathe slowly, lower your voice. Your regulated presence is the anchor in their storm." },
         { id: "t2-1-8", type: "subheader", content: "Tool 2: Validation" },
         { id: "t2-1-9", type: "paragraph", content: "Name what they're feeling without judgment: 'You're SO frustrated that we have to leave. You wanted to keep playing. That's really hard.'" },
-        { id: "t2-1-10", type: "header", content: "Growing Closer to God" },
-        { id: "t2-1-11", type: "paragraph", content: "Your child's tantrums reveal your own capacity for patience - or lack of it. Each meltdown is an invitation to depend on God's peace that surpasses understanding. You cannot give calm you don't have; you must receive it from Him first." },
+        { id: "t2-1-10", type: "header", content: "Relying on God Through This" },
+        { id: "t2-1-11", type: "paragraph", content: "You don't have enough patience for this on your own – and that's the point. Tantrums will reveal your limits and drive you to God. Before responding, whisper, 'Lord, give me Your calm.' This practice turns chaos into prayer and exhaustion into dependence." },
         { id: "t2-1-12", type: "quote", content: "\"The goal isn't to stop the tantrum - it's to be WITH them through it.\"" }
       ]
     },
@@ -370,8 +370,8 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t3-1-7", type: "paragraph", content: "Power struggles dissolve when connection is strong. Spend 10 minutes of undivided attention daily - let THEM lead the play." },
         { id: "t3-1-8", type: "subheader", content: "Tool 5: Empowerment" },
         { id: "t3-1-9", type: "paragraph", content: "Give appropriate choices: 'Do you want to put on your shoes or your jacket first?' They get autonomy, you get cooperation." },
-        { id: "t3-1-10", type: "header", content: "Growing Closer to God" },
-        { id: "t3-1-11", type: "paragraph", content: "Your toddler's strong will can trigger your need for control. But God gave humans free will because He wants relationship, not robots. Learning to guide without controlling teaches you to trust God with outcomes you can't force." },
+        { id: "t3-1-10", type: "header", content: "Relying on God Through This" },
+        { id: "t3-1-11", type: "paragraph", content: "Power struggles trigger your own need for control. But you cannot control your child into godliness – only God can change hearts. Ask Him to help you lead without dominating, guide without forcing. Releasing control to God is terrifying, but it's where faith grows." },
         { id: "t3-1-12", type: "quote", content: "\"The more control you give in small things, the less they need to fight for it in big things.\"" }
       ]
     },
@@ -534,8 +534,8 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t4-1-7", type: "paragraph", content: "Your calm confidence tells them: 'This is safe.' If you're anxious about leaving, they'll sense it. Anchor yourself first." },
         { id: "t4-1-8", type: "subheader", content: "Tool 3: Connection" },
         { id: "t4-1-9", type: "paragraph", content: "Create a goodbye ritual: special handshake, kiss on the palm to 'hold,' or a phrase you always say. Predictability builds security." },
-        { id: "t4-1-10", type: "header", content: "Growing Closer to God" },
-        { id: "t4-1-11", type: "paragraph", content: "Separation anxiety reminds you that your child was designed for connection - with you and ultimately with God. As you faithfully return, you teach them about a God who never leaves or forsakes. Your presence teaches them about His." },
+        { id: "t4-1-10", type: "header", content: "Relying on God Through This" },
+        { id: "t4-1-11", type: "paragraph", content: "Separation anxiety tests your patience and triggers guilt. But God uses this to teach both of you about faithfulness. As you rely on Him to calm your own anxiety, you model trust. Ask God to give you confidence that He is with your child even when you're not." },
         { id: "t4-1-12", type: "quote", content: "\"Brave goodbyes come from secure connections, not from pushing them to be independent.\"" }
       ]
     },
@@ -698,8 +698,8 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t5-1-7", type: "paragraph", content: "Acknowledge their feelings: 'You wish you could stay up. It's hard to stop playing. I understand.' Validation doesn't mean changing the boundary." },
         { id: "t5-1-8", type: "subheader", content: "Tool 6: Correction" },
         { id: "t5-1-9", type: "paragraph", content: "Hold the boundary with warmth: 'It's bedtime. I'll check on you in a few minutes.' Consistent, calm limits create security." },
-        { id: "t5-1-10", type: "header", content: "Growing Closer to God" },
-        { id: "t5-1-11", type: "paragraph", content: "Bedtime battles test your patience like few things do. But this is where God refines you. As you learn to stay calm and consistent, you grow in self-control - a fruit of the Spirit. Your bedtime presence becomes a prayer of surrender." },
+        { id: "t5-1-10", type: "header", content: "Relying on God Through This" },
+        { id: "t5-1-11", type: "paragraph", content: "Exhausted evenings will break you. You have nothing left – and that's where God meets you. Bedtime battles become prayers of desperation: 'Lord, I'm too tired for this. Be my strength.' Let your exhaustion drive you to dependence rather than frustration." },
         { id: "t5-1-12", type: "quote", content: "\"Boundaries are not walls to keep them out - they're guardrails to keep them safe.\"" }
       ]
     },
@@ -862,8 +862,8 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t6-1-7", type: "paragraph", content: "Calmly stop the behavior: 'I won't let you hit. Hitting hurts.' Remove them from the situation if needed. Keep it simple and brief." },
         { id: "t6-1-8", type: "subheader", content: "Tool 3: Connection" },
         { id: "t6-1-9", type: "paragraph", content: "After the correction, reconnect: 'You were so frustrated. Let's find another way to show that.' Teach alternatives." },
-        { id: "t6-1-10", type: "header", content: "Growing Closer to God" },
-        { id: "t6-1-11", type: "paragraph", content: "Your child's aggression can trigger your own anger. This is where God meets you. When you choose gentleness over reaction, you're leaning on strength that isn't your own. Each calm correction is a moment of dependence on the Holy Spirit." },
+        { id: "t6-1-10", type: "header", content: "Relying on God Through This" },
+        { id: "t6-1-11", type: "paragraph", content: "When your child hits, your instinct is to react with anger. You need supernatural self-control. In that moment, cry out silently: 'Lord, help me respond with Your gentleness.' Each time you choose calm over reaction, you're depending on the Holy Spirit's power, not your own." },
         { id: "t6-1-12", type: "quote", content: "\"Correction without connection leads to rebellion. Connection without correction leads to chaos.\"" }
       ]
     },
@@ -1026,8 +1026,8 @@ export const toddlerWorkbookData: WorkbookData = {
         { id: "t7-1-7", type: "paragraph", content: "Build their skills: give warnings ('5 more minutes, then we go'), use visual timers, create transition songs. You're growing their ability to shift gears." },
         { id: "t7-1-8", type: "subheader", content: "Tool 5: Empowerment" },
         { id: "t7-1-9", type: "paragraph", content: "Give them some control in the transition: 'Do you want to walk or skip to the car?' 'Should we wave goodbye to the swings?'" },
-        { id: "t7-1-10", type: "header", content: "Growing Closer to God" },
-        { id: "t7-1-11", type: "paragraph", content: "Life is full of transitions, and learning to navigate change with your toddler prepares both of you to trust God through bigger changes. As you help them move through small transitions, you're building faith for the seasons of life that are beyond your control." },
+        { id: "t7-1-10", type: "header", content: "Relying on God Through This" },
+        { id: "t7-1-11", type: "paragraph", content: "Rushing and impatience reveal your trust issues. You're trying to control time you don't own. Ask God to help you slow down, to trust His timing, to accept that His pace is different from yours. Transitions become opportunities to practice surrender." },
         { id: "t7-1-12", type: "quote", content: "\"Prepare them for what's coming - surprises feel like ambushes to little brains.\"" }
       ]
     },
