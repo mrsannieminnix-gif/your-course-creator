@@ -13,6 +13,21 @@ import empowerControl from "@/assets/empower-control.png";
 import empowerTrust from "@/assets/empower-trust.png";
 import correctionPunish from "@/assets/correction-punish.png";
 import correctionTeach from "@/assets/correction-teach.png";
+// Toddler workbook images
+import toddlerBrainDemand from "@/assets/toddler-brain-demand.png";
+import toddlerBrainUnderstand from "@/assets/toddler-brain-understand.png";
+import toddlerTantrumReact from "@/assets/toddler-tantrum-react.png";
+import toddlerTantrumAnchor from "@/assets/toddler-tantrum-anchor.png";
+import toddlerDefianceForce from "@/assets/toddler-defiance-force.png";
+import toddlerDefianceChoice from "@/assets/toddler-defiance-choice.png";
+import toddlerSeparationSneak from "@/assets/toddler-separation-sneak.png";
+import toddlerSeparationRitual from "@/assets/toddler-separation-ritual.png";
+import toddlerSleepBattle from "@/assets/toddler-sleep-battle.png";
+import toddlerSleepCalm from "@/assets/toddler-sleep-calm.png";
+import toddlerHittingReact from "@/assets/toddler-hitting-react.png";
+import toddlerHittingTeach from "@/assets/toddler-hitting-teach.png";
+import toddlerTransitionDrag from "@/assets/toddler-transition-drag.png";
+import toddlerTransitionSmooth from "@/assets/toddler-transition-smooth.png";
 
 interface ComparisonImageProps {
   images?: {
@@ -39,6 +54,21 @@ const imageMap: Record<string, string> = {
   "empower-trust": empowerTrust,
   "correction-punish": correctionPunish,
   "correction-teach": correctionTeach,
+  // Toddler workbook images
+  "toddler-brain-demand": toddlerBrainDemand,
+  "toddler-brain-understand": toddlerBrainUnderstand,
+  "toddler-tantrum-react": toddlerTantrumReact,
+  "toddler-tantrum-anchor": toddlerTantrumAnchor,
+  "toddler-defiance-force": toddlerDefianceForce,
+  "toddler-defiance-choice": toddlerDefianceChoice,
+  "toddler-separation-sneak": toddlerSeparationSneak,
+  "toddler-separation-ritual": toddlerSeparationRitual,
+  "toddler-sleep-battle": toddlerSleepBattle,
+  "toddler-sleep-calm": toddlerSleepCalm,
+  "toddler-hitting-react": toddlerHittingReact,
+  "toddler-hitting-teach": toddlerHittingTeach,
+  "toddler-transition-drag": toddlerTransitionDrag,
+  "toddler-transition-smooth": toddlerTransitionSmooth,
 };
 
 export const ComparisonImage: React.FC<ComparisonImageProps> = ({ images }) => {

@@ -127,32 +127,33 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 1,
       sectionTitle: "The Developing Brain",
       pageType: "visuals",
-      title: "Visual Reminders",
-      subtitle: "Print & Post These",
+      title: "Their Brain Is Building",
+      subtitle: "They Need You To Understand",
       sections: [
-        { id: "t1-4-1", type: "header", content: "Fridge-Worthy Reminders" },
+        {
+          id: "t1-4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "toddler-brain-demand",
+            after: "toddler-brain-understand",
+            beforeLabel: "When I demand adult behavior, they feel broken.",
+            afterLabel: "When I understand their brain, they feel safe."
+          }
+        },
         {
           id: "t1-4-2",
           type: "goal-phrases",
           items: [
-            "🧠 Their prefrontal cortex won't be fully developed until age 25",
-            "💗 They need to BORROW my calm",
-            "⏰ Give them TIME to process",
-            "👀 They learn by watching ME",
-            "🌱 Every interaction shapes their brain"
+            "Their brain is still building",
+            "They BORROW my calm",
+            "Every interaction shapes their brain"
           ]
         },
-        { id: "t1-4-3", type: "header", content: "Quick Brain Facts" },
         {
-          id: "t1-4-4",
-          type: "list",
-          items: [
-            "2-4 year olds have BIG emotions but SMALL regulation skills",
-            "Tantrums are a sign of a healthy developing brain",
-            "They're not manipulating - they're communicating",
-            "Stress shrinks the learning brain; safety grows it",
-            "Your calm is contagious"
-          ]
+          id: "t1-4-3",
+          type: "quote",
+          content: "They're not giving you a hard time - they're having a hard time."
         }
       ]
     },
@@ -272,31 +273,33 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 2,
       sectionTitle: "Tantrums & Big Emotions",
       pageType: "visuals",
-      title: "Visual Reminders",
-      subtitle: "Print & Post These",
+      title: "Be Their Anchor",
+      subtitle: "Your Calm Is Their Life Raft",
       sections: [
-        { id: "t2-4-1", type: "header", content: "Tantrum Response Steps" },
+        {
+          id: "t2-4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "toddler-tantrum-react",
+            after: "toddler-tantrum-anchor",
+            beforeLabel: "When I react to their chaos, we both drown.",
+            afterLabel: "When I stay anchored, they find their way back."
+          }
+        },
         {
           id: "t2-4-2",
           type: "goal-phrases",
           items: [
-            "1️⃣ BREATHE - Anchor yourself first",
-            "2️⃣ GET LOW - Come to their level",
-            "3️⃣ VALIDATE - Name what they feel",
-            "4️⃣ WAIT - Stay present, don't rush",
-            "5️⃣ CONNECT - Offer comfort when ready"
+            "I am their anchor in the storm",
+            "Tantrums are not emergencies",
+            "My calm is their calm"
           ]
         },
-        { id: "t2-4-3", type: "header", content: "Remember" },
         {
-          id: "t2-4-4",
-          type: "list",
-          items: [
-            "Tantrums are NOT a reflection of your parenting",
-            "They will outgrow this phase",
-            "Your calm presence is teaching them regulation",
-            "Connection during chaos builds trust"
-          ]
+          id: "t2-4-3",
+          type: "quote",
+          content: "The goal isn't to stop the tantrum - it's to be WITH them through it."
         }
       ]
     },
@@ -416,31 +419,33 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 3,
       sectionTitle: "Defiance & Power Struggles",
       pageType: "visuals",
-      title: "Visual Reminders",
-      subtitle: "Print & Post These",
+      title: "Choices Over Control",
+      subtitle: "Empower Their Growing Will",
       sections: [
-        { id: "t3-4-1", type: "header", content: "Choice-Giving Cheat Sheet" },
+        {
+          id: "t3-4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "toddler-defiance-force",
+            after: "toddler-defiance-choice",
+            beforeLabel: "When I force, they resist harder.",
+            afterLabel: "When I offer choices, they cooperate."
+          }
+        },
         {
           id: "t3-4-2",
           type: "goal-phrases",
           items: [
-            "🥣 \"Cereal or toast?\"",
-            "👕 \"Red shirt or blue shirt?\"",
-            "🚗 \"Walk to the car or hop like a bunny?\"",
-            "📚 \"This book or that book?\"",
-            "🛁 \"Bath now or in 5 minutes?\""
+            "Their NO means they're developing",
+            "Choices empower, demands create battles",
+            "Pick your battles wisely"
           ]
         },
-        { id: "t3-4-3", type: "header", content: "Power Struggle Prevention" },
         {
-          id: "t3-4-4",
-          type: "list",
-          items: [
-            "Give choices BEFORE they dig in",
-            "Make it playful when possible",
-            "Pick your battles wisely",
-            "Their 'no' means they're developing well"
-          ]
+          id: "t3-4-3",
+          type: "quote",
+          content: "A strong will is a gift - help them learn to use it well."
         }
       ]
     },
@@ -560,31 +565,33 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 4,
       sectionTitle: "Separation Anxiety",
       pageType: "visuals",
-      title: "Visual Reminders",
-      subtitle: "Print & Post These",
+      title: "Goodbye With Love",
+      subtitle: "Short, Sweet & Confident",
       sections: [
-        { id: "t4-4-1", type: "header", content: "Goodbye Ritual Ideas" },
+        {
+          id: "t4-4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "toddler-separation-sneak",
+            after: "toddler-separation-ritual",
+            beforeLabel: "When I sneak away, they lose trust.",
+            afterLabel: "When I say goodbye with ritual, they feel secure."
+          }
+        },
         {
           id: "t4-4-2",
           type: "goal-phrases",
           items: [
-            "💋 \"Kiss in your pocket\" - kiss their palm to hold",
-            "🤝 Special secret handshake",
-            "🎵 Sing a short goodbye song",
-            "🫂 Three squeezes = I love you",
-            "👋 Wave from the window routine"
+            "I always come back",
+            "Short goodbyes build confidence",
+            "Their attachment is healthy"
           ]
         },
-        { id: "t4-4-3", type: "header", content: "Drop-Off Success Tips" },
         {
-          id: "t4-4-4",
-          type: "list",
-          items: [
-            "Keep goodbyes SHORT and confident",
-            "Don't come back after you leave",
-            "Trust the caregivers - tears often stop quickly",
-            "Celebrate successful separations after"
-          ]
+          id: "t4-4-3",
+          type: "quote",
+          content: "Every return builds their trust that love doesn't disappear."
         }
       ]
     },
@@ -704,33 +711,33 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 5,
       sectionTitle: "Sleep Challenges",
       pageType: "visuals",
-      title: "Visual Reminders",
-      subtitle: "Print & Post These",
+      title: "Calm Bedtimes",
+      subtitle: "Boundaries With Warmth",
       sections: [
-        { id: "t5-4-1", type: "header", content: "Bedtime Routine Checklist" },
+        {
+          id: "t5-4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "toddler-sleep-battle",
+            after: "toddler-sleep-calm",
+            beforeLabel: "When I battle, nobody sleeps.",
+            afterLabel: "When I stay calm and consistent, peace comes."
+          }
+        },
         {
           id: "t5-4-2",
           type: "goal-phrases",
           items: [
-            "🛁 Bath time",
-            "🦷 Brush teeth",
-            "📚 2 books (you choose 1, they choose 1)",
-            "💭 Talk about the day",
-            "🙏 Prayers/gratitude",
-            "💋 Goodnight kiss",
-            "💡 Lights out"
+            "Consistency is kindness",
+            "Boring = less fun to resist",
+            "I hold the boundary WITH love"
           ]
         },
-        { id: "t5-4-3", type: "header", content: "Boundary-Holding Reminders" },
         {
-          id: "t5-4-4",
-          type: "list",
-          items: [
-            "Consistency is kindness",
-            "Validate feelings, hold the line",
-            "Short and boring = less fun to resist",
-            "They need YOU to hold the boundary for them"
-          ]
+          id: "t5-4-3",
+          type: "quote",
+          content: "They need YOU to hold the boundary for them - they can't do it alone yet."
         }
       ]
     },
@@ -850,32 +857,33 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 6,
       sectionTitle: "Aggression & Hitting",
       pageType: "visuals",
-      title: "Visual Reminders",
-      subtitle: "Print & Post These",
+      title: "Teach, Don't React",
+      subtitle: "Calm Corrections Work",
       sections: [
-        { id: "t6-4-1", type: "header", content: "When They Hit: 4 Steps" },
+        {
+          id: "t6-4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "toddler-hitting-react",
+            after: "toddler-hitting-teach",
+            beforeLabel: "When I react with anger, they learn anger.",
+            afterLabel: "When I stay gentle, they learn gentleness."
+          }
+        },
         {
           id: "t6-4-2",
           type: "goal-phrases",
           items: [
-            "1️⃣ STOP - Gently block or remove",
-            "2️⃣ SIMPLE - \"I won't let you hit.\"",
-            "3️⃣ VALIDATE - \"You're so frustrated.\"",
-            "4️⃣ REDIRECT - \"You can stomp your feet instead.\""
+            "I won't let you hit - hitting hurts",
+            "You can be mad, you can't hurt",
+            "My calm teaches their calm"
           ]
         },
-        { id: "t6-4-3", type: "header", content: "Safe Anger Outlets to Teach" },
         {
-          id: "t6-4-4",
-          type: "list",
-          items: [
-            "Stomp feet hard",
-            "Squeeze a pillow or stuffed animal",
-            "Roar like a lion",
-            "Tear paper",
-            "Push against a wall",
-            "Run laps around the room"
-          ]
+          id: "t6-4-3",
+          type: "quote",
+          content: "A gentle answer turns away wrath. My response IS the lesson."
         }
       ]
     },
@@ -995,32 +1003,33 @@ export const toddlerWorkbookData: WorkbookData = {
       section: 7,
       sectionTitle: "Transitions & Change",
       pageType: "visuals",
-      title: "Visual Reminders",
-      subtitle: "Print & Post These",
+      title: "Smooth Transitions",
+      subtitle: "Prepare, Don't Surprise",
       sections: [
-        { id: "t7-4-1", type: "header", content: "Transition Success Formula" },
+        {
+          id: "t7-4-1",
+          type: "comparison-image",
+          content: "",
+          images: {
+            before: "toddler-transition-drag",
+            after: "toddler-transition-smooth",
+            beforeLabel: "When I rush transitions, meltdowns follow.",
+            afterLabel: "When I prepare them, they cooperate."
+          }
+        },
         {
           id: "t7-4-2",
           type: "goal-phrases",
           items: [
-            "⏰ WARN - \"5 minutes left\"",
-            "⏰ REMIND - \"2 minutes left\"",
-            "👋 RITUAL - \"Let's say bye to...\"",
-            "🎯 CHOICE - \"Walk or hop?\"",
-            "🎉 CELEBRATE - \"You did it!\""
+            "Warnings prevent meltdowns",
+            "Goodbye rituals help letting go",
+            "Transitions are hard - give grace"
           ]
         },
-        { id: "t7-4-3", type: "header", content: "Transition Helpers" },
         {
-          id: "t7-4-4",
-          type: "list",
-          items: [
-            "Visual timers (they can SEE time passing)",
-            "Transition songs (same song = same expectation)",
-            "Goodbye rituals (wave to the park!)",
-            "Something to look forward to next",
-            "Give them a job during the transition"
-          ]
+          id: "t7-4-3",
+          type: "quote",
+          content: "For everything there is a season. Help them learn to flow with change."
         }
       ]
     }
