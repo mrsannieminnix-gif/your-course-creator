@@ -187,25 +187,20 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       title: "When Friends Matter More",
       subtitle: "Using Connection & Validation",
       sections: [
-        { id: "m2-1-1", type: "header", content: "The Challenge" },
+        { id: "m2-1-1", type: "subheader", content: "Course Outline" },
         { id: "m2-1-2", type: "paragraph", content: "At this age, peer influence increases dramatically. This is developmentally normal - they're practicing independence. But it can feel like rejection when they'd rather be with friends than family. Your continued connection matters more than ever, even if it looks different." },
-        { id: "m2-1-3", type: "subheader", content: "Why Peers Become Central:" },
+        { id: "m2-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "m2-1-4",
           type: "list",
           items: [
-            "Identity formation: 'Who am I outside my family?'",
-            "Social belonging is a primary developmental need",
-            "Brain changes increase sensitivity to social acceptance/rejection",
-            "Peers provide practice for adult relationships",
-            "This is healthy independence, not rejection of you"
+            "Why peers become central to their identity",
+            "Understanding the brain changes around social belonging",
+            "Finding new ways to stay connected as a parent",
+            "Using validation without judgment",
+            "Being their stable base they return to"
           ]
         },
-        { id: "m2-1-5", type: "header", content: "Applying the Tools" },
-        { id: "m2-1-6", type: "subheader", content: "Tool 3: Connection" },
-        { id: "m2-1-7", type: "paragraph", content: "Find new ways to connect: shared activities, car conversations, entering THEIR world. Don't compete with peers - be the stable base they return to." },
-        { id: "m2-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "m2-1-9", type: "paragraph", content: "Validate their social world without judgment: 'It sounds like what your friends think really matters to you.' Understanding opens doors; criticism closes them." },
         { id: "m2-1-10", type: "header", content: "Relying on God Through This" },
         { id: "m2-1-11", type: "paragraph", content: "Watching your child prioritize friends can feel like being replaced. Bring this pain to God. Ask Him to help you release control while staying connected. Pray for their friendships, that God would surround them with positive influences." },
         { id: "m2-1-12", type: "quote", content: "\"You can't compete with their friends - be the home they want to come back to.\"" }
@@ -351,25 +346,20 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       title: "Grades, Homework & Performance",
       subtitle: "Using Grow & Validation",
       sections: [
-        { id: "m3-1-1", type: "header", content: "The Challenge" },
+        { id: "m3-1-1", type: "subheader", content: "Course Outline" },
         { id: "m3-1-2", type: "paragraph", content: "Academic demands increase significantly at this age. Homework battles, test anxiety, and grade pressure can dominate family life. The challenge is supporting their academics without making achievement the measure of their worth." },
-        { id: "m3-1-3", type: "subheader", content: "Why Academics Become Stressful:" },
+        { id: "m3-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "m3-1-4",
           type: "list",
           items: [
-            "Content becomes more abstract and challenging",
-            "Social comparison intensifies - they know who's 'smart'",
-            "Future implications become real - 'This matters for middle school'",
-            "Executive function is still developing - organization is hard",
-            "Some children discover learning differences at this stage"
+            "Why academic pressure intensifies at this age",
+            "Teaching study skills and organization",
+            "Separating their worth from their grades",
+            "Praising effort over outcome",
+            "Finding identity in Christ, not achievement"
           ]
         },
-        { id: "m3-1-5", type: "header", content: "Applying the Tools" },
-        { id: "m3-1-6", type: "subheader", content: "Tool 4: Grow" },
-        { id: "m3-1-7", type: "paragraph", content: "Teach study skills, organization, and problem-solving. Don't do the work for them - grow their capacity to handle challenges independently." },
-        { id: "m3-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "m3-1-9", type: "paragraph", content: "Acknowledge the pressure: 'School can feel really stressful. That's a lot to manage.' Separate their worth from their grades: 'I'm proud of your effort, regardless of the grade.'" },
         { id: "m3-1-10", type: "header", content: "Relying on God Through This" },
         { id: "m3-1-11", type: "paragraph", content: "Academic pressure may trigger your own anxieties about their future. But their worth isn't found in achievement - it's found in Christ. Ask God to help you value character over performance, effort over outcome." },
         { id: "m3-1-12", type: "quote", content: "\"Grades measure a moment in learning, not their worth or potential.\"" }
@@ -515,25 +505,20 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       title: "Managing the Digital World",
       subtitle: "Using Correction & Empowerment",
       sections: [
-        { id: "m4-1-1", type: "header", content: "The Challenge" },
+        { id: "m4-1-1", type: "subheader", content: "Course Outline" },
         { id: "m4-1-2", type: "paragraph", content: "Technology is woven into your child's world. Games, social media, YouTube, texting - it's how they connect, learn, and relax. The challenge is setting healthy boundaries without becoming the screen police in constant conflict." },
-        { id: "m4-1-3", type: "subheader", content: "Why Tech Is Complicated:" },
+        { id: "m4-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "m4-1-4",
           type: "list",
           items: [
-            "Dopamine hits make screens highly addictive",
-            "Social connection happens online - they're not just 'wasting time'",
-            "Brain is susceptible to addiction and attention fragmentation",
-            "You can't fully control what they see",
-            "They need to learn to self-regulate eventually"
+            "Why screens are so compelling to developing brains",
+            "Setting clear, consistent boundaries with warmth",
+            "Involving them in creating screen agreements",
+            "Building self-regulation over time",
+            "Guarding their heart in the digital age"
           ]
         },
-        { id: "m4-1-5", type: "header", content: "Applying the Tools" },
-        { id: "m4-1-6", type: "subheader", content: "Tool 6: Correction" },
-        { id: "m4-1-7", type: "paragraph", content: "Set clear, consistent boundaries: screen-free zones, time limits, content guardrails. Explain the WHY behind the limits. Hold boundaries with warmth, not constant conflict." },
-        { id: "m4-1-8", type: "subheader", content: "Tool 5: Empowerment" },
-        { id: "m4-1-9", type: "paragraph", content: "Involve them in creating screen agreements. Give increasing autonomy as they show responsibility. The goal is self-regulation, not permanent control." },
         { id: "m4-1-10", type: "header", content: "Relying on God Through This" },
         { id: "m4-1-11", type: "paragraph", content: "You cannot fully protect them from the digital world. This is terrifying. Bring your fears to God. Pray for wisdom, for open communication, and for their discernment. Trust that God can protect their heart even when you can't control their screen." },
         { id: "m4-1-12", type: "quote", content: "\"The goal isn't control forever - it's building their capacity to control themselves.\"" }
@@ -679,25 +664,20 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       title: "Navigating Body Changes",
       subtitle: "Using Validation & Connection",
       sections: [
-        { id: "m5-1-1", type: "header", content: "The Challenge" },
+        { id: "m5-1-1", type: "subheader", content: "Course Outline" },
         { id: "m5-1-2", type: "paragraph", content: "Puberty can begin as early as 8 for some children. Body changes, combined with cultural messages about appearance, create vulnerability around body image. Your child needs your calm, informed guidance through this transition." },
-        { id: "m5-1-3", type: "subheader", content: "Why This Is Challenging:" },
+        { id: "m5-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "m5-1-4",
           type: "list",
           items: [
-            "Body changes feel out of control and sometimes embarrassing",
-            "Cultural messages about bodies are often harmful",
-            "Comparison to peers is intense - 'Am I normal?'",
-            "Hormones create emotional volatility",
-            "Topics feel awkward to discuss"
+            "Why body changes feel overwhelming",
+            "Normalizing puberty and development",
+            "Keeping communication open and casual",
+            "Countering cultural messages about appearance",
+            "Helping them see their body as God's creation"
           ]
         },
-        { id: "m5-1-5", type: "header", content: "Applying the Tools" },
-        { id: "m5-1-6", type: "subheader", content: "Tool 2: Validation" },
-        { id: "m5-1-7", type: "paragraph", content: "Normalize their experience: 'Bodies change, and that can feel weird. That's totally normal.' Answer questions honestly and without embarrassment." },
-        { id: "m5-1-8", type: "subheader", content: "Tool 3: Connection" },
-        { id: "m5-1-9", type: "paragraph", content: "Keep communication open. Brief, casual conversations are better than one big awkward talk. Let them know they can ask you anything." },
         { id: "m5-1-10", type: "header", content: "Relying on God Through This" },
         { id: "m5-1-11", type: "paragraph", content: "These conversations may feel uncomfortable. Ask God for wisdom and courage. Help your child see their body as God's creation - fearfully and wonderfully made, not as an object to be evaluated or compared." },
         { id: "m5-1-12", type: "quote", content: "\"Their body is God's creation. Help them see it with wonder, not shame.\"" }
@@ -843,25 +823,20 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       title: "Moods, Attitude & Big Feelings",
       subtitle: "Using Anchoring & Validation",
       sections: [
-        { id: "m6-1-1", type: "header", content: "The Challenge" },
+        { id: "m6-1-1", type: "subheader", content: "Course Outline" },
         { id: "m6-1-2", type: "paragraph", content: "Pre-teens often seem moodier and more volatile than they were as younger children. Eye rolls, attitude, and sudden emotional swings are common. This is partly developmental (hormones) and partly about their growing need for independence." },
-        { id: "m6-1-3", type: "subheader", content: "Why Emotions Are Intense:" },
+        { id: "m6-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "m6-1-4",
           type: "list",
           items: [
-            "Hormonal changes affect mood and emotional intensity",
-            "The brain is reorganizing - 'under construction'",
-            "Social pressures add emotional load",
-            "They feel things deeply but lack fully developed coping skills",
-            "Attitude is often a mask for vulnerability"
+            "Why emotions intensify during pre-adolescence",
+            "Staying anchored during their emotional storms",
+            "Looking beneath the attitude for the feeling",
+            "Validating emotions while addressing behavior",
+            "Being their calm in the chaos"
           ]
         },
-        { id: "m6-1-5", type: "header", content: "Applying the Tools" },
-        { id: "m6-1-6", type: "subheader", content: "Tool 1: Anchoring" },
-        { id: "m6-1-7", type: "paragraph", content: "Their emotional storms need your calm. Don't match their intensity. Stay grounded so they have something steady to hold onto." },
-        { id: "m6-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "m6-1-9", type: "paragraph", content: "Look beneath the attitude: 'I can see you're really frustrated. What's going on?' Acknowledge feelings even when you don't like the behavior." },
         { id: "m6-1-10", type: "header", content: "Relying on God Through This" },
         { id: "m6-1-11", type: "paragraph", content: "Their attitude can trigger YOUR attitude. In those moments, pause and pray. Ask God for patience, for wisdom to see beneath the surface, and for grace to respond rather than react." },
         { id: "m6-1-12", type: "quote", content: "\"The attitude is the surface. The feeling is underneath. Go for the feeling.\"" }
@@ -1007,25 +982,20 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       title: "Honesty, Integrity & Moral Growth",
       subtitle: "Using Correction & Connection",
       sections: [
-        { id: "m7-1-1", type: "header", content: "The Challenge" },
+        { id: "m7-1-1", type: "subheader", content: "Course Outline" },
         { id: "m7-1-2", type: "paragraph", content: "At this age, moral reasoning is developing rapidly. Your child is forming beliefs about right and wrong, fairness and justice. This is the time to shape character - through conversation, example, and consistent correction." },
-        { id: "m7-1-3", type: "subheader", content: "Why Character Formation Matters Now:" },
+        { id: "m7-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "m7-1-4",
           type: "list",
           items: [
-            "Abstract moral reasoning is developing",
-            "Peer influence can push toward shortcuts and cheating",
-            "They're forming patterns that will persist into adulthood",
-            "They're watching how YOU handle ethical situations",
-            "They can now understand the 'why' behind moral choices"
+            "Why character formation matters at this age",
+            "Creating space for moral conversations",
+            "Correcting with focus on the 'why'",
+            "Modeling integrity in your own life",
+            "Using failure as opportunities for growth"
           ]
         },
-        { id: "m7-1-5", type: "header", content: "Applying the Tools" },
-        { id: "m7-1-6", type: "subheader", content: "Tool 6: Correction" },
-        { id: "m7-1-7", type: "paragraph", content: "When they make poor choices, address it calmly but clearly. Focus on the why: 'Here's why honesty matters...' rather than just punishment." },
-        { id: "m7-1-8", type: "subheader", content: "Tool 3: Connection" },
-        { id: "m7-1-9", type: "paragraph", content: "Create space for moral conversations. Discuss dilemmas, news stories, situations. Let them think through ethical questions with you." },
         { id: "m7-1-10", type: "header", content: "Relying on God Through This" },
         { id: "m7-1-11", type: "paragraph", content: "Character is formed slowly, often through failure. When your child makes poor moral choices, don't despair. Use it as an opportunity for growth. Pray for their heart, and trust that God is working in them." },
         { id: "m7-1-12", type: "quote", content: "\"Character is not taught in a lecture - it's caught through relationship and modeled in daily choices.\"" }
