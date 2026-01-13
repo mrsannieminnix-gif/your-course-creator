@@ -160,7 +160,7 @@
 @media print {
   @page {
     size: letter;
-    margin: 0.4in;
+    margin: 0.3in;
   }
 
   .no-print {
@@ -173,7 +173,7 @@
     print-color-adjust: exact !important;
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 11px !important;
+    font-size: 10px !important;
   }
 
   /* Hide the main app during print */
@@ -211,7 +211,7 @@
     break-inside: avoid;
     page-break-inside: avoid;
     margin: 0 !important;
-    padding: 15px 20px !important;
+    padding: 10px 16px !important;
     max-width: 100% !important;
     min-height: auto !important;
     border-radius: 0 !important;
@@ -226,90 +226,122 @@
 
   /* Compact spacing for print */
   .page-paper h1 {
-    font-size: 22px !important;
-    margin-bottom: 4px !important;
+    font-size: 18px !important;
+    margin-bottom: 2px !important;
   }
 
   .page-paper h2 {
-    font-size: 16px !important;
-    margin-top: 2px !important;
+    font-size: 14px !important;
+    margin-top: 1px !important;
   }
 
   .page-paper h3 {
-    font-size: 14px !important;
-    margin-top: 8px !important;
-    margin-bottom: 4px !important;
+    font-size: 12px !important;
+    margin-top: 5px !important;
+    margin-bottom: 2px !important;
   }
 
   .page-paper h4 {
-    font-size: 12px !important;
-    margin-bottom: 4px !important;
+    font-size: 11px !important;
+    margin-bottom: 2px !important;
   }
 
   .page-paper p {
-    font-size: 10px !important;
-    line-height: 1.4 !important;
-    margin-bottom: 4px !important;
-  }
-
-  .page-paper ul, .page-paper ol {
-    margin-bottom: 6px !important;
-    padding-left: 16px !important;
-  }
-
-  .page-paper li {
-    font-size: 10px !important;
+    font-size: 9px !important;
     line-height: 1.3 !important;
     margin-bottom: 2px !important;
   }
 
-  /* Goal phrases box - more compact */
+  .page-paper ul, .page-paper ol {
+    margin-bottom: 3px !important;
+    padding-left: 14px !important;
+  }
+
+  .page-paper li {
+    font-size: 9px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 1px !important;
+  }
+
+  /* Goal phrases box - very compact for Fridge Focus Sheet */
   .page-paper .bg-primary\/10 {
-    padding: 8px 12px !important;
-    margin: 6px 0 !important;
+    padding: 4px 8px !important;
+    margin: 4px 0 !important;
   }
 
   .page-paper .bg-primary\/10 .font-handwritten {
-    font-size: 14px !important;
-    padding: 1px 0 !important;
+    font-size: 11px !important;
+    padding: 0 !important;
+    line-height: 1.2 !important;
   }
 
   /* Scripture boxes - more compact */
   .page-paper .bg-sage-muted\/30,
   .page-paper .border-l-4 {
-    padding: 6px 10px !important;
-    margin: 6px 0 !important;
+    padding: 4px 8px !important;
+    margin: 3px 0 !important;
+  }
+
+  .page-paper .bg-sage-muted\/30 .italic,
+  .page-paper .border-l-4.border-primary\/50 .italic {
+    font-size: 9px !important;
+    line-height: 1.25 !important;
   }
 
   .page-paper blockquote {
-    padding: 6px 12px !important;
-    margin: 6px 0 !important;
+    padding: 4px 8px !important;
+    margin: 3px 0 !important;
   }
 
   .page-paper blockquote .font-handwritten {
-    font-size: 13px !important;
+    font-size: 11px !important;
+    line-height: 1.2 !important;
   }
 
-  /* Week tracker compact */
+  /* Week tracker very compact */
   .page-paper .border-t {
-    padding-top: 6px !important;
-    margin-top: 8px !important;
+    padding-top: 4px !important;
+    margin-top: 4px !important;
+  }
+
+  /* Week tracker grid */
+  .page-paper .grid.grid-cols-7 {
+    gap: 2px !important;
+  }
+
+  .page-paper .grid.grid-cols-7 > div {
+    padding: 2px !important;
+  }
+
+  .page-paper .grid.grid-cols-7 .text-xs {
+    font-size: 7px !important;
+  }
+
+  .page-paper .grid.grid-cols-7 .w-5.h-5,
+  .page-paper .grid.grid-cols-7 .w-6.h-6 {
+    width: 14px !important;
+    height: 14px !important;
   }
 
   /* Section label compact */
   .page-paper .tracking-\[0\.3em\] {
-    font-size: 8px !important;
-    margin-bottom: 4px !important;
+    font-size: 7px !important;
+    margin-bottom: 2px !important;
   }
 
   /* Header divider line */
   .page-paper .w-24.h-0\.5 {
-    margin-top: 6px !important;
+    margin-top: 4px !important;
   }
 
-  /* Space between sections */
+  /* Space between sections - very tight */
   .page-paper .space-y-2 > div {
-    margin-bottom: 2px !important;
+    margin-bottom: 1px !important;
+  }
+
+  /* Subheaders compact */
+  .page-paper .italic.text-lg {
+    font-size: 10px !important;
   }
 
   /* Adjust colors for print */
@@ -333,6 +365,25 @@
   /* Hide logo in print to save space */
   .page-paper > .absolute.bottom-4 {
     display: none !important;
+  }
+
+  /* Center content better */
+  .page-paper .text-center.mb-8 {
+    margin-bottom: 6px !important;
+  }
+
+  .page-paper .text-center.mb-2 {
+    margin-bottom: 1px !important;
+  }
+
+  /* Comparison images compact */
+  .page-paper .grid.grid-cols-2 {
+    gap: 8px !important;
+  }
+
+  .page-paper .grid.grid-cols-2 img {
+    max-height: 120px !important;
+    object-fit: contain !important;
   }
 }
 
