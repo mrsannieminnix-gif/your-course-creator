@@ -187,25 +187,20 @@ export const teenWorkbookData: WorkbookData = {
       title: "When They Won't Talk to You",
       subtitle: "Using Connection & Validation",
       sections: [
-        { id: "t2-1-1", type: "header", content: "The Challenge" },
+        { id: "t2-1-1", type: "subheader", content: "Course Outline" },
         { id: "t2-1-2", type: "paragraph", content: "Many parents feel like they've lost their teen. The child who told them everything now shares nothing. One-word answers, closed doors, and avoidance feel like rejection. But silence doesn't always mean disconnection." },
-        { id: "t2-1-3", type: "subheader", content: "Why Teens Pull Back:" },
+        { id: "t2-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "t2-1-4",
           type: "list",
           items: [
-            "Identity formation requires some privacy and separation",
-            "They need to figure things out on their own first",
-            "Fear of judgment or lecture stops them from sharing",
-            "They're not rejecting YOU - they're becoming THEM",
-            "Friends provide a different kind of support than parents"
+            "Why teens pull back from parents",
+            "Being available without being intrusive",
+            "Creating space for spontaneous conversation",
+            "Listening without lecturing when they share",
+            "Keeping the door open for connection"
           ]
         },
-        { id: "t2-1-5", type: "header", content: "Applying the Tools" },
-        { id: "t2-1-6", type: "subheader", content: "Tool 3: Connection" },
-        { id: "t2-1-7", type: "paragraph", content: "Be available without being intrusive. Car rides, late-night snacks, doing activities together - these create space for spontaneous conversation. Don't force it." },
-        { id: "t2-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "t2-1-9", type: "paragraph", content: "When they DO share, listen without immediately correcting or advising. The fastest way to shut down communication is to lecture every time they open up." },
         { id: "t2-1-10", type: "header", content: "Relying on God Through This" },
         { id: "t2-1-11", type: "paragraph", content: "The silence can feel like failure. It's not. Bring your loneliness and grief to God. Ask Him to keep the door open, to give you patience, and to speak to your teen's heart when you can't." },
         { id: "t2-1-12", type: "quote", content: "\"Keep the door open. Even when they're not walking through it, they need to know it's there.\"" }
@@ -351,25 +346,20 @@ export const teenWorkbookData: WorkbookData = {
       title: "Parties, Substances & Bad Decisions",
       subtitle: "Using Correction & Connection",
       sections: [
-        { id: "t3-1-1", type: "header", content: "The Challenge" },
+        { id: "t3-1-1", type: "subheader", content: "Course Outline" },
         { id: "t3-1-2", type: "paragraph", content: "Teens are wired for risk. The reward center of their brain is fully active while the risk-assessment center is still developing. Add peer influence and you have a recipe for dangerous decisions. Your response matters more than you know." },
-        { id: "t3-1-3", type: "subheader", content: "Why Teens Take Risks:" },
+        { id: "t3-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "t3-1-4",
           type: "list",
           items: [
-            "Brain development: reward center overpowers logic center",
-            "Peer pressure is biologically amplified in adolescence",
-            "Novelty-seeking is a healthy developmental drive (but dangerous)",
-            "They think they're invincible (literally - limited consequence awareness)",
-            "Risk-taking is how they test limits and find themselves"
+            "Why the teen brain is wired for risk",
+            "Setting clear boundaries with clear consequences",
+            "Keeping the relationship intact during correction",
+            "Making your home the safest place to fail",
+            "Releasing them to God when you can't control"
           ]
         },
-        { id: "t3-1-5", type: "header", content: "Applying the Tools" },
-        { id: "t3-1-6", type: "subheader", content: "Tool 6: Correction" },
-        { id: "t3-1-7", type: "paragraph", content: "Clear boundaries with clear consequences. Don't threaten what you won't enforce. Stay calm when correcting - anger closes ears." },
-        { id: "t3-1-8", type: "subheader", content: "Tool 3: Connection" },
-        { id: "t3-1-9", type: "paragraph", content: "Keep the relationship intact. If they only fear your anger, they'll hide their struggles. If they trust your love, they might call you from the party." },
         { id: "t3-1-10", type: "header", content: "Relying on God Through This" },
         { id: "t3-1-11", type: "paragraph", content: "Their risky behavior will terrify you - and you cannot control it. Release them to God daily. Pray protection over them, but also trust that God can use even their failures for their growth. Your panic helps no one." },
         { id: "t3-1-12", type: "quote", content: "\"They need to know: 'I'd rather you call me at 2am than make a worse decision.'\"" }
@@ -515,25 +505,20 @@ export const teenWorkbookData: WorkbookData = {
       title: "Dating, Attraction & Heartbreak",
       subtitle: "Using Validation & Connection",
       sections: [
-        { id: "t4-1-1", type: "header", content: "The Challenge" },
+        { id: "t4-1-1", type: "subheader", content: "Course Outline" },
         { id: "t4-1-2", type: "paragraph", content: "Romantic relationships are a normal part of teen development. Whether your teen is dating, interested, or heartbroken - they need your guidance, not your panic. This is where they learn how to love and be loved." },
-        { id: "t4-1-3", type: "subheader", content: "Why Romantic Interest Matters:" },
+        { id: "t4-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "t4-1-4",
           type: "list",
           items: [
-            "Hormones and brain development drive attraction",
-            "Romantic relationships are practice for adult partnership",
-            "They're learning about boundaries, respect, and reciprocity",
-            "Heartbreak teaches resilience and emotional processing",
-            "How you respond shapes their view of relationships"
+            "Why romantic interest is developmentally normal",
+            "Taking their feelings seriously",
+            "Staying curious without being controlling",
+            "Helping them navigate heartbreak",
+            "Teaching what healthy relationships look like"
           ]
         },
-        { id: "t4-1-5", type: "header", content: "Applying the Tools" },
-        { id: "t4-1-6", type: "subheader", content: "Tool 2: Validation" },
-        { id: "t4-1-7", type: "paragraph", content: "Take their feelings seriously. Puppy love feels real to them. Don't dismiss crushes or minimize heartbreak. 'That sounds really hard' goes further than 'You'll get over it.'" },
-        { id: "t4-1-8", type: "subheader", content: "Tool 3: Connection" },
-        { id: "t4-1-9", type: "paragraph", content: "Stay curious, not controlling. Ask about the person they like. Create space for them to share without fear of judgment or immediate restrictions." },
         { id: "t4-1-10", type: "header", content: "Relying on God Through This" },
         { id: "t4-1-11", type: "paragraph", content: "You cannot control who they love. Bring your fears to God. Pray for their heart, for wisdom in relationships, and for protection from harm. Trust that God is writing their love story, even when the chapters are painful." },
         { id: "t4-1-12", type: "quote", content: "\"Your reaction to their first love shapes how they'll share about every love after.\"" }
@@ -679,25 +664,20 @@ export const teenWorkbookData: WorkbookData = {
       title: "Anxiety, Depression & When to Worry",
       subtitle: "Using Anchoring & Validation",
       sections: [
-        { id: "t5-1-1", type: "header", content: "The Challenge" },
+        { id: "t5-1-1", type: "subheader", content: "Course Outline" },
         { id: "t5-1-2", type: "paragraph", content: "Mental health struggles are increasingly common among teens. Anxiety, depression, self-harm, and suicidal thoughts are real and serious. Your calm, informed response can be lifesaving. Don't be afraid to ask the hard questions." },
-        { id: "t5-1-3", type: "subheader", content: "Warning Signs to Watch For:" },
+        { id: "t5-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "t5-1-4",
           type: "list",
           items: [
-            "Persistent sadness or hopelessness (not just occasional moods)",
-            "Withdrawal from friends and activities they used to enjoy",
-            "Changes in sleep, appetite, or energy that persist",
-            "Talk of worthlessness, self-harm, or not wanting to be alive",
-            "Giving away possessions or saying goodbye"
+            "Recognizing warning signs of mental health struggles",
+            "Staying calm to create safety for sharing",
+            "Taking their pain seriously without panic",
+            "Knowing when to seek professional help",
+            "Walking with God through the darkness"
           ]
         },
-        { id: "t5-1-5", type: "header", content: "Applying the Tools" },
-        { id: "t5-1-6", type: "subheader", content: "Tool 1: Anchoring" },
-        { id: "t5-1-7", type: "paragraph", content: "If you suspect something is wrong, stay calm. Your panic will silence them. Your steady presence creates safety to share." },
-        { id: "t5-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "t5-1-9", type: "paragraph", content: "Take their pain seriously. 'That sounds really hard. I'm glad you told me.' Seek professional help when needed - this is not weakness, it's wisdom." },
         { id: "t5-1-10", type: "header", content: "Relying on God Through This" },
         { id: "t5-1-11", type: "paragraph", content: "A struggling teen is every parent's worst fear. You cannot heal them on your own - and you're not supposed to. God walks with you AND with them through the darkness. Seek help. Pray constantly. You are not alone." },
         { id: "t5-1-12", type: "quote", content: "\"Asking about suicide doesn't create suicidal thoughts - it opens a door for them to ask for help.\"" }
@@ -843,25 +823,20 @@ export const teenWorkbookData: WorkbookData = {
       title: "When They Question Faith",
       subtitle: "Using Connection & Validation",
       sections: [
-        { id: "t6-1-1", type: "header", content: "The Challenge" },
+        { id: "t6-1-1", type: "subheader", content: "Course Outline" },
         { id: "t6-1-2", type: "paragraph", content: "Teens are developing their own worldview. They may question the faith they grew up with, reject church, or explore different beliefs. This is terrifying for parents - but questioning is actually part of faith becoming their own." },
-        { id: "t6-1-3", type: "subheader", content: "Why Faith Questioning Happens:" },
+        { id: "t6-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "t6-1-4",
           type: "list",
           items: [
-            "Abstract thinking allows them to question inherited beliefs",
-            "Identity formation requires deciding what THEY believe",
-            "Exposure to other worldviews challenges assumptions",
-            "Faith must become their own, not just their parents'",
-            "Honest questioning can lead to deeper, owned faith"
+            "Why faith questioning is developmentally normal",
+            "Keeping relationship stronger than disagreement",
+            "Making doubt safe for discussion",
+            "Living faith authentically as an example",
+            "Releasing their faith journey to God"
           ]
         },
-        { id: "t6-1-5", type: "header", content: "Applying the Tools" },
-        { id: "t6-1-6", type: "subheader", content: "Tool 3: Connection" },
-        { id: "t6-1-7", type: "paragraph", content: "Keep the relationship stronger than the disagreement. If they feel forced or judged, they'll reject both you AND faith. Stay in conversation." },
-        { id: "t6-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "t6-1-9", type: "paragraph", content: "Validate their questions: 'That's a really good question. I've wondered that too.' Make doubting safe. Faith that can't handle questions isn't faith worth having." },
         { id: "t6-1-10", type: "header", content: "Relying on God Through This" },
         { id: "t6-1-11", type: "paragraph", content: "You cannot believe for them. This is the hardest lesson. Release their faith journey to God. Pray for their heart, their questions, their search. Trust that God can reach them even if they walk away for a time." },
         { id: "t6-1-12", type: "quote", content: "\"You can't force faith. You can only live it authentically and pray they catch it.\"" }
@@ -1007,25 +982,20 @@ export const teenWorkbookData: WorkbookData = {
       title: "Preparing Them to Leave",
       subtitle: "Using Grow & Empowerment",
       sections: [
-        { id: "t7-1-1", type: "header", content: "The Challenge" },
+        { id: "t7-1-1", type: "subheader", content: "Course Outline" },
         { id: "t7-1-2", type: "paragraph", content: "The ultimate goal of parenting is to work yourself out of a job. Your teen needs to be prepared - practically, emotionally, and spiritually - to leave your home and thrive. This is both the goal and the grief of parenting." },
-        { id: "t7-1-3", type: "subheader", content: "Launch Skills They Need:" },
+        { id: "t7-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "t7-1-4",
           type: "list",
           items: [
-            "Practical: money management, cooking, laundry, time management",
-            "Emotional: handling stress, navigating relationships, self-advocacy",
-            "Spiritual: owning their faith, making moral decisions, finding community",
-            "Relational: healthy boundaries, conflict resolution, asking for help",
-            "Identity: knowing who they are and whose they are"
+            "Essential launch skills they need to thrive",
+            "Teaching life skills intentionally",
+            "Letting them fail while they have a safety net",
+            "Releasing control and trusting their growth",
+            "Preparing yourself for the grief of letting go"
           ]
         },
-        { id: "t7-1-5", type: "header", content: "Applying the Tools" },
-        { id: "t7-1-6", type: "subheader", content: "Tool 4: Grow" },
-        { id: "t7-1-7", type: "paragraph", content: "Intentionally teach life skills. Don't do for them what they can learn to do themselves. Give them increasing responsibility before they leave." },
-        { id: "t7-1-8", type: "subheader", content: "Tool 5: Empowerment" },
-        { id: "t7-1-9", type: "paragraph", content: "Let them make decisions with real consequences while they still have your safety net. Better to fail at home than fail at college." },
         { id: "t7-1-10", type: "header", content: "Relying on God Through This" },
         { id: "t7-1-11", type: "paragraph", content: "Letting go is the hardest thing you'll ever do. You've given them everything you have. Now trust that God will complete the work. The same God who entrusted them to you will carry them after they leave." },
         { id: "t7-1-12", type: "quote", content: "\"The goal was never to keep them - it was to prepare them to go.\"" }

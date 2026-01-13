@@ -187,25 +187,20 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       title: "When They Don't Tell the Truth",
       subtitle: "Using Validation & Connection",
       sections: [
-        { id: "e2-1-1", type: "header", content: "The Challenge" },
+        { id: "e2-1-1", type: "subheader", content: "Course Outline" },
         { id: "e2-1-2", type: "paragraph", content: "Lying at this age is developmentally normal and actually shows cognitive growth. Your child can now imagine alternatives to reality. The goal isn't to eliminate lies through punishment but to create safety for truth." },
-        { id: "e2-1-3", type: "subheader", content: "Why Lying Happens:" },
+        { id: "e2-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "e2-1-4",
           type: "list",
           items: [
-            "Fear of punishment or disappointing you",
-            "Wishful thinking - they wish they hadn't done it",
-            "Fantasy and reality still blur together",
-            "Testing boundaries: 'Can I get away with this?'",
-            "Avoiding shame and embarrassment"
+            "Why lying is developmentally normal at this age",
+            "How fear drives dishonesty in children",
+            "Creating safety for truth-telling",
+            "Using validation to address lies without shaming",
+            "Building long-term honesty through connection"
           ]
         },
-        { id: "e2-1-5", type: "header", content: "Applying the Tools" },
-        { id: "e2-1-6", type: "subheader", content: "Tool 2: Validation" },
-        { id: "e2-1-7", type: "paragraph", content: "Make truth-telling safe: 'I can see something happened here. It's safe to tell me the truth. I won't yell.' Validate their fear before addressing the behavior." },
-        { id: "e2-1-8", type: "subheader", content: "Tool 3: Connection" },
-        { id: "e2-1-9", type: "paragraph", content: "A connected child is more likely to tell the truth. When they know you love them unconditionally, they fear honesty less." },
         { id: "e2-1-10", type: "header", content: "Relying on God Through This" },
         { id: "e2-1-11", type: "paragraph", content: "Lying triggers deep reactions in us - feelings of betrayal, fear of who they'll become. Bring these anxieties to God. Ask Him for wisdom to address the behavior without shaming the child. Remember: you're building character, not just stopping lies." },
         { id: "e2-1-12", type: "quote", content: "\"Children who feel safe telling the truth become adults who value honesty.\"" }
@@ -351,25 +346,20 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       title: "School Stress & Performance Pressure",
       subtitle: "Using Anchoring & Validation",
       sections: [
-        { id: "e3-1-1", type: "header", content: "The Challenge" },
+        { id: "e3-1-1", type: "subheader", content: "Course Outline" },
         { id: "e3-1-2", type: "paragraph", content: "School introduces comparison, evaluation, and social dynamics that can overwhelm your child. Morning battles, homework resistance, and complaints about school often signal anxiety, not defiance." },
-        { id: "e3-1-3", type: "subheader", content: "Why School Anxiety Happens:" },
+        { id: "e3-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "e3-1-4",
           type: "list",
           items: [
-            "Separation from you for long hours",
-            "Academic expectations they may not be ready for",
-            "Social challenges: making friends, playground dynamics",
-            "Sensory overwhelm: noise, chaos, transitions",
-            "Fear of failure and making mistakes publicly"
+            "Understanding why school feels overwhelming",
+            "Recognizing anxiety vs. defiance in school resistance",
+            "Anchoring yourself for calm morning routines",
+            "Validating school stress without adding pressure",
+            "Supporting their academic journey with peace"
           ]
         },
-        { id: "e3-1-5", type: "header", content: "Applying the Tools" },
-        { id: "e3-1-6", type: "subheader", content: "Tool 1: Anchoring" },
-        { id: "e3-1-7", type: "paragraph", content: "Your calm confidence in the morning sets the tone. If you're anxious about drop-off, they'll absorb it. Anchor yourself first so you can be their steady presence." },
-        { id: "e3-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "e3-1-9", type: "paragraph", content: "Acknowledge their feelings: 'School can feel really big and hard. It makes sense that you're nervous.' Validation opens the door to problem-solving." },
         { id: "e3-1-10", type: "header", content: "Relying on God Through This" },
         { id: "e3-1-11", type: "paragraph", content: "You can't protect them from every struggle, and that's terrifying. Release them into God's care each morning. Pray for their day, their teachers, their friendships. Trust that God is with them even when you're not." },
         { id: "e3-1-12", type: "quote", content: "\"You can't fight their battles, but you can be the safe place they return to.\"" }
@@ -515,25 +505,20 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       title: "When They Fight With Siblings",
       subtitle: "Using Connection & Empowerment",
       sections: [
-        { id: "e4-1-1", type: "header", content: "The Challenge" },
+        { id: "e4-1-1", type: "subheader", content: "Course Outline" },
         { id: "e4-1-2", type: "paragraph", content: "Sibling conflict is one of the most exhausting parts of parenting multiple children. The constant bickering, fighting over toys, and complaints of 'unfair!' can wear anyone down. But siblings are actually each other's best teachers for social skills." },
-        { id: "e4-1-3", type: "subheader", content: "Why Sibling Conflict Happens:" },
+        { id: "e4-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "e4-1-4",
           type: "list",
           items: [
-            "Competition for parental attention and resources",
-            "Different developmental stages with different needs",
-            "Learning to share space, belongings, and time",
-            "Practicing conflict resolution (even if poorly)",
-            "Jealousy and comparison are developmentally normal"
+            "Why sibling conflict is developmentally normal",
+            "Understanding competition for attention and resources",
+            "Using connection to reduce rivalry",
+            "Empowering children to solve their own conflicts",
+            "Coaching instead of refereeing every fight"
           ]
         },
-        { id: "e4-1-5", type: "header", content: "Applying the Tools" },
-        { id: "e4-1-6", type: "subheader", content: "Tool 3: Connection" },
-        { id: "e4-1-7", type: "paragraph", content: "Give individual time to each child so they don't have to compete for your attention. Even 10 minutes of one-on-one time reduces conflict." },
-        { id: "e4-1-8", type: "subheader", content: "Tool 5: Empowerment" },
-        { id: "e4-1-9", type: "paragraph", content: "Teach them to solve conflicts themselves: 'I hear you both want the toy. What solution could work for both of you?' Don't always referee - coach them." },
         { id: "e4-1-10", type: "header", content: "Relying on God Through This" },
         { id: "e4-1-11", type: "paragraph", content: "Sibling conflict triggers your need for peace and control. But God is forming both children through their relationship. Ask Him for wisdom to know when to step in and when to step back. Trust that He is working in both of them." },
         { id: "e4-1-12", type: "quote", content: "\"Siblings are God's built-in practice for learning to live with others.\"" }
@@ -679,25 +664,20 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       title: "Big Feelings in a Bigger World",
       subtitle: "Using Anchoring & Validation",
       sections: [
-        { id: "e5-1-1", type: "header", content: "The Challenge" },
+        { id: "e5-1-1", type: "subheader", content: "Course Outline" },
         { id: "e5-1-2", type: "paragraph", content: "At 5-7, children feel emotions intensely but still lack the skills to regulate them consistently. They may seem 'old enough to know better' but their emotional brain still overpowers their logical brain regularly." },
-        { id: "e5-1-3", type: "subheader", content: "Why Outbursts Still Happen:" },
+        { id: "e5-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "e5-1-4",
           type: "list",
           items: [
-            "The prefrontal cortex is developing but not mature",
-            "School demands deplete their regulatory capacity",
-            "They can name feelings but struggle to manage them",
-            "After-school meltdowns happen because home is 'safe'",
-            "Hunger, tiredness, and overwhelm still trigger dysregulation"
+            "Why big feelings are still developmentally normal",
+            "Understanding after-school meltdowns",
+            "Staying anchored during their emotional storms",
+            "Helping them name and regulate emotions",
+            "Creating space for emotional decompression"
           ]
         },
-        { id: "e5-1-5", type: "header", content: "Applying the Tools" },
-        { id: "e5-1-6", type: "subheader", content: "Tool 1: Anchoring" },
-        { id: "e5-1-7", type: "paragraph", content: "Stay calm even when their emotions are big. Your regulated presence is still their anchor. They're watching how YOU handle your emotions." },
-        { id: "e5-1-8", type: "subheader", content: "Tool 2: Validation" },
-        { id: "e5-1-9", type: "paragraph", content: "Help them name what they're feeling: 'You're disappointed that we can't go. That feels really frustrating.' Naming emotions helps regulate them." },
         { id: "e5-1-10", type: "header", content: "Relying on God Through This" },
         { id: "e5-1-11", type: "paragraph", content: "Their meltdowns will trigger your own big feelings. In those moments, whisper, 'Lord, I need Your calm right now.' You're modeling how to handle overwhelming emotions by depending on Someone bigger than yourself." },
         { id: "e5-1-12", type: "quote", content: "\"They save their biggest feelings for you because you're their safest person.\"" }
@@ -843,25 +823,20 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       title: "Navigating Social Dynamics",
       subtitle: "Using Grow & Connection",
       sections: [
-        { id: "e6-1-1", type: "header", content: "The Challenge" },
+        { id: "e6-1-1", type: "subheader", content: "Course Outline" },
         { id: "e6-1-2", type: "paragraph", content: "Friendships become increasingly important at this age, but social skills are still developing. Playground exclusion, best friend drama, and social anxiety can deeply affect your child - and trigger your own protective instincts." },
-        { id: "e6-1-3", type: "subheader", content: "Why Friendship Is Hard:" },
+        { id: "e6-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "e6-1-4",
           type: "list",
           items: [
-            "Social rules are complex and often unspoken",
-            "Empathy and perspective-taking are still developing",
-            "Friendships are volatile at this age - best friends change weekly",
-            "Rejection feels devastating (and triggers primal fear)",
-            "They're learning who they are in relation to peers"
+            "Why friendships are volatile at this age",
+            "Teaching social skills explicitly",
+            "Listening without immediately fixing",
+            "Helping them handle rejection and exclusion",
+            "Building their identity beyond peer acceptance"
           ]
         },
-        { id: "e6-1-5", type: "header", content: "Applying the Tools" },
-        { id: "e6-1-6", type: "subheader", content: "Tool 4: Grow" },
-        { id: "e6-1-7", type: "paragraph", content: "Teach social skills explicitly: how to join a group, how to handle rejection, how to be a good friend. Role-play scenarios at home." },
-        { id: "e6-1-8", type: "subheader", content: "Tool 3: Connection" },
-        { id: "e6-1-9", type: "paragraph", content: "Listen without immediately fixing. Sometimes they just need to process with someone who loves them unconditionally." },
         { id: "e6-1-10", type: "header", content: "Relying on God Through This" },
         { id: "e6-1-11", type: "paragraph", content: "Your child's social pain will hurt YOU deeply. You can't fix it or force other children to be kind. Bring your helplessness to God. Pray for their friendships, for their heart, for their resilience. Trust that these struggles are forming character." },
         { id: "e6-1-12", type: "quote", content: "\"You can't choose their friends, but you can be the friend they always come home to.\"" }
@@ -1007,25 +982,20 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       title: "Building Responsibility",
       subtitle: "Using Grow & Empowerment",
       sections: [
-        { id: "e7-1-1", type: "header", content: "The Challenge" },
+        { id: "e7-1-1", type: "subheader", content: "Course Outline" },
         { id: "e7-1-2", type: "paragraph", content: "Getting children to do chores often feels like more work than doing it yourself. But responsibility is a muscle that must be built. Children who contribute to the home develop confidence, competence, and connection to family." },
-        { id: "e7-1-3", type: "subheader", content: "Why Responsibility Is Hard:" },
+        { id: "e7-1-3", type: "subheader", content: "What You'll Learn This Week:" },
         {
           id: "e7-1-4",
           type: "list",
           items: [
-            "Executive function (planning, sequencing) is still developing",
-            "They don't see 'the big picture' of household management",
-            "Immediate rewards (play) beat delayed rewards (finished chores)",
-            "They may not know HOW to do tasks to your standard",
-            "Resistance is often about autonomy, not laziness"
+            "Why building responsibility matters for their future",
+            "Teaching skills step by step with patience",
+            "Framing chores as contribution, not punishment",
+            "Giving them ownership and autonomy",
+            "Lowering standards while building capability"
           ]
         },
-        { id: "e7-1-5", type: "header", content: "Applying the Tools" },
-        { id: "e7-1-6", type: "subheader", content: "Tool 4: Grow" },
-        { id: "e7-1-7", type: "paragraph", content: "Teach skills step by step. Do it WITH them many times before expecting them to do it alone. Lower your standard initially - done is better than perfect." },
-        { id: "e7-1-8", type: "subheader", content: "Tool 5: Empowerment" },
-        { id: "e7-1-9", type: "paragraph", content: "Give them ownership: 'This is YOUR job. The family is counting on you.' Frame chores as contribution, not punishment." },
         { id: "e7-1-10", type: "header", content: "Relying on God Through This" },
         { id: "e7-1-11", type: "paragraph", content: "Teaching responsibility requires patience you don't naturally have. It's easier to just do it yourself. Ask God for endurance to train them, trusting that you're raising capable adults, not just getting a clean house." },
         { id: "e7-1-12", type: "quote", content: "\"The goal isn't a clean house - it's a capable child.\"" }
