@@ -99,45 +99,45 @@ export const ComparisonImage: React.FC<ComparisonImageProps> = ({ images }) => {
   const afterSrc = imageMap[images.after] || images.after;
 
   return (
-    <div className="my-6">
-      <div className="grid grid-cols-2 gap-6">
+    <div className="my-6 print:my-2">
+      <div className="grid grid-cols-2 gap-6 print:gap-2">
         {/* Before - Stressed scenario */}
         <div className="flex flex-col items-center">
-          <div className="relative rounded-lg overflow-hidden border-2 border-destructive/30 bg-destructive/5">
+          <div className="relative rounded-lg overflow-hidden border-2 border-destructive/30 bg-destructive/5 print:border">
             <img 
               src={beforeSrc} 
               alt={images.beforeLabel || "Before"} 
-              className="w-full h-auto"
+              className="w-full h-auto print:max-h-28 print:w-auto print:mx-auto"
             />
-            <div className="absolute top-2 left-2 bg-destructive/80 text-destructive-foreground px-2 py-1 rounded text-xs font-semibold">
+            <div className="absolute top-2 left-2 bg-destructive/80 text-destructive-foreground px-2 py-1 rounded text-xs font-semibold print:top-1 print:left-1 print:px-1 print:py-0.5 print:text-[8px]">
               ✗
             </div>
           </div>
-          <p className="mt-2 text-sm font-medium text-destructive text-center">
+          <p className="mt-2 text-sm font-medium text-destructive text-center print:mt-1 print:text-[9px]">
             {images.beforeLabel || "When I react..."}
           </p>
         </div>
 
         {/* After - Calm scenario */}
         <div className="flex flex-col items-center">
-          <div className="relative rounded-lg overflow-hidden border-2 border-primary/30 bg-primary/5">
+          <div className="relative rounded-lg overflow-hidden border-2 border-primary/30 bg-primary/5 print:border">
             <img 
               src={afterSrc} 
               alt={images.afterLabel || "After"} 
-              className="w-full h-auto"
+              className="w-full h-auto print:max-h-28 print:w-auto print:mx-auto"
             />
-            <div className="absolute top-2 left-2 bg-primary/80 text-primary-foreground px-2 py-1 rounded text-xs font-semibold">
+            <div className="absolute top-2 left-2 bg-primary/80 text-primary-foreground px-2 py-1 rounded text-xs font-semibold print:top-1 print:left-1 print:px-1 print:py-0.5 print:text-[8px]">
               ✓
             </div>
           </div>
-          <p className="mt-2 text-sm font-medium text-primary text-center">
+          <p className="mt-2 text-sm font-medium text-primary text-center print:mt-1 print:text-[9px]">
             {images.afterLabel || "When I model..."}
           </p>
         </div>
       </div>
       
-      <div className="mt-4 text-center">
-        <p className="font-handwritten text-xl text-foreground/80 italic">
+      <div className="mt-4 text-center print:mt-1">
+        <p className="font-handwritten text-xl text-foreground/80 italic print:text-sm">
           "They become what they see."
         </p>
       </div>
