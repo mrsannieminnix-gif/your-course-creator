@@ -1,5 +1,5 @@
 import React from "react";
-import { Anchor, Heart, Users, Sprout, Star, BookOpen } from "lucide-react";
+import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw } from "lucide-react";
 
 interface MantraVisualProps {
   mantraId: string;
@@ -199,6 +199,66 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             <p className="text-white flex items-center gap-3">
               <span className="text-2xl">🔄</span> "How can we make it right?"
             </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "one-more-opportunity") {
+    return (
+      <div className="my-6 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-teal-500 to-cyan-600 rounded-3xl p-8 shadow-2xl text-center max-w-xl w-full">
+          <div className="w-20 h-20 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/30">
+            <RefreshCw className="w-10 h-10 text-white" />
+          </div>
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">ONE MORE OPPORTUNITY</h3>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          
+          {/* Three Steps */}
+          <div className="space-y-4 text-left">
+            {/* Step 1 */}
+            <div className="bg-white/20 rounded-xl p-4">
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">1</span>
+                </div>
+                <div>
+                  <h4 className="text-white font-bold text-lg">REMIND or TEACH</h4>
+                  <p className="text-white/90 text-sm italic">"We don't throw planes. We can throw balls, but not planes."</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Step 2 */}
+            <div className="bg-white/20 rounded-xl p-4">
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">2</span>
+                </div>
+                <div>
+                  <h4 className="text-white font-bold text-lg">GIVE ONE MORE OPPORTUNITY</h4>
+                  <p className="text-white/90 text-sm italic">"I'll give you one more opportunity to play with the plane without throwing it."</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Step 3 */}
+            <div className="bg-white/20 rounded-xl p-4">
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">3</span>
+                </div>
+                <div>
+                  <h4 className="text-white font-bold text-lg">STATE THE CONSEQUENCE</h4>
+                  <p className="text-white/90 text-sm italic">"If we can't do that right now, we'll take a break from the plane and try again tomorrow."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-6 pt-4 border-t border-white/30">
+            <p className="text-white/80 text-sm">Clear • Calm • Consistent</p>
           </div>
         </div>
       </div>
