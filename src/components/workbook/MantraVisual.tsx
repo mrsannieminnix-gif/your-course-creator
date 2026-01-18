@@ -156,40 +156,104 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
   if (mantraId === "connection") {
     return (
       <div className="my-8 flex flex-col items-center">
-        <div className="bg-gradient-to-br from-sky-400 to-blue-500 rounded-3xl p-10 shadow-2xl text-center max-w-lg w-full">
-          <div className="w-24 h-24 mx-auto mb-6 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/30">
-            <Users className="w-12 h-12 text-white" />
-          </div>
-          <h3 className="font-serif text-4xl font-bold text-white mb-4 tracking-wide">CONNECTION</h3>
+        <div className="bg-gradient-to-br from-sky-400 to-blue-600 rounded-3xl p-8 shadow-2xl text-center max-w-3xl w-full">
+          {/* Title */}
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">CONNECTION</h3>
           <div className="w-16 h-1 bg-white/50 mx-auto mb-6" />
-          <p className="text-white/90 text-xl italic mb-6">"Relationship before rules"</p>
-          <div className="space-y-3 text-left bg-white/20 rounded-xl p-6">
-            <p className="text-white flex items-center gap-3">
-              <span className="text-2xl">👁️</span> Eye contact
-            </p>
-            <p className="text-white flex items-center gap-3">
-              <span className="text-2xl">🧎</span> Get on their level
-            </p>
-            <p className="text-white flex items-center gap-3">
-              <span className="text-2xl">🎯</span> Be fully present
-            </p>
+          
+          {/* Flow Visual: Connect → God → Connect → Kid */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
+            {/* Parent/You */}
+            <div className="flex flex-col items-center">
+              <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/40 shadow-lg">
+                <span className="text-3xl">🙏</span>
+              </div>
+              <p className="text-white font-bold mt-2 text-sm">YOU</p>
+            </div>
+            
+            {/* Arrow + Connect */}
+            <div className="flex flex-col items-center">
+              <div className="hidden md:block text-white text-3xl font-bold">→</div>
+              <div className="md:hidden text-white text-3xl font-bold">↓</div>
+              <p className="text-white/80 text-xs font-medium">CONNECT</p>
+            </div>
+            
+            {/* God */}
+            <div className="flex flex-col items-center">
+              <div className="w-24 h-24 bg-gradient-to-br from-amber-300 to-yellow-400 rounded-full flex items-center justify-center border-4 border-white shadow-xl">
+                <img 
+                  src={faithImageMap["jesus-connection"]} 
+                  alt="God" 
+                  className="w-full h-full rounded-full object-cover"
+                />
+              </div>
+              <p className="text-white font-bold mt-2 text-sm">GOD</p>
+            </div>
+            
+            {/* Arrow + Connect */}
+            <div className="flex flex-col items-center">
+              <div className="hidden md:block text-white text-3xl font-bold">→</div>
+              <div className="md:hidden text-white text-3xl font-bold">↓</div>
+              <p className="text-white/80 text-xs font-medium">CONNECT</p>
+            </div>
+            
+            {/* Kid */}
+            <div className="flex flex-col items-center">
+              <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/40 shadow-lg">
+                <span className="text-3xl">👧</span>
+              </div>
+              <p className="text-white font-bold mt-2 text-sm">KID</p>
+            </div>
+          </div>
+          
+          {/* Subtitle */}
+          <p className="text-white/90 text-lg italic mb-6">"Fill your cup first, then pour into theirs"</p>
+          
+          {/* Two-column tips */}
+          <div className="grid md:grid-cols-2 gap-4">
+            {/* Connect with God */}
+            <div className="bg-white/20 rounded-xl p-4 text-left">
+              <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+                <span className="text-xl">✨</span> Connect with God
+              </h4>
+              <div className="space-y-2">
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🙏</span> Pause & pray first
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>📖</span> Ground in His Word
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>💪</span> Draw from His strength
+                </p>
+              </div>
+            </div>
+            
+            {/* Connect with Kid */}
+            <div className="bg-white/20 rounded-xl p-4 text-left">
+              <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+                <span className="text-xl">💕</span> Connect with Kid
+              </h4>
+              <div className="space-y-2">
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>👁️</span> Eye contact
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🧎</span> Get on their level
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🎯</span> Be fully present
+                </p>
+              </div>
+            </div>
           </div>
           
           {/* Faith Element */}
           <div className="mt-6 pt-6 border-t border-white/30">
-            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
-              <img 
-                src={faithImageMap["jesus-connection"]} 
-                alt="Jesus with children" 
-                className="w-20 h-20 rounded-full object-cover border-3 border-white/50 shadow-lg"
-              />
-              <div className="flex-1 text-left">
-                <p className="text-white font-serif text-sm italic">
-                  "Let the little children come to me."
-                </p>
-                <p className="text-white/70 text-xs mt-1">— Matthew 19:14</p>
-              </div>
-            </div>
+            <p className="text-white font-serif text-lg italic">
+              "Let the little children come to me."
+            </p>
+            <p className="text-white/70 text-sm mt-1">— Matthew 19:14</p>
           </div>
         </div>
       </div>
