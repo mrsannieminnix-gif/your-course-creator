@@ -60,7 +60,7 @@ export const wallRemindersWorkbookData: WorkbookData = {
       type: "visuals",
       section: 1,
       sectionTitle: "Wall Reminders",
-      title: "Connection",
+      title: "God → Connect → Kid",
       subtitle: "Relationship is the foundation of influence",
       sections: [
         {
