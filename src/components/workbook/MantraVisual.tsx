@@ -389,6 +389,109 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "good-choices-try-again") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-teal-400 to-cyan-500 rounded-3xl p-8 shadow-2xl text-center max-w-4xl w-full">
+          {/* Title */}
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">GOOD CHOICES & TRY AGAIN</h3>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-lg italic mb-6">"Every choice is a chance to learn"</p>
+          
+          {/* Three Jars Visual */}
+          <div className="grid grid-cols-3 gap-4 mb-6">
+            {/* Good Choices Jar */}
+            <div className="bg-white/20 rounded-2xl p-4 flex flex-col items-center">
+              <div className="text-5xl mb-2">🫙</div>
+              <div className="w-16 h-20 bg-gradient-to-t from-emerald-300 to-emerald-100 rounded-xl border-4 border-emerald-400 flex items-end justify-center overflow-hidden mb-2">
+                <div className="flex flex-wrap gap-1 p-1 justify-center">
+                  <span className="text-lg">🟢</span>
+                  <span className="text-lg">🟢</span>
+                  <span className="text-lg">🟢</span>
+                </div>
+              </div>
+              <h4 className="text-white font-bold text-sm">GOOD CHOICES</h4>
+              <p className="text-white/80 text-xs mt-1">Great decisions go here!</p>
+            </div>
+            
+            {/* Try Again Jar */}
+            <div className="bg-white/20 rounded-2xl p-4 flex flex-col items-center">
+              <div className="text-5xl mb-2">🫙</div>
+              <div className="w-16 h-20 bg-gradient-to-t from-amber-300 to-amber-100 rounded-xl border-4 border-amber-400 flex items-end justify-center overflow-hidden mb-2">
+                <div className="flex flex-wrap gap-1 p-1 justify-center">
+                  <span className="text-lg">🟡</span>
+                </div>
+              </div>
+              <h4 className="text-white font-bold text-sm">TRY AGAIN</h4>
+              <p className="text-white/80 text-xs mt-1">Learning moments</p>
+            </div>
+            
+            {/* Reward Counter */}
+            <div className="bg-white/20 rounded-2xl p-4 flex flex-col items-center">
+              <div className="text-5xl mb-2">🎁</div>
+              <div className="w-16 h-20 bg-gradient-to-t from-purple-300 to-purple-100 rounded-xl border-4 border-purple-400 flex items-center justify-center mb-2">
+                <span className="text-2xl font-bold text-purple-700">10</span>
+              </div>
+              <h4 className="text-white font-bold text-sm">REWARD!</h4>
+              <p className="text-white/80 text-xs mt-1">Every 10 = prize!</p>
+            </div>
+          </div>
+          
+          {/* How It Works */}
+          <div className="bg-white/20 rounded-xl p-5 text-left mb-6">
+            <h4 className="text-white font-bold text-lg mb-3 text-center">✨ How It Works</h4>
+            <div className="space-y-3">
+              <div className="flex items-start gap-3">
+                <span className="text-xl bg-emerald-400 rounded-full w-8 h-8 flex items-center justify-center text-white font-bold shrink-0">1</span>
+                <p className="text-white text-sm"><strong>Good Choice:</strong> They add a puzzle piece/marble to the Good Choices jar 🎉</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-xl bg-amber-400 rounded-full w-8 h-8 flex items-center justify-center text-white font-bold shrink-0">2</span>
+                <p className="text-white text-sm"><strong>Not-So-Great Choice:</strong> Sit together, explain why, and put a piece in the Try Again jar</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-xl bg-teal-300 rounded-full w-8 h-8 flex items-center justify-center text-white font-bold shrink-0">3</span>
+                <p className="text-white text-sm"><strong>Make It Right:</strong> If they correct it, the piece moves to Good Choices! 🔄</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-xl bg-purple-400 rounded-full w-8 h-8 flex items-center justify-center text-white font-bold shrink-0">4</span>
+                <p className="text-white text-sm"><strong>10 Good Choices = Reward!</strong> Pick dinner, treasure box prize, special activity 🌟</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Reward Ideas */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-6">
+            <div className="bg-white/15 rounded-lg p-2 text-center">
+              <span className="text-2xl">🍕</span>
+              <p className="text-white/90 text-xs mt-1">Pick dinner</p>
+            </div>
+            <div className="bg-white/15 rounded-lg p-2 text-center">
+              <span className="text-2xl">🎁</span>
+              <p className="text-white/90 text-xs mt-1">Treasure box</p>
+            </div>
+            <div className="bg-white/15 rounded-lg p-2 text-center">
+              <span className="text-2xl">🎮</span>
+              <p className="text-white/90 text-xs mt-1">Extra play time</p>
+            </div>
+            <div className="bg-white/15 rounded-lg p-2 text-center">
+              <span className="text-2xl">🎬</span>
+              <p className="text-white/90 text-xs mt-1">Movie night</p>
+            </div>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="pt-4 border-t border-white/30">
+            <p className="text-white font-serif text-lg italic">
+              "Start children off on the way they should go, and even when they are old they will not turn from it."
+            </p>
+            <p className="text-white/70 text-sm mt-1">— Proverbs 22:6</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (mantraId === "one-more-opportunity") {
     return (
       <div className="my-6 flex flex-col items-center">
