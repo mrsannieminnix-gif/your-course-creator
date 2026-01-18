@@ -20,13 +20,13 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
-    // Page 2: Anchoring
+    // Page 2: Anchoring with God
     {
       id: "wall-2",
       type: "visuals",
       section: 1,
       sectionTitle: "Wall Reminders",
-      title: "Anchoring",
+      title: "Anchoring with God",
       subtitle: "Your calm is their anchor",
       sections: [
         {
