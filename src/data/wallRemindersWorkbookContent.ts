@@ -233,5 +233,28 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 11: Repair
+    {
+      id: "wall-11",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Repair",
+      subtitle: "Model the apology you want to see",
+      sections: [
+        {
+          id: "wall-11-visual",
+          type: "mantra-visual",
+          content: "repair",
+          editable: false,
+        },
+        {
+          id: "wall-11-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };
