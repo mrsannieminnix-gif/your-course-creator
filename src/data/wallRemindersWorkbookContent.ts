@@ -18,6 +18,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           content: "validate-connect-redirect",
           editable: false,
         },
+        {
+          id: "wall-1-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
       ],
     },
     // Page 2: Anchoring with God
@@ -34,6 +40,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           type: "mantra-visual",
           content: "anchoring",
           editable: false,
+        },
+        {
+          id: "wall-2-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
         },
       ],
     },
@@ -52,6 +64,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           content: "validation",
           editable: false,
         },
+        {
+          id: "wall-3-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
       ],
     },
     // Page 4: Connection
@@ -68,6 +86,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           type: "mantra-visual",
           content: "connection",
           editable: false,
+        },
+        {
+          id: "wall-4-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
         },
       ],
     },
@@ -86,6 +110,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           content: "grow",
           editable: false,
         },
+        {
+          id: "wall-5-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
       ],
     },
     // Page 6: Empower
@@ -102,6 +132,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           type: "mantra-visual",
           content: "empower",
           editable: false,
+        },
+        {
+          id: "wall-6-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
         },
       ],
     },
@@ -120,6 +156,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           content: "correction",
           editable: false,
         },
+        {
+          id: "wall-7-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
       ],
     },
     // Page 8: One More Opportunity
@@ -136,6 +178,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
           type: "mantra-visual",
           content: "one-more-opportunity",
           editable: false,
+        },
+        {
+          id: "wall-8-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
         },
       ],
     },
