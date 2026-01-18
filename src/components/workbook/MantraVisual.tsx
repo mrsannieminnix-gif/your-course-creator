@@ -1,5 +1,6 @@
 import React from "react";
 import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw } from "lucide-react";
+import { faithImageMap } from "./ComparisonImage";
 
 interface MantraVisualProps {
   mantraId: string;
@@ -45,6 +46,23 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             <p className="text-emerald-600 text-sm italic">"Let's figure this out together."</p>
           </div>
         </div>
+        
+        {/* Faith Element */}
+        <div className="mt-8 bg-gradient-to-r from-amber-50 via-yellow-50 to-amber-50 rounded-2xl p-6 border-2 border-amber-200 max-w-2xl w-full">
+          <div className="flex items-center gap-4">
+            <img 
+              src={faithImageMap["jesus-foundation"]} 
+              alt="Jesus with children" 
+              className="w-24 h-24 rounded-full object-cover border-4 border-amber-300 shadow-lg"
+            />
+            <div className="flex-1">
+              <p className="text-amber-800 font-serif text-lg italic">
+                "Be completely humble and gentle; be patient, bearing with one another in love."
+              </p>
+              <p className="text-amber-600 text-sm mt-2 font-medium">— Ephesians 4:2</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
@@ -69,6 +87,23 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             <p className="text-slate-200 flex items-center gap-3">
               <span className="text-2xl">⚓</span> Stay grounded in love
             </p>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-6 border-t border-slate-600">
+            <div className="flex items-center gap-4 bg-slate-800/70 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-anchoring"]} 
+                alt="Jesus calming the storm" 
+                className="w-20 h-20 rounded-full object-cover border-3 border-slate-400 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-slate-200 font-serif text-sm italic">
+                  "Peace, be still."
+                </p>
+                <p className="text-slate-400 text-xs mt-1">— Mark 4:39</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -96,6 +131,23 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
               <span className="text-2xl">🤗</span> "I'm here with you..."
             </p>
           </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-6 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-validation"]} 
+                alt="Jesus with compassion" 
+                className="w-20 h-20 rounded-full object-cover border-3 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "Jesus wept."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— John 11:35</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -121,6 +173,23 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             <p className="text-white flex items-center gap-3">
               <span className="text-2xl">🎯</span> Be fully present
             </p>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-6 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-connection"]} 
+                alt="Jesus with children" 
+                className="w-20 h-20 rounded-full object-cover border-3 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "Let the little children come to me."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Matthew 19:14</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -148,6 +217,23 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
               <span className="text-2xl">🎉</span> Celebrate small wins
             </p>
           </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-6 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-grow"]} 
+                alt="Growth and nurturing" 
+                className="w-20 h-20 rounded-full object-cover border-3 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "Train up a child in the way he should go."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Proverbs 22:6</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -174,6 +260,23 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
               <span className="text-2xl">🌟</span> "I believe in you"
             </p>
           </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-6 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-empower"]} 
+                alt="Empowerment" 
+                className="w-20 h-20 rounded-full object-cover border-3 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "I can do all things through Christ who strengthens me."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Philippians 4:13</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -199,6 +302,23 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             <p className="text-white flex items-center gap-3">
               <span className="text-2xl">🔄</span> "How can we make it right?"
             </p>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-6 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-correction"]} 
+                alt="Gentle correction" 
+                className="w-20 h-20 rounded-full object-cover border-3 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "Fathers, do not exasperate your children; bring them up in the training of the Lord."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Ephesians 6:4</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -257,8 +377,21 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             </div>
           </div>
           
+          {/* Faith Element */}
           <div className="mt-6 pt-4 border-t border-white/30">
-            <p className="text-white/80 text-sm">Clear • Calm • Consistent</p>
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-correction"]} 
+                alt="Grace and second chances" 
+                className="w-16 h-16 rounded-full object-cover border-2 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "His mercies are new every morning."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Lamentations 3:23</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
