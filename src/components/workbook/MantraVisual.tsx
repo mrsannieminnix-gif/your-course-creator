@@ -389,6 +389,108 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "play") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-fuchsia-400 to-pink-500 rounded-3xl p-8 shadow-2xl text-center max-w-4xl w-full">
+          {/* Title */}
+          <div className="text-6xl mb-2">🎮</div>
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">PLAY</h3>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-xl italic mb-6">"If it's hard, make it fun!"</p>
+          
+          {/* Main concept */}
+          <div className="bg-white/20 rounded-xl p-5 mb-6">
+            <p className="text-white text-lg font-medium">
+              Don't focus on leaving the fun thing—<br/>
+              <span className="text-yellow-200 font-bold">make the NEXT thing just as exciting!</span>
+            </p>
+          </div>
+          
+          {/* Example scenarios */}
+          <div className="grid md:grid-cols-2 gap-4 mb-6">
+            {/* Bath time */}
+            <div className="bg-white/20 rounded-xl p-4 text-left">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-3xl">🛁</span>
+                <h4 className="text-white font-bold">Bath Time Resistance?</h4>
+              </div>
+              <div className="space-y-2">
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>👁️</span> Play "I Spy" to the tub—pick items along the way!
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🐻</span> "What animal should we walk like to get there?"
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🏃</span> Race to see who can get there first!
+                </p>
+              </div>
+            </div>
+            
+            {/* Leaving playground */}
+            <div className="bg-white/20 rounded-xl p-4 text-left">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-3xl">🛝</span>
+                <h4 className="text-white font-bold">Leaving the Playground?</h4>
+              </div>
+              <div className="space-y-2">
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🔑</span> "Want to be the car unlocker?"
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🎵</span> "You pick the song we listen to!"
+                </p>
+                <p className="text-white/90 text-sm flex items-center gap-2">
+                  <span>🍎</span> "Let's pick a yummy snack for the ride!"
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* More ideas */}
+          <div className="bg-white/15 rounded-xl p-4 mb-6">
+            <h4 className="text-white font-bold text-lg mb-3">🌟 More Play Ideas</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              <div className="text-center">
+                <span className="text-2xl">🦁</span>
+                <p className="text-white/90 text-xs mt-1">Walk like animals</p>
+              </div>
+              <div className="text-center">
+                <span className="text-2xl">🎯</span>
+                <p className="text-white/90 text-xs mt-1">Silly challenges</p>
+              </div>
+              <div className="text-center">
+                <span className="text-2xl">⏱️</span>
+                <p className="text-white/90 text-xs mt-1">Beat the timer</p>
+              </div>
+              <div className="text-center">
+                <span className="text-2xl">🎭</span>
+                <p className="text-white/90 text-xs mt-1">Pretend play</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Key reminder */}
+          <div className="bg-yellow-400/30 rounded-xl p-4 border-2 border-yellow-300/50 mb-6">
+            <p className="text-white font-bold text-lg">
+              💡 The secret: Shift focus from what they're leaving<br/>
+              <span className="text-yellow-200">TO what exciting thing comes next!</span>
+            </p>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="pt-4 border-t border-white/30">
+            <p className="text-white font-serif text-lg italic">
+              "A cheerful heart is good medicine."
+            </p>
+            <p className="text-white/70 text-sm mt-1">— Proverbs 17:22</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (mantraId === "good-choices-try-again") {
     return (
       <div className="my-8 flex flex-col items-center">
