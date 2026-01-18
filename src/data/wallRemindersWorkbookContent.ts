@@ -210,5 +210,28 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 10: Play
+    {
+      id: "wall-10",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Play",
+      subtitle: "If it's hard, make it fun!",
+      sections: [
+        {
+          id: "wall-10-visual",
+          type: "mantra-visual",
+          content: "play",
+          editable: false,
+        },
+        {
+          id: "wall-10-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };
