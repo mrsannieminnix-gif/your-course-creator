@@ -187,5 +187,28 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 9: Good Choices & Try Again
+    {
+      id: "wall-9",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Good Choices & Try Again",
+      subtitle: "The 3-Jar Technique for Teaching Choices",
+      sections: [
+        {
+          id: "wall-9-visual",
+          type: "mantra-visual",
+          content: "good-choices-try-again",
+          editable: false,
+        },
+        {
+          id: "wall-9-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };
