@@ -667,6 +667,80 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "repair") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-3xl p-8 shadow-2xl text-center max-w-xl w-full">
+          <div className="w-20 h-20 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/30">
+            <Heart className="w-10 h-10 text-white" />
+          </div>
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">REPAIR</h3>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-lg italic mb-6">"If we expect them to apologize, we must first model it"</p>
+          
+          {/* Key Message */}
+          <div className="bg-white/20 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">💜</span> Why Repair Matters
+            </h4>
+            <div className="space-y-2 text-white/90 text-sm">
+              <p>• Children learn how to apologize by watching YOU</p>
+              <p>• Saying "I'm sorry" shows strength, not weakness</p>
+              <p>• Repair builds trust and deepens connection</p>
+              <p>• It teaches them it's okay to make mistakes</p>
+            </div>
+          </div>
+
+          {/* How to Repair */}
+          <div className="bg-white/20 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">🔧</span> How to Repair
+            </h4>
+            <div className="space-y-3">
+              <p className="text-white/90 text-sm flex items-start gap-2">
+                <span className="text-lg">1️⃣</span> <span><strong>Name it:</strong> "I raised my voice and that wasn't kind"</span>
+              </p>
+              <p className="text-white/90 text-sm flex items-start gap-2">
+                <span className="text-lg">2️⃣</span> <span><strong>Own it:</strong> "I'm sorry. That was my mistake"</span>
+              </p>
+              <p className="text-white/90 text-sm flex items-start gap-2">
+                <span className="text-lg">3️⃣</span> <span><strong>Reconnect:</strong> "I love you. Can I have a hug?"</span>
+              </p>
+            </div>
+          </div>
+
+          {/* God's Model */}
+          <div className="bg-gradient-to-r from-amber-400/30 to-yellow-400/30 rounded-xl p-5 text-left border border-amber-300/30">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">✨</span> God's Model
+            </h4>
+            <p className="text-white/90 text-sm mb-3">
+              God is ALWAYS there for us. No matter how many times we fall, He welcomes us back with open arms. 
+              He shows us what unconditional love looks like—and we get to model that same grace for our children.
+            </p>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-4 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-validation"]} 
+                alt="God's unfailing love" 
+                className="w-16 h-16 rounded-full object-cover border-2 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "If we confess our sins, He is faithful and just to forgive us."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— 1 John 1:9</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 };
 
