@@ -8,6 +8,7 @@ import { ChecklistSection } from "./ChecklistSection";
 import { WeekTracker } from "./WeekTracker";
 import { ComparisonImage } from "./ComparisonImage";
 import { FaithImage } from "./FaithImage";
+import MantraVisual from "./MantraVisual";
 import logo from "@/assets/logo.jpg";
 
 interface WorkbookPageProps {
@@ -132,6 +133,9 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
 
       case "faith-image":
         return <FaithImage faithImage={section.faithImage} />;
+
+      case "mantra-visual":
+        return <MantraVisual mantraId={section.content || ""} />;
 
       case "goal-phrases":
         return (

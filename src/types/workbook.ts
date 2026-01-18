@@ -11,7 +11,7 @@ export interface WorkbookPage {
 
 export interface PageSection {
   id: string;
-  type: 'header' | 'subheader' | 'paragraph' | 'list' | 'scripture' | 'quote' | 'diagram' | 'checklist' | 'weekly-tracker' | 'goal-phrases' | 'comparison-image' | 'faith-image';
+  type: 'header' | 'subheader' | 'paragraph' | 'list' | 'scripture' | 'quote' | 'diagram' | 'checklist' | 'weekly-tracker' | 'goal-phrases' | 'comparison-image' | 'faith-image' | 'mantra-visual';
   content?: string;
   items?: string[];
   editable?: boolean;

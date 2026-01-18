@@ -5,10 +5,11 @@ import { toddlerWorkbookData } from "@/data/toddlerWorkbookContent";
 import { earlyChildhoodWorkbookData } from "@/data/earlyChildhoodWorkbookContent";
 import { middleChildhoodWorkbookData } from "@/data/middleChildhoodWorkbookContent";
 import { teenWorkbookData } from "@/data/teenWorkbookContent";
+import { wallRemindersWorkbookData } from "@/data/wallRemindersWorkbookContent";
 import { Button } from "@/components/ui/button";
 import { Book } from "lucide-react";
 
-type WorkbookType = "foundation" | "toddler" | "early" | "middle" | "teen" | null;
+type WorkbookType = "foundation" | "toddler" | "early" | "middle" | "teen" | "wall" | null;
 
 const Index = () => {
   const [selectedWorkbook, setSelectedWorkbook] = useState<WorkbookType>(null);
@@ -19,6 +20,7 @@ const Index = () => {
     early: earlyChildhoodWorkbookData,
     middle: middleChildhoodWorkbookData,
     teen: teenWorkbookData,
+    wall: wallRemindersWorkbookData,
   };
 
   if (selectedWorkbook) {
@@ -44,6 +46,7 @@ const Index = () => {
     { id: "early" as const, title: "Ages 5-7 Workbook", desc: "School readiness, lying, sibling conflict, emotional outbursts, and building responsibility." },
     { id: "middle" as const, title: "Ages 8-12 Workbook", desc: "Peer influence, academics, technology, puberty, and building character in pre-teens." },
     { id: "teen" as const, title: "Ages 13-18 Workbook", desc: "Communication, risky behavior, relationships, mental health, faith, and launching well." },
+    { id: "wall" as const, title: "Wall Reminders", desc: "Visual mantras and quick-reference tools to print and post around your home." },
   ];
 
   return (
