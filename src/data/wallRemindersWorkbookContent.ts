@@ -122,5 +122,22 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 8: One More Opportunity
+    {
+      id: "wall-8",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "One More Opportunity",
+      subtitle: "A calm, clear path to better choices",
+      sections: [
+        {
+          id: "wall-8-visual",
+          type: "mantra-visual",
+          content: "one-more-opportunity",
+          editable: false,
+        },
+      ],
+    },
   ],
 };
