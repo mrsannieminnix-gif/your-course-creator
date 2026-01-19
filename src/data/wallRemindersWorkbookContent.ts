@@ -256,5 +256,28 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 12: Prep Your Child
+    {
+      id: "wall-12",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Prep Your Child",
+      subtitle: "Help them know what's coming next",
+      sections: [
+        {
+          id: "wall-12-visual",
+          type: "mantra-visual",
+          content: "prep-your-child",
+          editable: false,
+        },
+        {
+          id: "wall-12-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };

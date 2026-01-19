@@ -741,6 +741,89 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "prep-your-child") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-teal-500 to-cyan-600 rounded-3xl p-8 shadow-2xl text-center max-w-xl w-full">
+          <div className="w-20 h-20 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/30">
+            <span className="text-4xl">🗺️</span>
+          </div>
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">PREP YOUR CHILD</h3>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-lg italic mb-6">"Most kids don't like surprises—help them know what's coming"</p>
+          
+          {/* Why Prep Matters */}
+          <div className="bg-white/20 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">💡</span> Why Prep Matters
+            </h4>
+            <div className="space-y-2 text-white/90 text-sm">
+              <p>• Children feel safer when they know what to expect</p>
+              <p>• Reduces anxiety about transitions</p>
+              <p>• Sets clear expectations before challenges arise</p>
+              <p>• Makes leaving easier by focusing on what's next</p>
+            </div>
+          </div>
+
+          {/* Example 1: Playground */}
+          <div className="bg-white/20 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">🛝</span> Going to the Playground
+            </h4>
+            <div className="bg-white/10 rounded-lg p-4 text-white/90 text-sm italic">
+              <p>"We're going to the playground and we'll have a fun time there! We will be kind to new friends and take turns well with others.</p>
+              <p className="mt-2">I'll let you pick what you'd like to do, and I'll give you a 5-minute warning when it's time to go.</p>
+              <p className="mt-2">We'll leave with a fun and grateful heart for getting to go to the park. If we can't leave with ease, we'll need to take a break from the park for a while.</p>
+              <p className="mt-2 font-semibold">Are you ready to go have fun?"</p>
+            </div>
+          </div>
+
+          {/* Example 2: School Drop-off */}
+          <div className="bg-white/20 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">🏫</span> School Drop-Off
+            </h4>
+            <div className="bg-white/10 rounded-lg p-4 text-white/90 text-sm italic">
+              <p>"I'm going to drop you off and give you a big hug and a big kiss.</p>
+              <p className="mt-2">It might be sad to say goodbye, and that's okay!</p>
+              <p className="mt-2 font-semibold">But I will be back to pick you up with another big hug and kiss."</p>
+            </div>
+          </div>
+
+          {/* Tips */}
+          <div className="bg-white/20 rounded-xl p-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">✅</span> What to Include
+            </h4>
+            <div className="space-y-2 text-white/90 text-sm">
+              <p>• <strong>What we'll do:</strong> The fun activity ahead</p>
+              <p>• <strong>How we'll act:</strong> Expected behaviors</p>
+              <p>• <strong>When it ends:</strong> Warnings and transitions</p>
+              <p>• <strong>What's next:</strong> Make the next thing exciting too</p>
+            </div>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-4 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-foundation"]} 
+                alt="God prepares the way" 
+                className="w-16 h-16 rounded-full object-cover border-2 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "I will instruct you and teach you in the way you should go."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Psalm 32:8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 };
 
