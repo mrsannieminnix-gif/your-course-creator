@@ -302,5 +302,28 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 14: Life Skills, Not Chores
+    {
+      id: "wall-14",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Life Skills, Not Chores",
+      subtitle: "Building capable, independent adults",
+      sections: [
+        {
+          id: "wall-14-visual",
+          type: "mantra-visual",
+          content: "life-skills-not-chores",
+          editable: false,
+        },
+        {
+          id: "wall-14-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };

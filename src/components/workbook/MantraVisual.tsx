@@ -915,6 +915,105 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "life-skills-not-chores") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-orange-500 to-amber-600 rounded-3xl p-8 shadow-2xl text-center max-w-xl w-full">
+          {/* Icon */}
+          <div className="w-20 h-20 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/30 shadow-lg">
+            <span className="text-4xl">🛠️</span>
+          </div>
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">LIFE SKILLS, NOT CHORES</h3>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-lg italic mb-6">"We're not doing chores—we're learning to be capable adults"</p>
+          
+          {/* The Mindset Shift */}
+          <div className="bg-white/20 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">💡</span> The Mindset Shift
+            </h4>
+            <div className="space-y-2 text-white/90 text-sm">
+              <p>• I don't "do chores"—I have skills to take care of my home</p>
+              <p>• These are tasks every adult needs to do to live independently</p>
+              <p>• We're not punishing kids with work—we're teaching survival</p>
+              <p>• Contributing builds confidence and capability</p>
+            </div>
+          </div>
+
+          {/* Word Swap */}
+          <div className="grid grid-cols-2 gap-4 mb-5">
+            <div className="bg-red-500/30 rounded-xl p-4 text-left border border-red-300/30">
+              <h5 className="text-red-100 font-bold text-sm mb-2 flex items-center gap-2">
+                <span>❌</span> Don't Say
+              </h5>
+              <div className="text-white/80 text-xs space-y-1">
+                <p>"Do your chores"</p>
+                <p>"You have to clean up"</p>
+                <p>"It's your job"</p>
+              </div>
+            </div>
+            <div className="bg-green-500/30 rounded-xl p-4 text-left border border-green-300/30">
+              <h5 className="text-green-100 font-bold text-sm mb-2 flex items-center gap-2">
+                <span>✅</span> Try Instead
+              </h5>
+              <div className="text-white/80 text-xs space-y-1">
+                <p>"Let's practice this skill"</p>
+                <p>"How can you contribute?"</p>
+                <p>"You're learning to..."</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Earning Example */}
+          <div className="bg-white/20 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">💰</span> When They Want Something
+            </h4>
+            <div className="bg-white/10 rounded-lg p-4 text-white/90 text-sm">
+              <p><strong>Child:</strong> "Can I have [toy/game/item]?"</p>
+              <p className="mt-2"><strong>Parent:</strong> "What can you contribute around the house to earn money for it?"</p>
+              <p className="mt-2 text-amber-200 italic">This teaches: work → reward, the same as adult life!</p>
+            </div>
+          </div>
+
+          {/* Skills List */}
+          <div className="bg-white/20 rounded-xl p-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">📋</span> Life Skills to Learn
+            </h4>
+            <div className="grid grid-cols-2 gap-2 text-white/90 text-sm">
+              <p>🍳 Cooking basics</p>
+              <p>🧺 Laundry</p>
+              <p>🧹 Cleaning spaces</p>
+              <p>🛒 Grocery planning</p>
+              <p>🌱 Yard care</p>
+              <p>🔧 Basic repairs</p>
+              <p>📊 Managing money</p>
+              <p>📅 Time management</p>
+            </div>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="mt-6 pt-4 border-t border-white/30">
+            <div className="flex items-center gap-4 bg-white/20 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-foundation"]} 
+                alt="God equips us for work" 
+                className="w-16 h-16 rounded-full object-cover border-2 border-white/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "Whatever you do, work at it with all your heart, as working for the Lord."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Colossians 3:23</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 };
 
