@@ -279,5 +279,28 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 13: Your 25-Year-Old Child
+    {
+      id: "wall-13",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Your 25-Year-Old Child",
+      subtitle: "Natural consequences prepare them for real life",
+      sections: [
+        {
+          id: "wall-13-visual",
+          type: "mantra-visual",
+          content: "your-25-year-old",
+          editable: false,
+        },
+        {
+          id: "wall-13-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };
