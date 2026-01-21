@@ -824,6 +824,97 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "your-25-year-old") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-slate-600 to-slate-800 rounded-3xl p-8 shadow-2xl text-center max-w-xl w-full">
+          {/* Icon */}
+          <div className="w-20 h-20 mx-auto mb-4 bg-amber-400 rounded-full flex items-center justify-center border-4 border-amber-300 shadow-lg">
+            <span className="text-4xl">🎓</span>
+          </div>
+          <h3 className="font-serif text-3xl font-bold text-white mb-2 tracking-wide">YOUR 25-YEAR-OLD CHILD</h3>
+          <div className="w-16 h-1 bg-amber-400/50 mx-auto mb-4" />
+          <p className="text-white/90 text-lg italic mb-6">"Natural consequences prepare them for real life"</p>
+          
+          {/* Why Natural Consequences */}
+          <div className="bg-white/10 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-amber-300 font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">💡</span> Why Natural Consequences?
+            </h4>
+            <div className="space-y-2 text-white/90 text-sm">
+              <p>• At 25, bosses don't give timeouts—they give real consequences</p>
+              <p>• No promotion for poor attitudes, not a lecture</p>
+              <p>• The world teaches through natural outcomes</p>
+              <p>• Our job: let them experience cause & effect safely now</p>
+            </div>
+          </div>
+
+          {/* Example 1: Jacket */}
+          <div className="bg-white/10 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">🧥</span> "I Don't Want a Jacket"
+            </h4>
+            <div className="bg-white/10 rounded-lg p-4 text-white/90 text-sm">
+              <p><strong>Child:</strong> "I don't need a jacket!"</p>
+              <p className="mt-2"><strong>Parent:</strong> "Okay, that's your choice."</p>
+              <p className="mt-2"><strong>Natural consequence:</strong> They feel cold outside.</p>
+              <p className="mt-2 text-amber-300 italic">Tip: Bring the jacket anyway while they're young—they'll learn without suffering too much.</p>
+            </div>
+          </div>
+
+          {/* Example 2: Playground */}
+          <div className="bg-white/10 rounded-xl p-5 mb-5 text-left">
+            <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
+              <span className="text-xl">🛝</span> Leaving the Playground
+            </h4>
+            <div className="bg-white/10 rounded-lg p-4 text-white/90 text-sm">
+              <p><strong>Situation:</strong> Can't leave with a good attitude</p>
+              <p className="mt-2"><strong>Natural consequence:</strong> We take a break from the playground for a while.</p>
+              <p className="mt-2 text-amber-300 italic">At 25: A bad attitude at work = no special opportunities, not a timeout.</p>
+            </div>
+          </div>
+
+          {/* Real World vs Artificial */}
+          <div className="grid grid-cols-2 gap-4 mb-5">
+            <div className="bg-red-500/20 rounded-xl p-4 text-left border border-red-400/30">
+              <h5 className="text-red-300 font-bold text-sm mb-2">❌ Artificial Punishment</h5>
+              <div className="text-white/80 text-xs space-y-1">
+                <p>• "Go to your room!"</p>
+                <p>• "Think about what you did"</p>
+                <p>• Unrelated to behavior</p>
+              </div>
+            </div>
+            <div className="bg-green-500/20 rounded-xl p-4 text-left border border-green-400/30">
+              <h5 className="text-green-300 font-bold text-sm mb-2">✅ Natural Consequence</h5>
+              <div className="text-white/80 text-xs space-y-1">
+                <p>• Cold without jacket</p>
+                <p>• Break from activity</p>
+                <p>• Directly related to choice</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Faith Element */}
+          <div className="mt-4 pt-4 border-t border-white/20">
+            <div className="flex items-center gap-4 bg-white/10 rounded-xl p-4">
+              <img 
+                src={faithImageMap["jesus-foundation"]} 
+                alt="God uses natural consequences" 
+                className="w-16 h-16 rounded-full object-cover border-2 border-amber-300/50 shadow-lg"
+              />
+              <div className="flex-1 text-left">
+                <p className="text-white font-serif text-sm italic">
+                  "A man reaps what he sows."
+                </p>
+                <p className="text-white/70 text-xs mt-1">— Galatians 6:7</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 };
 
