@@ -1014,6 +1014,242 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  // Natural Consequences - Ages 2-4
+  if (mantraId === "natural-consequences-2-4") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-pink-400 to-rose-500 rounded-3xl p-6 shadow-2xl text-center max-w-2xl w-full">
+          {/* Header */}
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <span className="text-4xl">👶</span>
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-white tracking-wide">NATURAL CONSEQUENCES</h3>
+              <p className="text-white/90 text-lg">Ages 2-4</p>
+            </div>
+          </div>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-sm italic mb-5">"Let life be the teacher while you stay the safe place"</p>
+          
+          {/* Consequences Grid */}
+          <div className="grid gap-3 text-left text-sm">
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🧥 Won't wear jacket</strong> → Gets cold (bring one just in case)</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🍎 Won't eat dinner</strong> → Gets hungry before next meal</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🧸 Throws toy</strong> → Toy goes away for a while</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🛝 Won't leave playground nicely</strong> → Break from playground</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🚶 Won't hold hand in parking lot</strong> → Gets carried (safety first)</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📚 Rips book</strong> → Book goes away, we read it together later</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🎨 Won't share crayons</strong> → Coloring time ends for now</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>😴 Fights bedtime</strong> → Too tired to do fun activity tomorrow</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🥛 Spills drink on purpose</strong> → Helps clean it up</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>👋 Hits sibling/friend</strong> → Playtime ends, we try again later</p>
+            </div>
+          </div>
+          
+          {/* Tip */}
+          <div className="mt-4 bg-white/30 rounded-xl p-3 text-white text-xs italic">
+            💡 At this age, always ensure safety first. Stay close and bring backup (jacket, snack) while they learn.
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Natural Consequences - Ages 5-7
+  if (mantraId === "natural-consequences-5-7") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-blue-400 to-indigo-500 rounded-3xl p-6 shadow-2xl text-center max-w-2xl w-full">
+          {/* Header */}
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <span className="text-4xl">🧒</span>
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-white tracking-wide">NATURAL CONSEQUENCES</h3>
+              <p className="text-white/90 text-lg">Ages 5-7</p>
+            </div>
+          </div>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-sm italic mb-5">"They can handle more—let them experience cause and effect"</p>
+          
+          {/* Consequences Grid */}
+          <div className="grid gap-3 text-left text-sm">
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🎒 Forgets homework</strong> → Gets lower grade or does it at recess</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🧥 Refuses jacket</strong> → Gets cold at recess (no rescue jacket)</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🍱 Doesn't pack lunch</strong> → Goes hungry or eats school lunch</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🚲 Leaves bike out</strong> → Bike gets rained on or taken away</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>⏰ Dawdles in morning</strong> → Goes to school with messy hair</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>💰 Spends all allowance</strong> → Can't buy something else they want</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📺 Won't turn off screen</strong> → Less screen time tomorrow</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🧹 Won't clean room</strong> → Can't find toys, no friends over</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>😤 Mean to friend</strong> → Friend doesn't want to play</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📖 Won't practice reading</strong> → Struggles more in class</p>
+            </div>
+          </div>
+          
+          {/* Tip */}
+          <div className="mt-4 bg-white/30 rounded-xl p-3 text-white text-xs italic">
+            💡 Resist the urge to rescue! A little discomfort now prevents bigger problems later.
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Natural Consequences - Ages 8-12
+  if (mantraId === "natural-consequences-8-12") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-emerald-500 to-teal-600 rounded-3xl p-6 shadow-2xl text-center max-w-2xl w-full">
+          {/* Header */}
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <span className="text-4xl">🧑</span>
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-white tracking-wide">NATURAL CONSEQUENCES</h3>
+              <p className="text-white/90 text-lg">Ages 8-12</p>
+            </div>
+          </div>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-sm italic mb-5">"Bigger responsibilities, bigger lessons"</p>
+          
+          {/* Consequences Grid */}
+          <div className="grid gap-3 text-left text-sm">
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📝 Doesn't do project</strong> → Gets bad grade, talks to teacher</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>💸 Wastes money on junk</strong> → Can't afford thing they really want</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📱 Breaks phone (careless)</strong> → Uses old phone or waits to replace</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>⚽ Skips sports practice</strong> → Doesn't get playing time</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>😤 Rude to coach/teacher</strong> → Has to apologize, loses privileges</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🎮 Games all night</strong> → Exhausted at school, struggles next day</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>👕 Doesn't do laundry</strong> → Wears dirty/wrinkled clothes</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🚌 Misses bus</strong> → Walks, bikes, or misses activity</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🤥 Lies to friend</strong> → Friend loses trust, relationship suffers</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🍕 Eats junk only</strong> → Feels sluggish, stomach hurts</p>
+            </div>
+          </div>
+          
+          {/* Tip */}
+          <div className="mt-4 bg-white/30 rounded-xl p-3 text-white text-xs italic">
+            💡 At this age, let them feel the weight of their choices. Be empathetic, not I-told-you-so.
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Natural Consequences - Ages 13-18
+  if (mantraId === "natural-consequences-13-18") {
+    return (
+      <div className="my-8 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-purple-500 to-violet-600 rounded-3xl p-6 shadow-2xl text-center max-w-2xl w-full">
+          {/* Header */}
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <span className="text-4xl">🧑‍🎓</span>
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-white tracking-wide">NATURAL CONSEQUENCES</h3>
+              <p className="text-white/90 text-lg">Ages 13-18</p>
+            </div>
+          </div>
+          <div className="w-16 h-1 bg-white/50 mx-auto mb-4" />
+          <p className="text-white/90 text-sm italic mb-5">"Real-world stakes—preparing for independence"</p>
+          
+          {/* Consequences Grid */}
+          <div className="grid gap-3 text-left text-sm">
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📚 Doesn't study</strong> → Fails test, affects college options</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🚗 Speeds/reckless driving</strong> → Ticket, higher insurance, loses car</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>💳 Overspends</strong> → Has to work more, can't afford wants</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>😴 Stays up too late</strong> → Exhausted, poor performance</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>👔 Poor attitude at job</strong> → Gets fired or no promotion</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📵 Misses curfew</strong> → Less freedom next time</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🎓 Skips class</strong> → Fails course, summer school</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🤝 Breaks trust</strong> → Takes longer to earn freedoms back</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>📱 Posts inappropriate content</strong> → Affects reputation, college/job</p>
+            </div>
+            <div className="bg-white/20 rounded-lg p-3">
+              <p className="text-white"><strong>🍻 Parties irresponsibly</strong> → Legal trouble, health issues</p>
+            </div>
+          </div>
+          
+          {/* Tip */}
+          <div className="mt-4 bg-white/30 rounded-xl p-3 text-white text-xs italic">
+            💡 These are the consequences they'll face at 25. Better to learn now with your support than later alone.
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 };
 
