@@ -325,5 +325,97 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 15: Natural Consequences - Ages 2-4
+    {
+      id: "wall-15",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Natural Consequences: Ages 2-4",
+      subtitle: "Real-world learning for little ones",
+      sections: [
+        {
+          id: "wall-15-visual",
+          type: "mantra-visual",
+          content: "natural-consequences-2-4",
+          editable: false,
+        },
+        {
+          id: "wall-15-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 16: Natural Consequences - Ages 5-7
+    {
+      id: "wall-16",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Natural Consequences: Ages 5-7",
+      subtitle: "Building responsibility in early childhood",
+      sections: [
+        {
+          id: "wall-16-visual",
+          type: "mantra-visual",
+          content: "natural-consequences-5-7",
+          editable: false,
+        },
+        {
+          id: "wall-16-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 17: Natural Consequences - Ages 8-12
+    {
+      id: "wall-17",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Natural Consequences: Ages 8-12",
+      subtitle: "Growing independence through experience",
+      sections: [
+        {
+          id: "wall-17-visual",
+          type: "mantra-visual",
+          content: "natural-consequences-8-12",
+          editable: false,
+        },
+        {
+          id: "wall-17-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 18: Natural Consequences - Ages 13-18
+    {
+      id: "wall-18",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "Natural Consequences: Ages 13-18",
+      subtitle: "Preparing for adult life",
+      sections: [
+        {
+          id: "wall-18-visual",
+          type: "mantra-visual",
+          content: "natural-consequences-13-18",
+          editable: false,
+        },
+        {
+          id: "wall-18-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };
