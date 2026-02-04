@@ -1463,7 +1463,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mb-6">
             {[
               { icon: Wind, label: "Deep Breaths", color: "text-sky-600" },
-              { icon: Volume2, label: "Pop it Out", color: "text-orange-600" },
+              { icon: Grip, label: "Pop it Out", color: "text-orange-600" },
               { icon: Flame, label: "Dragon Breaths", color: "text-red-500" },
               { icon: Music, label: "Listen to Music", color: "text-purple-600" },
               { icon: BookOpen, label: "Read a Book", color: "text-teal-600" },
