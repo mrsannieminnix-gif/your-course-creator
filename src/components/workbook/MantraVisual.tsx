@@ -1461,7 +1461,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
               { emoji: "🧸", label: "Hug a Stuffie" },
               { emoji: "💪", label: "Squeeze & Relax" },
               { emoji: "🏃", label: "Jump Around" },
-              { emoji: "🎠", label: "Swing" },
+              { emoji: "🛝", label: "Swing" },
               { emoji: "🧩", label: "Do a Puzzle" },
               { emoji: "🤗", label: "Ask for a Hug" },
             ].map((helper, idx) => (
