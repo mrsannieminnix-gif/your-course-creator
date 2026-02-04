@@ -1,6 +1,7 @@
 import React from "react";
 import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw } from "lucide-react";
 import { faithImageMap } from "./ComparisonImage";
+import logoImage from "@/assets/logo.jpg";
 
 interface MantraVisualProps {
   mantraId: string;
@@ -1244,6 +1245,358 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           {/* Tip */}
           <div className="mt-4 bg-white/30 rounded-xl p-3 text-white text-xs italic">
             💡 These are the consequences they'll face at 25. Better to learn now with your support than later alone.
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ==================== CALM CORNER SHEETS ====================
+
+  if (mantraId === "calm-corner-feelings") {
+    return (
+      <div className="my-4 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-teal-50 to-emerald-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-teal-200 relative">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h2 className="font-script text-3xl text-teal-700 mb-1">My Calm Down Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-teal-800 tracking-wide">NAME YOUR FEELING</h3>
+            <p className="text-teal-600 text-sm mt-1">Point to how you feel right now</p>
+          </div>
+          
+          {/* Feelings Grid */}
+          <div className="grid grid-cols-4 md:grid-cols-5 gap-3 mb-6">
+            {[
+              { emoji: "😊", label: "Happy", color: "bg-yellow-100 border-yellow-300" },
+              { emoji: "😢", label: "Sad", color: "bg-blue-100 border-blue-300" },
+              { emoji: "😠", label: "Angry", color: "bg-red-100 border-red-300" },
+              { emoji: "😨", label: "Scared", color: "bg-purple-100 border-purple-300" },
+              { emoji: "😟", label: "Worried", color: "bg-orange-100 border-orange-300" },
+              { emoji: "🤗", label: "Loved", color: "bg-pink-100 border-pink-300" },
+              { emoji: "😤", label: "Frustrated", color: "bg-rose-100 border-rose-300" },
+              { emoji: "😴", label: "Tired", color: "bg-indigo-100 border-indigo-300" },
+              { emoji: "🤢", label: "Sick", color: "bg-green-100 border-green-300" },
+              { emoji: "😔", label: "Lonely", color: "bg-gray-100 border-gray-300" },
+              { emoji: "😳", label: "Embarrassed", color: "bg-rose-100 border-rose-300" },
+              { emoji: "🥰", label: "Grateful", color: "bg-amber-100 border-amber-300" },
+              { emoji: "😮", label: "Surprised", color: "bg-cyan-100 border-cyan-300" },
+              { emoji: "🫤", label: "Disappointed", color: "bg-slate-100 border-slate-300" },
+              { emoji: "😌", label: "Calm", color: "bg-teal-100 border-teal-300" },
+            ].map((feeling, idx) => (
+              <div key={idx} className={`${feeling.color} rounded-xl p-3 text-center border-2 shadow-sm hover:scale-105 transition-transform`}>
+                <span className="text-3xl block mb-1">{feeling.emoji}</span>
+                <span className="text-xs font-medium text-gray-700">{feeling.label}</span>
+              </div>
+            ))}
+          </div>
+          
+          {/* Branding Footer */}
+          <div className="flex items-center justify-between pt-4 border-t border-teal-200">
+            <img 
+              src={logoImage} 
+              alt="Model Parenting Method" 
+              className="h-10 w-10 rounded-full object-cover shadow-md"
+            />
+            <p className="text-teal-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "calm-corner-needs") {
+    return (
+      <div className="my-4 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-sky-50 to-blue-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-sky-200 relative">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h2 className="font-script text-3xl text-sky-700 mb-1">My Calm Down Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-sky-800 tracking-wide">NAME YOUR NEED</h3>
+            <p className="text-sky-600 text-sm mt-1">What does your body need right now?</p>
+          </div>
+          
+          {/* Needs as Circles */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+            {[
+              { emoji: "💧", label: "Water", desc: "I need a drink", color: "bg-blue-200 border-blue-400" },
+              { emoji: "🍎", label: "Food", desc: "I'm hungry", color: "bg-red-200 border-red-400" },
+              { emoji: "😴", label: "Rest", desc: "I need sleep", color: "bg-indigo-200 border-indigo-400" },
+              { emoji: "🤗", label: "Comfort", desc: "I need a hug", color: "bg-pink-200 border-pink-400" },
+              { emoji: "🏃", label: "Movement", desc: "I need to move", color: "bg-green-200 border-green-400" },
+              { emoji: "🧘", label: "Quiet", desc: "I need peace", color: "bg-purple-200 border-purple-400" },
+              { emoji: "🎮", label: "Play", desc: "I need fun", color: "bg-yellow-200 border-yellow-400" },
+              { emoji: "🗣️", label: "Talk", desc: "I need to share", color: "bg-orange-200 border-orange-400" },
+              { emoji: "🌳", label: "Outside", desc: "I need fresh air", color: "bg-emerald-200 border-emerald-400" },
+            ].map((need, idx) => (
+              <div key={idx} className={`${need.color} rounded-full p-4 text-center border-3 shadow-md aspect-square flex flex-col items-center justify-center`}>
+                <span className="text-3xl block mb-1">{need.emoji}</span>
+                <span className="text-sm font-bold text-gray-800">{need.label}</span>
+                <span className="text-xs text-gray-600 mt-1">{need.desc}</span>
+              </div>
+            ))}
+          </div>
+          
+          {/* Branding Footer */}
+          <div className="flex items-center justify-between pt-4 border-t border-sky-200">
+            <img 
+              src={logoImage} 
+              alt="Model Parenting Method" 
+              className="h-10 w-10 rounded-full object-cover shadow-md"
+            />
+            <p className="text-sky-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "calm-corner-zones") {
+    return (
+      <div className="my-4 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-slate-50 to-gray-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-slate-200 relative">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h2 className="font-script text-3xl text-slate-700 mb-1">My Calm Down Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-slate-800 tracking-wide">NAME YOUR ZONE</h3>
+            <p className="text-slate-600 text-sm mt-1">What nervous system zone are you in?</p>
+          </div>
+          
+          {/* Zones Grid */}
+          <div className="grid grid-cols-2 gap-4 mb-6">
+            {/* Blue Zone */}
+            <div className="bg-blue-300 rounded-2xl p-4 border-4 border-blue-500 shadow-lg">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-2xl">😔</span>
+                <h4 className="font-bold text-blue-900 text-lg">Blue Zone</h4>
+              </div>
+              <ul className="text-blue-900 text-sm space-y-1">
+                <li>• Sad</li>
+                <li>• Tired</li>
+                <li>• Bored</li>
+                <li>• Want to be alone</li>
+                <li>• Moving slowly</li>
+              </ul>
+            </div>
+            
+            {/* Green Zone */}
+            <div className="bg-green-300 rounded-2xl p-4 border-4 border-green-500 shadow-lg">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-2xl">😊</span>
+                <h4 className="font-bold text-green-900 text-lg">Green Zone</h4>
+              </div>
+              <ul className="text-green-900 text-sm space-y-1">
+                <li>• Calm</li>
+                <li>• Happy</li>
+                <li>• Ready</li>
+                <li>• Feeling good</li>
+                <li>• Ready to learn</li>
+              </ul>
+            </div>
+            
+            {/* Yellow Zone */}
+            <div className="bg-yellow-300 rounded-2xl p-4 border-4 border-yellow-500 shadow-lg">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-2xl">😬</span>
+                <h4 className="font-bold text-yellow-900 text-lg">Yellow Zone</h4>
+              </div>
+              <ul className="text-yellow-900 text-sm space-y-1">
+                <li>• Wiggly</li>
+                <li>• Anxious</li>
+                <li>• Nervous</li>
+                <li>• Frustrated</li>
+                <li>• Confused</li>
+              </ul>
+            </div>
+            
+            {/* Red Zone */}
+            <div className="bg-red-300 rounded-2xl p-4 border-4 border-red-500 shadow-lg">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-2xl">😡</span>
+                <h4 className="font-bold text-red-900 text-lg">Red Zone</h4>
+              </div>
+              <ul className="text-red-900 text-sm space-y-1">
+                <li>• Angry</li>
+                <li>• Mad</li>
+                <li>• Terrified</li>
+                <li>• Want to yell</li>
+                <li>• Out of control</li>
+              </ul>
+            </div>
+          </div>
+          
+          {/* Branding Footer */}
+          <div className="flex items-center justify-between pt-4 border-t border-slate-200">
+            <img 
+              src={logoImage} 
+              alt="Model Parenting Method" 
+              className="h-10 w-10 rounded-full object-cover shadow-md"
+            />
+            <p className="text-slate-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "calm-corner-helpers") {
+    return (
+      <div className="my-4 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-violet-50 to-purple-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-violet-200 relative">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h2 className="font-script text-3xl text-violet-700 mb-1">My Calm Down Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-violet-800 tracking-wide">CHOOSE YOUR CALM DOWN HELPER</h3>
+            <p className="text-violet-600 text-sm mt-1">Pick a tool to help you feel better</p>
+          </div>
+          
+          {/* Helpers Grid */}
+          <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mb-6">
+            {[
+              { emoji: "🧘", label: "Deep Breaths" },
+              { emoji: "🦁", label: "Roar it Out" },
+              { emoji: "🐉", label: "Dragon Breaths" },
+              { emoji: "🎵", label: "Listen to Music" },
+              { emoji: "📖", label: "Read a Book" },
+              { emoji: "🖍️", label: "Draw/Color" },
+              { emoji: "🧸", label: "Hug a Stuffie" },
+              { emoji: "💪", label: "Squeeze & Relax" },
+              { emoji: "🏃", label: "Jump Around" },
+              { emoji: "🌊", label: "Ocean Breaths" },
+              { emoji: "🧩", label: "Do a Puzzle" },
+              { emoji: "🤗", label: "Ask for a Hug" },
+            ].map((helper, idx) => (
+              <div key={idx} className="bg-white/80 rounded-xl p-3 text-center border-2 border-violet-200 shadow-sm hover:scale-105 transition-transform hover:bg-violet-100">
+                <span className="text-3xl block mb-2">{helper.emoji}</span>
+                <span className="text-xs font-medium text-violet-800">{helper.label}</span>
+              </div>
+            ))}
+          </div>
+          
+          {/* Branding Footer */}
+          <div className="flex items-center justify-between pt-4 border-t border-violet-200">
+            <img 
+              src={logoImage} 
+              alt="Model Parenting Method" 
+              className="h-10 w-10 rounded-full object-cover shadow-md"
+            />
+            <p className="text-violet-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "calm-corner-grounding") {
+    return (
+      <div className="my-4 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-amber-200 relative">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h2 className="font-script text-3xl text-amber-700 mb-1">My Calm Down Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-amber-800 tracking-wide">GROUND YOURSELF</h3>
+            <p className="text-amber-600 text-sm mt-1">Calm your nervous system by using your 5 senses</p>
+          </div>
+          
+          {/* 5-4-3-2-1 Technique */}
+          <div className="space-y-3 mb-6">
+            <div className="flex items-center gap-4 bg-blue-100 rounded-xl p-4 border-2 border-blue-300">
+              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">5</div>
+              <div className="flex-1">
+                <span className="text-3xl mr-2">👀</span>
+                <span className="font-bold text-blue-800">5 things you can SEE</span>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4 bg-green-100 rounded-xl p-4 border-2 border-green-300">
+              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl">4</div>
+              <div className="flex-1">
+                <span className="text-3xl mr-2">✋</span>
+                <span className="font-bold text-green-800">4 things you can TOUCH</span>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4 bg-yellow-100 rounded-xl p-4 border-2 border-yellow-300">
+              <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
+              <div className="flex-1">
+                <span className="text-3xl mr-2">👂</span>
+                <span className="font-bold text-yellow-800">3 things you can HEAR</span>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4 bg-orange-100 rounded-xl p-4 border-2 border-orange-300">
+              <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
+              <div className="flex-1">
+                <span className="text-3xl mr-2">👃</span>
+                <span className="font-bold text-orange-800">2 things you can SMELL</span>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4 bg-red-100 rounded-xl p-4 border-2 border-red-300">
+              <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
+              <div className="flex-1">
+                <span className="text-3xl mr-2">👅</span>
+                <span className="font-bold text-red-800">1 thing you can TASTE</span>
+              </div>
+            </div>
+          </div>
+          
+          {/* Branding Footer */}
+          <div className="flex items-center justify-between pt-4 border-t border-amber-200">
+            <img 
+              src={logoImage} 
+              alt="Model Parenting Method" 
+              className="h-10 w-10 rounded-full object-cover shadow-md"
+            />
+            <p className="text-amber-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "calm-corner-behaviors") {
+    return (
+      <div className="my-4 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-rose-50 to-pink-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-rose-200 relative">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h2 className="font-script text-3xl text-rose-700 mb-1">My Calm Down Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-rose-800 tracking-wide">CHOOSE YOUR HEALTHY BEHAVIOR</h3>
+            <p className="text-rose-600 text-sm mt-1">Healthy ways to express big feelings</p>
+          </div>
+          
+          {/* Behaviors Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+            {[
+              { emoji: "🗣️", label: "Talk about it", desc: "Tell someone how you feel" },
+              { emoji: "✍️", label: "Write it down", desc: "Journal your thoughts" },
+              { emoji: "🎨", label: "Draw your feelings", desc: "Art helps express" },
+              { emoji: "🏃", label: "Move your body", desc: "Run, jump, dance" },
+              { emoji: "🧘‍♂️", label: "Take deep breaths", desc: "Slow in, slow out" },
+              { emoji: "📖", label: "Read a book", desc: "Escape and relax" },
+              { emoji: "🎵", label: "Listen to music", desc: "Calm or fun songs" },
+              { emoji: "🌳", label: "Go outside", desc: "Fresh air helps" },
+              { emoji: "🧸", label: "Comfort item", desc: "Hug something soft" },
+              { emoji: "💪", label: "Push a wall", desc: "Get the energy out" },
+              { emoji: "🤗", label: "Get a hug", desc: "Connection heals" },
+              { emoji: "🙏", label: "Pray", desc: "Talk to God" },
+            ].map((behavior, idx) => (
+              <div key={idx} className="bg-white/80 rounded-xl p-3 text-center border-2 border-rose-200 shadow-sm hover:scale-105 transition-transform">
+                <span className="text-3xl block mb-1">{behavior.emoji}</span>
+                <span className="text-sm font-bold text-rose-800">{behavior.label}</span>
+                <span className="text-xs text-rose-600 block mt-1">{behavior.desc}</span>
+              </div>
+            ))}
+          </div>
+          
+          {/* Branding Footer */}
+          <div className="flex items-center justify-between pt-4 border-t border-rose-200">
+            <img 
+              src={logoImage} 
+              alt="Model Parenting Method" 
+              className="h-10 w-10 rounded-full object-cover shadow-md"
+            />
+            <p className="text-rose-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
       </div>
