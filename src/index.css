@@ -205,8 +205,9 @@
     page-break-after: always;
     break-after: page;
     width: 8.5in !important;
-    height: 11in !important;
-    overflow: hidden !important;
+    min-height: 11in !important;
+    height: auto !important;
+    overflow: visible !important;
   }
 
   .print-page-wrapper:last-child {
@@ -219,29 +220,15 @@
     break-inside: avoid;
     page-break-inside: avoid;
     margin: 0 !important;
-    padding: 0.4in 0.5in !important;
+    padding: 0.35in 0.4in !important;
     max-width: 100% !important;
     width: 8.5in !important;
-    height: 11in !important;
-    min-height: 11in !important;
+    min-height: 10.3in !important;
+    height: auto !important;
     border-radius: 0 !important;
     background: white !important;
     background-image: none !important;
     box-sizing: border-box !important;
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-  /* Make the content area flex to fill */
-  .page-paper > .relative.z-10 {
-    flex: 1 !important;
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-  /* Make sections fill available space */
-  .page-paper .space-y-2 {
-    flex: 1 !important;
   }
 
   /* Make sure all content is visible */
