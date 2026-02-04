@@ -1,5 +1,5 @@
 import React from "react";
-import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw } from "lucide-react";
+import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw, Wind, Volume2, Flame, Music, Palette, Baby, Dumbbell, Footprints, ArrowUpDown, Puzzle, HandHeart, Droplets, Apple, Moon, HandHelping, Zap, VolumeX, Gamepad2, MessageCircle, TreePine, Eye, Hand, Ear, Flower2, Cookie, Smile, Frown, Angry, AlertCircle, ThumbsUp, Meh, BedDouble, HeartCrack, ShieldAlert, Sparkles, HelpCircle, CloudSun, PenTool, MessageSquare, TreeDeciduous, Grip, PiggyBank } from "lucide-react";
 import { faithImageMap } from "./ComparisonImage";
 import logoImage from "@/assets/logo.jpg";
 
@@ -1452,24 +1452,29 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           {/* Helpers Grid */}
           <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mb-6">
             {[
-              { emoji: "🧘", label: "Deep Breaths" },
-              { emoji: "🦁", label: "Roar it Out" },
-              { emoji: "🐉", label: "Dragon Breaths" },
-              { emoji: "🎵", label: "Listen to Music" },
-              { emoji: "📖", label: "Read a Book" },
-              { emoji: "🖍️", label: "Draw/Color" },
-              { emoji: "🧸", label: "Hug a Stuffie" },
-              { emoji: "💪", label: "Squeeze & Relax" },
-              { emoji: "🏃", label: "Jump Around" },
-              { emoji: "🛝", label: "Swing" },
-              { emoji: "🧩", label: "Do a Puzzle" },
-              { emoji: "🤗", label: "Ask for a Hug" },
-            ].map((helper, idx) => (
-              <div key={idx} className="bg-white/80 rounded-xl p-3 text-center border-2 border-violet-200 shadow-sm hover:scale-105 transition-transform hover:bg-violet-100">
-                <span className="text-3xl block mb-2">{helper.emoji}</span>
-                <span className="text-xs font-medium text-violet-800">{helper.label}</span>
-              </div>
-            ))}
+              { icon: Wind, label: "Deep Breaths", color: "text-sky-600" },
+              { icon: Volume2, label: "Roar it Out", color: "text-orange-600" },
+              { icon: Flame, label: "Dragon Breaths", color: "text-red-500" },
+              { icon: Music, label: "Listen to Music", color: "text-purple-600" },
+              { icon: BookOpen, label: "Read a Book", color: "text-teal-600" },
+              { icon: Palette, label: "Draw/Color", color: "text-pink-500" },
+              { icon: Baby, label: "Hug a Stuffie", color: "text-amber-600" },
+              { icon: Dumbbell, label: "Squeeze & Relax", color: "text-slate-600" },
+              { icon: Footprints, label: "Jump Around", color: "text-green-600" },
+              { icon: ArrowUpDown, label: "Swing", color: "text-indigo-600" },
+              { icon: Puzzle, label: "Do a Puzzle", color: "text-emerald-600" },
+              { icon: HandHeart, label: "Ask for a Hug", color: "text-rose-500" },
+            ].map((helper, idx) => {
+              const IconComponent = helper.icon;
+              return (
+                <div key={idx} className="bg-white/80 rounded-xl p-3 text-center border-2 border-violet-200 shadow-sm hover:scale-105 transition-transform hover:bg-violet-100">
+                  <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
+                    <IconComponent className={`w-8 h-8 ${helper.color}`} />
+                  </div>
+                  <span className="text-xs font-medium text-violet-800">{helper.label}</span>
+                </div>
+              );
+            })}
           </div>
           
           {/* Branding Footer */}
