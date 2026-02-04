@@ -417,12 +417,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
-    // Page 19: Calm Corner - Name Your Feeling
+    // Page 19: Reset Corner - Name Your Feeling
     {
       id: "wall-19",
       type: "visuals",
       section: 2,
-      sectionTitle: "Calm Corner",
+      sectionTitle: "Reset Corner",
       title: "Name Your Feeling",
       subtitle: "Helping kids identify their emotions",
       sections: [
@@ -440,12 +440,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
-    // Page 20: Calm Corner - Name Your Need
+    // Page 20: Reset Corner - Name Your Need
     {
       id: "wall-20",
       type: "visuals",
       section: 2,
-      sectionTitle: "Calm Corner",
+      sectionTitle: "Reset Corner",
       title: "Name Your Need",
       subtitle: "What does your body need right now?",
       sections: [
@@ -463,12 +463,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
-    // Page 21: Calm Corner - Name Your Zone
+    // Page 21: Reset Corner - Name Your Zone
     {
       id: "wall-21",
       type: "visuals",
       section: 2,
-      sectionTitle: "Calm Corner",
+      sectionTitle: "Reset Corner",
       title: "Name Your Zone",
       subtitle: "What nervous system zone are you in?",
       sections: [
@@ -486,13 +486,13 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
-    // Page 22: Calm Corner - Choose Your Calm Down Helper
+    // Page 22: Reset Corner - Choose Your Reset Helper
     {
       id: "wall-22",
       type: "visuals",
       section: 2,
-      sectionTitle: "Calm Corner",
-      title: "Choose Your Calm Down Helper",
+      sectionTitle: "Reset Corner",
+      title: "Choose Your Reset Helper",
       subtitle: "Pick a tool to help you feel better",
       sections: [
         {
@@ -509,12 +509,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
-    // Page 23: Calm Corner - Ground Yourself (5-4-3-2-1)
+    // Page 23: Reset Corner - Ground Yourself (5-4-3-2-1)
     {
       id: "wall-23",
       type: "visuals",
       section: 2,
-      sectionTitle: "Calm Corner",
+      sectionTitle: "Reset Corner",
       title: "Ground Yourself",
       subtitle: "Calm your nervous system with your 5 senses",
       sections: [
@@ -532,12 +532,12 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
-    // Page 24: Calm Corner - Choose Your Healthy Behavior
+    // Page 24: Reset Corner - Choose Your Healthy Behavior
     {
       id: "wall-24",
       type: "visuals",
       section: 2,
-      sectionTitle: "Calm Corner",
+      sectionTitle: "Reset Corner",
       title: "Choose Your Healthy Behavior",
       subtitle: "Healthy ways to express big feelings",
       sections: [
