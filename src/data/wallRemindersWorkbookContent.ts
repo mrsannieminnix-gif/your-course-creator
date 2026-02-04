@@ -417,5 +417,143 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 19: Calm Corner - Name Your Feeling
+    {
+      id: "wall-19",
+      type: "visuals",
+      section: 2,
+      sectionTitle: "Calm Corner",
+      title: "Name Your Feeling",
+      subtitle: "Helping kids identify their emotions",
+      sections: [
+        {
+          id: "wall-19-visual",
+          type: "mantra-visual",
+          content: "calm-corner-feelings",
+          editable: false,
+        },
+        {
+          id: "wall-19-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 20: Calm Corner - Name Your Need
+    {
+      id: "wall-20",
+      type: "visuals",
+      section: 2,
+      sectionTitle: "Calm Corner",
+      title: "Name Your Need",
+      subtitle: "What does your body need right now?",
+      sections: [
+        {
+          id: "wall-20-visual",
+          type: "mantra-visual",
+          content: "calm-corner-needs",
+          editable: false,
+        },
+        {
+          id: "wall-20-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 21: Calm Corner - Name Your Zone
+    {
+      id: "wall-21",
+      type: "visuals",
+      section: 2,
+      sectionTitle: "Calm Corner",
+      title: "Name Your Zone",
+      subtitle: "What nervous system zone are you in?",
+      sections: [
+        {
+          id: "wall-21-visual",
+          type: "mantra-visual",
+          content: "calm-corner-zones",
+          editable: false,
+        },
+        {
+          id: "wall-21-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 22: Calm Corner - Choose Your Calm Down Helper
+    {
+      id: "wall-22",
+      type: "visuals",
+      section: 2,
+      sectionTitle: "Calm Corner",
+      title: "Choose Your Calm Down Helper",
+      subtitle: "Pick a tool to help you feel better",
+      sections: [
+        {
+          id: "wall-22-visual",
+          type: "mantra-visual",
+          content: "calm-corner-helpers",
+          editable: false,
+        },
+        {
+          id: "wall-22-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 23: Calm Corner - Ground Yourself (5-4-3-2-1)
+    {
+      id: "wall-23",
+      type: "visuals",
+      section: 2,
+      sectionTitle: "Calm Corner",
+      title: "Ground Yourself",
+      subtitle: "Calm your nervous system with your 5 senses",
+      sections: [
+        {
+          id: "wall-23-visual",
+          type: "mantra-visual",
+          content: "calm-corner-grounding",
+          editable: false,
+        },
+        {
+          id: "wall-23-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 24: Calm Corner - Choose Your Healthy Behavior
+    {
+      id: "wall-24",
+      type: "visuals",
+      section: 2,
+      sectionTitle: "Calm Corner",
+      title: "Choose Your Healthy Behavior",
+      subtitle: "Healthy ways to express big feelings",
+      sections: [
+        {
+          id: "wall-24-visual",
+          type: "mantra-visual",
+          content: "calm-corner-behaviors",
+          editable: false,
+        },
+        {
+          id: "wall-24-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
   ],
 };
