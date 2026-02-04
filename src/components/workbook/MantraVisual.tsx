@@ -2,6 +2,18 @@ import React from "react";
 import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw, Wind, Volume2, Flame, Music, Palette, Baby, Dumbbell, Footprints, ArrowUpDown, Puzzle, HandHeart, Droplets, Apple, Moon, HandHelping, Zap, VolumeX, Gamepad2, MessageCircle, TreePine, Eye, Hand, Ear, Flower2, Cookie, Smile, Frown, Angry, AlertCircle, ThumbsUp, Meh, BedDouble, HeartCrack, ShieldAlert, Sparkles, HelpCircle, CloudSun, PenTool, MessageSquare, TreeDeciduous, Grip, PiggyBank } from "lucide-react";
 import { faithImageMap } from "./ComparisonImage";
 import logoImage from "@/assets/logo.jpg";
+import resetPopIt from "@/assets/reset-pop-it.png";
+import resetSwing from "@/assets/reset-swing.png";
+import resetDeepBreaths from "@/assets/reset-deep-breaths.png";
+import resetDragonBreaths from "@/assets/reset-dragon-breaths.png";
+import resetListenMusic from "@/assets/reset-listen-music.png";
+import resetReadBook from "@/assets/reset-read-book.png";
+import resetDrawColor from "@/assets/reset-draw-color.png";
+import resetHugStuffie from "@/assets/reset-hug-stuffie.png";
+import resetSqueezeRelax from "@/assets/reset-squeeze-relax.png";
+import resetJumpAround from "@/assets/reset-jump-around.png";
+import resetPuzzle from "@/assets/reset-puzzle.png";
+import resetAskHug from "@/assets/reset-ask-hug.png";
 
 interface MantraVisualProps {
   mantraId: string;
@@ -1462,29 +1474,28 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           {/* Helpers Grid */}
           <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mb-6">
             {[
-              { icon: Wind, label: "Deep Breaths", color: "text-sky-600" },
-              { icon: Grip, label: "Pop it Out", color: "text-orange-600" },
-              { icon: Flame, label: "Dragon Breaths", color: "text-red-500" },
-              { icon: Music, label: "Listen to Music", color: "text-purple-600" },
-              { icon: BookOpen, label: "Read a Book", color: "text-teal-600" },
-              { icon: Palette, label: "Draw/Color", color: "text-pink-500" },
-              { icon: Baby, label: "Hug a Stuffie", color: "text-amber-600" },
-              { icon: Dumbbell, label: "Squeeze & Relax", color: "text-slate-600" },
-              { icon: Footprints, label: "Jump Around", color: "text-green-600" },
-              { icon: ArrowUpDown, label: "Swing", color: "text-indigo-600" },
-              { icon: Puzzle, label: "Do a Puzzle", color: "text-emerald-600" },
-              { icon: HandHeart, label: "Ask for a Hug", color: "text-rose-500" },
-            ].map((helper, idx) => {
-              const IconComponent = helper.icon;
-              return (
-                <div key={idx} className="bg-white/80 rounded-xl p-3 text-center border-2 border-violet-200 shadow-sm hover:scale-105 transition-transform hover:bg-violet-100">
-                  <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center">
-                    <IconComponent className={`w-8 h-8 ${helper.color}`} />
-                  </div>
-                  <span className="text-xs font-medium text-violet-800">{helper.label}</span>
-                </div>
-              );
-            })}
+              { image: resetDeepBreaths, label: "Deep Breaths" },
+              { image: resetPopIt, label: "Pop it Out" },
+              { image: resetDragonBreaths, label: "Dragon Breaths" },
+              { image: resetListenMusic, label: "Listen to Music" },
+              { image: resetReadBook, label: "Read a Book" },
+              { image: resetDrawColor, label: "Draw/Color" },
+              { image: resetHugStuffie, label: "Hug a Stuffie" },
+              { image: resetSqueezeRelax, label: "Squeeze & Relax" },
+              { image: resetJumpAround, label: "Jump Around" },
+              { image: resetSwing, label: "Swing" },
+              { image: resetPuzzle, label: "Do a Puzzle" },
+              { image: resetAskHug, label: "Ask for a Hug" },
+            ].map((helper, idx) => (
+              <div key={idx} className="bg-white/80 rounded-xl p-2 text-center border-2 border-violet-200 shadow-sm hover:scale-105 transition-transform hover:bg-violet-100">
+                <img 
+                  src={helper.image} 
+                  alt={helper.label} 
+                  className="w-16 h-16 mx-auto mb-1 object-contain rounded-lg"
+                />
+                <span className="text-xs font-medium text-violet-800">{helper.label}</span>
+              </div>
+            ))}
           </div>
           
           {/* Branding Footer */}
