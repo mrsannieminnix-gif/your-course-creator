@@ -1251,7 +1251,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
-  // ==================== CALM CORNER SHEETS ====================
+  // ==================== RESET CORNER SHEETS ====================
 
   if (mantraId === "calm-corner-feelings") {
     return (
@@ -1259,7 +1259,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         <div className="bg-gradient-to-br from-teal-50 to-emerald-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-teal-200 relative">
           {/* Header */}
           <div className="text-center mb-6">
-            <h2 className="font-script text-3xl text-teal-700 mb-1">My Calm Down Corner</h2>
+            <h2 className="font-script text-3xl text-teal-700 mb-1">My Reset Corner</h2>
             <h3 className="font-serif text-2xl font-bold text-teal-800 tracking-wide">NAME YOUR FEELING</h3>
             <p className="text-teal-600 text-sm mt-1">Point to how you feel right now</p>
           </div>
@@ -1315,7 +1315,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         <div className="bg-gradient-to-br from-sky-50 to-blue-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-sky-200 relative">
           {/* Header */}
           <div className="text-center mb-6">
-            <h2 className="font-script text-3xl text-sky-700 mb-1">My Calm Down Corner</h2>
+            <h2 className="font-script text-3xl text-sky-700 mb-1">My Reset Corner</h2>
             <h3 className="font-serif text-2xl font-bold text-sky-800 tracking-wide">NAME YOUR NEED</h3>
             <p className="text-sky-600 text-sm mt-1">What does your body need right now?</p>
           </div>
@@ -1366,7 +1366,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         <div className="bg-gradient-to-br from-slate-50 to-gray-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-slate-200 relative">
           {/* Header */}
           <div className="text-center mb-6">
-            <h2 className="font-script text-3xl text-slate-700 mb-1">My Calm Down Corner</h2>
+            <h2 className="font-script text-3xl text-slate-700 mb-1">My Reset Corner</h2>
             <h3 className="font-serif text-2xl font-bold text-slate-800 tracking-wide">NAME YOUR ZONE</h3>
             <p className="text-slate-600 text-sm mt-1">What nervous system zone are you in?</p>
           </div>
@@ -1454,8 +1454,8 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         <div className="bg-gradient-to-br from-violet-50 to-purple-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-violet-200 relative">
           {/* Header */}
           <div className="text-center mb-6">
-            <h2 className="font-script text-3xl text-violet-700 mb-1">My Calm Down Corner</h2>
-            <h3 className="font-serif text-2xl font-bold text-violet-800 tracking-wide">CHOOSE YOUR CALM DOWN HELPER</h3>
+            <h2 className="font-script text-3xl text-violet-700 mb-1">My Reset Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-violet-800 tracking-wide">CHOOSE YOUR RESET HELPER</h3>
             <p className="text-violet-600 text-sm mt-1">Pick a tool to help you feel better</p>
           </div>
           
@@ -1507,7 +1507,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         <div className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-amber-200 relative">
           {/* Header */}
           <div className="text-center mb-6">
-            <h2 className="font-script text-3xl text-amber-700 mb-1">My Calm Down Corner</h2>
+            <h2 className="font-script text-3xl text-amber-700 mb-1">My Reset Corner</h2>
             <h3 className="font-serif text-2xl font-bold text-amber-800 tracking-wide">GROUND YOURSELF</h3>
             <p className="text-amber-600 text-sm mt-1">Calm your nervous system by using your 5 senses</p>
           </div>
@@ -1575,7 +1575,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         <div className="bg-gradient-to-br from-rose-50 to-pink-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-rose-200 relative">
           {/* Header */}
           <div className="text-center mb-6">
-            <h2 className="font-script text-3xl text-rose-700 mb-1">My Calm Down Corner</h2>
+            <h2 className="font-script text-3xl text-rose-700 mb-1">My Reset Corner</h2>
             <h3 className="font-serif text-2xl font-bold text-rose-800 tracking-wide">CHOOSE YOUR HEALTHY BEHAVIOR</h3>
             <p className="text-rose-600 text-sm mt-1">Healthy ways to express big feelings</p>
           </div>
