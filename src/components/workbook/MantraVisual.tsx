@@ -1270,50 +1270,41 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
       <div className="my-4 flex flex-col items-center">
         <div className="bg-gradient-to-br from-teal-50 to-emerald-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-teal-200 relative">
           {/* Header */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-4">
             <h2 className="font-script text-3xl text-teal-700 mb-1">My Reset Corner</h2>
-            <h3 className="font-serif text-2xl font-bold text-teal-800 tracking-wide">NAME YOUR FEELING</h3>
+            <h3 className="font-serif text-2xl font-bold text-teal-800 tracking-wide">HOW DO I FEEL?</h3>
             <p className="text-teal-600 text-sm mt-1">Point to how you feel right now</p>
           </div>
           
-          {/* Feelings Grid */}
-          <div className="grid grid-cols-4 md:grid-cols-5 gap-3 mb-6">
+          {/* Feelings Grid - Big emojis for non-readers */}
+          <div className="grid grid-cols-5 gap-3 mb-4">
             {[
-              { icon: Smile, label: "Happy", color: "bg-yellow-100 border-yellow-300", iconColor: "text-yellow-600" },
-              { icon: Frown, label: "Sad", color: "bg-blue-100 border-blue-300", iconColor: "text-blue-600" },
-              { icon: Angry, label: "Angry", color: "bg-red-100 border-red-300", iconColor: "text-red-600" },
-              { icon: AlertCircle, label: "Scared", color: "bg-purple-100 border-purple-300", iconColor: "text-purple-600" },
-              { icon: HelpCircle, label: "Worried", color: "bg-orange-100 border-orange-300", iconColor: "text-orange-600" },
-              { icon: Heart, label: "Loved", color: "bg-pink-100 border-pink-300", iconColor: "text-pink-600" },
-              { icon: Zap, label: "Frustrated", color: "bg-rose-100 border-rose-300", iconColor: "text-rose-600" },
-              { icon: Moon, label: "Tired", color: "bg-indigo-100 border-indigo-300", iconColor: "text-indigo-600" },
-              { icon: HeartCrack, label: "Sick", color: "bg-green-100 border-green-300", iconColor: "text-green-600" },
-              { icon: Users, label: "Lonely", color: "bg-gray-100 border-gray-300", iconColor: "text-gray-600" },
-              { icon: ShieldAlert, label: "Embarrassed", color: "bg-rose-100 border-rose-300", iconColor: "text-rose-500" },
-              { icon: Sparkles, label: "Grateful", color: "bg-amber-100 border-amber-300", iconColor: "text-amber-600" },
-              { icon: Star, label: "Surprised", color: "bg-cyan-100 border-cyan-300", iconColor: "text-cyan-600" },
-              { icon: Meh, label: "Disappointed", color: "bg-slate-100 border-slate-300", iconColor: "text-slate-600" },
-              { icon: CloudSun, label: "Calm", color: "bg-teal-100 border-teal-300", iconColor: "text-teal-600" },
-            ].map((feeling, idx) => {
-              const IconComponent = feeling.icon;
-              return (
-                <div key={idx} className={`${feeling.color} rounded-xl p-3 text-center border-2 shadow-sm hover:scale-105 transition-transform`}>
-                  <div className="w-8 h-8 mx-auto mb-1 flex items-center justify-center">
-                    <IconComponent className={`w-7 h-7 ${feeling.iconColor}`} />
-                  </div>
-                  <span className="text-xs font-medium text-gray-700">{feeling.label}</span>
-                </div>
-              );
-            })}
+              { emoji: "😊", label: "Happy", color: "bg-yellow-100 border-yellow-300" },
+              { emoji: "😢", label: "Sad", color: "bg-blue-100 border-blue-300" },
+              { emoji: "😡", label: "Angry", color: "bg-red-100 border-red-300" },
+              { emoji: "😨", label: "Scared", color: "bg-purple-100 border-purple-300" },
+              { emoji: "😟", label: "Worried", color: "bg-orange-100 border-orange-300" },
+              { emoji: "🥰", label: "Loved", color: "bg-pink-100 border-pink-300" },
+              { emoji: "😤", label: "Frustrated", color: "bg-rose-100 border-rose-300" },
+              { emoji: "😴", label: "Tired", color: "bg-indigo-100 border-indigo-300" },
+              { emoji: "🤢", label: "Sick", color: "bg-green-100 border-green-300" },
+              { emoji: "😔", label: "Lonely", color: "bg-gray-100 border-gray-300" },
+              { emoji: "😳", label: "Embarrassed", color: "bg-rose-100 border-rose-300" },
+              { emoji: "🤩", label: "Excited", color: "bg-amber-100 border-amber-300" },
+              { emoji: "😲", label: "Surprised", color: "bg-cyan-100 border-cyan-300" },
+              { emoji: "😞", label: "Disappointed", color: "bg-slate-100 border-slate-300" },
+              { emoji: "😌", label: "Calm", color: "bg-teal-100 border-teal-300" },
+            ].map((feeling, idx) => (
+              <div key={idx} className={`${feeling.color} rounded-2xl p-3 text-center border-2 shadow-sm`}>
+                <span className="text-4xl block mb-1">{feeling.emoji}</span>
+                <span className="text-xs font-bold text-gray-700">{feeling.label}</span>
+              </div>
+            ))}
           </div>
           
           {/* Branding Footer */}
-          <div className="flex items-center justify-between pt-4 border-t border-teal-200">
-            <img 
-              src={logoImage} 
-              alt="Model Parenting Method" 
-              className="h-10 w-10 rounded-full object-cover shadow-md"
-            />
+          <div className="flex items-center justify-between pt-3 border-t border-teal-200">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
             <p className="text-teal-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
@@ -1326,45 +1317,35 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
       <div className="my-4 flex flex-col items-center">
         <div className="bg-gradient-to-br from-sky-50 to-blue-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-sky-200 relative">
           {/* Header */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-4">
             <h2 className="font-script text-3xl text-sky-700 mb-1">My Reset Corner</h2>
-            <h3 className="font-serif text-2xl font-bold text-sky-800 tracking-wide">NAME YOUR NEED</h3>
-            <p className="text-sky-600 text-sm mt-1">What does your body need right now?</p>
+            <h3 className="font-serif text-2xl font-bold text-sky-800 tracking-wide">WHAT DO I NEED?</h3>
+            <p className="text-sky-600 text-sm mt-1">Point to what your body needs right now</p>
           </div>
           
-          {/* Needs as Circles */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+          {/* Needs Grid - Big emojis */}
+          <div className="grid grid-cols-3 gap-4 mb-4">
             {[
-              { icon: Droplets, label: "Water", desc: "I need a drink", color: "bg-blue-200 border-blue-400", iconColor: "text-blue-700" },
-              { icon: Apple, label: "Food", desc: "I'm hungry", color: "bg-red-200 border-red-400", iconColor: "text-red-700" },
-              { icon: BedDouble, label: "Rest", desc: "I need sleep", color: "bg-indigo-200 border-indigo-400", iconColor: "text-indigo-700" },
-              { icon: HandHeart, label: "Comfort", desc: "I need a hug", color: "bg-pink-200 border-pink-400", iconColor: "text-pink-700" },
-              { icon: Footprints, label: "Movement", desc: "I need to move", color: "bg-green-200 border-green-400", iconColor: "text-green-700" },
-              { icon: VolumeX, label: "Quiet", desc: "I need peace", color: "bg-purple-200 border-purple-400", iconColor: "text-purple-700" },
-              { icon: Gamepad2, label: "Play", desc: "I need fun", color: "bg-yellow-200 border-yellow-400", iconColor: "text-yellow-700" },
-              { icon: MessageCircle, label: "Talk", desc: "I need to share", color: "bg-orange-200 border-orange-400", iconColor: "text-orange-700" },
-              { icon: TreeDeciduous, label: "Outside", desc: "I need fresh air", color: "bg-emerald-200 border-emerald-400", iconColor: "text-emerald-700" },
-            ].map((need, idx) => {
-              const IconComponent = need.icon;
-              return (
-                <div key={idx} className={`${need.color} rounded-full p-4 text-center border-3 shadow-md aspect-square flex flex-col items-center justify-center`}>
-                  <div className="w-10 h-10 mb-1 flex items-center justify-center">
-                    <IconComponent className={`w-8 h-8 ${need.iconColor}`} />
-                  </div>
-                  <span className="text-sm font-bold text-gray-800">{need.label}</span>
-                  <span className="text-xs text-gray-600 mt-1">{need.desc}</span>
-                </div>
-              );
-            })}
+              { emoji: "💧", label: "Water", color: "bg-blue-200 border-blue-400" },
+              { emoji: "🍎", label: "Food", color: "bg-red-200 border-red-400" },
+              { emoji: "😴", label: "Rest", color: "bg-indigo-200 border-indigo-400" },
+              { emoji: "🤗", label: "A Hug", color: "bg-pink-200 border-pink-400" },
+              { emoji: "🏃", label: "Move!", color: "bg-green-200 border-green-400" },
+              { emoji: "🤫", label: "Quiet", color: "bg-purple-200 border-purple-400" },
+              { emoji: "🎮", label: "Play", color: "bg-yellow-200 border-yellow-400" },
+              { emoji: "🗣️", label: "Talk", color: "bg-orange-200 border-orange-400" },
+              { emoji: "🌳", label: "Outside", color: "bg-emerald-200 border-emerald-400" },
+            ].map((need, idx) => (
+              <div key={idx} className={`${need.color} rounded-2xl p-4 text-center border-3 shadow-md`}>
+                <span className="text-5xl block mb-2">{need.emoji}</span>
+                <span className="text-sm font-bold text-gray-800">{need.label}</span>
+              </div>
+            ))}
           </div>
           
           {/* Branding Footer */}
-          <div className="flex items-center justify-between pt-4 border-t border-sky-200">
-            <img 
-              src={logoImage} 
-              alt="Model Parenting Method" 
-              className="h-10 w-10 rounded-full object-cover shadow-md"
-            />
+          <div className="flex items-center justify-between pt-3 border-t border-sky-200">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
             <p className="text-sky-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
@@ -1377,82 +1358,62 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
       <div className="my-4 flex flex-col items-center">
         <div className="bg-gradient-to-br from-slate-50 to-gray-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-slate-200 relative">
           {/* Header */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-4">
             <h2 className="font-script text-3xl text-slate-700 mb-1">My Reset Corner</h2>
-            <h3 className="font-serif text-2xl font-bold text-slate-800 tracking-wide">NAME YOUR ZONE</h3>
-            <p className="text-slate-600 text-sm mt-1">What nervous system zone are you in?</p>
+            <h3 className="font-serif text-2xl font-bold text-slate-800 tracking-wide">WHAT ZONE AM I IN?</h3>
+            <p className="text-slate-600 text-sm mt-1">Point to your zone</p>
           </div>
           
-          {/* Zones Grid */}
-          <div className="grid grid-cols-2 gap-4 mb-6">
+          {/* Zones - Big visual cards with large emoji faces */}
+          <div className="grid grid-cols-2 gap-4 mb-4">
             {/* Blue Zone */}
-            <div className="bg-blue-300 rounded-2xl p-4 border-4 border-blue-500 shadow-lg">
-              <div className="flex items-center gap-2 mb-2">
-                <Frown className="w-6 h-6 text-blue-900" />
-                <h4 className="font-bold text-blue-900 text-lg">Blue Zone</h4>
+            <div className="bg-blue-300 rounded-2xl p-5 border-4 border-blue-500 shadow-lg text-center">
+              <span className="text-6xl block mb-2">😢</span>
+              <h4 className="font-bold text-blue-900 text-xl mb-2">Blue Zone</h4>
+              <div className="flex flex-wrap gap-1 justify-center">
+                <span className="bg-blue-200 rounded-full px-2 py-1 text-xs font-medium text-blue-900">Sad</span>
+                <span className="bg-blue-200 rounded-full px-2 py-1 text-xs font-medium text-blue-900">Tired</span>
+                <span className="bg-blue-200 rounded-full px-2 py-1 text-xs font-medium text-blue-900">Slow</span>
               </div>
-              <ul className="text-blue-900 text-sm space-y-1">
-                <li>• Sad</li>
-                <li>• Tired</li>
-                <li>• Bored</li>
-                <li>• Want to be alone</li>
-                <li>• Moving slowly</li>
-              </ul>
             </div>
             
             {/* Green Zone */}
-            <div className="bg-green-300 rounded-2xl p-4 border-4 border-green-500 shadow-lg">
-              <div className="flex items-center gap-2 mb-2">
-                <Smile className="w-6 h-6 text-green-900" />
-                <h4 className="font-bold text-green-900 text-lg">Green Zone</h4>
+            <div className="bg-green-300 rounded-2xl p-5 border-4 border-green-500 shadow-lg text-center">
+              <span className="text-6xl block mb-2">😊</span>
+              <h4 className="font-bold text-green-900 text-xl mb-2">Green Zone</h4>
+              <div className="flex flex-wrap gap-1 justify-center">
+                <span className="bg-green-200 rounded-full px-2 py-1 text-xs font-medium text-green-900">Calm</span>
+                <span className="bg-green-200 rounded-full px-2 py-1 text-xs font-medium text-green-900">Happy</span>
+                <span className="bg-green-200 rounded-full px-2 py-1 text-xs font-medium text-green-900">Ready</span>
               </div>
-              <ul className="text-green-900 text-sm space-y-1">
-                <li>• Calm</li>
-                <li>• Happy</li>
-                <li>• Ready</li>
-                <li>• Feeling good</li>
-                <li>• Ready to learn</li>
-              </ul>
             </div>
             
             {/* Yellow Zone */}
-            <div className="bg-yellow-300 rounded-2xl p-4 border-4 border-yellow-500 shadow-lg">
-              <div className="flex items-center gap-2 mb-2">
-                <AlertCircle className="w-6 h-6 text-yellow-900" />
-                <h4 className="font-bold text-yellow-900 text-lg">Yellow Zone</h4>
+            <div className="bg-yellow-300 rounded-2xl p-5 border-4 border-yellow-500 shadow-lg text-center">
+              <span className="text-6xl block mb-2">😰</span>
+              <h4 className="font-bold text-yellow-900 text-xl mb-2">Yellow Zone</h4>
+              <div className="flex flex-wrap gap-1 justify-center">
+                <span className="bg-yellow-200 rounded-full px-2 py-1 text-xs font-medium text-yellow-900">Wiggly</span>
+                <span className="bg-yellow-200 rounded-full px-2 py-1 text-xs font-medium text-yellow-900">Nervous</span>
+                <span className="bg-yellow-200 rounded-full px-2 py-1 text-xs font-medium text-yellow-900">Upset</span>
               </div>
-              <ul className="text-yellow-900 text-sm space-y-1">
-                <li>• Wiggly</li>
-                <li>• Anxious</li>
-                <li>• Nervous</li>
-                <li>• Frustrated</li>
-                <li>• Confused</li>
-              </ul>
             </div>
             
             {/* Red Zone */}
-            <div className="bg-red-300 rounded-2xl p-4 border-4 border-red-500 shadow-lg">
-              <div className="flex items-center gap-2 mb-2">
-                <Angry className="w-6 h-6 text-red-900" />
-                <h4 className="font-bold text-red-900 text-lg">Red Zone</h4>
+            <div className="bg-red-300 rounded-2xl p-5 border-4 border-red-500 shadow-lg text-center">
+              <span className="text-6xl block mb-2">😡</span>
+              <h4 className="font-bold text-red-900 text-xl mb-2">Red Zone</h4>
+              <div className="flex flex-wrap gap-1 justify-center">
+                <span className="bg-red-200 rounded-full px-2 py-1 text-xs font-medium text-red-900">Angry</span>
+                <span className="bg-red-200 rounded-full px-2 py-1 text-xs font-medium text-red-900">Mad</span>
+                <span className="bg-red-200 rounded-full px-2 py-1 text-xs font-medium text-red-900">Yelling</span>
               </div>
-              <ul className="text-red-900 text-sm space-y-1">
-                <li>• Angry</li>
-                <li>• Mad</li>
-                <li>• Terrified</li>
-                <li>• Want to yell</li>
-                <li>• Out of control</li>
-              </ul>
             </div>
           </div>
           
           {/* Branding Footer */}
-          <div className="flex items-center justify-between pt-4 border-t border-slate-200">
-            <img 
-              src={logoImage} 
-              alt="Model Parenting Method" 
-              className="h-10 w-10 rounded-full object-cover shadow-md"
-            />
+          <div className="flex items-center justify-between pt-3 border-t border-slate-200">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
             <p className="text-slate-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
@@ -1465,46 +1426,42 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
       <div className="my-4 flex flex-col items-center">
         <div className="bg-gradient-to-br from-violet-50 to-purple-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-violet-200 relative">
           {/* Header */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-4">
             <h2 className="font-script text-3xl text-violet-700 mb-1">My Reset Corner</h2>
-            <h3 className="font-serif text-2xl font-bold text-violet-800 tracking-wide">CHOOSE YOUR RESET HELPER</h3>
-            <p className="text-violet-600 text-sm mt-1">Pick a tool to help you feel better</p>
+            <h3 className="font-serif text-2xl font-bold text-violet-800 tracking-wide">PICK A HELPER</h3>
+            <p className="text-violet-600 text-sm mt-1">Choose something to help you feel better</p>
           </div>
           
-          {/* Helpers Grid */}
-          <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mb-6">
+          {/* Helpers Grid - keep watercolor images since already kid-friendly */}
+          <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mb-4">
             {[
               { image: resetDeepBreaths, label: "Deep Breaths" },
-              { image: resetPopIt, label: "Pop it Out" },
+              { image: resetPopIt, label: "Pop It" },
               { image: resetDragonBreaths, label: "Dragon Breaths" },
-              { image: resetListenMusic, label: "Listen to Music" },
-              { image: resetReadBook, label: "Read a Book" },
-              { image: resetDrawColor, label: "Draw/Color" },
-              { image: resetHugStuffie, label: "Hug a Stuffie" },
-              { image: resetSqueezeRelax, label: "Squeeze & Relax" },
-              { image: resetJumpAround, label: "Jump Around" },
+              { image: resetListenMusic, label: "Music" },
+              { image: resetReadBook, label: "Read" },
+              { image: resetDrawColor, label: "Draw" },
+              { image: resetHugStuffie, label: "Hug Stuffie" },
+              { image: resetSqueezeRelax, label: "Squeeze" },
+              { image: resetJumpAround, label: "Jump!" },
               { image: resetSwing, label: "Swing" },
-              { image: resetPuzzle, label: "Do a Puzzle" },
-              { image: resetAskHug, label: "Ask for a Hug" },
+              { image: resetPuzzle, label: "Puzzle" },
+              { image: resetAskHug, label: "Get a Hug" },
             ].map((helper, idx) => (
-              <div key={idx} className="bg-white/80 rounded-xl p-2 text-center border-2 border-violet-200 shadow-sm hover:scale-105 transition-transform hover:bg-violet-100">
+              <div key={idx} className="bg-white/80 rounded-xl p-2 text-center border-2 border-violet-200 shadow-sm">
                 <img 
                   src={helper.image} 
                   alt={helper.label} 
-                  className="w-16 h-16 mx-auto mb-1 object-contain rounded-lg"
+                  className="w-20 h-20 mx-auto mb-1 object-contain rounded-lg"
                 />
-                <span className="text-xs font-medium text-violet-800">{helper.label}</span>
+                <span className="text-xs font-bold text-violet-800">{helper.label}</span>
               </div>
             ))}
           </div>
           
           {/* Branding Footer */}
-          <div className="flex items-center justify-between pt-4 border-t border-violet-200">
-            <img 
-              src={logoImage} 
-              alt="Model Parenting Method" 
-              className="h-10 w-10 rounded-full object-cover shadow-md"
-            />
+          <div className="flex items-center justify-between pt-3 border-t border-violet-200">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
             <p className="text-violet-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
@@ -1517,62 +1474,48 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
       <div className="my-4 flex flex-col items-center">
         <div className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-amber-200 relative">
           {/* Header */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-4">
             <h2 className="font-script text-3xl text-amber-700 mb-1">My Reset Corner</h2>
             <h3 className="font-serif text-2xl font-bold text-amber-800 tracking-wide">GROUND YOURSELF</h3>
-            <p className="text-amber-600 text-sm mt-1">Calm your nervous system by using your 5 senses</p>
+            <p className="text-amber-600 text-sm mt-1">Use your 5 senses to feel calm</p>
           </div>
           
-          {/* 5-4-3-2-1 Technique */}
-          <div className="space-y-3 mb-6">
-            <div className="flex items-center gap-4 bg-blue-100 rounded-xl p-4 border-2 border-blue-300">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">5</div>
-              <div className="flex-1 flex items-center gap-2">
-                <Eye className="w-8 h-8 text-blue-700" />
-                <span className="font-bold text-blue-800">5 things you can SEE</span>
-              </div>
+          {/* 5-4-3-2-1 Technique with big emojis */}
+          <div className="space-y-3 mb-4">
+            <div className="flex items-center gap-4 bg-blue-100 rounded-2xl p-4 border-3 border-blue-300">
+              <div className="w-14 h-14 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">5</div>
+              <span className="text-5xl">👀</span>
+              <span className="font-bold text-blue-800 text-lg">things you can SEE</span>
             </div>
             
-            <div className="flex items-center gap-4 bg-green-100 rounded-xl p-4 border-2 border-green-300">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl">4</div>
-              <div className="flex-1 flex items-center gap-2">
-                <Hand className="w-8 h-8 text-green-700" />
-                <span className="font-bold text-green-800">4 things you can TOUCH</span>
-              </div>
+            <div className="flex items-center gap-4 bg-green-100 rounded-2xl p-4 border-3 border-green-300">
+              <div className="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">4</div>
+              <span className="text-5xl">✋</span>
+              <span className="font-bold text-green-800 text-lg">things you can TOUCH</span>
             </div>
             
-            <div className="flex items-center gap-4 bg-yellow-100 rounded-xl p-4 border-2 border-yellow-300">
-              <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
-              <div className="flex-1 flex items-center gap-2">
-                <Ear className="w-8 h-8 text-yellow-700" />
-                <span className="font-bold text-yellow-800">3 things you can HEAR</span>
-              </div>
+            <div className="flex items-center gap-4 bg-yellow-100 rounded-2xl p-4 border-3 border-yellow-300">
+              <div className="w-14 h-14 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">3</div>
+              <span className="text-5xl">👂</span>
+              <span className="font-bold text-yellow-800 text-lg">things you can HEAR</span>
             </div>
             
-            <div className="flex items-center gap-4 bg-orange-100 rounded-xl p-4 border-2 border-orange-300">
-              <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
-              <div className="flex-1 flex items-center gap-2">
-                <Flower2 className="w-8 h-8 text-orange-700" />
-                <span className="font-bold text-orange-800">2 things you can SMELL</span>
-              </div>
+            <div className="flex items-center gap-4 bg-orange-100 rounded-2xl p-4 border-3 border-orange-300">
+              <div className="w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">2</div>
+              <span className="text-5xl">👃</span>
+              <span className="font-bold text-orange-800 text-lg">things you can SMELL</span>
             </div>
             
-            <div className="flex items-center gap-4 bg-red-100 rounded-xl p-4 border-2 border-red-300">
-              <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
-              <div className="flex-1 flex items-center gap-2">
-                <Cookie className="w-8 h-8 text-red-700" />
-                <span className="font-bold text-red-800">1 thing you can TASTE</span>
-              </div>
+            <div className="flex items-center gap-4 bg-red-100 rounded-2xl p-4 border-3 border-red-300">
+              <div className="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">1</div>
+              <span className="text-5xl">👅</span>
+              <span className="font-bold text-red-800 text-lg">thing you can TASTE</span>
             </div>
           </div>
           
           {/* Branding Footer */}
-          <div className="flex items-center justify-between pt-4 border-t border-amber-200">
-            <img 
-              src={logoImage} 
-              alt="Model Parenting Method" 
-              className="h-10 w-10 rounded-full object-cover shadow-md"
-            />
+          <div className="flex items-center justify-between pt-3 border-t border-amber-200">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
             <p className="text-amber-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
@@ -1585,48 +1528,38 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
       <div className="my-4 flex flex-col items-center">
         <div className="bg-gradient-to-br from-rose-50 to-pink-100 rounded-3xl p-6 shadow-xl w-full max-w-3xl border-2 border-rose-200 relative">
           {/* Header */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-4">
             <h2 className="font-script text-3xl text-rose-700 mb-1">My Reset Corner</h2>
-            <h3 className="font-serif text-2xl font-bold text-rose-800 tracking-wide">CHOOSE YOUR HEALTHY BEHAVIOR</h3>
-            <p className="text-rose-600 text-sm mt-1">Healthy ways to express big feelings</p>
+            <h3 className="font-serif text-2xl font-bold text-rose-800 tracking-wide">I CAN...</h3>
+            <p className="text-rose-600 text-sm mt-1">Pick a healthy way to feel better</p>
           </div>
           
-          {/* Behaviors Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+          {/* Behaviors Grid - Big emojis */}
+          <div className="grid grid-cols-3 gap-3 mb-4">
             {[
-              { icon: MessageSquare, label: "Talk about it", desc: "Tell someone how you feel", iconColor: "text-blue-600" },
-              { icon: PenTool, label: "Write it down", desc: "Journal your thoughts", iconColor: "text-purple-600" },
-              { icon: Palette, label: "Draw your feelings", desc: "Art helps express", iconColor: "text-pink-600" },
-              { icon: Footprints, label: "Move your body", desc: "Run, jump, dance", iconColor: "text-green-600" },
-              { icon: Wind, label: "Take deep breaths", desc: "Slow in, slow out", iconColor: "text-sky-600" },
-              { icon: BookOpen, label: "Read a book", desc: "Escape and relax", iconColor: "text-teal-600" },
-              { icon: Music, label: "Listen to music", desc: "Calm or fun songs", iconColor: "text-violet-600" },
-              { icon: TreeDeciduous, label: "Go outside", desc: "Fresh air helps", iconColor: "text-emerald-600" },
-              { icon: Baby, label: "Comfort item", desc: "Hug something soft", iconColor: "text-amber-600" },
-              { icon: Grip, label: "Push a wall", desc: "Get the energy out", iconColor: "text-slate-600" },
-              { icon: HandHeart, label: "Get a hug", desc: "Connection heals", iconColor: "text-rose-600" },
-              { icon: Heart, label: "Pray", desc: "Talk to God", iconColor: "text-red-500" },
-            ].map((behavior, idx) => {
-              const IconComponent = behavior.icon;
-              return (
-                <div key={idx} className="bg-white/80 rounded-xl p-3 text-center border-2 border-rose-200 shadow-sm hover:scale-105 transition-transform">
-                  <div className="w-10 h-10 mx-auto mb-1 flex items-center justify-center">
-                    <IconComponent className={`w-8 h-8 ${behavior.iconColor}`} />
-                  </div>
-                  <span className="text-sm font-bold text-rose-800">{behavior.label}</span>
-                  <span className="text-xs text-rose-600 block mt-1">{behavior.desc}</span>
-                </div>
-              );
-            })}
+              { emoji: "🗣️", label: "Talk about it" },
+              { emoji: "✏️", label: "Write or draw" },
+              { emoji: "🎨", label: "Make art" },
+              { emoji: "💃", label: "Dance it out" },
+              { emoji: "🌬️", label: "Breathe slow" },
+              { emoji: "📚", label: "Read a book" },
+              { emoji: "🎵", label: "Listen to music" },
+              { emoji: "🌿", label: "Go outside" },
+              { emoji: "🧸", label: "Hug something soft" },
+              { emoji: "🤸", label: "Jump around" },
+              { emoji: "🤗", label: "Get a hug" },
+              { emoji: "🙏", label: "Pray" },
+            ].map((behavior, idx) => (
+              <div key={idx} className="bg-white/80 rounded-2xl p-3 text-center border-2 border-rose-200 shadow-sm">
+                <span className="text-4xl block mb-1">{behavior.emoji}</span>
+                <span className="text-xs font-bold text-rose-800">{behavior.label}</span>
+              </div>
+            ))}
           </div>
           
           {/* Branding Footer */}
-          <div className="flex items-center justify-between pt-4 border-t border-rose-200">
-            <img 
-              src={logoImage} 
-              alt="Model Parenting Method" 
-              className="h-10 w-10 rounded-full object-cover shadow-md"
-            />
+          <div className="flex items-center justify-between pt-3 border-t border-rose-200">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
             <p className="text-rose-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
