@@ -235,6 +235,17 @@
     transform: scale(0.85) !important;
   }
 
+  /* Reset Corner sheets - fill the page more */
+  .page-paper:has([class*="from-teal-50"]),
+  .page-paper:has([class*="from-sky-50"]),
+  .page-paper:has([class*="from-slate-50"]),
+  .page-paper:has([class*="from-violet-50"]),
+  .page-paper:has([class*="from-amber-50"]),
+  .page-paper:has([class*="from-rose-50"]) {
+    transform: scale(0.95) !important;
+    padding: 0.15in 0.15in !important;
+  }
+
   /* Make sure all content is visible */
   .page-paper * {
     visibility: visible !important;
