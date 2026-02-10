@@ -4,6 +4,55 @@ export const initialWorkbookData: WorkbookData = {
   title: "Model Parenting Workbook",
   pages: [
     // ===============================
+    // DISCLAIMER PAGE
+    // ===============================
+    {
+      id: "disclaimer",
+      type: "reflection",
+      section: 0,
+      sectionTitle: "Before You Begin",
+      title: "A Word of Grace",
+      subtitle: "Before You Begin",
+      sections: [
+        {
+          id: "disc-1",
+          type: "paragraph",
+          content: "As you work through this course, there may be moments where you feel convicted about the way you've parented in the past. We want you to know — that is not the purpose of this material. This course was never designed to shame you or make you feel like you've failed your children.",
+          editable: false
+        },
+        {
+          id: "disc-2",
+          type: "paragraph",
+          content: "The truth is, every parent carries moments they wish they could do over. But here's the beautiful thing about God's design: He doesn't waste any of it. Those hard seasons, the mistakes, the moments you lost your patience — God will use every one of them to grow you into a stronger, more intentional parent who leans deeper into Him.",
+          editable: false
+        },
+        {
+          id: "disc-3",
+          type: "paragraph",
+          content: "This journey is about equipping you with practical tools to become the parent you want to be — the kind of parent your children will one day model for their own kids. It's about breaking cycles, building new patterns, and changing the course of parenting for your family and the generations that follow.",
+          editable: false
+        },
+        {
+          id: "disc-4",
+          type: "scripture",
+          content: "\"And we know that in all things God works for the good of those who love him, who have been called according to his purpose.\" — Romans 8:28",
+          editable: false
+        },
+        {
+          id: "disc-5",
+          type: "paragraph",
+          content: "So give yourself grace. You're here, and that already says something powerful about the kind of parent you are. Let God meet you in these pages — not with judgment, but with the same patience and compassion He's calling you to extend to your children.",
+          editable: false
+        },
+        {
+          id: "disc-6",
+          type: "quote",
+          content: "You are not starting over. You are starting from experience — and God is going to use every bit of it.",
+          editable: false
+        }
+      ]
+    },
+    // ===============================
     // SECTION 1: THE FOUNDATION
     // ===============================
     {
