@@ -28,7 +28,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
     switch (section.type) {
       case "header":
         return (
-          <h3 className="font-serif text-xl font-semibold text-primary tracking-wide mt-6 mb-3">
+          <h3 className="font-serif text-2xl font-semibold text-primary tracking-wide mt-6 mb-3">
             <EditableText
               value={section.content}
               onChange={(content) => updateSection(section.id, { content })}
@@ -38,7 +38,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
 
       case "subheader":
         return (
-          <h4 className="font-serif text-lg font-medium text-foreground/90 mb-3 italic">
+          <h4 className="font-serif text-xl font-medium text-foreground/90 mb-3 italic">
             <EditableText
               value={section.content}
               onChange={(content) => updateSection(section.id, { content })}
@@ -48,7 +48,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
 
       case "paragraph":
         return (
-          <p className="text-foreground/85 leading-relaxed mb-4">
+          <p className="text-lg text-foreground/85 leading-relaxed mb-4">
             <EditableText
               value={section.content}
               onChange={(content) => updateSection(section.id, { content })}
@@ -61,7 +61,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
         return (
           <div className="mb-4">
             {section.content && (
-              <p className="font-medium text-foreground/90 mb-2">
+              <p className="font-medium text-lg text-foreground/90 mb-2">
                 <EditableText
                   value={section.content}
                   onChange={(content) => updateSection(section.id, { content })}
@@ -107,7 +107,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }
         return (
           <div className="mb-4">
             {section.content && (
-              <p className="font-medium text-foreground/90 mb-3">
+              <p className="font-medium text-lg text-foreground/90 mb-3">
                 <EditableText
                   value={section.content}
                   onChange={(content) => updateSection(section.id, { content })}
