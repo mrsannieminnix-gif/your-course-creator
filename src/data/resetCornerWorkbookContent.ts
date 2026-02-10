@@ -3,6 +3,23 @@ import { WorkbookData } from "@/types/workbook";
 export const resetCornerWorkbookData: WorkbookData = {
   title: "Toolbox for Parents - Reset Corner",
   pages: [
+    // Page 0: How Do I Feel & What Can I Do?
+    {
+      id: "reset-0",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Reset Corner",
+      title: "How Do I Feel?",
+      subtitle: "And what can I do about it",
+      sections: [
+        {
+          id: "reset-0-visual",
+          type: "mantra-visual",
+          content: "feelings-and-fixes",
+          editable: false,
+        },
+      ],
+    },
     {
       id: "reset-1",
       type: "visuals",
