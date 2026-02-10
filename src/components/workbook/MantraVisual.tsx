@@ -14,6 +14,44 @@ import resetSqueezeRelax from "@/assets/reset-squeeze-relax.png";
 import resetJumpAround from "@/assets/reset-jump-around.png";
 import resetPuzzle from "@/assets/reset-puzzle.png";
 import resetAskHug from "@/assets/reset-ask-hug.png";
+// Feeling face illustrations
+import feelingHappy from "@/assets/feeling-happy.png";
+import feelingSad from "@/assets/feeling-sad.png";
+import feelingAngry from "@/assets/feeling-angry.png";
+import feelingScared from "@/assets/feeling-scared.png";
+import feelingWorried from "@/assets/feeling-worried.png";
+import feelingFrustrated from "@/assets/feeling-frustrated.png";
+import feelingTired from "@/assets/feeling-tired.png";
+import feelingLonely from "@/assets/feeling-lonely.png";
+import feelingLoved from "@/assets/feeling-loved.png";
+import feelingExcited from "@/assets/feeling-excited.png";
+import feelingSurprised from "@/assets/feeling-surprised.png";
+import feelingCalm from "@/assets/feeling-calm.png";
+import feelingEmbarrassed from "@/assets/feeling-embarrassed.png";
+import feelingDisappointed from "@/assets/feeling-disappointed.png";
+import feelingSick from "@/assets/feeling-sick.png";
+// Need illustrations
+import needWater from "@/assets/need-water.png";
+import needFood from "@/assets/need-food.png";
+import needRest from "@/assets/need-rest.png";
+import needHug from "@/assets/need-hug.png";
+import needMove from "@/assets/need-move.png";
+import needQuiet from "@/assets/need-quiet.png";
+import needPlay from "@/assets/need-play.png";
+import needTalk from "@/assets/need-talk.png";
+import needOutside from "@/assets/need-outside.png";
+// Sense illustrations
+import senseSee from "@/assets/sense-see.png";
+import senseTouch from "@/assets/sense-touch.png";
+import senseHear from "@/assets/sense-hear.png";
+import senseSmell from "@/assets/sense-smell.png";
+import senseTaste from "@/assets/sense-taste.png";
+// Behavior illustrations
+import behaviorDance from "@/assets/behavior-dance.png";
+import behaviorArt from "@/assets/behavior-art.png";
+import behaviorWrite from "@/assets/behavior-write.png";
+import behaviorOutside from "@/assets/behavior-outside.png";
+import behaviorPray from "@/assets/behavior-pray.png";
 
 interface MantraVisualProps {
   mantraId: string;
@@ -1267,14 +1305,14 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
 
   if (mantraId === "feelings-and-fixes") {
     const feelingsData = [
-      { icon: Smile, label: "Happy", color: "bg-yellow-200 border-yellow-400", iconColor: "text-yellow-700", tips: ["Share it with someone!", "Do a happy dance", "Say thank you"] },
-      { icon: Frown, label: "Sad", color: "bg-blue-200 border-blue-400", iconColor: "text-blue-700", tips: ["Cry if you need to", "Get a hug", "Talk about it"] },
-      { icon: Angry, label: "Angry", color: "bg-red-200 border-red-400", iconColor: "text-red-700", tips: ["Take deep breaths", "Squeeze something soft", "Walk away & cool down"] },
-      { icon: AlertCircle, label: "Scared", color: "bg-purple-200 border-purple-400", iconColor: "text-purple-700", tips: ["Tell a grown-up", "Hold something safe", "Breathe slow"] },
-      { icon: HelpCircle, label: "Worried", color: "bg-orange-200 border-orange-400", iconColor: "text-orange-700", tips: ["Talk about it", "Draw your worry", "Name 5 things you see"] },
-      { icon: Zap, label: "Frustrated", color: "bg-rose-200 border-rose-400", iconColor: "text-rose-700", tips: ["Take a break", "Try again later", "Ask for help"] },
-      { icon: Moon, label: "Tired", color: "bg-indigo-200 border-indigo-400", iconColor: "text-indigo-700", tips: ["Rest your body", "Find a quiet spot", "Drink some water"] },
-      { icon: Users, label: "Lonely", color: "bg-gray-200 border-gray-400", iconColor: "text-gray-700", tips: ["Ask to play", "Hug a stuffie", "Tell someone you feel alone"] },
+      { image: feelingHappy, label: "Happy", color: "bg-yellow-200 border-yellow-400", tips: ["Share it!", "Happy dance", "Say thank you"] },
+      { image: feelingSad, label: "Sad", color: "bg-blue-200 border-blue-400", tips: ["Cry if you need to", "Get a hug", "Talk about it"] },
+      { image: feelingAngry, label: "Angry", color: "bg-red-200 border-red-400", tips: ["Deep breaths", "Squeeze something soft", "Walk away"] },
+      { image: feelingScared, label: "Scared", color: "bg-purple-200 border-purple-400", tips: ["Tell a grown-up", "Hold something safe", "Breathe slow"] },
+      { image: feelingWorried, label: "Worried", color: "bg-orange-200 border-orange-400", tips: ["Talk about it", "Draw your worry", "Look around you"] },
+      { image: feelingFrustrated, label: "Frustrated", color: "bg-rose-200 border-rose-400", tips: ["Take a break", "Try again later", "Ask for help"] },
+      { image: feelingTired, label: "Tired", color: "bg-indigo-200 border-indigo-400", tips: ["Rest your body", "Find a quiet spot", "Drink water"] },
+      { image: feelingLonely, label: "Lonely", color: "bg-gray-200 border-gray-400", tips: ["Ask to play", "Hug a stuffie", "Tell someone"] },
     ];
 
     return (
@@ -1287,25 +1325,22 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           </div>
           
           <div className="grid grid-cols-2 gap-3 mb-4">
-            {feelingsData.map((feeling, idx) => {
-              const IconComp = feeling.icon;
-              return (
-                <div key={idx} className={`${feeling.color} rounded-2xl p-3 border-2 shadow-sm`}>
-                  <div className="flex items-center gap-2 mb-2">
-                    <IconComp className={`w-10 h-10 ${feeling.iconColor} shrink-0`} strokeWidth={2.5} />
-                    <span className="text-base font-bold text-gray-800">{feeling.label}</span>
-                  </div>
-                  <ul className="space-y-0.5 pl-2">
-                    {feeling.tips.map((tip, tipIdx) => (
-                      <li key={tipIdx} className="text-xs text-gray-700 flex items-start gap-1">
-                        <span className="font-bold text-gray-500 mt-0.5">•</span>
-                        <span>{tip}</span>
-                      </li>
-                    ))}
-                  </ul>
+            {feelingsData.map((feeling, idx) => (
+              <div key={idx} className={`${feeling.color} rounded-2xl p-3 border-2 shadow-sm`}>
+                <div className="flex items-center gap-2 mb-2">
+                  <img src={feeling.image} alt={feeling.label} className="w-12 h-12 rounded-full object-cover shrink-0" />
+                  <span className="text-base font-bold text-gray-800">{feeling.label}</span>
                 </div>
-              );
-            })}
+                <ul className="space-y-0.5 pl-2">
+                  {feeling.tips.map((tip, tipIdx) => (
+                    <li key={tipIdx} className="text-xs text-gray-700 flex items-start gap-1">
+                      <span className="font-bold text-gray-500 mt-0.5">•</span>
+                      <span>{tip}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
           
           <div className="flex items-center justify-between pt-3 border-t border-teal-200">
@@ -1329,32 +1364,27 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           
           <div className="grid grid-cols-5 gap-3 mb-4">
             {[
-              { icon: Smile, label: "Happy", bg: "bg-yellow-200", border: "border-yellow-400", iconColor: "text-yellow-700" },
-              { icon: Frown, label: "Sad", bg: "bg-blue-200", border: "border-blue-400", iconColor: "text-blue-700" },
-              { icon: Angry, label: "Angry", bg: "bg-red-200", border: "border-red-400", iconColor: "text-red-700" },
-              { icon: AlertCircle, label: "Scared", bg: "bg-purple-200", border: "border-purple-400", iconColor: "text-purple-700" },
-              { icon: HelpCircle, label: "Worried", bg: "bg-orange-200", border: "border-orange-400", iconColor: "text-orange-700" },
-              { icon: Heart, label: "Loved", bg: "bg-pink-200", border: "border-pink-400", iconColor: "text-pink-700" },
-              { icon: Zap, label: "Frustrated", bg: "bg-rose-200", border: "border-rose-400", iconColor: "text-rose-700" },
-              { icon: Moon, label: "Tired", bg: "bg-indigo-200", border: "border-indigo-400", iconColor: "text-indigo-700" },
-              { icon: HeartCrack, label: "Sick", bg: "bg-green-200", border: "border-green-400", iconColor: "text-green-700" },
-              { icon: Users, label: "Lonely", bg: "bg-gray-200", border: "border-gray-400", iconColor: "text-gray-700" },
-              { icon: ShieldAlert, label: "Embarrassed", bg: "bg-rose-200", border: "border-rose-400", iconColor: "text-rose-600" },
-              { icon: Sparkles, label: "Excited", bg: "bg-amber-200", border: "border-amber-400", iconColor: "text-amber-700" },
-              { icon: Star, label: "Surprised", bg: "bg-cyan-200", border: "border-cyan-400", iconColor: "text-cyan-700" },
-              { icon: Meh, label: "Disappointed", bg: "bg-slate-200", border: "border-slate-400", iconColor: "text-slate-700" },
-              { icon: CloudSun, label: "Calm", bg: "bg-teal-200", border: "border-teal-400", iconColor: "text-teal-700" },
-            ].map((feeling, idx) => {
-              const IconComp = feeling.icon;
-              return (
-                <div key={idx} className={`${feeling.bg} ${feeling.border} rounded-2xl p-2 text-center border-3 shadow-sm`}>
-                  <div className="w-full aspect-square flex items-center justify-center mb-1">
-                    <IconComp className={`w-10 h-10 ${feeling.iconColor}`} strokeWidth={2.5} />
-                  </div>
-                  <span className="text-xs font-bold text-gray-800 leading-tight block">{feeling.label}</span>
-                </div>
-              );
-            })}
+              { image: feelingHappy, label: "Happy", color: "bg-yellow-100 border-yellow-300" },
+              { image: feelingSad, label: "Sad", color: "bg-blue-100 border-blue-300" },
+              { image: feelingAngry, label: "Angry", color: "bg-red-100 border-red-300" },
+              { image: feelingScared, label: "Scared", color: "bg-purple-100 border-purple-300" },
+              { image: feelingWorried, label: "Worried", color: "bg-orange-100 border-orange-300" },
+              { image: feelingLoved, label: "Loved", color: "bg-pink-100 border-pink-300" },
+              { image: feelingFrustrated, label: "Frustrated", color: "bg-rose-100 border-rose-300" },
+              { image: feelingTired, label: "Tired", color: "bg-indigo-100 border-indigo-300" },
+              { image: feelingSick, label: "Sick", color: "bg-green-100 border-green-300" },
+              { image: feelingLonely, label: "Lonely", color: "bg-gray-100 border-gray-300" },
+              { image: feelingEmbarrassed, label: "Embarrassed", color: "bg-rose-100 border-rose-300" },
+              { image: feelingExcited, label: "Excited", color: "bg-amber-100 border-amber-300" },
+              { image: feelingSurprised, label: "Surprised", color: "bg-cyan-100 border-cyan-300" },
+              { image: feelingDisappointed, label: "Disappointed", color: "bg-slate-100 border-slate-300" },
+              { image: feelingCalm, label: "Calm", color: "bg-teal-100 border-teal-300" },
+            ].map((feeling, idx) => (
+              <div key={idx} className={`${feeling.color} rounded-2xl p-2 text-center border-2 shadow-sm`}>
+                <img src={feeling.image} alt={feeling.label} className="w-full aspect-square rounded-xl object-cover mb-1" />
+                <span className="text-xs font-bold text-gray-800 leading-tight block">{feeling.label}</span>
+              </div>
+            ))}
           </div>
           
           <div className="flex items-center justify-between pt-3 border-t border-teal-200">
@@ -1378,26 +1408,21 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           
           <div className="grid grid-cols-3 gap-4 mb-4">
             {[
-              { icon: Droplets, label: "Water", bg: "bg-blue-200", border: "border-blue-400", iconColor: "text-blue-700" },
-              { icon: Apple, label: "Food", bg: "bg-red-200", border: "border-red-400", iconColor: "text-red-700" },
-              { icon: BedDouble, label: "Rest", bg: "bg-indigo-200", border: "border-indigo-400", iconColor: "text-indigo-700" },
-              { icon: HandHeart, label: "A Hug", bg: "bg-pink-200", border: "border-pink-400", iconColor: "text-pink-700" },
-              { icon: Footprints, label: "Move!", bg: "bg-green-200", border: "border-green-400", iconColor: "text-green-700" },
-              { icon: VolumeX, label: "Quiet", bg: "bg-purple-200", border: "border-purple-400", iconColor: "text-purple-700" },
-              { icon: Gamepad2, label: "Play", bg: "bg-yellow-200", border: "border-yellow-400", iconColor: "text-yellow-700" },
-              { icon: MessageCircle, label: "Talk", bg: "bg-orange-200", border: "border-orange-400", iconColor: "text-orange-700" },
-              { icon: TreeDeciduous, label: "Outside", bg: "bg-emerald-200", border: "border-emerald-400", iconColor: "text-emerald-700" },
-            ].map((need, idx) => {
-              const IconComp = need.icon;
-              return (
-                <div key={idx} className={`${need.bg} ${need.border} rounded-2xl p-4 text-center border-3 shadow-md`}>
-                  <div className="w-full flex items-center justify-center mb-2">
-                    <IconComp className={`w-14 h-14 ${need.iconColor}`} strokeWidth={2.5} />
-                  </div>
-                  <span className="text-sm font-bold text-gray-800">{need.label}</span>
-                </div>
-              );
-            })}
+              { image: needWater, label: "Water", color: "bg-blue-200 border-blue-400" },
+              { image: needFood, label: "Food", color: "bg-red-200 border-red-400" },
+              { image: needRest, label: "Rest", color: "bg-indigo-200 border-indigo-400" },
+              { image: needHug, label: "A Hug", color: "bg-pink-200 border-pink-400" },
+              { image: needMove, label: "Move!", color: "bg-green-200 border-green-400" },
+              { image: needQuiet, label: "Quiet", color: "bg-purple-200 border-purple-400" },
+              { image: needPlay, label: "Play", color: "bg-yellow-200 border-yellow-400" },
+              { image: needTalk, label: "Talk", color: "bg-orange-200 border-orange-400" },
+              { image: needOutside, label: "Outside", color: "bg-emerald-200 border-emerald-400" },
+            ].map((need, idx) => (
+              <div key={idx} className={`${need.color} rounded-2xl p-3 text-center border-3 shadow-md`}>
+                <img src={need.image} alt={need.label} className="w-20 h-20 mx-auto rounded-xl object-cover mb-2" />
+                <span className="text-sm font-bold text-gray-800">{need.label}</span>
+              </div>
+            ))}
           </div>
           
           <div className="flex items-center justify-between pt-3 border-t border-sky-200">
@@ -1421,7 +1446,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           
           <div className="grid grid-cols-2 gap-4 mb-4">
             <div className="bg-blue-300 rounded-2xl p-5 border-4 border-blue-500 shadow-lg text-center">
-              <Frown className="w-16 h-16 mx-auto mb-2 text-blue-900" strokeWidth={2.5} />
+              <img src={feelingSad} alt="Blue Zone" className="w-20 h-20 mx-auto rounded-full object-cover mb-2 border-4 border-blue-400" />
               <h4 className="font-bold text-blue-900 text-xl mb-2">Blue Zone</h4>
               <div className="flex flex-wrap gap-1 justify-center">
                 <span className="bg-blue-200 rounded-full px-2 py-1 text-xs font-medium text-blue-900">Sad</span>
@@ -1431,7 +1456,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             </div>
             
             <div className="bg-green-300 rounded-2xl p-5 border-4 border-green-500 shadow-lg text-center">
-              <Smile className="w-16 h-16 mx-auto mb-2 text-green-900" strokeWidth={2.5} />
+              <img src={feelingHappy} alt="Green Zone" className="w-20 h-20 mx-auto rounded-full object-cover mb-2 border-4 border-green-400" />
               <h4 className="font-bold text-green-900 text-xl mb-2">Green Zone</h4>
               <div className="flex flex-wrap gap-1 justify-center">
                 <span className="bg-green-200 rounded-full px-2 py-1 text-xs font-medium text-green-900">Calm</span>
@@ -1441,7 +1466,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             </div>
             
             <div className="bg-yellow-300 rounded-2xl p-5 border-4 border-yellow-500 shadow-lg text-center">
-              <AlertCircle className="w-16 h-16 mx-auto mb-2 text-yellow-900" strokeWidth={2.5} />
+              <img src={feelingWorried} alt="Yellow Zone" className="w-20 h-20 mx-auto rounded-full object-cover mb-2 border-4 border-yellow-400" />
               <h4 className="font-bold text-yellow-900 text-xl mb-2">Yellow Zone</h4>
               <div className="flex flex-wrap gap-1 justify-center">
                 <span className="bg-yellow-200 rounded-full px-2 py-1 text-xs font-medium text-yellow-900">Wiggly</span>
@@ -1451,7 +1476,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             </div>
             
             <div className="bg-red-300 rounded-2xl p-5 border-4 border-red-500 shadow-lg text-center">
-              <Angry className="w-16 h-16 mx-auto mb-2 text-red-900" strokeWidth={2.5} />
+              <img src={feelingAngry} alt="Red Zone" className="w-20 h-20 mx-auto rounded-full object-cover mb-2 border-4 border-red-400" />
               <h4 className="font-bold text-red-900 text-xl mb-2">Red Zone</h4>
               <div className="flex flex-wrap gap-1 justify-center">
                 <span className="bg-red-200 rounded-full px-2 py-1 text-xs font-medium text-red-900">Angry</span>
@@ -1524,27 +1549,27 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           <div className="space-y-3 mb-4">
             <div className="flex items-center gap-4 bg-blue-100 rounded-2xl p-4 border-3 border-blue-300">
               <div className="w-14 h-14 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">5</div>
-              <Eye className="w-12 h-12 text-blue-700 shrink-0" strokeWidth={2.5} />
+              <img src={senseSee} alt="See" className="w-14 h-14 rounded-xl object-cover shrink-0" />
               <span className="font-bold text-blue-800 text-lg">things you can SEE</span>
             </div>
             <div className="flex items-center gap-4 bg-green-100 rounded-2xl p-4 border-3 border-green-300">
               <div className="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">4</div>
-              <Hand className="w-12 h-12 text-green-700 shrink-0" strokeWidth={2.5} />
+              <img src={senseTouch} alt="Touch" className="w-14 h-14 rounded-xl object-cover shrink-0" />
               <span className="font-bold text-green-800 text-lg">things you can TOUCH</span>
             </div>
             <div className="flex items-center gap-4 bg-yellow-100 rounded-2xl p-4 border-3 border-yellow-300">
               <div className="w-14 h-14 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">3</div>
-              <Ear className="w-12 h-12 text-yellow-700 shrink-0" strokeWidth={2.5} />
+              <img src={senseHear} alt="Hear" className="w-14 h-14 rounded-xl object-cover shrink-0" />
               <span className="font-bold text-yellow-800 text-lg">things you can HEAR</span>
             </div>
             <div className="flex items-center gap-4 bg-orange-100 rounded-2xl p-4 border-3 border-orange-300">
               <div className="w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">2</div>
-              <Flower2 className="w-12 h-12 text-orange-700 shrink-0" strokeWidth={2.5} />
+              <img src={senseSmell} alt="Smell" className="w-14 h-14 rounded-xl object-cover shrink-0" />
               <span className="font-bold text-orange-800 text-lg">things you can SMELL</span>
             </div>
             <div className="flex items-center gap-4 bg-red-100 rounded-2xl p-4 border-3 border-red-300">
               <div className="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">1</div>
-              <Cookie className="w-12 h-12 text-red-700 shrink-0" strokeWidth={2.5} />
+              <img src={senseTaste} alt="Taste" className="w-14 h-14 rounded-xl object-cover shrink-0" />
               <span className="font-bold text-red-800 text-lg">thing you can TASTE</span>
             </div>
           </div>
@@ -1570,29 +1595,24 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
           
           <div className="grid grid-cols-3 gap-3 mb-4">
             {[
-              { icon: MessageSquare, label: "Talk about it", iconColor: "text-blue-600", bg: "bg-blue-100", border: "border-blue-300" },
-              { icon: PenTool, label: "Write or draw", iconColor: "text-purple-600", bg: "bg-purple-100", border: "border-purple-300" },
-              { icon: Palette, label: "Make art", iconColor: "text-pink-600", bg: "bg-pink-100", border: "border-pink-300" },
-              { icon: Footprints, label: "Dance it out", iconColor: "text-green-600", bg: "bg-green-100", border: "border-green-300" },
-              { icon: Wind, label: "Breathe slow", iconColor: "text-sky-600", bg: "bg-sky-100", border: "border-sky-300" },
-              { icon: BookOpen, label: "Read a book", iconColor: "text-teal-600", bg: "bg-teal-100", border: "border-teal-300" },
-              { icon: Music, label: "Listen to music", iconColor: "text-violet-600", bg: "bg-violet-100", border: "border-violet-300" },
-              { icon: TreeDeciduous, label: "Go outside", iconColor: "text-emerald-600", bg: "bg-emerald-100", border: "border-emerald-300" },
-              { icon: Baby, label: "Hug something soft", iconColor: "text-amber-600", bg: "bg-amber-100", border: "border-amber-300" },
-              { icon: Dumbbell, label: "Jump around", iconColor: "text-slate-600", bg: "bg-slate-100", border: "border-slate-300" },
-              { icon: HandHeart, label: "Get a hug", iconColor: "text-rose-600", bg: "bg-rose-100", border: "border-rose-300" },
-              { icon: Heart, label: "Pray", iconColor: "text-red-500", bg: "bg-red-100", border: "border-red-300" },
-            ].map((behavior, idx) => {
-              const IconComp = behavior.icon;
-              return (
-                <div key={idx} className={`${behavior.bg} ${behavior.border} rounded-2xl p-3 text-center border-2 shadow-sm`}>
-                  <div className="w-full flex items-center justify-center mb-1">
-                    <IconComp className={`w-10 h-10 ${behavior.iconColor}`} strokeWidth={2.5} />
-                  </div>
-                  <span className="text-xs font-bold text-gray-800">{behavior.label}</span>
-                </div>
-              );
-            })}
+              { image: needTalk, label: "Talk about it" },
+              { image: behaviorWrite, label: "Write or draw" },
+              { image: behaviorArt, label: "Make art" },
+              { image: behaviorDance, label: "Dance it out" },
+              { image: resetDeepBreaths, label: "Breathe slow" },
+              { image: resetReadBook, label: "Read a book" },
+              { image: resetListenMusic, label: "Listen to music" },
+              { image: behaviorOutside, label: "Go outside" },
+              { image: resetHugStuffie, label: "Hug something soft" },
+              { image: resetJumpAround, label: "Jump around" },
+              { image: resetAskHug, label: "Get a hug" },
+              { image: behaviorPray, label: "Pray" },
+            ].map((behavior, idx) => (
+              <div key={idx} className="bg-white/80 rounded-2xl p-2 text-center border-2 border-rose-200 shadow-sm">
+                <img src={behavior.image} alt={behavior.label} className="w-16 h-16 mx-auto rounded-xl object-cover mb-1" />
+                <span className="text-xs font-bold text-rose-800">{behavior.label}</span>
+              </div>
+            ))}
           </div>
           
           <div className="flex items-center justify-between pt-3 border-t border-rose-200">
