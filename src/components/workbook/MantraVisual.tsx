@@ -1265,6 +1265,58 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
 
   // ==================== RESET CORNER SHEETS ====================
 
+  if (mantraId === "feelings-and-fixes") {
+    const feelingsData = [
+      { icon: Smile, label: "Happy", color: "bg-yellow-200 border-yellow-400", iconColor: "text-yellow-700", tips: ["Share it with someone!", "Do a happy dance", "Say thank you"] },
+      { icon: Frown, label: "Sad", color: "bg-blue-200 border-blue-400", iconColor: "text-blue-700", tips: ["Cry if you need to", "Get a hug", "Talk about it"] },
+      { icon: Angry, label: "Angry", color: "bg-red-200 border-red-400", iconColor: "text-red-700", tips: ["Take deep breaths", "Squeeze something soft", "Walk away & cool down"] },
+      { icon: AlertCircle, label: "Scared", color: "bg-purple-200 border-purple-400", iconColor: "text-purple-700", tips: ["Tell a grown-up", "Hold something safe", "Breathe slow"] },
+      { icon: HelpCircle, label: "Worried", color: "bg-orange-200 border-orange-400", iconColor: "text-orange-700", tips: ["Talk about it", "Draw your worry", "Name 5 things you see"] },
+      { icon: Zap, label: "Frustrated", color: "bg-rose-200 border-rose-400", iconColor: "text-rose-700", tips: ["Take a break", "Try again later", "Ask for help"] },
+      { icon: Moon, label: "Tired", color: "bg-indigo-200 border-indigo-400", iconColor: "text-indigo-700", tips: ["Rest your body", "Find a quiet spot", "Drink some water"] },
+      { icon: Users, label: "Lonely", color: "bg-gray-200 border-gray-400", iconColor: "text-gray-700", tips: ["Ask to play", "Hug a stuffie", "Tell someone you feel alone"] },
+    ];
+
+    return (
+      <div className="my-4 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-teal-50 to-emerald-100 rounded-3xl p-5 shadow-xl w-full max-w-3xl border-2 border-teal-200 relative">
+          <div className="text-center mb-4">
+            <h2 className="font-script text-3xl text-teal-700 mb-1">My Reset Corner</h2>
+            <h3 className="font-serif text-2xl font-bold text-teal-800 tracking-wide">HOW DO I FEEL? & WHAT CAN I DO?</h3>
+            <p className="text-teal-600 text-sm mt-1">Find your feeling, then try something to help</p>
+          </div>
+          
+          <div className="grid grid-cols-2 gap-3 mb-4">
+            {feelingsData.map((feeling, idx) => {
+              const IconComp = feeling.icon;
+              return (
+                <div key={idx} className={`${feeling.color} rounded-2xl p-3 border-2 shadow-sm`}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <IconComp className={`w-10 h-10 ${feeling.iconColor} shrink-0`} strokeWidth={2.5} />
+                    <span className="text-base font-bold text-gray-800">{feeling.label}</span>
+                  </div>
+                  <ul className="space-y-0.5 pl-2">
+                    {feeling.tips.map((tip, tipIdx) => (
+                      <li key={tipIdx} className="text-xs text-gray-700 flex items-start gap-1">
+                        <span className="font-bold text-gray-500 mt-0.5">•</span>
+                        <span>{tip}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+          
+          <div className="flex items-center justify-between pt-3 border-t border-teal-200">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
+            <p className="text-teal-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (mantraId === "calm-corner-feelings") {
     return (
       <div className="my-4 flex flex-col items-center">
