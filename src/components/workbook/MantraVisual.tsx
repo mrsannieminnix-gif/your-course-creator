@@ -1305,14 +1305,14 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
 
   if (mantraId === "feelings-and-fixes") {
     const feelingsData = [
-      { image: feelingHappy, label: "Happy", color: "bg-yellow-200 border-yellow-400", tips: ["Share it!", "Happy dance", "Say thank you"] },
-      { image: feelingSad, label: "Sad", color: "bg-blue-200 border-blue-400", tips: ["Cry if you need to", "Get a hug", "Talk about it"] },
-      { image: feelingAngry, label: "Angry", color: "bg-red-200 border-red-400", tips: ["Deep breaths", "Squeeze something soft", "Walk away"] },
-      { image: feelingScared, label: "Scared", color: "bg-purple-200 border-purple-400", tips: ["Tell a grown-up", "Hold something safe", "Breathe slow"] },
-      { image: feelingWorried, label: "Worried", color: "bg-orange-200 border-orange-400", tips: ["Talk about it", "Draw your worry", "Look around you"] },
-      { image: feelingFrustrated, label: "Frustrated", color: "bg-rose-200 border-rose-400", tips: ["Take a break", "Try again later", "Ask for help"] },
-      { image: feelingTired, label: "Tired", color: "bg-indigo-200 border-indigo-400", tips: ["Rest your body", "Find a quiet spot", "Drink water"] },
-      { image: feelingLonely, label: "Lonely", color: "bg-gray-200 border-gray-400", tips: ["Ask to play", "Hug a stuffie", "Tell someone"] },
+      { image: feelingHappy, label: "Happy", color: "bg-yellow-200 border-yellow-400", tips: ["Share it!", "Happy dance", "Say thank you", "Pray & thank God"] },
+      { image: feelingSad, label: "Sad", color: "bg-blue-200 border-blue-400", tips: ["Cry if you need to", "Get a hug", "Talk about it", "Pray & tell God"] },
+      { image: feelingAngry, label: "Angry", color: "bg-red-200 border-red-400", tips: ["Deep breaths", "Squeeze something soft", "Walk away", "Pray for peace"] },
+      { image: feelingScared, label: "Scared", color: "bg-purple-200 border-purple-400", tips: ["Tell a grown-up", "Hold something safe", "Breathe slow", "Pray for courage"] },
+      { image: feelingWorried, label: "Worried", color: "bg-orange-200 border-orange-400", tips: ["Talk about it", "Draw your worry", "Look around you", "Pray & trust God"] },
+      { image: feelingFrustrated, label: "Frustrated", color: "bg-rose-200 border-rose-400", tips: ["Take a break", "Try again later", "Ask for help", "Pray for patience"] },
+      { image: feelingTired, label: "Tired", color: "bg-indigo-200 border-indigo-400", tips: ["Rest your body", "Find a quiet spot", "Drink water", "Pray for rest"] },
+      { image: feelingLonely, label: "Lonely", color: "bg-gray-200 border-gray-400", tips: ["Ask to play", "Hug a stuffie", "Tell someone", "Pray & feel God's love"] },
     ];
 
     return (
