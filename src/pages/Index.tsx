@@ -6,10 +6,11 @@ import { earlyChildhoodWorkbookData } from "@/data/earlyChildhoodWorkbookContent
 import { middleChildhoodWorkbookData } from "@/data/middleChildhoodWorkbookContent";
 import { teenWorkbookData } from "@/data/teenWorkbookContent";
 import { wallRemindersWorkbookData } from "@/data/wallRemindersWorkbookContent";
+import { resetCornerWorkbookData } from "@/data/resetCornerWorkbookContent";
 import { Button } from "@/components/ui/button";
 import { Book } from "lucide-react";
 
-type WorkbookType = "foundation" | "toddler" | "early" | "middle" | "teen" | "wall" | null;
+type WorkbookType = "foundation" | "toddler" | "early" | "middle" | "teen" | "wall" | "reset" | null;
 
 const Index = () => {
   const [selectedWorkbook, setSelectedWorkbook] = useState<WorkbookType>(null);
@@ -21,6 +22,7 @@ const Index = () => {
     middle: middleChildhoodWorkbookData,
     teen: teenWorkbookData,
     wall: wallRemindersWorkbookData,
+    reset: resetCornerWorkbookData,
   };
 
   if (selectedWorkbook) {
@@ -47,6 +49,7 @@ const Index = () => {
     { id: "middle" as const, title: "Ages 8-12 Workbook", desc: "Peer influence, academics, technology, puberty, and building character in pre-teens." },
     { id: "teen" as const, title: "Ages 13-18 Workbook", desc: "Communication, risky behavior, relationships, mental health, faith, and launching well." },
     { id: "wall" as const, title: "Wall Reminders", desc: "Visual mantras and quick-reference tools to print and post around your home." },
+    { id: "reset" as const, title: "Reset Corner", desc: "Printable sheets to set up a Reset Corner: feelings, needs, zones, helpers, grounding, and healthy behaviors." },
   ];
 
   return (
