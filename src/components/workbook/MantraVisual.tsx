@@ -2,6 +2,7 @@ import React from "react";
 import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw, Wind, Volume2, Flame, Music, Palette, Baby, Dumbbell, Footprints, ArrowUpDown, Puzzle, HandHeart, Droplets, Apple, Moon, HandHelping, Zap, VolumeX, Gamepad2, MessageCircle, TreePine, Eye, Hand, Ear, Flower2, Cookie, Smile, Frown, Angry, AlertCircle, ThumbsUp, Meh, BedDouble, HeartCrack, ShieldAlert, Sparkles, HelpCircle, CloudSun, PenTool, MessageSquare, TreeDeciduous, Grip, PiggyBank, Scale, Target, CircleDollarSign, Church, Handshake, Lightbulb, Home, GraduationCap, Globe, Dumbbell as DumbbellIcon, Feather, Clock, HeartPulse, Bird, SmilePlus, UtensilsCrossed, Droplet, BedSingle, UserCheck, ShieldCheck, Ear as EarIcon, ScanEye, Compass, PersonStanding, Brain, Link2, KeyRound, PartyPopper, TreePalm, Cross, Lamp } from "lucide-react";
 import { faithImageMap } from "./ComparisonImage";
 import logoImage from "@/assets/logo.jpg";
+import modelingBehaviorImg from "@/assets/modeling-behavior.jpg";
 import resetPopIt from "@/assets/reset-pop-it.png";
 import resetSwing from "@/assets/reset-swing.png";
 import resetDeepBreaths from "@/assets/reset-deep-breaths.png";
@@ -1900,6 +1901,77 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
             <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
             <p className="text-teal-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "modeling-behavior-slide") {
+    return (
+      <div className="bg-gradient-to-br from-[hsl(40,30%,96%)] to-[hsl(145,22%,90%)] rounded-2xl p-8 shadow-xl border border-[hsl(var(--border))] print:shadow-none print:p-4 print:rounded-lg">
+        {/* Title */}
+        <div className="text-center mb-6 print:mb-3">
+          <h3 className="text-3xl font-bold text-[hsl(var(--primary))] font-serif print:text-xl">
+            MODELING BEHAVIOR
+          </h3>
+          <p className="text-[hsl(var(--muted-foreground))] text-sm mt-1 italic print:text-xs">
+            Your children are watching — and becoming what they see.
+          </p>
+        </div>
+
+        {/* Image */}
+        <div className="flex justify-center mb-6 print:mb-3">
+          <div className="rounded-xl overflow-hidden border-2 border-[hsl(var(--primary))]/ shadow-lg max-w-md print:max-w-[200px]">
+            <img 
+              src={modelingBehaviorImg} 
+              alt="Parent modeling positive behavior for children" 
+              className="w-full h-auto"
+              loading="lazy"
+              width={1024}
+              height={768}
+            />
+          </div>
+        </div>
+
+        {/* Facts */}
+        <div className="space-y-3 mb-6 print:mb-3 print:space-y-1">
+          <h4 className="text-lg font-bold text-[hsl(var(--foreground))] font-serif flex items-center gap-2 print:text-sm">
+            <Brain className="w-5 h-5 text-[hsl(var(--primary))]" />
+            Did You Know?
+          </h4>
+          <div className="grid gap-3 print:gap-1">
+            {[
+              "Children learn 95% of their behavior by observing and imitating their parents — not by being told what to do.",
+              "Mirror neurons in a child's brain fire when they watch a parent's actions, literally wiring them to copy what they see.",
+              "Studies show children who witness calm conflict resolution are 40% more likely to use peaceful problem-solving themselves.",
+              "Kids as young as 18 months can imitate emotional responses they observe in caregivers.",
+              "A parent's reaction to stress becomes a child's blueprint for handling their own challenges.",
+            ].map((fact, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white/60 rounded-lg p-3 print:p-1.5 print:gap-1.5">
+                <div className="w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5 print:w-4 print:h-4 print:text-[8px]">
+                  {i + 1}
+                </div>
+                <p className="text-[hsl(var(--foreground))] text-sm leading-relaxed print:text-[9px] print:leading-tight">{fact}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Bible Verse */}
+        <div className="bg-[hsl(var(--primary))]/10 rounded-xl p-5 text-center border border-[hsl(var(--primary))]/20 print:p-2 print:rounded-lg">
+          <Cross className="w-6 h-6 text-[hsl(var(--primary))] mx-auto mb-2 print:w-4 print:h-4 print:mb-1" />
+          <p className="font-serif text-lg text-[hsl(var(--foreground))] italic leading-relaxed print:text-xs">
+            "In everything set them an example by doing what is good. In your teaching show integrity, seriousness and soundness of speech."
+          </p>
+          <p className="text-[hsl(var(--primary))] font-semibold mt-2 text-sm print:text-[9px] print:mt-1">
+            — Titus 2:7-8 (NIV)
+          </p>
+        </div>
+
+        {/* Footer */}
+        <div className="mt-6 flex items-center justify-center gap-2 print:mt-2">
+          <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md print:h-6 print:w-6" />
+          <p className="text-[hsl(var(--primary))] text-xs font-medium italic">Model Parenting Method</p>
         </div>
       </div>
     );
