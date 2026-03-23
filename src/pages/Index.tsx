@@ -48,7 +48,7 @@ const Index = () => {
     { id: "early" as const, title: "Ages 5-7 Workbook", desc: "School readiness, lying, sibling conflict, emotional outbursts, and building responsibility." },
     { id: "middle" as const, title: "Ages 8-12 Workbook", desc: "Peer influence, academics, technology, puberty, and building character in pre-teens." },
     { id: "teen" as const, title: "Ages 13-18 Workbook", desc: "Communication, risky behavior, relationships, mental health, faith, and launching well." },
-    { id: "wall" as const, title: "Wall Reminders", desc: "Visual mantras and quick-reference tools to print and post around your home." },
+    { id: "wall" as const, title: "Parents Reset Corner - Wall Reminders", desc: "Visual mantras and quick-reference tools to print and post around your home." },
     { id: "reset" as const, title: "Reset Corner", desc: "Printable sheets to set up a Reset Corner: feelings, needs, zones, helpers, grounding, and healthy behaviors." },
   ];
 
