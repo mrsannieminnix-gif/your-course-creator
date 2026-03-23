@@ -82,6 +82,33 @@ const Index = () => {
             </button>
           ))}
         </div>
+
+        {/* Pictures Section */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-primary mb-2">
+            Pictures
+          </h2>
+          <p className="text-muted-foreground text-sm mb-6">
+            Downloadable visuals for presentations and teaching
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {pictures.map((pic) => (
+              <button
+                key={pic.id}
+                onClick={() => setSelectedWorkbook(pic.id)}
+                className="page-paper p-6 text-left transition-transform cursor-pointer hover:scale-[1.02]"
+              >
+                <Image className="w-8 h-8 text-primary mb-3" />
+                <h2 className="font-serif text-xl font-semibold text-primary mb-2">
+                  {pic.title}
+                </h2>
+                <p className="text-muted-foreground text-sm">
+                  {pic.desc}
+                </p>
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
