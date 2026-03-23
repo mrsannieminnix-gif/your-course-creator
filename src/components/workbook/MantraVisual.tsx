@@ -2,6 +2,7 @@ import React from "react";
 import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw, Wind, Volume2, Flame, Music, Palette, Baby, Dumbbell, Footprints, ArrowUpDown, Puzzle, HandHeart, Droplets, Apple, Moon, HandHelping, Zap, VolumeX, Gamepad2, MessageCircle, TreePine, Eye, Hand, Ear, Flower2, Cookie, Smile, Frown, Angry, AlertCircle, ThumbsUp, Meh, BedDouble, HeartCrack, ShieldAlert, Sparkles, HelpCircle, CloudSun, PenTool, MessageSquare, TreeDeciduous, Grip, PiggyBank, Scale, Target, CircleDollarSign, Church, Handshake, Lightbulb, Home, GraduationCap, Globe, Dumbbell as DumbbellIcon, Feather, Clock, HeartPulse, Bird, SmilePlus, UtensilsCrossed, Droplet, BedSingle, UserCheck, ShieldCheck, Ear as EarIcon, ScanEye, Compass, PersonStanding, Brain, Link2, KeyRound, PartyPopper, TreePalm, Cross, Lamp } from "lucide-react";
 import { faithImageMap } from "./ComparisonImage";
 import logoImage from "@/assets/logo.jpg";
+import modelingBehaviorImg from "@/assets/modeling-behavior.jpg";
 import resetPopIt from "@/assets/reset-pop-it.png";
 import resetSwing from "@/assets/reset-swing.png";
 import resetDeepBreaths from "@/assets/reset-deep-breaths.png";

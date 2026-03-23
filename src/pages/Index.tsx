@@ -7,10 +7,11 @@ import { middleChildhoodWorkbookData } from "@/data/middleChildhoodWorkbookConte
 import { teenWorkbookData } from "@/data/teenWorkbookContent";
 import { wallRemindersWorkbookData } from "@/data/wallRemindersWorkbookContent";
 import { resetCornerWorkbookData } from "@/data/resetCornerWorkbookContent";
+import { picturesData } from "@/data/picturesContent";
 import { Button } from "@/components/ui/button";
-import { Book } from "lucide-react";
+import { Book, Image } from "lucide-react";
 
-type WorkbookType = "foundation" | "toddler" | "early" | "middle" | "teen" | "wall" | "reset" | null;
+type WorkbookType = "foundation" | "toddler" | "early" | "middle" | "teen" | "wall" | "reset" | "pictures" | null;
 
 const Index = () => {
   const [selectedWorkbook, setSelectedWorkbook] = useState<WorkbookType>(null);
