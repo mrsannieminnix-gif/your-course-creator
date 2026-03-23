@@ -54,6 +54,10 @@ const Index = () => {
     { id: "reset" as const, title: "Reset Corner", desc: "Printable sheets to set up a Reset Corner: feelings, needs, zones, helpers, grounding, and healthy behaviors." },
   ];
 
+  const pictures = [
+    { id: "pictures" as const, title: "Modeling Behavior", desc: "Facts about how children mirror their parents' behavior, with a supporting Bible verse for presentations." },
+  ];
+
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <div className="max-w-4xl w-full space-y-8 text-center">
