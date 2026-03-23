@@ -1908,25 +1908,24 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
 
   if (mantraId === "modeling-behavior-slide") {
     return (
-      <div className="bg-gradient-to-br from-[hsl(40,30%,96%)] to-[hsl(145,22%,90%)] rounded-2xl p-8 shadow-xl border border-[hsl(var(--border))] print:shadow-none print:p-4 print:rounded-lg">
+      <div className="bg-gradient-to-br from-[hsl(40,30%,96%)] to-[hsl(145,22%,90%)] rounded-2xl p-8 shadow-xl border border-[hsl(var(--border))] print:shadow-none print:p-3 print:rounded-none print:border-none print:bg-none print:w-[7.5in] print:h-[10in] print:mx-auto print:overflow-hidden print:flex print:flex-col print:justify-center" style={{ printColorAdjust: 'exact', WebkitPrintColorAdjust: 'exact' }}>
         {/* Title */}
-        <div className="text-center mb-6 print:mb-3">
-          <h3 className="text-3xl font-bold text-[hsl(var(--primary))] font-serif print:text-xl">
+        <div className="text-center mb-6 print:mb-2">
+          <h3 className="text-3xl font-bold text-[hsl(var(--primary))] font-serif print:text-[26px]">
             MODELING BEHAVIOR
           </h3>
-          <p className="text-[hsl(var(--muted-foreground))] text-sm mt-1 italic print:text-xs">
+          <p className="text-[hsl(var(--muted-foreground))] text-sm mt-1 italic print:text-[12px]">
             Your children are watching — and becoming what they see.
           </p>
         </div>
 
         {/* Image */}
-        <div className="flex justify-center mb-6 print:mb-3">
-          <div className="rounded-xl overflow-hidden border-2 border-[hsl(var(--primary))]/ shadow-lg max-w-md print:max-w-[200px]">
+        <div className="flex justify-center mb-6 print:mb-2">
+          <div className="rounded-xl overflow-hidden border-2 border-[hsl(var(--primary))]/30 shadow-lg max-w-md print:max-w-[2.5in] print:border print:shadow-none print:rounded-lg">
             <img 
               src={modelingBehaviorImg} 
               alt="Parent modeling positive behavior for children" 
               className="w-full h-auto"
-              loading="lazy"
               width={1024}
               height={768}
             />
@@ -1934,12 +1933,12 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         </div>
 
         {/* Facts */}
-        <div className="space-y-3 mb-6 print:mb-3 print:space-y-1">
-          <h4 className="text-lg font-bold text-[hsl(var(--foreground))] font-serif flex items-center gap-2 print:text-sm">
-            <Brain className="w-5 h-5 text-[hsl(var(--primary))]" />
+        <div className="space-y-3 mb-6 print:mb-2 print:space-y-1">
+          <h4 className="text-lg font-bold text-[hsl(var(--foreground))] font-serif flex items-center gap-2 print:text-[14px]">
+            <Brain className="w-5 h-5 text-[hsl(var(--primary))] print:w-4 print:h-4" />
             Did You Know?
           </h4>
-          <div className="grid gap-3 print:gap-1">
+          <div className="grid gap-3 print:gap-[3px]">
             {[
               "Children learn 95% of their behavior by observing and imitating their parents — not by being told what to do.",
               "Mirror neurons in a child's brain fire when they watch a parent's actions, literally wiring them to copy what they see.",
@@ -1947,11 +1946,11 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
               "Kids as young as 18 months can imitate emotional responses they observe in caregivers.",
               "A parent's reaction to stress becomes a child's blueprint for handling their own challenges.",
             ].map((fact, i) => (
-              <div key={i} className="flex items-start gap-3 bg-white/60 rounded-lg p-3 print:p-1.5 print:gap-1.5">
-                <div className="w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5 print:w-4 print:h-4 print:text-[8px]">
+              <div key={i} className="flex items-start gap-3 bg-white/60 rounded-lg p-3 print:p-1 print:gap-1.5 print:rounded print:bg-[hsl(var(--background))]">
+                <div className="w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5 print:w-[18px] print:h-[18px] print:text-[9px] print:mt-0">
                   {i + 1}
                 </div>
-                <p className="text-[hsl(var(--foreground))] text-sm leading-relaxed print:text-[9px] print:leading-tight">{fact}</p>
+                <p className="text-[hsl(var(--foreground))] text-sm leading-relaxed print:text-[11px] print:leading-snug">{fact}</p>
               </div>
             ))}
           </div>
@@ -1960,17 +1959,17 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
         {/* Bible Verse */}
         <div className="bg-[hsl(var(--primary))]/10 rounded-xl p-5 text-center border border-[hsl(var(--primary))]/20 print:p-2 print:rounded-lg">
           <Cross className="w-6 h-6 text-[hsl(var(--primary))] mx-auto mb-2 print:w-4 print:h-4 print:mb-1" />
-          <p className="font-serif text-lg text-[hsl(var(--foreground))] italic leading-relaxed print:text-xs">
+          <p className="font-serif text-lg text-[hsl(var(--foreground))] italic leading-relaxed print:text-[12px] print:leading-snug">
             "In everything set them an example by doing what is good. In your teaching show integrity, seriousness and soundness of speech."
           </p>
-          <p className="text-[hsl(var(--primary))] font-semibold mt-2 text-sm print:text-[9px] print:mt-1">
+          <p className="text-[hsl(var(--primary))] font-semibold mt-2 text-sm print:text-[10px] print:mt-1">
             — Titus 2:7-8 (NIV)
           </p>
         </div>
 
         {/* Footer */}
-        <div className="mt-6 flex items-center justify-center gap-2 print:mt-2">
-          <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md print:h-6 print:w-6" />
+        <div className="mt-6 flex items-center justify-center gap-2 print:mt-2 print:hidden">
+          <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
           <p className="text-[hsl(var(--primary))] text-xs font-medium italic">Model Parenting Method</p>
         </div>
       </div>
