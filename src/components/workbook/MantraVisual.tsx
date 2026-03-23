@@ -1,5 +1,5 @@
 import React from "react";
-import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw, Wind, Volume2, Flame, Music, Palette, Baby, Dumbbell, Footprints, ArrowUpDown, Puzzle, HandHeart, Droplets, Apple, Moon, HandHelping, Zap, VolumeX, Gamepad2, MessageCircle, TreePine, Eye, Hand, Ear, Flower2, Cookie, Smile, Frown, Angry, AlertCircle, ThumbsUp, Meh, BedDouble, HeartCrack, ShieldAlert, Sparkles, HelpCircle, CloudSun, PenTool, MessageSquare, TreeDeciduous, Grip, PiggyBank } from "lucide-react";
+import { Anchor, Heart, Users, Sprout, Star, BookOpen, RefreshCw, Wind, Volume2, Flame, Music, Palette, Baby, Dumbbell, Footprints, ArrowUpDown, Puzzle, HandHeart, Droplets, Apple, Moon, HandHelping, Zap, VolumeX, Gamepad2, MessageCircle, TreePine, Eye, Hand, Ear, Flower2, Cookie, Smile, Frown, Angry, AlertCircle, ThumbsUp, Meh, BedDouble, HeartCrack, ShieldAlert, Sparkles, HelpCircle, CloudSun, PenTool, MessageSquare, TreeDeciduous, Grip, PiggyBank, Scale, Target, CircleDollarSign, Church, Handshake, Lightbulb, Home, GraduationCap, Globe, Dumbbell as DumbbellIcon, Feather, Clock, HeartPulse, Bird, SmilePlus, UtensilsCrossed, Droplet, BedSingle, UserCheck, ShieldCheck, Ear as EarIcon, ScanEye, Compass, PersonStanding, Brain, Link2, KeyRound, PartyPopper, TreePalm, Cross, Lamp } from "lucide-react";
 import { faithImageMap } from "./ComparisonImage";
 import logoImage from "@/assets/logo.jpg";
 import resetPopIt from "@/assets/reset-pop-it.png";
@@ -1780,25 +1780,25 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
   }
 
   if (mantraId === "list-of-values") {
-    const values = [
-      { emoji: "⚖️", label: "Equality", desc: "Treating everyone fairly" },
-      { emoji: "🎯", label: "Meaning", desc: "Living with purpose" },
-      { emoji: "💰", label: "Financial Security", desc: "Providing for your family" },
-      { emoji: "🙏", label: "Faith", desc: "Trusting in God's plan" },
-      { emoji: "❤️", label: "Love", desc: "Unconditional care for others" },
-      { emoji: "🤝", label: "Respect", desc: "Honoring others' dignity" },
-      { emoji: "💡", label: "Honesty", desc: "Speaking and living truthfully" },
-      { emoji: "🏠", label: "Family", desc: "Prioritizing togetherness" },
-      { emoji: "📚", label: "Education", desc: "Lifelong learning and growth" },
-      { emoji: "🌍", label: "Community", desc: "Serving and belonging" },
-      { emoji: "💪", label: "Hard Work", desc: "Dedication and perseverance" },
-      { emoji: "🕊️", label: "Peace", desc: "Inner and outer harmony" },
-      { emoji: "🎨", label: "Creativity", desc: "Expressing yourself freely" },
-      { emoji: "🌱", label: "Growth", desc: "Always becoming better" },
-      { emoji: "⏰", label: "Time", desc: "Being present with loved ones" },
-      { emoji: "🏥", label: "Health", desc: "Physical and mental wellness" },
-      { emoji: "🗽", label: "Freedom", desc: "Independence and autonomy" },
-      { emoji: "😊", label: "Joy", desc: "Finding happiness daily" },
+    const values: { icon: React.ReactNode; label: string; desc: string; color: string }[] = [
+      { icon: <Scale className="w-6 h-6" />, label: "Equality", desc: "Treating everyone fairly", color: "from-violet-400 to-violet-500" },
+      { icon: <Target className="w-6 h-6" />, label: "Meaning", desc: "Living with purpose", color: "from-rose-400 to-rose-500" },
+      { icon: <CircleDollarSign className="w-6 h-6" />, label: "Financial Security", desc: "Providing for your family", color: "from-emerald-400 to-emerald-500" },
+      { icon: <Church className="w-6 h-6" />, label: "Faith", desc: "Trusting in God's plan", color: "from-amber-400 to-amber-500" },
+      { icon: <Heart className="w-6 h-6" />, label: "Love", desc: "Unconditional care for others", color: "from-pink-400 to-pink-500" },
+      { icon: <Handshake className="w-6 h-6" />, label: "Respect", desc: "Honoring others' dignity", color: "from-sky-400 to-sky-500" },
+      { icon: <Lightbulb className="w-6 h-6" />, label: "Honesty", desc: "Speaking and living truthfully", color: "from-yellow-400 to-yellow-500" },
+      { icon: <Home className="w-6 h-6" />, label: "Family", desc: "Prioritizing togetherness", color: "from-orange-400 to-orange-500" },
+      { icon: <GraduationCap className="w-6 h-6" />, label: "Education", desc: "Lifelong learning and growth", color: "from-blue-400 to-blue-500" },
+      { icon: <Globe className="w-6 h-6" />, label: "Community", desc: "Serving and belonging", color: "from-teal-400 to-teal-500" },
+      { icon: <Dumbbell className="w-6 h-6" />, label: "Hard Work", desc: "Dedication and perseverance", color: "from-slate-400 to-slate-500" },
+      { icon: <Feather className="w-6 h-6" />, label: "Peace", desc: "Inner and outer harmony", color: "from-cyan-400 to-cyan-500" },
+      { icon: <Palette className="w-6 h-6" />, label: "Creativity", desc: "Expressing yourself freely", color: "from-fuchsia-400 to-fuchsia-500" },
+      { icon: <Sprout className="w-6 h-6" />, label: "Growth", desc: "Always becoming better", color: "from-lime-400 to-lime-500" },
+      { icon: <Clock className="w-6 h-6" />, label: "Time", desc: "Being present with loved ones", color: "from-indigo-400 to-indigo-500" },
+      { icon: <HeartPulse className="w-6 h-6" />, label: "Health", desc: "Physical and mental wellness", color: "from-red-400 to-red-500" },
+      { icon: <Bird className="w-6 h-6" />, label: "Freedom", desc: "Independence and autonomy", color: "from-sky-400 to-sky-500" },
+      { icon: <SmilePlus className="w-6 h-6" />, label: "Joy", desc: "Finding happiness daily", color: "from-amber-400 to-yellow-400" },
     ];
 
     return (
@@ -1815,8 +1815,10 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {values.map((v, i) => (
-              <div key={i} className="bg-white/70 rounded-xl p-3 border border-indigo-100 hover:shadow-md transition-shadow text-center">
-                <span className="text-2xl block mb-1">{v.emoji}</span>
+              <div key={i} className="bg-white/70 rounded-xl p-3 border border-indigo-100 hover:shadow-md transition-shadow text-center flex flex-col items-center">
+                <div className={`w-11 h-11 rounded-full bg-gradient-to-br ${v.color} flex items-center justify-center text-white shadow-sm mb-2`}>
+                  {v.icon}
+                </div>
                 <p className="font-bold text-indigo-800 text-sm">{v.label}</p>
                 <p className="text-indigo-500 text-xs mt-0.5">{v.desc}</p>
               </div>
@@ -1841,25 +1843,25 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
   }
 
   if (mantraId === "list-of-needs") {
-    const needs = [
-      { emoji: "🍽️", label: "Eat", desc: "Nourishing your body with food" },
-      { emoji: "💧", label: "Drink", desc: "Staying hydrated" },
-      { emoji: "😴", label: "Sleep", desc: "Rest and recovery" },
-      { emoji: "❤️", label: "Be Loved", desc: "Feeling cared for and valued" },
-      { emoji: "🤗", label: "Belong", desc: "Feeling part of a group" },
-      { emoji: "🏡", label: "Safety", desc: "Feeling secure and protected" },
-      { emoji: "👂", label: "Be Heard", desc: "Having your voice matter" },
-      { emoji: "👀", label: "Be Seen", desc: "Being noticed and acknowledged" },
-      { emoji: "🎯", label: "Purpose", desc: "Feeling useful and needed" },
-      { emoji: "🏃", label: "Movement", desc: "Physical activity and play" },
-      { emoji: "🧘", label: "Calm", desc: "Quiet time and peace" },
-      { emoji: "🤝", label: "Connection", desc: "Close bonds with others" },
-      { emoji: "🗽", label: "Autonomy", desc: "Having choices and control" },
-      { emoji: "🎉", label: "Fun", desc: "Joy, laughter, and play" },
-      { emoji: "🌿", label: "Nature", desc: "Fresh air and outdoor time" },
-      { emoji: "🙏", label: "Spiritual", desc: "Connection with God" },
-      { emoji: "💡", label: "Understanding", desc: "Making sense of the world" },
-      { emoji: "🫶", label: "Touch", desc: "Physical comfort and affection" },
+    const needs: { icon: React.ReactNode; label: string; desc: string; color: string }[] = [
+      { icon: <UtensilsCrossed className="w-6 h-6" />, label: "Eat", desc: "Nourishing your body with food", color: "from-orange-400 to-orange-500" },
+      { icon: <Droplet className="w-6 h-6" />, label: "Drink", desc: "Staying hydrated", color: "from-blue-400 to-blue-500" },
+      { icon: <Moon className="w-6 h-6" />, label: "Sleep", desc: "Rest and recovery", color: "from-indigo-400 to-indigo-500" },
+      { icon: <Heart className="w-6 h-6" />, label: "Be Loved", desc: "Feeling cared for and valued", color: "from-pink-400 to-pink-500" },
+      { icon: <Users className="w-6 h-6" />, label: "Belong", desc: "Feeling part of a group", color: "from-violet-400 to-violet-500" },
+      { icon: <ShieldCheck className="w-6 h-6" />, label: "Safety", desc: "Feeling secure and protected", color: "from-emerald-400 to-emerald-500" },
+      { icon: <Ear className="w-6 h-6" />, label: "Be Heard", desc: "Having your voice matter", color: "from-amber-400 to-amber-500" },
+      { icon: <Eye className="w-6 h-6" />, label: "Be Seen", desc: "Being noticed and acknowledged", color: "from-sky-400 to-sky-500" },
+      { icon: <Compass className="w-6 h-6" />, label: "Purpose", desc: "Feeling useful and needed", color: "from-rose-400 to-rose-500" },
+      { icon: <Footprints className="w-6 h-6" />, label: "Movement", desc: "Physical activity and play", color: "from-lime-400 to-lime-500" },
+      { icon: <Wind className="w-6 h-6" />, label: "Calm", desc: "Quiet time and peace", color: "from-cyan-400 to-cyan-500" },
+      { icon: <Link2 className="w-6 h-6" />, label: "Connection", desc: "Close bonds with others", color: "from-teal-400 to-teal-500" },
+      { icon: <KeyRound className="w-6 h-6" />, label: "Autonomy", desc: "Having choices and control", color: "from-yellow-400 to-yellow-500" },
+      { icon: <PartyPopper className="w-6 h-6" />, label: "Fun", desc: "Joy, laughter, and play", color: "from-fuchsia-400 to-fuchsia-500" },
+      { icon: <TreePine className="w-6 h-6" />, label: "Nature", desc: "Fresh air and outdoor time", color: "from-green-400 to-green-500" },
+      { icon: <Cross className="w-6 h-6" />, label: "Spiritual", desc: "Connection with God", color: "from-amber-400 to-amber-500" },
+      { icon: <Brain className="w-6 h-6" />, label: "Understanding", desc: "Making sense of the world", color: "from-purple-400 to-purple-500" },
+      { icon: <HandHeart className="w-6 h-6" />, label: "Touch", desc: "Physical comfort and affection", color: "from-red-400 to-red-500" },
     ];
 
     return (
@@ -1876,8 +1878,10 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {needs.map((n, i) => (
-              <div key={i} className="bg-white/70 rounded-xl p-3 border border-teal-100 hover:shadow-md transition-shadow text-center">
-                <span className="text-2xl block mb-1">{n.emoji}</span>
+              <div key={i} className="bg-white/70 rounded-xl p-3 border border-teal-100 hover:shadow-md transition-shadow text-center flex flex-col items-center">
+                <div className={`w-11 h-11 rounded-full bg-gradient-to-br ${n.color} flex items-center justify-center text-white shadow-sm mb-2`}>
+                  {n.icon}
+                </div>
                 <p className="font-bold text-teal-800 text-sm">{n.label}</p>
                 <p className="text-teal-500 text-xs mt-0.5">{n.desc}</p>
               </div>
