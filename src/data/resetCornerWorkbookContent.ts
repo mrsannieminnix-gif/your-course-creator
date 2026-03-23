@@ -152,5 +152,21 @@ export const resetCornerWorkbookData: WorkbookData = {
         },
       ],
     },
+    {
+      id: "reset-7",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Reset Corner",
+      title: "My Reset Prayer",
+      subtitle: "Talk to God when you need to reset",
+      sections: [
+        {
+          id: "reset-7-visual",
+          type: "mantra-visual",
+          content: "calm-corner-prayer",
+          editable: false,
+        },
+      ],
+    },
   ],
 };
