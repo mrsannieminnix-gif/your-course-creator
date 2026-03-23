@@ -2021,25 +2021,6 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         }
       ]
-    },
-    // ===============================
-    // PARENT RESET PRAYER
-    // ===============================
-    {
-      id: "parent-prayer",
-      type: "visuals",
-      section: 8,
-      sectionTitle: "Parent Reset",
-      title: "My Parent Reset Prayer",
-      subtitle: "Pause, breathe, and bring it to God",
-      sections: [
-        {
-          id: "parent-prayer-visual",
-          type: "mantra-visual",
-          content: "parent-reset-prayer",
-          editable: false,
-        },
-      ],
     }
   ]
 };
