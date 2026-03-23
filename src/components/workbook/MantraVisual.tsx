@@ -1779,6 +1779,128 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "list-of-values") {
+    const values = [
+      { emoji: "⚖️", label: "Equality", desc: "Treating everyone fairly" },
+      { emoji: "🎯", label: "Meaning", desc: "Living with purpose" },
+      { emoji: "💰", label: "Financial Security", desc: "Providing for your family" },
+      { emoji: "🙏", label: "Faith", desc: "Trusting in God's plan" },
+      { emoji: "❤️", label: "Love", desc: "Unconditional care for others" },
+      { emoji: "🤝", label: "Respect", desc: "Honoring others' dignity" },
+      { emoji: "💡", label: "Honesty", desc: "Speaking and living truthfully" },
+      { emoji: "🏠", label: "Family", desc: "Prioritizing togetherness" },
+      { emoji: "📚", label: "Education", desc: "Lifelong learning and growth" },
+      { emoji: "🌍", label: "Community", desc: "Serving and belonging" },
+      { emoji: "💪", label: "Hard Work", desc: "Dedication and perseverance" },
+      { emoji: "🕊️", label: "Peace", desc: "Inner and outer harmony" },
+      { emoji: "🎨", label: "Creativity", desc: "Expressing yourself freely" },
+      { emoji: "🌱", label: "Growth", desc: "Always becoming better" },
+      { emoji: "⏰", label: "Time", desc: "Being present with loved ones" },
+      { emoji: "🏥", label: "Health", desc: "Physical and mental wellness" },
+      { emoji: "🗽", label: "Freedom", desc: "Independence and autonomy" },
+      { emoji: "😊", label: "Joy", desc: "Finding happiness daily" },
+    ];
+
+    return (
+      <div className="my-6 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-indigo-50 to-purple-100 rounded-3xl p-8 shadow-xl max-w-3xl w-full border-2 border-indigo-200">
+          <div className="text-center mb-6">
+            <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full flex items-center justify-center shadow-lg">
+              <Star className="w-10 h-10 text-white" />
+            </div>
+            <h3 className="font-serif text-3xl font-bold text-indigo-800 tracking-wide">LIST OF VALUES</h3>
+            <p className="text-indigo-600 italic mt-1">What matters most to you & your family?</p>
+            <div className="w-16 h-1 bg-indigo-300 mx-auto mt-3" />
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {values.map((v, i) => (
+              <div key={i} className="bg-white/70 rounded-xl p-3 border border-indigo-100 hover:shadow-md transition-shadow text-center">
+                <span className="text-2xl block mb-1">{v.emoji}</span>
+                <p className="font-bold text-indigo-800 text-sm">{v.label}</p>
+                <p className="text-indigo-500 text-xs mt-0.5">{v.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Faith Element */}
+          <div className="mt-6 bg-indigo-100/60 rounded-xl p-4 text-center">
+            <p className="text-indigo-700 text-sm italic font-serif">
+              "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control."
+            </p>
+            <p className="text-indigo-500 text-xs mt-1 font-medium">— Galatians 5:22-23</p>
+          </div>
+
+          <div className="flex items-center justify-between pt-3 border-t border-indigo-200 mt-4">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
+            <p className="text-indigo-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (mantraId === "list-of-needs") {
+    const needs = [
+      { emoji: "🍽️", label: "Eat", desc: "Nourishing your body with food" },
+      { emoji: "💧", label: "Drink", desc: "Staying hydrated" },
+      { emoji: "😴", label: "Sleep", desc: "Rest and recovery" },
+      { emoji: "❤️", label: "Be Loved", desc: "Feeling cared for and valued" },
+      { emoji: "🤗", label: "Belong", desc: "Feeling part of a group" },
+      { emoji: "🏡", label: "Safety", desc: "Feeling secure and protected" },
+      { emoji: "👂", label: "Be Heard", desc: "Having your voice matter" },
+      { emoji: "👀", label: "Be Seen", desc: "Being noticed and acknowledged" },
+      { emoji: "🎯", label: "Purpose", desc: "Feeling useful and needed" },
+      { emoji: "🏃", label: "Movement", desc: "Physical activity and play" },
+      { emoji: "🧘", label: "Calm", desc: "Quiet time and peace" },
+      { emoji: "🤝", label: "Connection", desc: "Close bonds with others" },
+      { emoji: "🗽", label: "Autonomy", desc: "Having choices and control" },
+      { emoji: "🎉", label: "Fun", desc: "Joy, laughter, and play" },
+      { emoji: "🌿", label: "Nature", desc: "Fresh air and outdoor time" },
+      { emoji: "🙏", label: "Spiritual", desc: "Connection with God" },
+      { emoji: "💡", label: "Understanding", desc: "Making sense of the world" },
+      { emoji: "🫶", label: "Touch", desc: "Physical comfort and affection" },
+    ];
+
+    return (
+      <div className="my-6 flex flex-col items-center">
+        <div className="bg-gradient-to-br from-teal-50 to-cyan-100 rounded-3xl p-8 shadow-xl max-w-3xl w-full border-2 border-teal-200">
+          <div className="text-center mb-6">
+            <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-teal-400 to-cyan-500 rounded-full flex items-center justify-center shadow-lg">
+              <HandHeart className="w-10 h-10 text-white" />
+            </div>
+            <h3 className="font-serif text-3xl font-bold text-teal-800 tracking-wide">LIST OF NEEDS</h3>
+            <p className="text-teal-600 italic mt-1">Every behavior is driven by an unmet need</p>
+            <div className="w-16 h-1 bg-teal-300 mx-auto mt-3" />
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {needs.map((n, i) => (
+              <div key={i} className="bg-white/70 rounded-xl p-3 border border-teal-100 hover:shadow-md transition-shadow text-center">
+                <span className="text-2xl block mb-1">{n.emoji}</span>
+                <p className="font-bold text-teal-800 text-sm">{n.label}</p>
+                <p className="text-teal-500 text-xs mt-0.5">{n.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Faith Element */}
+          <div className="mt-6 bg-teal-100/60 rounded-xl p-4 text-center">
+            <p className="text-teal-700 text-sm italic font-serif">
+              "And my God will meet all your needs according to the riches of his glory in Christ Jesus."
+            </p>
+            <p className="text-teal-500 text-xs mt-1 font-medium">— Philippians 4:19</p>
+          </div>
+
+          <div className="flex items-center justify-between pt-3 border-t border-teal-200 mt-4">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
+            <p className="text-teal-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 };
 

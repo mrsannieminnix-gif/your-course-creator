@@ -417,6 +417,52 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Page 20: List of Values
+    {
+      id: "wall-20",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "List of Values",
+      subtitle: "What matters most to you & your family?",
+      sections: [
+        {
+          id: "wall-20-visual",
+          type: "mantra-visual",
+          content: "list-of-values",
+          editable: false,
+        },
+        {
+          id: "wall-20-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
+    // Page 21: List of Needs
+    {
+      id: "wall-21",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "List of Needs",
+      subtitle: "Every behavior is driven by an unmet need",
+      sections: [
+        {
+          id: "wall-21-visual",
+          type: "mantra-visual",
+          content: "list-of-needs",
+          editable: false,
+        },
+        {
+          id: "wall-21-notes",
+          type: "paragraph",
+          content: "My notes:",
+          editable: true,
+        },
+      ],
+    },
     // Parent Reset Prayer
     {
       id: "wall-19",
