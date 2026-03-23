@@ -1,7 +1,7 @@
 import { WorkbookData } from "@/types/workbook";
 
 export const wallRemindersWorkbookData: WorkbookData = {
-  title: "Toolbox for Parents - Wall Reminders",
+  title: "Parents Reset Corner - Wall Reminders",
   pages: [
     // Page 1: Validate, Connect, Redirect Mantra
     {
