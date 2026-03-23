@@ -27,6 +27,20 @@ const Index = () => {
     pictures: picturesData,
   };
 
+  const workbooks = [
+    { id: "foundation" as const, title: "Foundation Workbook", desc: "The core 6 tools of Model Parenting - anchoring, validation, connection, grow, empower, and correction." },
+    { id: "toddler" as const, title: "Ages 2-4 Workbook", desc: "Brain development, nervous system regulation, and applying the tools to common toddler challenges." },
+    { id: "early" as const, title: "Ages 5-7 Workbook", desc: "School readiness, lying, sibling conflict, emotional outbursts, and building responsibility." },
+    { id: "middle" as const, title: "Ages 8-12 Workbook", desc: "Peer influence, academics, technology, puberty, and building character in pre-teens." },
+    { id: "teen" as const, title: "Ages 13-18 Workbook", desc: "Communication, risky behavior, relationships, mental health, faith, and launching well." },
+    { id: "wall" as const, title: "Parents Reset Corner - Wall Reminders", desc: "Visual mantras and quick-reference tools to print and post around your home." },
+    { id: "reset" as const, title: "Reset Corner", desc: "Printable sheets to set up a Reset Corner: feelings, needs, zones, helpers, grounding, and healthy behaviors." },
+  ];
+
+  const pictures = [
+    { id: "pictures" as const, title: "Modeling Behavior", desc: "Facts about how children mirror their parents' behavior, with a supporting Bible verse for presentations." },
+  ];
+
   if (selectedWorkbook) {
     const workbookData = workbookMap[selectedWorkbook];
     return (
@@ -43,20 +57,6 @@ const Index = () => {
       </div>
     );
   }
-
-  const workbooks = [
-    { id: "foundation" as const, title: "Foundation Workbook", desc: "The core 6 tools of Model Parenting - anchoring, validation, connection, grow, empower, and correction." },
-    { id: "toddler" as const, title: "Ages 2-4 Workbook", desc: "Brain development, nervous system regulation, and applying the tools to common toddler challenges." },
-    { id: "early" as const, title: "Ages 5-7 Workbook", desc: "School readiness, lying, sibling conflict, emotional outbursts, and building responsibility." },
-    { id: "middle" as const, title: "Ages 8-12 Workbook", desc: "Peer influence, academics, technology, puberty, and building character in pre-teens." },
-    { id: "teen" as const, title: "Ages 13-18 Workbook", desc: "Communication, risky behavior, relationships, mental health, faith, and launching well." },
-    { id: "wall" as const, title: "Parents Reset Corner - Wall Reminders", desc: "Visual mantras and quick-reference tools to print and post around your home." },
-    { id: "reset" as const, title: "Reset Corner", desc: "Printable sheets to set up a Reset Corner: feelings, needs, zones, helpers, grounding, and healthy behaviors." },
-  ];
-
-  const pictures = [
-    { id: "pictures" as const, title: "Modeling Behavior", desc: "Facts about how children mirror their parents' behavior, with a supporting Bible verse for presentations." },
-  ];
 
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
