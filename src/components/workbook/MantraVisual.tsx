@@ -52,6 +52,7 @@ import behaviorArt from "@/assets/behavior-art.png";
 import behaviorWrite from "@/assets/behavior-write.png";
 import behaviorOutside from "@/assets/behavior-outside.png";
 import behaviorPray from "@/assets/behavior-pray.png";
+import resetPray from "@/assets/reset-pray.png";
 
 interface MantraVisualProps {
   mantraId: string;
