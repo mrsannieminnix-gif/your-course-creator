@@ -24,6 +24,7 @@ const Index = () => {
     teen: teenWorkbookData,
     wall: wallRemindersWorkbookData,
     reset: resetCornerWorkbookData,
+    pictures: picturesData,
   };
 
   if (selectedWorkbook) {
