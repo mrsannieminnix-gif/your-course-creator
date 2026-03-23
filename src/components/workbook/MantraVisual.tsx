@@ -1700,6 +1700,85 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     );
   }
 
+  if (mantraId === "parent-reset-prayer") {
+    return (
+      <div className="my-4 flex flex-col items-center print:my-1">
+        <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-100 rounded-3xl p-6 shadow-xl border-2 border-amber-200 max-w-lg w-full print:p-4 print:rounded-xl print:shadow-none print:border">
+          {/* Image */}
+          <div className="flex justify-center mb-4 print:mb-2">
+            <img 
+              src={parentPray} 
+              alt="Parent kneeling in prayer" 
+              className="w-32 h-32 rounded-full object-cover border-4 border-amber-200 shadow-lg print:w-20 print:h-20 print:border-2"
+              loading="lazy"
+              width={512}
+              height={512}
+            />
+          </div>
+
+          {/* Title */}
+          <h3 className="font-serif text-2xl font-bold text-amber-800 text-center mb-1 print:text-lg print:mb-0">
+            My Parent Reset Prayer
+          </h3>
+          <p className="text-amber-600 text-sm text-center italic mb-4 print:text-xs print:mb-2">
+            Pause, breathe, and bring it to God
+          </p>
+
+          {/* Prayer template */}
+          <div className="bg-white/70 rounded-2xl p-5 border border-amber-200 space-y-3 print:p-3 print:rounded-xl print:space-y-2">
+            <p className="font-handwritten text-xl text-amber-900 print:text-base">
+              Dear Heavenly Father,
+            </p>
+
+            <div className="space-y-3 print:space-y-2">
+              <div>
+                <p className="text-sm font-medium text-amber-700 mb-1 print:text-xs">Right now I'm feeling...</p>
+                <div className="border-b-2 border-dashed border-amber-300 pb-2 min-h-[24px] print:min-h-[16px] print:pb-1" />
+              </div>
+
+              <div>
+                <p className="text-sm font-medium text-amber-700 mb-1 print:text-xs">I'm struggling with...</p>
+                <div className="border-b-2 border-dashed border-amber-300 pb-2 min-h-[24px] print:min-h-[16px] print:pb-1" />
+              </div>
+
+              <div>
+                <p className="text-sm font-medium text-amber-700 mb-1 print:text-xs">Help me respond to my child with...</p>
+                <div className="border-b-2 border-dashed border-amber-300 pb-2 min-h-[24px] print:min-h-[16px] print:pb-1" />
+              </div>
+
+              <div>
+                <p className="text-sm font-medium text-amber-700 mb-1 print:text-xs">Give me patience and wisdom to...</p>
+                <div className="border-b-2 border-dashed border-amber-300 pb-2 min-h-[24px] print:min-h-[16px] print:pb-1" />
+              </div>
+
+              <div>
+                <p className="text-sm font-medium text-amber-700 mb-1 print:text-xs">Thank you for trusting me with...</p>
+                <div className="border-b-2 border-dashed border-amber-300 pb-2 min-h-[24px] print:min-h-[16px] print:pb-1" />
+              </div>
+
+              <p className="font-handwritten text-xl text-amber-900 text-right pt-1 print:text-base">
+                In Jesus' name, Amen 🙏
+              </p>
+            </div>
+          </div>
+
+          {/* Scripture */}
+          <div className="mt-4 bg-amber-100/60 rounded-xl p-3 text-center print:mt-2 print:p-2">
+            <p className="text-amber-700 text-sm italic font-serif print:text-xs">
+              "But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.'"
+            </p>
+            <p className="text-amber-500 text-xs mt-1 font-medium">— 2 Corinthians 12:9</p>
+          </div>
+
+          <div className="flex items-center justify-between pt-3 border-t border-amber-200 mt-4 print:pt-2 print:mt-2">
+            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md print:h-7 print:w-7" />
+            <p className="text-amber-600 text-xs font-medium italic">Model Parenting Method</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 };
 
