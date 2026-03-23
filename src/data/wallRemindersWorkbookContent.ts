@@ -417,5 +417,22 @@ export const wallRemindersWorkbookData: WorkbookData = {
         },
       ],
     },
+    // Parent Reset Prayer
+    {
+      id: "wall-19",
+      type: "visuals",
+      section: 1,
+      sectionTitle: "Wall Reminders",
+      title: "My Parent Reset Prayer",
+      subtitle: "Pause, breathe, and bring it to God",
+      sections: [
+        {
+          id: "wall-19-visual",
+          type: "mantra-visual",
+          content: "parent-reset-prayer",
+          editable: false,
+        },
+      ],
+    },
   ],
 };
