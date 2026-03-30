@@ -158,6 +158,15 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage, 
 
   return (
     <div className="page-paper w-full max-w-2xl mx-auto p-8 md:p-12 min-h-[700px] animate-fade-in">
+      {/* Workbook label in top right corner */}
+      {workbookLabel && (
+        <div className="absolute top-3 right-4 z-20">
+          <span className="text-[10px] print:text-[9px] tracking-[0.2em] uppercase text-muted-foreground font-medium">
+            {workbookLabel}
+          </span>
+        </div>
+      )}
+
       {/* Botanical decorations */}
       <BotanicalDecoration position="top-left" variant="leaves" />
       <BotanicalDecoration position="top-right" variant="leaves" />

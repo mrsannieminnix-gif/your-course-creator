@@ -196,7 +196,7 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
 
         {/* Page content */}
         <div className="flex-1 p-4 md:p-8 overflow-y-auto">
-          <WorkbookPage page={currentPage} onUpdatePage={updatePage} />
+          <WorkbookPage page={currentPage} onUpdatePage={updatePage} workbookLabel={workbook.title} />
         </div>
 
         {/* Bottom navigation */}
