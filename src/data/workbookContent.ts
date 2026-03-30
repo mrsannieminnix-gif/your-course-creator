@@ -365,6 +365,57 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Activity - Section 1: Values
+    {
+      id: "s1-act",
+      type: "reflection",
+      section: 1,
+      sectionTitle: "The Foundation",
+      title: "Activity: Discover Your Values",
+      subtitle: "Circle the values that resonate with you most",
+      sections: [
+        {
+          id: "s1-act-1",
+          type: "paragraph",
+          content: "Your values are the compass that guides your parenting. Read through the list below and circle or highlight the values that feel most important to you. There are no right or wrong answers — this is about discovering what drives you as a parent.",
+          editable: false
+        },
+        {
+          id: "s1-act-2",
+          type: "checklist",
+          content: "",
+          editable: true,
+          items: [
+            "Faith", "Family", "Love", "Honesty", "Integrity", "Patience",
+            "Kindness", "Respect", "Responsibility", "Gratitude", "Generosity",
+            "Forgiveness", "Humility", "Courage", "Compassion", "Joy",
+            "Peace", "Self-Control", "Loyalty", "Hard Work", "Education",
+            "Creativity", "Adventure", "Health", "Service", "Community",
+            "Equality", "Justice", "Freedom", "Tradition", "Growth",
+            "Perseverance", "Empathy", "Authenticity", "Purpose", "Wisdom"
+          ]
+        },
+        {
+          id: "s1-act-3",
+          type: "paragraph",
+          content: "Now look at what you circled. Can you narrow it down to your top 5 core values? Write them below:",
+          editable: false
+        },
+        {
+          id: "s1-act-4",
+          type: "list",
+          content: "",
+          editable: true,
+          items: ["1. _______________", "2. _______________", "3. _______________", "4. _______________", "5. _______________"]
+        },
+        {
+          id: "s1-act-5",
+          type: "quote",
+          content: "🔗 Take the Online Attachment Quiz!\nVisit ModelParentingMethod.com to discover your attachment style and how it shapes your parenting.",
+          editable: false
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 2: TOOL 1 - ANCHORING
