@@ -1842,6 +1842,72 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity Page - Section 5
+    {
+      id: "s5-act",
+      type: "reflection",
+      section: 5,
+      sectionTitle: "Tool 4: Grow",
+      title: "Activity: Teach Something New",
+      subtitle: "Age-Appropriate Learning This Week",
+      sections: [
+        {
+          id: "s5-act-1",
+          type: "paragraph",
+          content: "One of the most powerful ways to help your child grow is to teach them something new — something they can actually do at their age. Think about everyday skills, life lessons, or fun abilities you can pass on this week.",
+          editable: true
+        },
+        {
+          id: "s5-act-2",
+          type: "header",
+          content: "5 Things I Can Teach My Child This Week",
+          editable: true
+        },
+        {
+          id: "s5-act-3",
+          type: "paragraph",
+          content: "Think age-appropriate: tying shoes, pouring a drink, folding laundry, writing their name, cooking a simple snack, riding a bike, saying please and thank you, brushing their teeth independently…",
+          editable: true
+        },
+        {
+          id: "s5-act-4",
+          type: "list",
+          items: [
+            "1. _______________",
+            "2. _______________",
+            "3. _______________",
+            "4. _______________",
+            "5. _______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s5-act-5",
+          type: "header",
+          content: "Why This Matters",
+          editable: true
+        },
+        {
+          id: "s5-act-6",
+          type: "paragraph",
+          content: "When you take time to teach rather than do it for them, you communicate: 'I believe in you. You are capable.' Growth happens when children are trusted with age-appropriate responsibility.",
+          editable: true
+        },
+        {
+          id: "s5-act-7",
+          type: "scripture",
+          content: "\"Train up a child in the way he should go; even when he is old he will not depart from it.\" — Proverbs 22:6",
+          editable: true
+        },
+        {
+          id: "s5-act-8",
+          type: "quote",
+          content: "💡 Tip: Pick one item from your list each day. Celebrate effort, not perfection. Growth is a process — for both of you.",
+          editable: true
+        }
+      ]
+    },
+
     // ===============================
     // SECTION 6: TOOL 5 - EMPOWER
     // ===============================
