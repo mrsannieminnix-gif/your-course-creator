@@ -950,6 +950,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 3
+    {
+      id: "s3-fm",
+      type: "reflection",
+      section: 3,
+      sectionTitle: "Tool 2: Validation",
+      title: "Facts & Myths",
+      subtitle: "Validation — Acknowledging Emotions",
+      sections: [
+        {
+          id: "s3-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Validating a child's feelings means you agree with their behavior.", fact: "Validation acknowledges the emotion, not the behavior. You can say 'I see you're angry' while still holding a boundary." },
+            { myth: "Telling kids to 'stop crying' helps them toughen up.", fact: "Dismissing emotions teaches children to suppress feelings, which can lead to anxiety, anger outbursts, or emotional shutdown later in life." },
+            { myth: "If you validate too much, your child will become overly sensitive.", fact: "Children who feel heard and understood actually develop stronger emotional resilience and better coping skills." },
+            { myth: "Kids are just being dramatic — they don't really feel things that deeply.", fact: "Children experience emotions just as intensely as adults, but they lack the brain development to regulate them on their own." },
+            { myth: "Validation is the same as giving in.", fact: "Validation is about empathy, not compliance. You can validate a feeling while still saying no to a request." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 4: TOOL 3 - CONNECTION
