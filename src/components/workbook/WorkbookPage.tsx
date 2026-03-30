@@ -162,7 +162,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage, 
       {page.sectionTitle && (
         <div className="absolute top-3 right-4 z-20">
           <span className="text-[10px] print:text-[9px] tracking-[0.2em] uppercase text-muted-foreground font-medium">
-            {page.sectionTitle}
+            {page.section >= 2 && page.section <= 7 ? `Tool ${page.section - 1}` : page.sectionTitle}
           </span>
         </div>
       )}
