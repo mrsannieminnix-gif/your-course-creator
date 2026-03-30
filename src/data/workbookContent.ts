@@ -1,5 +1,6 @@
 import { WorkbookData } from "@/types/workbook";
 import { wallRemindersWorkbookData } from "@/data/wallRemindersWorkbookContent";
+import { resetCornerWorkbookData } from "@/data/resetCornerWorkbookContent";
 
 export const initialWorkbookData: WorkbookData = {
   title: "Model Parenting Workbook",
