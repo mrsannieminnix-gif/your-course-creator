@@ -1079,6 +1079,72 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Activity - Section 3: Validation
+    {
+      id: "s3-act",
+      type: "reflection",
+      section: 3,
+      sectionTitle: "Tool 2: Validation",
+      title: "Activity: Practice Validating",
+      subtitle: "Fill in the blanks to build your validation vocabulary",
+      sections: [
+        {
+          id: "s3-act-1",
+          type: "paragraph",
+          content: "Validation starts with simple phrases that show your child you SEE them and you HEAR them. Practice filling in these sentence starters so they come naturally in the moment.",
+          editable: false
+        },
+        {
+          id: "s3-act-2",
+          type: "header",
+          content: "\"I can see that you're...\"",
+          editable: false
+        },
+        {
+          id: "s3-act-3",
+          type: "list",
+          content: "",
+          editable: true,
+          items: ["I can see that you're _______________", "I can see that you're _______________", "I can see that you're _______________"]
+        },
+        {
+          id: "s3-act-4",
+          type: "header",
+          content: "\"It looks like you're feeling...\"",
+          editable: false
+        },
+        {
+          id: "s3-act-5",
+          type: "list",
+          content: "",
+          editable: true,
+          items: ["It looks like you're feeling _______________", "It looks like you're feeling _______________", "It looks like you're feeling _______________"]
+        },
+        {
+          id: "s3-act-6",
+          type: "header",
+          content: "More Validation Starters",
+          editable: false
+        },
+        {
+          id: "s3-act-7",
+          type: "list",
+          content: "",
+          editable: true,
+          items: [
+            "That sounds really _______________",
+            "It makes sense that you feel _______________ because _______________",
+            "I hear you saying that _______________"
+          ]
+        },
+        {
+          id: "s3-act-8",
+          type: "quote",
+          content: "💡 Remember: You don't have to fix the feeling — just name it. When a child feels heard, they can begin to calm on their own.",
+          editable: false
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 4: TOOL 3 - CONNECTION
