@@ -10,7 +10,8 @@ interface ChecklistSectionProps {
 
 export const ChecklistSection: React.FC<ChecklistSectionProps> = ({
   items,
-  onChange
+  onChange,
+  columns = 1
 }) => {
   const [checkedItems, setCheckedItems] = useState<Set<number>>(new Set());
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
