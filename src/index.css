@@ -462,9 +462,9 @@
 
   /* Activity / reflection pages - scale down to fit */
   .page-paper[data-page-type="reflection"] {
-    transform: scale(0.90) !important;
+    transform: scale(0.85) !important;
     transform-origin: top center !important;
-    padding: 0.2in 0.3in !important;
+    padding: 0.15in 0.25in !important;
   }
 
   .page-paper[data-page-type="reflection"] h1 {
