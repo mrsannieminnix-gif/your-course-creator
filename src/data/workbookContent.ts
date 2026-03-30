@@ -2243,6 +2243,129 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity Page - Section 6
+    {
+      id: "s6-act",
+      type: "reflection",
+      section: 6,
+      sectionTitle: "Tool 5: Empower",
+      title: "Activity: Give Them the Wheel",
+      subtitle: "Building Autonomy Through Everyday Choices",
+      sections: [
+        {
+          id: "s6-act-1",
+          type: "paragraph",
+          content: "Empowerment isn't about letting your child run the house — it's about intentionally handing them age-appropriate control over parts of their own life. When children feel like they have a say, they cooperate more, resist less, and develop the internal motivation that no reward chart can replicate. Control creates compliance. Autonomy creates character.",
+          editable: true
+        },
+        {
+          id: "s6-act-1b",
+          type: "paragraph",
+          content: "Research in developmental psychology consistently shows that children who are given appropriate autonomy develop stronger self-regulation, higher self-esteem, and better decision-making skills as adults. Every time you let your child make a real choice, you are wiring their brain for independence and responsibility.",
+          editable: true
+        },
+        {
+          id: "s6-act-2",
+          type: "header",
+          content: "5 Things I Can Let My Child Have Autonomy Over This Week",
+          editable: true
+        },
+        {
+          id: "s6-act-2b",
+          type: "paragraph",
+          content: "Think about areas where you currently make the decision for them but they could handle it. Match it to their age: Toddlers can pick their own outfit or choose between two snacks. Preschoolers can set the table, pick a bedtime story, or decide what to wear. School-age kids can make their own lunch, choose how to spend free time, or organize their backpack. Teens can pump gas, cook dinner, set their own bedtime, manage homework schedules, or plan a family outing.",
+          editable: true
+        },
+        {
+          id: "s6-act-3",
+          type: "list",
+          items: [
+            "1. _______________",
+            "2. _______________",
+            "3. _______________",
+            "4. _______________",
+            "5. _______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s6-act-4",
+          type: "header",
+          content: "The Power of Two Choices",
+          editable: true
+        },
+        {
+          id: "s6-act-4b",
+          type: "paragraph",
+          content: "One of the simplest and most effective empowerment strategies is offering two choices instead of giving a command. Instead of 'Put on your shoes,' try 'Do you want to wear the red shoes or the blue shoes?' Instead of 'Eat your vegetables,' try 'Do you want carrots or broccoli tonight?' This small shift gives your child a sense of control while you still set the boundaries. They feel heard. You stay in charge. Everyone wins.",
+          editable: true
+        },
+        {
+          id: "s6-act-5",
+          type: "subheader",
+          content: "List 2 choices you can offer in everyday moments you usually decide for them:",
+          editable: true
+        },
+        {
+          id: "s6-act-5b",
+          type: "list",
+          items: [
+            "Instead of deciding _______________, I can offer: Option A _______________ or Option B _______________",
+            "Instead of deciding _______________, I can offer: Option A _______________ or Option B _______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s6-act-6",
+          type: "header",
+          content: "My Daily Choices Audit",
+          editable: true
+        },
+        {
+          id: "s6-act-6b",
+          type: "paragraph",
+          content: "Look at your typical day and write down decisions you make for your child that they could make for themselves. You might be surprised how many small moments are opportunities for empowerment. Breakfast choices, clothing, how to spend downtime, what order to do chores, which route to walk to school — these all count.",
+          editable: true
+        },
+        {
+          id: "s6-act-7",
+          type: "list",
+          content: "Decisions in my day that I can hand over to my child:",
+          items: [
+            "Morning: _______________",
+            "Afternoon: _______________",
+            "Evening: _______________",
+            "Weekend: _______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s6-act-8",
+          type: "header",
+          content: "Why This Changes the Dynamic",
+          editable: true
+        },
+        {
+          id: "s6-act-8b",
+          type: "paragraph",
+          content: "When you give your child appropriate autonomy, power struggles decrease dramatically. Children stop fighting for control because they already have some. You move from being the dictator to being the guide — and your child moves from being compliant (or defiant) to being capable. That's the shift from obedience-based parenting to heart-based parenting.",
+          editable: true
+        },
+        {
+          id: "s6-act-9",
+          type: "scripture",
+          content: "\"Start children off on the way they should go, and even when they are old they will not turn from it.\" — Proverbs 22:6\n\n\"Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace.\" — 1 Peter 4:10",
+          editable: true
+        },
+        {
+          id: "s6-act-10",
+          type: "quote",
+          content: "💡 Tip: Start small. Pick just one area this week where you normally take control and hand it to your child. Watch what happens. You're not losing authority — you're building a person who knows how to use theirs.",
+          editable: true
+        }
+      ]
+    },
+
     // ===============================
     // SECTION 7: TOOL 6 - CORRECTION
     // ===============================
