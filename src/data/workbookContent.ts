@@ -1854,19 +1854,44 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s5-act-1",
           type: "paragraph",
-          content: "One of the most powerful ways to help your child grow is to teach them something new — something they can actually do at their age. Think about everyday skills, life lessons, or fun abilities you can pass on this week.",
+          content: "Children don't learn by being told — they learn by doing. One of the most powerful gifts you can give your child is the experience of learning something new with your patient guidance. When you sit beside them, walk them through a skill step by step, and let them try (and fail, and try again), you are building their brain, their confidence, and your relationship all at once.",
+          editable: true
+        },
+        {
+          id: "s5-act-1b",
+          type: "paragraph",
+          content: "Research shows that children who are actively taught life skills by their parents develop stronger executive function, better emotional regulation, and a deeper sense of competence. It's not about perfection — it's about presence. Your willingness to slow down and teach says, 'You matter enough for me to invest my time in you.'",
           editable: true
         },
         {
           id: "s5-act-2",
           type: "header",
-          content: "5 Things I Can Teach My Child This Week",
+          content: "How to Teach Effectively",
+          editable: true
+        },
+        {
+          id: "s5-act-2b",
+          type: "list",
+          content: "Follow these steps when teaching your child something new:",
+          items: [
+            "Model it first — Let them watch you do it while you narrate each step out loud.",
+            "Do it together — Guide their hands or walk alongside them as they try.",
+            "Let them lead — Step back and let them attempt it independently while you observe.",
+            "Celebrate the effort — Say things like 'You stuck with it!' or 'Look what you figured out!' rather than 'Good job.'",
+            "Expect mess-ups — Mistakes are proof they're learning. Respond with patience, not frustration."
+          ],
           editable: true
         },
         {
           id: "s5-act-3",
+          type: "header",
+          content: "5 Things I Can Teach My Child This Week",
+          editable: true
+        },
+        {
+          id: "s5-act-3b",
           type: "paragraph",
-          content: "Think age-appropriate: tying shoes, pouring a drink, folding laundry, writing their name, cooking a simple snack, riding a bike, saying please and thank you, brushing their teeth independently…",
+          content: "Choose skills that match your child's age and stage. For toddlers, think: putting on shoes, washing hands, putting toys in a bin. For preschoolers: pouring a drink, setting the table, zipping a coat. For school-age kids: making a sandwich, folding laundry, writing a thank-you note. For teens: cooking a meal, managing a schedule, doing their own laundry. The goal is not mastery — it's the experience of learning together.",
           editable: true
         },
         {
@@ -1884,25 +1909,31 @@ export const initialWorkbookData: WorkbookData = {
         {
           id: "s5-act-5",
           type: "header",
-          content: "Why This Matters",
+          content: "Why This Changes Everything",
           editable: true
         },
         {
           id: "s5-act-6",
           type: "paragraph",
-          content: "When you take time to teach rather than do it for them, you communicate: 'I believe in you. You are capable.' Growth happens when children are trusted with age-appropriate responsibility.",
+          content: "When you do everything for your child, you accidentally send the message: 'I don't think you can handle this.' But when you take the time to teach — patiently, repeatedly, without taking over — you communicate something transformational: 'I believe in you. You are capable. And I'm right here while you learn.'",
+          editable: true
+        },
+        {
+          id: "s5-act-6b",
+          type: "paragraph",
+          content: "This is how confidence is truly built — not through praise alone, but through real experiences of competence. Every skill your child masters becomes evidence in their mind that they can do hard things. That belief will carry them through challenges for the rest of their life.",
           editable: true
         },
         {
           id: "s5-act-7",
           type: "scripture",
-          content: "\"Train up a child in the way he should go; even when he is old he will not depart from it.\" — Proverbs 22:6",
+          content: "\"Train up a child in the way he should go; even when he is old he will not depart from it.\" — Proverbs 22:6\n\n\"For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.\" — Ephesians 2:10",
           editable: true
         },
         {
           id: "s5-act-8",
           type: "quote",
-          content: "💡 Tip: Pick one item from your list each day. Celebrate effort, not perfection. Growth is a process — for both of you.",
+          content: "💡 Tip: Pick one item from your list each day. Don't rush. Don't take over. Let them struggle a little — that's where the growth happens. And when they get it? Celebrate like it's the greatest thing you've ever seen. Because to them, it is.",
           editable: true
         }
       ]
