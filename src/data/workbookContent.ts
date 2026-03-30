@@ -2165,6 +2165,29 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         }
       ]
+    },
+    // Facts & Myths - Section 7
+    {
+      id: "s7-fm",
+      type: "reflection",
+      section: 7,
+      sectionTitle: "Tool 6: Correction",
+      title: "Facts & Myths",
+      subtitle: "Correction — Guiding Behavior & Choices",
+      sections: [
+        {
+          id: "s7-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Punishment and correction are the same thing.", fact: "Punishment focuses on making a child pay for a mistake. Correction focuses on teaching them how to do better next time." },
+            { myth: "If you don't punish immediately, your child won't learn.", fact: "Correction is most effective when the child is calm and connected. A dysregulated brain cannot learn — timing matters more than speed." },
+            { myth: "Spanking is the most effective form of discipline.", fact: "Research consistently shows that physical punishment increases aggression and damages the parent-child relationship without teaching the desired behavior." },
+            { myth: "Correction should make a child feel bad so they won't do it again.", fact: "Shame-based correction creates fear and hiding. Dignity-preserving correction builds trust and genuine behavior change." },
+            { myth: "If you're gentle with correction, your child will walk all over you.", fact: "Gentle does not mean permissive. You can be firm and kind at the same time — holding boundaries with empathy, not harshness." },
+          ]
+        }
+      ]
     }
   ]
 };
