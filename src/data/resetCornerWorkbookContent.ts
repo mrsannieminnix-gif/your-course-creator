@@ -1,7 +1,7 @@
 import { WorkbookData } from "@/types/workbook";
 
 export const resetCornerWorkbookData: WorkbookData = {
-  title: "Toolbox for Parents - Reset Corner",
+  title: "Toolbox for Parents - Kids Reset Corner",
   pages: [
     // Page 0: How Do I Feel & What Can I Do?
     {
