@@ -1899,7 +1899,7 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
 
           <div className="flex items-center justify-between pt-2 border-t border-teal-200 mt-2">
             <img src={logoImage} alt="Model Parenting Method" className="h-8 w-8 print:h-6 print:w-6 rounded-full object-cover shadow-md" />
-            <p className="text-teal-600 text-xs font-medium italic">Model Parenting Method</p>
+            <p className="text-teal-600 text-[10px] print:text-[8px] font-medium italic">Model Parenting Method</p>
           </div>
         </div>
       </div>
