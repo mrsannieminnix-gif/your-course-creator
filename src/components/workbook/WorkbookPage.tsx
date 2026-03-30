@@ -9,6 +9,7 @@ import { WeekTracker } from "./WeekTracker";
 import { ComparisonImage } from "./ComparisonImage";
 import { FaithImage } from "./FaithImage";
 import MantraVisual from "./MantraVisual";
+import { FactsMythsSection } from "./FactsMythsSection";
 import logo from "@/assets/logo.jpg";
 
 interface WorkbookPageProps {
@@ -150,6 +151,9 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage, 
             />
           </div>
         );
+
+      case "facts-myths":
+        return <FactsMythsSection items={section.factsMythsItems || []} />;
 
       default:
         return null;

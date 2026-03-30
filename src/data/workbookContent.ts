@@ -342,6 +342,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 1
+    {
+      id: "s1-fm",
+      type: "reflection",
+      section: 1,
+      sectionTitle: "The Foundation",
+      title: "Facts & Myths",
+      subtitle: "The Foundation of Model Parenting",
+      sections: [
+        {
+          id: "s1-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Good parents never lose their temper or make mistakes.", fact: "Good parents are human. What matters most is how you repair and reconnect after a hard moment." },
+            { myth: "If your child is misbehaving, it means you're a bad parent.", fact: "Behavior is communication. A child acting out is often signaling an unmet need, not reflecting your worth as a parent." },
+            { myth: "Your kids will turn out fine as long as you love them.", fact: "Love is essential, but children also need intentional tools — boundaries, modeling, and emotional coaching — to thrive." },
+            { myth: "Parenting should come naturally and shouldn't require a course.", fact: "Parenting is a skill that can be learned and sharpened. Seeking tools and education is a sign of strength, not weakness." },
+            { myth: "How you were raised doesn't affect how you parent.", fact: "Our upbringing deeply shapes our default responses. Awareness of those patterns is the first step toward breaking unhealthy cycles." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 2: TOOL 1 - ANCHORING
@@ -620,6 +643,29 @@ export const initialWorkbookData: WorkbookData = {
           type: "quote",
           content: "You cannot teach calm from chaos. Anchor yourself in God first.",
           editable: true
+        }
+      ]
+    },
+    // Facts & Myths - Section 2
+    {
+      id: "s2-fm",
+      type: "reflection",
+      section: 2,
+      sectionTitle: "Tool 1: Anchoring",
+      title: "Facts & Myths",
+      subtitle: "Anchoring — Regulation Before Correction",
+      sections: [
+        {
+          id: "s2-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "You should address behavior the moment it happens, no matter how upset you are.", fact: "Correcting from a dysregulated state often escalates conflict. Anchoring yourself first leads to more effective and loving responses." },
+            { myth: "Staying calm means you don't care about what your child did.", fact: "Calm is not passive — it's powerful. A regulated parent models the exact self-control they want their child to learn." },
+            { myth: "Kids need to see you're angry so they know their behavior was serious.", fact: "Kids respond to your emotional tone more than your words. Fear-based reactions teach children to hide, not to grow." },
+            { myth: "Self-regulation is something only children need to learn.", fact: "Parents need regulation tools just as much as kids do. You can't pour from an empty cup or teach calm from chaos." },
+            { myth: "Taking a pause before responding means you're being permissive.", fact: "Pausing is a deliberate, strategic choice. It allows you to respond with wisdom rather than react from emotion." },
+          ]
         }
       ]
     },
@@ -904,6 +950,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 3
+    {
+      id: "s3-fm",
+      type: "reflection",
+      section: 3,
+      sectionTitle: "Tool 2: Validation",
+      title: "Facts & Myths",
+      subtitle: "Validation — Acknowledging Emotions",
+      sections: [
+        {
+          id: "s3-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Validating a child's feelings means you agree with their behavior.", fact: "Validation acknowledges the emotion, not the behavior. You can say 'I see you're angry' while still holding a boundary." },
+            { myth: "Telling kids to 'stop crying' helps them toughen up.", fact: "Dismissing emotions teaches children to suppress feelings, which can lead to anxiety, anger outbursts, or emotional shutdown later in life." },
+            { myth: "If you validate too much, your child will become overly sensitive.", fact: "Children who feel heard and understood actually develop stronger emotional resilience and better coping skills." },
+            { myth: "Kids are just being dramatic — they don't really feel things that deeply.", fact: "Children experience emotions just as intensely as adults, but they lack the brain development to regulate them on their own." },
+            { myth: "Validation is the same as giving in.", fact: "Validation is about empathy, not compliance. You can validate a feeling while still saying no to a request." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 4: TOOL 3 - CONNECTION
@@ -1182,6 +1251,29 @@ export const initialWorkbookData: WorkbookData = {
           type: "quote",
           content: "It's not about perfect parenting. It's about always coming back to connection.",
           editable: true
+        }
+      ]
+    },
+    // Facts & Myths - Section 4
+    {
+      id: "s4-fm",
+      type: "reflection",
+      section: 4,
+      sectionTitle: "Tool 3: Connection",
+      title: "Facts & Myths",
+      subtitle: "Connection — Building Secure Bonds",
+      sections: [
+        {
+          id: "s4-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Quality time means doing big, expensive activities together.", fact: "Connection happens in small, everyday moments — eye contact, a shared laugh, or sitting together without screens." },
+            { myth: "If your child pushes you away, they don't need connection.", fact: "Children who resist connection often need it the most. Pushing away is frequently a sign of unmet emotional needs." },
+            { myth: "Being close to your child will make them too dependent on you.", fact: "Securely attached children are actually more independent because they have a safe base to explore from." },
+            { myth: "Once a bond is broken with your child, it can't be repaired.", fact: "Repair is one of the most powerful tools in parenting. Coming back and reconnecting teaches children that relationships can survive hard moments." },
+            { myth: "Providing for your child financially is enough to show love.", fact: "Children spell love T-I-M-E. Emotional presence and availability matter far more than material provision." },
+          ]
         }
       ]
     },
@@ -1466,6 +1558,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 5
+    {
+      id: "s5-fm",
+      type: "reflection",
+      section: 5,
+      sectionTitle: "Tool 4: Grow",
+      title: "Facts & Myths",
+      subtitle: "Grow — Fostering Development",
+      sections: [
+        {
+          id: "s5-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Children should already know how to behave properly at every age.", fact: "Brain development is a process. Children literally lack the neural wiring for certain skills until they mature — expecting what they can't yet do leads to frustration for everyone." },
+            { myth: "If my child keeps making the same mistake, they're not trying.", fact: "Repetition is how the brain learns. Children need dozens (sometimes hundreds) of experiences to wire new skills into habit." },
+            { myth: "Praising everything my child does will build their confidence.", fact: "Specific, effort-based encouragement ('You worked so hard on that!') builds genuine resilience. Generic praise ('You're so smart!') can actually create fear of failure." },
+            { myth: "Letting kids struggle is harmful to them.", fact: "Age-appropriate challenge is essential for growth. Rescuing children from every difficulty robs them of the chance to build problem-solving skills and confidence." },
+            { myth: "Growth only happens through formal teaching and instruction.", fact: "Children grow most through observation, play, and real-life experience. Everyday moments are the richest classroom." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 6: TOOL 5 - EMPOWER
@@ -1747,6 +1862,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 6
+    {
+      id: "s6-fm",
+      type: "reflection",
+      section: 6,
+      sectionTitle: "Tool 5: Empower",
+      title: "Facts & Myths",
+      subtitle: "Empower — Building Confidence",
+      sections: [
+        {
+          id: "s6-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Giving children choices makes them think they're in charge.", fact: "Offering age-appropriate choices within boundaries teaches decision-making and gives children a healthy sense of control." },
+            { myth: "Children need constant supervision and direction to succeed.", fact: "Over-directing stifles independence. Empowered children who are trusted to make small decisions develop stronger leadership and life skills." },
+            { myth: "If I let my child fail, I'm setting them up for low self-esteem.", fact: "Allowing safe failure and then coaching through it builds true resilience. Children learn they can handle hard things." },
+            { myth: "Empowering kids means letting them do whatever they want.", fact: "Empowerment is about building competence within safe boundaries — not removing structure. It's guided freedom, not permissiveness." },
+            { myth: "My child is too young to make their own decisions.", fact: "Even toddlers can choose between two snacks or pick their own shirt. Small choices build the neural pathways for bigger decisions later." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 7: TOOL 6 - CORRECTION
@@ -2025,6 +2163,29 @@ export const initialWorkbookData: WorkbookData = {
           type: "quote",
           content: "Correction that maintains connection builds trust. Correction that breaks connection builds fear.",
           editable: true
+        }
+      ]
+    },
+    // Facts & Myths - Section 7
+    {
+      id: "s7-fm",
+      type: "reflection",
+      section: 7,
+      sectionTitle: "Tool 6: Correction",
+      title: "Facts & Myths",
+      subtitle: "Correction — Guiding Behavior & Choices",
+      sections: [
+        {
+          id: "s7-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Punishment and correction are the same thing.", fact: "Punishment focuses on making a child pay for a mistake. Correction focuses on teaching them how to do better next time." },
+            { myth: "If you don't punish immediately, your child won't learn.", fact: "Correction is most effective when the child is calm and connected. A dysregulated brain cannot learn — timing matters more than speed." },
+            { myth: "Spanking is the most effective form of discipline.", fact: "Research consistently shows that physical punishment increases aggression and damages the parent-child relationship without teaching the desired behavior." },
+            { myth: "Correction should make a child feel bad so they won't do it again.", fact: "Shame-based correction creates fear and hiding. Dignity-preserving correction builds trust and genuine behavior change." },
+            { myth: "If you're gentle with correction, your child will walk all over you.", fact: "Gentle does not mean permissive. You can be firm and kind at the same time — holding boundaries with empathy, not harshness." },
+          ]
         }
       ]
     }

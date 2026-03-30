@@ -11,7 +11,7 @@ export interface WorkbookPage {
 
 export interface PageSection {
   id: string;
-  type: 'header' | 'subheader' | 'paragraph' | 'list' | 'scripture' | 'quote' | 'diagram' | 'checklist' | 'weekly-tracker' | 'goal-phrases' | 'comparison-image' | 'faith-image' | 'mantra-visual';
+  type: 'header' | 'subheader' | 'paragraph' | 'list' | 'scripture' | 'quote' | 'diagram' | 'checklist' | 'weekly-tracker' | 'goal-phrases' | 'comparison-image' | 'faith-image' | 'mantra-visual' | 'facts-myths';
   content?: string;
   items?: string[];
   editable?: boolean;
@@ -25,6 +25,10 @@ export interface PageSection {
     src: string;
     caption: string;
   };
+  factsMythsItems?: Array<{
+    myth: string;
+    fact: string;
+  }>;
 }
 
 export interface WorkbookData {
