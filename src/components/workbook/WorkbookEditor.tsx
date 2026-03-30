@@ -89,9 +89,7 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
 
   useEffect(() => {
     const handleBeforePrint = () => {
-      requestAnimationFrame(() => {
-        fitPagesForPrint();
-      });
+      fitPagesForPrint();
     };
 
     const handleAfterPrint = () => {
