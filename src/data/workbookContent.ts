@@ -385,7 +385,7 @@ export const initialWorkbookData: WorkbookData = {
           type: "checklist",
           content: "",
           editable: true,
-          columns: 2,
+          columns: 3,
           items: [
             "Faith", "Family", "Love", "Honesty", "Integrity", "Patience",
             "Kindness", "Respect", "Responsibility", "Gratitude", "Generosity",
