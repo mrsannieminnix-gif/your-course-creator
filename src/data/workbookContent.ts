@@ -646,6 +646,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 2
+    {
+      id: "s2-fm",
+      type: "reflection",
+      section: 2,
+      sectionTitle: "Tool 1: Anchoring",
+      title: "Facts & Myths",
+      subtitle: "Anchoring — Regulation Before Correction",
+      sections: [
+        {
+          id: "s2-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "You should address behavior the moment it happens, no matter how upset you are.", fact: "Correcting from a dysregulated state often escalates conflict. Anchoring yourself first leads to more effective and loving responses." },
+            { myth: "Staying calm means you don't care about what your child did.", fact: "Calm is not passive — it's powerful. A regulated parent models the exact self-control they want their child to learn." },
+            { myth: "Kids need to see you're angry so they know their behavior was serious.", fact: "Kids respond to your emotional tone more than your words. Fear-based reactions teach children to hide, not to grow." },
+            { myth: "Self-regulation is something only children need to learn.", fact: "Parents need regulation tools just as much as kids do. You can't pour from an empty cup or teach calm from chaos." },
+            { myth: "Taking a pause before responding means you're being permissive.", fact: "Pausing is a deliberate, strategic choice. It allows you to respond with wisdom rather than react from emotion." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 3: TOOL 2 - VALIDATION
