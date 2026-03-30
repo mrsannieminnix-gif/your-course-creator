@@ -27,6 +27,12 @@ export const initialWorkbookData: WorkbookData = {
           editable: false
         },
         {
+          id: "disc-2b",
+          type: "paragraph",
+          content: "Know this: the enemy thrives in the guilt and shame of parenthood. He wants you to stay stuck in feelings of failure, because a discouraged parent is an easier target. But when you choose to grow, to seek God's wisdom, and to show up differently — you take that power away. You step out of shame and into purpose, and that is exactly where God wants you.",
+          editable: false
+        },
+        {
           id: "disc-3",
           type: "paragraph",
           content: "This journey is about equipping you with practical tools to become the parent you want to be — the kind of parent your children will one day model for their own kids. It's about breaking cycles, building new patterns, and changing the course of parenting for your family and the generations that follow.",
