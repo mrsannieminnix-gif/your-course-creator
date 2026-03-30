@@ -9,6 +9,7 @@ import { WeekTracker } from "./WeekTracker";
 import { ComparisonImage } from "./ComparisonImage";
 import { FaithImage } from "./FaithImage";
 import MantraVisual from "./MantraVisual";
+import { FactsMythsSection } from "./FactsMythsSection";
 import logo from "@/assets/logo.jpg";
 
 interface WorkbookPageProps {
