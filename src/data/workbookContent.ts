@@ -1254,6 +1254,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 4
+    {
+      id: "s4-fm",
+      type: "reflection",
+      section: 4,
+      sectionTitle: "Tool 3: Connection",
+      title: "Facts & Myths",
+      subtitle: "Connection — Building Secure Bonds",
+      sections: [
+        {
+          id: "s4-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Quality time means doing big, expensive activities together.", fact: "Connection happens in small, everyday moments — eye contact, a shared laugh, or sitting together without screens." },
+            { myth: "If your child pushes you away, they don't need connection.", fact: "Children who resist connection often need it the most. Pushing away is frequently a sign of unmet emotional needs." },
+            { myth: "Being close to your child will make them too dependent on you.", fact: "Securely attached children are actually more independent because they have a safe base to explore from." },
+            { myth: "Once a bond is broken with your child, it can't be repaired.", fact: "Repair is one of the most powerful tools in parenting. Coming back and reconnecting teaches children that relationships can survive hard moments." },
+            { myth: "Providing for your child financially is enough to show love.", fact: "Children spell love T-I-M-E. Emotional presence and availability matter far more than material provision." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 5: TOOL 4 - GROW
