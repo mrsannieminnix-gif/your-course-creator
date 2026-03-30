@@ -1,4 +1,5 @@
 import { WorkbookData } from "@/types/workbook";
+import { wallRemindersWorkbookData } from "@/data/wallRemindersWorkbookContent";
 
 export const initialWorkbookData: WorkbookData = {
   title: "Model Parenting Workbook",
@@ -2793,6 +2794,15 @@ export const initialWorkbookData: WorkbookData = {
           editable: true
         }
       ]
-    }
+    },
+    // ===============================
+    // PARENT RESET CORNER (Wall Reminders)
+    // ===============================
+    ...wallRemindersWorkbookData.pages.map(page => ({
+      ...page,
+      id: `foundation-${page.id}`,
+      section: 8,
+      sectionTitle: "Parent Reset Corner",
+    })),
   ]
 };
