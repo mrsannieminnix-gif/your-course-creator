@@ -14,6 +14,7 @@ import logo from "@/assets/logo.jpg";
 interface WorkbookPageProps {
   page: WorkbookPageType;
   onUpdatePage: (page: WorkbookPageType) => void;
+  workbookLabel?: string;
 }
 
 export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }) => {
