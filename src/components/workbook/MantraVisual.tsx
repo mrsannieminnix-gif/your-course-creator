@@ -1866,39 +1866,39 @@ const MantraVisual = ({ mantraId }: MantraVisualProps) => {
     ];
 
     return (
-      <div className="my-6 flex flex-col items-center">
-        <div className="bg-gradient-to-br from-teal-50 to-cyan-100 rounded-3xl p-8 shadow-xl max-w-3xl w-full border-2 border-teal-200">
-          <div className="text-center mb-6">
-            <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-teal-400 to-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-              <HandHeart className="w-10 h-10 text-white" />
+      <div className="my-2 flex flex-col items-center print-needs-list">
+        <div className="bg-gradient-to-br from-teal-50 to-cyan-100 rounded-3xl p-5 print:p-3 shadow-xl max-w-3xl w-full border-2 border-teal-200">
+          <div className="text-center mb-3 print:mb-2">
+            <div className="w-14 h-14 print:w-10 print:h-10 mx-auto mb-2 print:mb-1 bg-gradient-to-br from-teal-400 to-cyan-500 rounded-full flex items-center justify-center shadow-lg">
+              <HandHeart className="w-7 h-7 print:w-5 print:h-5 text-white" />
             </div>
-            <h3 className="font-serif text-3xl font-bold text-teal-800 tracking-wide">LIST OF NEEDS</h3>
-            <p className="text-teal-600 italic mt-1">Every behavior is driven by an unmet need</p>
-            <div className="w-16 h-1 bg-teal-300 mx-auto mt-3" />
+            <h3 className="font-serif text-2xl print:text-xl font-bold text-teal-800 tracking-wide">LIST OF NEEDS</h3>
+            <p className="text-teal-600 italic mt-0.5 text-sm print:text-xs">Every behavior is driven by an unmet need</p>
+            <div className="w-12 h-0.5 bg-teal-300 mx-auto mt-2" />
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 print:gap-1">
             {needs.map((n, i) => (
-              <div key={i} className="bg-white/70 rounded-xl p-3 border border-teal-100 hover:shadow-md transition-shadow text-center flex flex-col items-center">
-                <div className={`w-11 h-11 rounded-full bg-gradient-to-br ${n.color} flex items-center justify-center text-white shadow-sm mb-2`}>
-                  {n.icon}
+              <div key={i} className="bg-white/70 rounded-lg p-2 print:p-1.5 border border-teal-100 text-center flex flex-col items-center">
+                <div className={`w-8 h-8 print:w-6 print:h-6 rounded-full bg-gradient-to-br ${n.color} flex items-center justify-center text-white shadow-sm mb-1`}>
+                  <span className="[&>svg]:w-4 [&>svg]:h-4 print:[&>svg]:w-3 print:[&>svg]:h-3">{n.icon}</span>
                 </div>
-                <p className="font-bold text-teal-800 text-sm">{n.label}</p>
-                <p className="text-teal-500 text-xs mt-0.5">{n.desc}</p>
+                <p className="font-bold text-teal-800 text-xs print:text-[10px] leading-tight">{n.label}</p>
+                <p className="text-teal-500 text-[10px] print:text-[8px] mt-0 leading-tight">{n.desc}</p>
               </div>
             ))}
           </div>
 
           {/* Faith Element */}
-          <div className="mt-6 bg-teal-100/60 rounded-xl p-4 text-center">
-            <p className="text-teal-700 text-sm italic font-serif">
+          <div className="mt-3 print:mt-2 bg-teal-100/60 rounded-xl p-2.5 print:p-1.5 text-center">
+            <p className="text-teal-700 text-xs print:text-[9px] italic font-serif leading-snug">
               "And my God will meet all your needs according to the riches of his glory in Christ Jesus."
             </p>
-            <p className="text-teal-500 text-xs mt-1 font-medium">— Philippians 4:19</p>
+            <p className="text-teal-500 text-[10px] print:text-[8px] mt-0.5 font-medium">— Philippians 4:19</p>
           </div>
 
-          <div className="flex items-center justify-between pt-3 border-t border-teal-200 mt-4">
-            <img src={logoImage} alt="Model Parenting Method" className="h-10 w-10 rounded-full object-cover shadow-md" />
+          <div className="flex items-center justify-between pt-2 border-t border-teal-200 mt-2">
+            <img src={logoImage} alt="Model Parenting Method" className="h-8 w-8 print:h-6 print:w-6 rounded-full object-cover shadow-md" />
             <p className="text-teal-600 text-xs font-medium italic">Model Parenting Method</p>
           </div>
         </div>
