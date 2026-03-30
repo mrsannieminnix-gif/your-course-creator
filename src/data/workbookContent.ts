@@ -2805,5 +2805,14 @@ export const initialWorkbookData: WorkbookData = {
       section: 8,
       sectionTitle: "Parent Reset Corner",
     })),
+    // ===============================
+    // KIDS RESET CORNER
+    // ===============================
+    ...resetCornerWorkbookData.pages.map(page => ({
+      ...page,
+      id: `foundation-${page.id}`,
+      section: 9,
+      sectionTitle: "Kids Reset Corner",
+    })),
   ]
 };
