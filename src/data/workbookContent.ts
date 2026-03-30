@@ -2797,8 +2797,31 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     // ===============================
-    // PARENT RESET CORNER (Wall Reminders)
+    // PARENT RESET CORNER - TITLE PAGE
     // ===============================
+    {
+      id: "parent-reset-title",
+      type: "visuals" as const,
+      section: 8,
+      sectionTitle: "Parent Reset Corner",
+      title: "Parent Reset Corner",
+      subtitle: "Visual mantras and quick-reference tools to print and post around your home",
+      sections: [
+        {
+          id: "parent-reset-title-1",
+          type: "scripture" as const,
+          content: "\"Be still, and know that I am God.\" — Psalm 46:10",
+          editable: false,
+        },
+        {
+          id: "parent-reset-title-2",
+          type: "paragraph" as const,
+          content: "The following pages are designed to be printed and placed where you need them most — on the fridge, by the door, in your bedroom, or anywhere you pause to reset. Let these be gentle reminders of who you're becoming as a parent.",
+          editable: false,
+        },
+      ],
+    },
+    // PARENT RESET CORNER (Wall Reminders)
     ...wallRemindersWorkbookData.pages.map(page => ({
       ...page,
       id: `foundation-${page.id}`,
@@ -2806,8 +2829,31 @@ export const initialWorkbookData: WorkbookData = {
       sectionTitle: "Parent Reset Corner",
     })),
     // ===============================
-    // KIDS RESET CORNER
+    // KIDS RESET CORNER - TITLE PAGE
     // ===============================
+    {
+      id: "kids-reset-title",
+      type: "visuals" as const,
+      section: 9,
+      sectionTitle: "Kids Reset Corner",
+      title: "Kids Reset Corner",
+      subtitle: "Printable sheets to help your child identify feelings, needs, and healthy ways to reset",
+      sections: [
+        {
+          id: "kids-reset-title-1",
+          type: "scripture" as const,
+          content: "\"Train up a child in the way he should go; even when he is old he will not depart from it.\" — Proverbs 22:6",
+          editable: false,
+        },
+        {
+          id: "kids-reset-title-2",
+          type: "paragraph" as const,
+          content: "Set up a Reset Corner in your home with these printable sheets. Help your child learn to name their feelings, identify what they need, and choose healthy ways to calm down — all rooted in faith and connection.",
+          editable: false,
+        },
+      ],
+    },
+    // KIDS RESET CORNER
     ...resetCornerWorkbookData.pages.map(page => ({
       ...page,
       id: `foundation-${page.id}`,
