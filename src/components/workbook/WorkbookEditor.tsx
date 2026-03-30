@@ -58,6 +58,7 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
               <WorkbookPage
                 page={page}
                 onUpdatePage={(p) => updatePageByIndex(index, p)}
+                workbookLabel={workbook.title}
               />
             </div>
           ))}
