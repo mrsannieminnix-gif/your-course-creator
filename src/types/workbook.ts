@@ -15,6 +15,7 @@ export interface PageSection {
   content?: string;
   items?: string[];
   editable?: boolean;
+  columns?: number;
   images?: {
     before: string;
     after: string;
