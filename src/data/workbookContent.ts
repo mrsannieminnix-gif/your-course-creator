@@ -342,6 +342,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 1
+    {
+      id: "s1-fm",
+      type: "reflection",
+      section: 1,
+      sectionTitle: "The Foundation",
+      title: "Facts & Myths",
+      subtitle: "The Foundation of Model Parenting",
+      sections: [
+        {
+          id: "s1-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Good parents never lose their temper or make mistakes.", fact: "Good parents are human. What matters most is how you repair and reconnect after a hard moment." },
+            { myth: "If your child is misbehaving, it means you're a bad parent.", fact: "Behavior is communication. A child acting out is often signaling an unmet need, not reflecting your worth as a parent." },
+            { myth: "Your kids will turn out fine as long as you love them.", fact: "Love is essential, but children also need intentional tools — boundaries, modeling, and emotional coaching — to thrive." },
+            { myth: "Parenting should come naturally and shouldn't require a course.", fact: "Parenting is a skill that can be learned and sharpened. Seeking tools and education is a sign of strength, not weakness." },
+            { myth: "How you were raised doesn't affect how you parent.", fact: "Our upbringing deeply shapes our default responses. Awareness of those patterns is the first step toward breaking unhealthy cycles." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 2: TOOL 1 - ANCHORING
