@@ -45,7 +45,7 @@ export const ChecklistSection: React.FC<ChecklistSectionProps> = ({
   };
 
   return (
-    <div className="space-y-3">
+    <div className={columns === 2 ? "grid grid-cols-2 gap-x-6 gap-y-2" : "space-y-3"}>
       {items.map((item, index) => (
         <div
           key={index}
