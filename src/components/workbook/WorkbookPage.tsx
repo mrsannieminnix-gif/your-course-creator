@@ -162,7 +162,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage, 
   };
 
   return (
-    <div className="page-paper w-full max-w-2xl mx-auto p-8 md:p-12 min-h-[700px] animate-fade-in">
+    <div className="page-paper w-full max-w-2xl mx-auto p-8 md:p-12 min-h-[700px] animate-fade-in" data-page-type={page.type || page.pageType || ''}>
       {/* Section label in top right corner */}
       {page.sectionTitle && (
         <div className="absolute top-3 right-4 z-20">
