@@ -2668,6 +2668,137 @@ export const initialWorkbookData: WorkbookData = {
           ]
         }
       ]
+    },
+
+    // Activity Page - Section 7
+    {
+      id: "s7-act",
+      type: "reflection",
+      section: 7,
+      sectionTitle: "Tool 6: Correction",
+      title: "Activity: Rewrite Your Response",
+      subtitle: "Trading Old Habits for Effective Correction",
+      sections: [
+        {
+          id: "s7-act-1",
+          type: "paragraph",
+          content: "This is the hardest — and most important — activity in this workbook. Most of us parent the way we were parented, and many of us carry correction methods that don't sit right with who we want to be. This isn't about guilt or shame. It's about honesty. When you can name what hasn't worked, you create space to choose something better. That's not failure — that's growth.",
+          editable: true
+        },
+        {
+          id: "s7-act-1b",
+          type: "paragraph",
+          content: "Research is clear: punitive correction (yelling, spanking, shaming, isolation as punishment) may stop behavior in the moment, but it damages the parent-child relationship over time and teaches children to fear consequences rather than understand them. Effective correction preserves the relationship while teaching the lesson.",
+          editable: true
+        },
+        {
+          id: "s7-act-2",
+          type: "header",
+          content: "5 Things I've Done That Don't Sit Right With Me",
+          editable: true
+        },
+        {
+          id: "s7-act-2b",
+          type: "paragraph",
+          content: "Be honest with yourself. No one is reading this but you. Think about moments where your reaction didn't match the parent you want to be — times you yelled, spanked, shamed, gave the silent treatment, or reacted out of anger rather than intention.",
+          editable: true
+        },
+        {
+          id: "s7-act-3",
+          type: "list",
+          items: [
+            "1. _______________",
+            "2. _______________",
+            "3. _______________",
+            "4. _______________",
+            "5. _______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s7-act-4",
+          type: "header",
+          content: "5 Things I Can Do Instead",
+          editable: true
+        },
+        {
+          id: "s7-act-4b",
+          type: "paragraph",
+          content: "Now match each one above with a healthier, more effective response. Use the toolbox below to help you choose. For example: instead of spanking → give one more opportunity. Instead of yelling → use a calm expectations talk. Instead of taking everything away → offer two choices.",
+          editable: true
+        },
+        {
+          id: "s7-act-5",
+          type: "list",
+          items: [
+            "1. Instead of _______________, I will _______________",
+            "2. Instead of _______________, I will _______________",
+            "3. Instead of _______________, I will _______________",
+            "4. Instead of _______________, I will _______________",
+            "5. Instead of _______________, I will _______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s7-act-6",
+          type: "header",
+          content: "Your Correction Toolbox",
+          editable: true
+        },
+        {
+          id: "s7-act-6b",
+          type: "paragraph",
+          content: "These are the tools from the course that replace reactive, punitive parenting with intentional, effective correction. Keep this list somewhere visible — on your fridge, in your phone, wherever you'll see it when you need it most:",
+          editable: true
+        },
+        {
+          id: "s7-act-7",
+          type: "checklist",
+          content: "Pick the tools you want to practice this week:",
+          items: [
+            "One More Opportunity — Instead of an immediate consequence, give them a chance to make the right choice: 'I'm going to give you one more opportunity to…'",
+            "Two Choices — Offer two acceptable options so they feel in control: 'You can do ___ or ___. You decide.'",
+            "Expectations Talk — Before a situation, set clear expectations calmly: 'When we go inside, I expect…'",
+            "Give Them Time — Instead of demanding instant compliance, give a time frame: 'You have 5 minutes to finish up.'",
+            "Visual Timer — Use a timer they can see so transitions feel fair and predictable, not sudden.",
+            "Choices Jar — Fill a jar with pre-written positive choices or calming activities they can pick from when they're struggling.",
+            "When/Then Statements — 'When you finish your homework, then you can play outside.' Keeps it positive and logical.",
+            "Natural Consequences — Let the natural result of their choice be the teacher: forgot their lunch? They'll be hungry. No lecture needed.",
+            "Logical Consequences — Connect the consequence directly to the behavior: threw the toy? The toy gets a break.",
+            "Calm-Down Corner — A designated safe space (not a punishment) where they can regulate before talking it through.",
+            "Do-Over — Let them try again: 'That didn't go well. Let's rewind and try that again.'",
+            "Connection Before Correction — Before addressing the behavior, connect: 'I can see you're having a hard time. I'm here.'",
+            "Repair Conversation — After a conflict, come back together: 'What happened? How did that feel? What can we do differently?'",
+            "Modeling — Show them what the right response looks like by doing it yourself first.",
+            "Positive Reinforcement — Catch them doing it right and name it: 'I noticed you shared with your sister without being asked. That was kind.'"
+          ],
+          editable: true
+        },
+        {
+          id: "s7-act-8",
+          type: "header",
+          content: "Why This Matters More Than You Think",
+          editable: true
+        },
+        {
+          id: "s7-act-8b",
+          type: "paragraph",
+          content: "Every time you choose connection over control, teaching over punishment, and patience over reaction, you are breaking a generational cycle. You are showing your child that mistakes are not the end — they are an opportunity to learn. And you are showing yourself that you can be the parent you always wished you had.",
+          editable: true
+        },
+        {
+          id: "s7-act-9",
+          type: "scripture",
+          content: "\"Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.\" — Ephesians 6:4\n\n\"A gentle answer turns away wrath, but a harsh word stirs up anger.\" — Proverbs 15:1",
+          editable: true
+        },
+        {
+          id: "s7-act-10",
+          type: "quote",
+          content: "💡 Remember: You don't have to be perfect. You just have to be willing to try something different. The fact that you're doing this activity means you already are.",
+          editable: true
+        }
+      ]
     }
   ]
 };
