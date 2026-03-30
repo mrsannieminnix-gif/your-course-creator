@@ -1558,6 +1558,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 5
+    {
+      id: "s5-fm",
+      type: "reflection",
+      section: 5,
+      sectionTitle: "Tool 4: Grow",
+      title: "Facts & Myths",
+      subtitle: "Grow — Fostering Development",
+      sections: [
+        {
+          id: "s5-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Children should already know how to behave properly at every age.", fact: "Brain development is a process. Children literally lack the neural wiring for certain skills until they mature — expecting what they can't yet do leads to frustration for everyone." },
+            { myth: "If my child keeps making the same mistake, they're not trying.", fact: "Repetition is how the brain learns. Children need dozens (sometimes hundreds) of experiences to wire new skills into habit." },
+            { myth: "Praising everything my child does will build their confidence.", fact: "Specific, effort-based encouragement ('You worked so hard on that!') builds genuine resilience. Generic praise ('You're so smart!') can actually create fear of failure." },
+            { myth: "Letting kids struggle is harmful to them.", fact: "Age-appropriate challenge is essential for growth. Rescuing children from every difficulty robs them of the chance to build problem-solving skills and confidence." },
+            { myth: "Growth only happens through formal teaching and instruction.", fact: "Children grow most through observation, play, and real-life experience. Everyday moments are the richest classroom." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 6: TOOL 5 - EMPOWER
