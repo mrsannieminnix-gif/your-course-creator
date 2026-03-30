@@ -5,6 +5,7 @@ import { EditableText } from "./EditableText";
 interface ChecklistSectionProps {
   items: string[];
   onChange: (items: string[]) => void;
+  columns?: number;
 }
 
 export const ChecklistSection: React.FC<ChecklistSectionProps> = ({
