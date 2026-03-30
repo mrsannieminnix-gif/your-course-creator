@@ -1450,6 +1450,94 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "s4-act",
+      type: "reflection",
+      section: 4,
+      sectionTitle: "Tool 3: Connection",
+      title: "Activity: Discover Your Attachment Style",
+      subtitle: "Understanding How You Connect",
+      sections: [
+        {
+          id: "s4-act-1",
+          type: "paragraph",
+          content: "The way we were raised shapes the way we connect with our own children. Understanding your attachment style is the first step to building a more secure bond with your kids.",
+          editable: true
+        },
+        {
+          id: "s4-act-2",
+          type: "header",
+          content: "Step 1: Take the Attachment Quiz",
+          editable: true
+        },
+        {
+          id: "s4-act-3",
+          type: "paragraph",
+          content: "Visit ModelParentingMethod.com and take the Attachment Style Quiz. This quiz will help you identify whether your attachment style is secure, anxious, avoidant, or disorganized — and what that means for your relationship with your children.",
+          editable: true
+        },
+        {
+          id: "s4-act-4",
+          type: "quote",
+          content: "🔗 Go to ModelParentingMethod.com → Take the Attachment Quiz",
+          editable: false
+        },
+        {
+          id: "s4-act-5",
+          type: "header",
+          content: "Step 2: Record Your Results",
+          editable: true
+        },
+        {
+          id: "s4-act-6",
+          type: "list",
+          content: "My attachment style is:",
+          items: [
+            "_______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s4-act-7",
+          type: "list",
+          content: "What surprised me about my results:",
+          items: [
+            "_______________",
+            "_______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s4-act-8",
+          type: "header",
+          content: "Step 3: Learn to Provide Secure Attachment",
+          editable: true
+        },
+        {
+          id: "s4-act-9",
+          type: "paragraph",
+          content: "No matter what your attachment style is, you can learn to provide more secure attachment for your children. Awareness is the beginning of change. Write down three ways you can start creating a more secure connection this week:",
+          editable: true
+        },
+        {
+          id: "s4-act-10",
+          type: "list",
+          items: [
+            "1. _______________",
+            "2. _______________",
+            "3. _______________"
+          ],
+          editable: true
+        },
+        {
+          id: "s4-act-11",
+          type: "scripture",
+          content: "\"Above all, keep loving one another earnestly, since love covers a multitude of sins.\" — 1 Peter 4:8",
+          editable: false
+        }
+      ]
+    },
+
     // ===============================
     // SECTION 5: TOOL 4 - GROW
     // ===============================
