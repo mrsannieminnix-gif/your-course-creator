@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight, Menu, Printer, Download, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { WorkbookPage as WorkbookPageType, WorkbookData } from "@/types/workbook";
@@ -32,6 +32,63 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
     setWorkbook({ ...workbook, pages: newPages });
   };
 
+  const fitPagesForPrint = useCallback(() => {
+    const pages = Array.from(document.querySelectorAll<HTMLElement>(".print-page-wrapper .page-paper"));
+
+    pages.forEach((page) => {
+      const content = page.querySelector<HTMLElement>(".relative.z-10");
+      if (!content) return;
+
+      content.style.removeProperty("transform");
+      content.style.removeProperty("transform-origin");
+      content.style.removeProperty("width");
+
+      const reservedHeightPx = 110;
+      const availableHeight = page.clientHeight - reservedHeightPx;
+      const contentHeight = content.scrollHeight;
+
+      if (contentHeight <= availableHeight) return;
+
+      const scale = Math.max(0.68, Math.min(1, availableHeight / contentHeight));
+      content.style.setProperty("transform", `scale(${scale.toFixed(3)})`, "important");
+      content.style.setProperty("transform-origin", "top center", "important");
+      content.style.setProperty("width", `${(100 / scale).toFixed(2)}%`, "important");
+    });
+  }, []);
+
+  const resetPrintScaling = useCallback(() => {
+    const pages = Array.from(document.querySelectorAll<HTMLElement>(".print-page-wrapper .page-paper"));
+
+    pages.forEach((page) => {
+      const content = page.querySelector<HTMLElement>(".relative.z-10");
+      if (!content) return;
+
+      content.style.removeProperty("transform");
+      content.style.removeProperty("transform-origin");
+      content.style.removeProperty("width");
+    });
+  }, []);
+
+  useEffect(() => {
+    const handleBeforePrint = () => {
+      requestAnimationFrame(() => {
+        fitPagesForPrint();
+      });
+    };
+
+    const handleAfterPrint = () => {
+      resetPrintScaling();
+    };
+
+    window.addEventListener("beforeprint", handleBeforePrint);
+    window.addEventListener("afterprint", handleAfterPrint);
+
+    return () => {
+      window.removeEventListener("beforeprint", handleBeforePrint);
+      window.removeEventListener("afterprint", handleAfterPrint);
+    };
+  }, [fitPagesForPrint, resetPrintScaling]);
+
   const goToPrevPage = () => {
     if (currentPageIndex > 0) {
       setCurrentPageIndex(currentPageIndex - 1);
@@ -45,7 +102,10 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
   };
 
   const handlePrint = () => {
-    window.print();
+    fitPagesForPrint();
+    requestAnimationFrame(() => {
+      window.print();
+    });
   };
 
   return (
