@@ -1,5 +1,6 @@
 import { WorkbookData } from "@/types/workbook";
 import { wallRemindersWorkbookData } from "@/data/wallRemindersWorkbookContent";
+import { resetCornerWorkbookData } from "@/data/resetCornerWorkbookContent";
 
 export const initialWorkbookData: WorkbookData = {
   title: "Model Parenting Workbook",
@@ -2803,6 +2804,15 @@ export const initialWorkbookData: WorkbookData = {
       id: `foundation-${page.id}`,
       section: 8,
       sectionTitle: "Parent Reset Corner",
+    })),
+    // ===============================
+    // KIDS RESET CORNER
+    // ===============================
+    ...resetCornerWorkbookData.pages.map(page => ({
+      ...page,
+      id: `foundation-${page.id}`,
+      section: 9,
+      sectionTitle: "Kids Reset Corner",
     })),
   ]
 };
