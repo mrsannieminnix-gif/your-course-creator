@@ -2743,6 +2743,7 @@ export const initialWorkbookData: WorkbookData = {
       ]
     },
     {
+      id: "s7-act-toolbox",
       type: "reflection",
       section: 7,
       sectionTitle: "Tool 6: Correction",
