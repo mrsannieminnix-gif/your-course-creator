@@ -179,7 +179,6 @@
     print-color-adjust: exact !important;
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 12pt !important;
   }
 
   /* Hide the main app during print */
@@ -211,17 +210,18 @@
     height: 11in !important;
     overflow: hidden !important;
     position: relative !important;
+    padding: 0 !important;
   }
 
   .print-page-wrapper:last-child {
     page-break-after: auto;
     break-after: auto;
   }
-  
+
   .page-paper {
     box-shadow: none !important;
-    margin: 0 auto !important;
-    padding: 0.3in 0.4in !important;
+    margin: 0 !important;
+    padding: 0.2in 0.3in !important;
     max-width: 100% !important;
     width: 8.1in !important;
     height: 10.6in !important;
@@ -231,16 +231,15 @@
     background-image: none !important;
     box-sizing: border-box !important;
     overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
-  /* Reset Corner sheets */
-  .page-paper:has([class*="from-teal-50"]),
-  .page-paper:has([class*="from-sky-50"]),
-  .page-paper:has([class*="from-slate-50"]),
-  .page-paper:has([class*="from-violet-50"]),
-  .page-paper:has([class*="from-amber-50"]),
-  .page-paper:has([class*="from-rose-50"]) {
-    padding: 0.2in 0.3in !important;
+  .page-paper > .relative.z-10 {
+    flex: 1 !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
   /* Make sure all content is visible */
@@ -248,124 +247,131 @@
     visibility: visible !important;
   }
 
-  /* Typography sizing - LARGER for print readability */
+  /* Universal compact typography */
   .page-paper h1 {
-    font-size: 26px !important;
-    margin-bottom: 4px !important;
+    font-size: 22px !important;
+    margin-bottom: 2px !important;
+    line-height: 1.2 !important;
   }
 
   .page-paper h2 {
-    font-size: 18px !important;
-    margin-top: 2px !important;
+    font-size: 16px !important;
+    margin-top: 1px !important;
+    line-height: 1.2 !important;
   }
 
   .page-paper h3 {
-    font-size: 16px !important;
-    margin-top: 6px !important;
-    margin-bottom: 3px !important;
+    font-size: 14px !important;
+    margin-top: 4px !important;
+    margin-bottom: 2px !important;
+    line-height: 1.2 !important;
   }
 
   .page-paper h4 {
-    font-size: 14px !important;
-    margin-bottom: 3px !important;
+    font-size: 12px !important;
+    margin-bottom: 2px !important;
+    line-height: 1.2 !important;
   }
 
   .page-paper p {
-    font-size: 12px !important;
-    line-height: 1.4 !important;
-    margin-bottom: 4px !important;
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+    margin-bottom: 2px !important;
   }
 
   .page-paper ul, .page-paper ol {
-    margin-bottom: 6px !important;
-    padding-left: 18px !important;
+    margin-bottom: 4px !important;
+    padding-left: 16px !important;
   }
 
   .page-paper li {
-    font-size: 12px !important;
-    line-height: 1.35 !important;
-    margin-bottom: 2px !important;
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 1px !important;
   }
 
   /* Goal phrases box */
   .page-paper .bg-primary\/10 {
-    padding: 8px 14px !important;
-    margin: 6px 0 !important;
+    padding: 6px 10px !important;
+    margin: 4px 0 !important;
   }
 
   .page-paper .bg-primary\/10 .font-handwritten {
-    font-size: 16px !important;
-    padding: 2px 0 !important;
-    line-height: 1.3 !important;
+    font-size: 14px !important;
+    padding: 1px 0 !important;
+    line-height: 1.2 !important;
   }
 
-  /* Scripture boxes */
+  /* Scripture & quote boxes */
   .page-paper .bg-sage-muted\/30,
   .page-paper .border-l-4 {
-    padding: 6px 12px !important;
-    margin: 6px 0 !important;
+    padding: 4px 10px !important;
+    margin: 4px 0 !important;
   }
 
   .page-paper .bg-sage-muted\/30 .italic,
   .page-paper .border-l-4.border-primary\/50 .italic {
-    font-size: 12px !important;
-    line-height: 1.35 !important;
+    font-size: 11px !important;
+    line-height: 1.3 !important;
   }
 
   .page-paper blockquote {
-    padding: 6px 12px !important;
-    margin: 6px 0 !important;
+    padding: 4px 10px !important;
+    margin: 4px 0 !important;
   }
 
   .page-paper blockquote .font-handwritten {
-    font-size: 14px !important;
-    line-height: 1.3 !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
   }
 
   /* Week tracker */
   .page-paper .border-t {
-    padding-top: 6px !important;
-    margin-top: 6px !important;
+    padding-top: 4px !important;
+    margin-top: 4px !important;
   }
 
-  /* Week tracker grid */
   .page-paper .grid.grid-cols-7 {
-    gap: 3px !important;
+    gap: 2px !important;
   }
 
   .page-paper .grid.grid-cols-7 > div {
-    padding: 3px !important;
+    padding: 2px !important;
   }
 
   .page-paper .grid.grid-cols-7 .text-xs {
-    font-size: 9px !important;
+    font-size: 8px !important;
   }
 
   .page-paper .grid.grid-cols-7 .w-5.h-5,
   .page-paper .grid.grid-cols-7 .w-6.h-6 {
-    width: 18px !important;
-    height: 18px !important;
+    width: 16px !important;
+    height: 16px !important;
   }
 
   /* Section label */
   .page-paper .tracking-\[0\.3em\] {
-    font-size: 10px !important;
-    margin-bottom: 3px !important;
+    font-size: 9px !important;
+    margin-bottom: 2px !important;
   }
 
   /* Header divider line */
   .page-paper .w-24.h-0\.5 {
-    margin-top: 6px !important;
+    margin-top: 4px !important;
   }
 
   /* Space between sections */
   .page-paper .space-y-2 > div {
-    margin-bottom: 2px !important;
+    margin-bottom: 1px !important;
   }
 
-  /* Subheaders */
-  .page-paper .italic.text-xl {
-    font-size: 14px !important;
+  /* Header area */
+  .page-paper .text-center.mb-8 {
+    margin-bottom: 6px !important;
+  }
+
+  .page-paper .text-center.mb-2 {
+    margin-bottom: 2px !important;
   }
 
   /* Adjust colors for print */
@@ -391,178 +397,35 @@
     display: none !important;
   }
 
-  /* Center content better */
-  .page-paper .text-center.mb-8 {
-    margin-bottom: 8px !important;
+  /* Section corner label */
+  .page-paper > .absolute.top-3 {
+    top: 4px !important;
+    right: 6px !important;
   }
 
-  .page-paper .text-center.mb-2 {
-    margin-bottom: 3px !important;
-  }
-
-  /* Fridge Focus / goals pages - scale down to fit */
-  .page-paper[data-page-type="goals"] {
-    transform: scale(0.92) !important;
-    transform-origin: top center !important;
-    padding: 0.2in 0.35in !important;
-  }
-
-  .page-paper[data-page-type="goals"] h1 {
-    font-size: 22px !important;
-  }
-
-  .page-paper[data-page-type="goals"] h3 {
-    font-size: 14px !important;
-    margin-top: 4px !important;
-    margin-bottom: 2px !important;
-  }
-
-  .page-paper[data-page-type="goals"] .bg-primary\/10 {
-    padding: 6px 10px !important;
-    margin: 4px 0 !important;
-  }
-
-  .page-paper[data-page-type="goals"] .bg-primary\/10 .font-handwritten {
-    font-size: 14px !important;
-    padding: 1px 0 !important;
-    line-height: 1.2 !important;
-  }
-
-  .page-paper[data-page-type="goals"] .bg-sage-muted\/30,
-  .page-paper[data-page-type="goals"] .border-l-4 {
-    padding: 4px 10px !important;
-    margin: 4px 0 !important;
-  }
-
-  .page-paper[data-page-type="goals"] blockquote {
-    padding: 4px 10px !important;
-    margin: 4px 0 !important;
-  }
-
-  .page-paper[data-page-type="goals"] blockquote .font-handwritten {
-    font-size: 12px !important;
-    line-height: 1.2 !important;
-  }
-
-  .page-paper[data-page-type="goals"] p {
-    font-size: 11px !important;
-    line-height: 1.3 !important;
-    margin-bottom: 2px !important;
-  }
-
-  .page-paper[data-page-type="goals"] li {
-    font-size: 11px !important;
-    line-height: 1.25 !important;
-    margin-bottom: 1px !important;
-  }
-
-  .page-paper[data-page-type="goals"] .space-y-2 > div {
-    margin-bottom: 1px !important;
-  }
-
-  /* Activity / reflection pages - scale down to fit */
-  .page-paper[data-page-type="reflection"] {
-    transform: scale(0.85) !important;
-    transform-origin: top center !important;
-    padding: 0.15in 0.25in !important;
-  }
-
-  .page-paper[data-page-type="reflection"] h1 {
-    font-size: 22px !important;
-    margin-bottom: 2px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] h2 {
-    font-size: 16px !important;
-    margin-top: 1px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] h3 {
-    font-size: 14px !important;
-    margin-top: 4px !important;
-    margin-bottom: 2px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] h4 {
-    font-size: 12px !important;
-    margin-bottom: 2px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] p {
-    font-size: 11px !important;
-    line-height: 1.3 !important;
-    margin-bottom: 2px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] li {
-    font-size: 11px !important;
-    line-height: 1.25 !important;
-    margin-bottom: 1px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] .space-y-2 > div {
-    margin-bottom: 1px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] .bg-sage-muted\/30,
-  .page-paper[data-page-type="reflection"] .border-l-4 {
-    padding: 4px 10px !important;
-    margin: 4px 0 !important;
-  }
-
-  .page-paper[data-page-type="reflection"] blockquote {
-    padding: 4px 10px !important;
-    margin: 4px 0 !important;
-  }
-
-  .page-paper[data-page-type="reflection"] blockquote .font-handwritten {
-    font-size: 12px !important;
-    line-height: 1.2 !important;
-  }
-
-  /* Checklist in reflection pages - compact */
-  .page-paper[data-page-type="reflection"] .flex.items-start.gap-3 {
-    gap: 4px !important;
-  }
-
-  .page-paper[data-page-type="reflection"] .w-5.h-5.rounded.border-2 {
-    width: 14px !important;
-    height: 14px !important;
-    min-width: 14px !important;
-  }
-
-  /* 3-col checklist tighter for print */
-  .page-paper[data-page-type="reflection"] .grid.grid-cols-3 {
-    gap: 3px 10px !important;
+  .page-paper > .absolute.top-3 span {
+    font-size: 7px !important;
   }
 
   /* Comparison images */
   .page-paper .grid.grid-cols-2 {
-    gap: 10px !important;
+    gap: 8px !important;
   }
 
   .page-paper .grid.grid-cols-2 img {
-    max-height: 150px !important;
+    max-height: 140px !important;
     object-fit: contain !important;
   }
 
-  /* Reset helper grid */
-  .page-paper .grid.grid-cols-4 img {
-    width: 70px !important;
-    height: 70px !important;
-  }
-
-  .page-paper .grid.grid-cols-4 .text-xs {
-    font-size: 10px !important;
-  }
-
   /* Checklist items */
-  .page-paper .flex.items-start.gap-2 {
-    gap: 6px !important;
-    margin-bottom: 2px !important;
+  .page-paper .flex.items-start.gap-2,
+  .page-paper .flex.items-start.gap-3 {
+    gap: 4px !important;
+    margin-bottom: 1px !important;
   }
 
-  .page-paper .flex.items-start.gap-2 .w-4.h-4 {
+  .page-paper .flex.items-start.gap-2 .w-4.h-4,
+  .page-paper .w-5.h-5.rounded.border-2 {
     width: 12px !important;
     height: 12px !important;
     min-width: 12px !important;
@@ -570,17 +433,17 @@
 
   /* Facts & Myths cards */
   .page-paper .rounded-xl.border {
-    margin-bottom: 4px !important;
+    margin-bottom: 3px !important;
     break-inside: avoid !important;
   }
 
   .page-paper .rounded-xl.border .p-3 {
-    padding: 5px 8px !important;
+    padding: 4px 6px !important;
   }
 
   .page-paper .rounded-xl.border .text-sm {
-    font-size: 10px !important;
-    line-height: 1.3 !important;
+    font-size: 9px !important;
+    line-height: 1.25 !important;
   }
 
   .page-paper .rounded-xl.border .text-xs {
@@ -588,8 +451,8 @@
   }
 
   .page-paper .rounded-xl.border .w-5.h-5 {
-    width: 14px !important;
-    height: 14px !important;
+    width: 12px !important;
+    height: 12px !important;
   }
 
   /* Facts & Myths background colors for print */
@@ -601,11 +464,16 @@
 
   /* Checklist grid for activity pages */
   .page-paper .flex.flex-wrap {
-    gap: 4px !important;
+    gap: 3px !important;
   }
 
   .page-paper .flex.flex-wrap .flex.items-start {
     margin-bottom: 1px !important;
+  }
+
+  /* 3-col checklist */
+  .page-paper .grid.grid-cols-3 {
+    gap: 2px 8px !important;
   }
 
   /* Ensure all colored backgrounds print */
@@ -614,23 +482,91 @@
     print-color-adjust: exact !important;
   }
 
-  /* Section corner label */
-  .page-paper > .absolute.top-3 {
-    top: 6px !important;
-    right: 8px !important;
-  }
-
-  .page-paper > .absolute.top-3 span {
-    font-size: 8px !important;
-  }
-
-  /* Tighter spacing for content-heavy pages */
+  /* Tighter spacing for all pages */
   .page-paper .space-y-4 {
-    gap: 3px !important;
+    gap: 2px !important;
   }
 
   .page-paper .space-y-4 > * + * {
-    margin-top: 3px !important;
+    margin-top: 2px !important;
+  }
+
+  /* Reset helper grid */
+  .page-paper .grid.grid-cols-4 img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .page-paper .grid.grid-cols-4 .text-xs {
+    font-size: 9px !important;
+  }
+
+  /* ========== AUTO-SCALE: Scale all print pages to fit ========== */
+  /* Universal scale-down for all page types to prevent cutoff */
+  .page-paper[data-page-type="reflection"] {
+    transform: scale(0.82) !important;
+    transform-origin: top center !important;
+  }
+
+  .page-paper[data-page-type="goals"],
+  .page-paper[data-page-type="goals-faith"] {
+    transform: scale(0.88) !important;
+    transform-origin: top center !important;
+  }
+
+  .page-paper[data-page-type="visuals"] {
+    transform: scale(0.88) !important;
+    transform-origin: top center !important;
+  }
+
+  .page-paper[data-page-type="outline"] {
+    transform: scale(0.90) !important;
+    transform-origin: top center !important;
+  }
+
+  /* Fallback for pages without a data-page-type or with unknown types */
+  .page-paper:not([data-page-type]),
+  .page-paper[data-page-type=""] {
+    transform: scale(0.88) !important;
+    transform-origin: top center !important;
+  }
+
+  /* Reset Corner colored sheets need less padding */
+  .page-paper:has([class*="from-teal-50"]),
+  .page-paper:has([class*="from-sky-50"]),
+  .page-paper:has([class*="from-slate-50"]),
+  .page-paper:has([class*="from-violet-50"]),
+  .page-paper:has([class*="from-amber-50"]),
+  .page-paper:has([class*="from-rose-50"]) {
+    padding: 0.15in 0.2in !important;
+    transform: scale(0.85) !important;
+    transform-origin: top center !important;
+  }
+
+  /* Mantra visual containers - ensure they fit */
+  .page-paper [class*="rounded-3xl"] {
+    padding: 12px !important;
+  }
+
+  .page-paper [class*="rounded-3xl"] h2 {
+    font-size: 20px !important;
+  }
+
+  .page-paper [class*="rounded-3xl"] h3 {
+    font-size: 16px !important;
+  }
+
+  .page-paper [class*="rounded-3xl"] .text-sm {
+    font-size: 9px !important;
+  }
+
+  .page-paper [class*="rounded-3xl"] .text-xs {
+    font-size: 8px !important;
+  }
+
+  .page-paper [class*="rounded-3xl"] img {
+    max-height: 55px !important;
+    width: auto !important;
   }
 }
 
