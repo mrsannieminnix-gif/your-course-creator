@@ -25,6 +25,10 @@ export interface PageSection {
     src: string;
     caption: string;
   };
+  factsMythsItems?: Array<{
+    myth: string;
+    fact: string;
+  }>;
 }
 
 export interface WorkbookData {
