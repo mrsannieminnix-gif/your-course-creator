@@ -432,6 +432,71 @@
     height: 12px !important;
     min-width: 12px !important;
   }
+
+  /* Facts & Myths cards */
+  .page-paper .rounded-xl.border {
+    margin-bottom: 4px !important;
+    break-inside: avoid !important;
+  }
+
+  .page-paper .rounded-xl.border .p-3 {
+    padding: 5px 8px !important;
+  }
+
+  .page-paper .rounded-xl.border .text-sm {
+    font-size: 10px !important;
+    line-height: 1.3 !important;
+  }
+
+  .page-paper .rounded-xl.border .text-xs {
+    font-size: 8px !important;
+  }
+
+  .page-paper .rounded-xl.border .w-5.h-5 {
+    width: 14px !important;
+    height: 14px !important;
+  }
+
+  /* Facts & Myths background colors for print */
+  .page-paper .bg-destructive\/10 {
+    background-color: hsl(0 65% 95%) !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Checklist grid for activity pages */
+  .page-paper .flex.flex-wrap {
+    gap: 4px !important;
+  }
+
+  .page-paper .flex.flex-wrap .flex.items-start {
+    margin-bottom: 1px !important;
+  }
+
+  /* Ensure all colored backgrounds print */
+  .page-paper [class*="bg-"] {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Section corner label */
+  .page-paper > .absolute.top-3 {
+    top: 6px !important;
+    right: 8px !important;
+  }
+
+  .page-paper > .absolute.top-3 span {
+    font-size: 8px !important;
+  }
+
+  /* Tighter spacing for content-heavy pages */
+  .page-paper .space-y-4 {
+    gap: 3px !important;
+  }
+
+  .page-paper .space-y-4 > * + * {
+    margin-top: 3px !important;
+  }
 }
 
 @media screen {
