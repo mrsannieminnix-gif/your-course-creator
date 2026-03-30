@@ -119,6 +119,7 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage, 
             <ChecklistSection
               items={section.items || []}
               onChange={(items) => updateSection(section.id, { items })}
+              columns={section.columns}
             />
           </div>
         );
