@@ -17,7 +17,7 @@ interface WorkbookPageProps {
   workbookLabel?: string;
 }
 
-export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage }) => {
+export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage, workbookLabel }) => {
   const updateSection = (sectionId: string, updates: Partial<PageSection>) => {
     const newSections = page.sections.map(section =>
       section.id === sectionId ? { ...section, ...updates } : section
