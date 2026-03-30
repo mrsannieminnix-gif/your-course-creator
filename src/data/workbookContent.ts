@@ -1862,6 +1862,29 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Facts & Myths - Section 6
+    {
+      id: "s6-fm",
+      type: "reflection",
+      section: 6,
+      sectionTitle: "Tool 5: Empower",
+      title: "Facts & Myths",
+      subtitle: "Empower — Building Confidence",
+      sections: [
+        {
+          id: "s6-fm-1",
+          type: "facts-myths",
+          editable: false,
+          factsMythsItems: [
+            { myth: "Giving children choices makes them think they're in charge.", fact: "Offering age-appropriate choices within boundaries teaches decision-making and gives children a healthy sense of control." },
+            { myth: "Children need constant supervision and direction to succeed.", fact: "Over-directing stifles independence. Empowered children who are trusted to make small decisions develop stronger leadership and life skills." },
+            { myth: "If I let my child fail, I'm setting them up for low self-esteem.", fact: "Allowing safe failure and then coaching through it builds true resilience. Children learn they can handle hard things." },
+            { myth: "Empowering kids means letting them do whatever they want.", fact: "Empowerment is about building competence within safe boundaries — not removing structure. It's guided freedom, not permissiveness." },
+            { myth: "My child is too young to make their own decisions.", fact: "Even toddlers can choose between two snacks or pick their own shirt. Small choices build the neural pathways for bigger decisions later." },
+          ]
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 7: TOOL 6 - CORRECTION
