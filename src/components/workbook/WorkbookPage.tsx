@@ -152,6 +152,9 @@ export const WorkbookPage: React.FC<WorkbookPageProps> = ({ page, onUpdatePage, 
           </div>
         );
 
+      case "facts-myths":
+        return <FactsMythsSection items={section.factsMythsItems || []} />;
+
       default:
         return null;
     }
