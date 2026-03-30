@@ -501,33 +501,8 @@
     font-size: 9px !important;
   }
 
-  /* ========== PAGE-TYPE FALLBACK SCALE (runtime auto-fit can override) ========== */
-  .page-paper[data-page-type="reflection"] {
-    transform: scale(0.9) !important;
-    transform-origin: top center !important;
-  }
-
-  .page-paper[data-page-type="goals"],
-  .page-paper[data-page-type="goals-faith"] {
-    transform: scale(0.93) !important;
-    transform-origin: top center !important;
-  }
-
-  .page-paper[data-page-type="visuals"] {
-    transform: scale(0.93) !important;
-    transform-origin: top center !important;
-  }
-
-  .page-paper[data-page-type="outline"] {
-    transform: scale(0.95) !important;
-    transform-origin: top center !important;
-  }
-
-  .page-paper:not([data-page-type]),
-  .page-paper[data-page-type=""] {
-    transform: scale(0.93) !important;
-    transform-origin: top center !important;
-  }
+  /* ========== PAGE-TYPE FALLBACK SCALE (JS auto-fit overrides these) ========== */
+  /* These only apply if the JS auto-fit hasn't run (e.g. Ctrl+P without clicking Print) */
 
   /* Reset helper grid */
   .page-paper .grid.grid-cols-4 img {

@@ -33,9 +33,19 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
   };
 
   const fitPagesForPrint = useCallback(() => {
-    const pages = Array.from(document.querySelectorAll<HTMLElement>(".print-page-wrapper .page-paper"));
+    const container = document.querySelector<HTMLElement>(".print-container");
+    if (!container) return;
+
+    // Temporarily make visible for accurate measurement
+    container.style.cssText = "position:absolute;left:0;top:0;width:8.5in;visibility:visible;z-index:-1;overflow:hidden;";
+
+    const pages = Array.from(container.querySelectorAll<HTMLElement>(".print-page-wrapper .page-paper"));
 
     pages.forEach((page) => {
+      // Reset any previous inline styles on the page itself
+      page.style.removeProperty("transform");
+      page.style.removeProperty("transform-origin");
+
       const content = page.querySelector<HTMLElement>(".relative.z-10");
       if (!content) return;
 
@@ -43,17 +53,25 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
       content.style.removeProperty("transform-origin");
       content.style.removeProperty("width");
 
-      const reservedHeightPx = 110;
-      const availableHeight = page.clientHeight - reservedHeightPx;
+      // Force layout recalc
+      void content.offsetHeight;
+
+      // Available height = page height minus padding (top+bottom ~0.4in ≈ 38px) and header area
+      const pageHeight = page.clientHeight || 1018; // 10.6in at 96dpi
+      const reservedPx = 60; // padding + logo area
+      const availableHeight = pageHeight - reservedPx;
       const contentHeight = content.scrollHeight;
 
       if (contentHeight <= availableHeight) return;
 
-      const scale = Math.max(0.68, Math.min(1, availableHeight / contentHeight));
+      const scale = Math.max(0.62, availableHeight / contentHeight);
       content.style.setProperty("transform", `scale(${scale.toFixed(3)})`, "important");
       content.style.setProperty("transform-origin", "top center", "important");
       content.style.setProperty("width", `${(100 / scale).toFixed(2)}%`, "important");
     });
+
+    // Re-hide (print media CSS will show it)
+    container.style.cssText = "";
   }, []);
 
   const resetPrintScaling = useCallback(() => {
@@ -71,9 +89,7 @@ export const WorkbookEditor: React.FC<WorkbookEditorProps> = ({ initialData }) =
 
   useEffect(() => {
     const handleBeforePrint = () => {
-      requestAnimationFrame(() => {
-        fitPagesForPrint();
-      });
+      fitPagesForPrint();
     };
 
     const handleAfterPrint = () => {
