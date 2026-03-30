@@ -1,14 +1,14 @@
 import { WorkbookData } from "@/types/workbook";
 
 export const resetCornerWorkbookData: WorkbookData = {
-  title: "Toolbox for Parents - Reset Corner",
+  title: "Toolbox for Parents - Kids Reset Corner",
   pages: [
     // Page 0: How Do I Feel & What Can I Do?
     {
       id: "reset-0",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "How Do I Feel?",
       subtitle: "And what can I do about it",
       sections: [
@@ -24,7 +24,7 @@ export const resetCornerWorkbookData: WorkbookData = {
       id: "reset-1",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "Name Your Feeling",
       subtitle: "Helping kids identify their emotions",
       sections: [
@@ -46,7 +46,7 @@ export const resetCornerWorkbookData: WorkbookData = {
       id: "reset-2",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "Name Your Need",
       subtitle: "What does your body need right now?",
       sections: [
@@ -68,7 +68,7 @@ export const resetCornerWorkbookData: WorkbookData = {
       id: "reset-3",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "Name Your Zone",
       subtitle: "What nervous system zone are you in?",
       sections: [
@@ -90,7 +90,7 @@ export const resetCornerWorkbookData: WorkbookData = {
       id: "reset-4",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "Choose Your Reset Helper",
       subtitle: "Pick a tool to help you feel better",
       sections: [
@@ -112,7 +112,7 @@ export const resetCornerWorkbookData: WorkbookData = {
       id: "reset-5",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "Ground Yourself",
       subtitle: "Calm your nervous system with your 5 senses",
       sections: [
@@ -134,7 +134,7 @@ export const resetCornerWorkbookData: WorkbookData = {
       id: "reset-6",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "Choose Your Healthy Behavior",
       subtitle: "Healthy ways to express big feelings",
       sections: [
@@ -156,7 +156,7 @@ export const resetCornerWorkbookData: WorkbookData = {
       id: "reset-7",
       type: "visuals",
       section: 1,
-      sectionTitle: "Reset Corner",
+      sectionTitle: "Kids Reset Corner",
       title: "My Reset Prayer",
       subtitle: "Talk to God when you need to reset",
       sections: [
