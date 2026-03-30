@@ -720,6 +720,61 @@ export const initialWorkbookData: WorkbookData = {
         }
       ]
     },
+    // Activity - Section 2: Anchoring
+    {
+      id: "s2-act",
+      type: "reflection",
+      section: 2,
+      sectionTitle: "Tool 1: Anchoring",
+      title: "Activity: Know Your Cues & Co-Regulate",
+      subtitle: "Practice before the storm so you're ready when it hits",
+      sections: [
+        {
+          id: "s2-act-1",
+          type: "paragraph",
+          content: "Your body sends you signals when you're becoming dysregulated — a tight chest, clenched jaw, racing heart, shallow breathing. Learning to recognize these cues is the first step to anchoring yourself before reacting. Write down 5 things your body does when you start to feel overwhelmed:",
+          editable: false
+        },
+        {
+          id: "s2-act-2",
+          type: "header",
+          content: "My 5 Dysregulation Cues",
+          editable: false
+        },
+        {
+          id: "s2-act-3",
+          type: "list",
+          content: "",
+          editable: true,
+          items: ["1. _______________", "2. _______________", "3. _______________", "4. _______________", "5. _______________"]
+        },
+        {
+          id: "s2-act-4",
+          type: "paragraph",
+          content: "Now think about co-regulation — the things you can do WITH your child to help both of you calm down together. These might be deep breaths together, a tight hug, humming a song, going for a walk, or squeezing hands. Write down 5 co-regulation strategies you want to try:",
+          editable: false
+        },
+        {
+          id: "s2-act-5",
+          type: "header",
+          content: "My 5 Co-Regulation Strategies",
+          editable: false
+        },
+        {
+          id: "s2-act-6",
+          type: "list",
+          content: "",
+          editable: true,
+          items: ["1. _______________", "2. _______________", "3. _______________", "4. _______________", "5. _______________"]
+        },
+        {
+          id: "s2-act-7",
+          type: "quote",
+          content: "💡 Practice Tip: Try these strategies during calm moments — at bedtime, in the car, or during play. The more you practice when things are peaceful, the more naturally they'll come when emotions run high.",
+          editable: false
+        }
+      ]
+    },
 
     // ===============================
     // SECTION 3: TOOL 2 - VALIDATION
