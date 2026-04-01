@@ -1337,6 +1337,41 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "toddler-6-6",
+      section: 6,
+      sectionTitle: "Aggression & Hitting",
+      pageType: "reflection",
+      title: "Activity: Hands Are For Helping",
+      subtitle: "Teaching Gentle Touch & Safe Alternatives",
+      sections: [
+        { id: "t6-6-1", type: "paragraph", content: "When toddlers hit, they're communicating with their body because their words can't keep up. Use this sheet to plan your response and teach alternatives." },
+        { id: "t6-6-2", type: "header", content: "When My Child Hits, I Will Say:" },
+        { id: "t6-6-3", type: "list", items: [
+          "\"I won't let you hit. Hitting hurts.\"",
+          "\"You're upset. I'm going to keep everyone safe.\"",
+          "\"You can hit this pillow, but not people.\""
+        ]},
+        { id: "t6-6-4", type: "header", content: "Safe Alternatives to Teach" },
+        { id: "t6-6-5", type: "checklist", content: "Practice these BEFORE the moment:", items: [
+          "Stomp feet instead of hitting",
+          "Squeeze a stuffed animal tightly",
+          "Hit a pillow or cushion",
+          "Use words: \"I'm MAD!\"",
+          "Come to a parent for a big hug",
+          "Take deep \"dragon breaths\""
+        ]},
+        { id: "t6-6-6", type: "header", content: "Situations That Trigger Aggression" },
+        { id: "t6-6-7", type: "checklist", items: [
+          "______________________________________",
+          "______________________________________",
+          "______________________________________"
+        ]},
+        { id: "t6-6-8", type: "scripture", content: "\"They're not giving you a hard time — they're having a hard time. Teach, don't punish.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: TRANSITIONS & CHANGE
     // ============================================
