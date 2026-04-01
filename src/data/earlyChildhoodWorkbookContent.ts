@@ -1269,6 +1269,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "early-6-6",
+      section: 6,
+      sectionTitle: "Friendship Struggles",
+      pageType: "reflection",
+      title: "Activity: Friendship Skills Builder",
+      subtitle: "Practicing Social Skills at Home",
+      sections: [
+        { id: "e6-6-1", type: "paragraph", content: "Social skills are LEARNED, not automatic. Practice these with your child through role-play and real-life situations." },
+        { id: "e6-6-2", type: "subheader", content: "Skills to Practice" },
+        { id: "e6-6-3", type: "checklist", items: ["Joining a group: 'Can I play too?' + wait for the answer", "Sharing: Taking turns without a timer", "Handling exclusion: 'That hurt my feelings' + finding another friend", "Being a good loser: 'Good game!' even when you lose", "Apologizing: 'I'm sorry I ___, next time I'll ___'"] },
+        { id: "e6-6-4", type: "subheader", content: "Role-Play Scenarios" },
+        { id: "e6-6-5", type: "checklist", items: ["'What if someone says you can't play?' — practice responses", "'What if a friend says something mean?' — practice 'I' statements", "'What if you want to play something different?' — practice compromise"] },
+        { id: "e6-6-6", type: "subheader", content: "Friendship Wins This Week" },
+        { id: "e6-6-7", type: "checklist", items: ["A kind thing my child did for a friend: _______________", "A hard social moment they handled well: _______________", "A skill we practiced together: _______________"] },
+        { id: "e6-6-8", type: "scripture", content: "\"A friend loves at all times.\" — Proverbs 17:17" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: RESPONSIBILITY & CHORES
     // ============================================
