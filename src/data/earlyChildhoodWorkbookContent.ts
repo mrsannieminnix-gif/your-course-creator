@@ -1470,6 +1470,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
           ]
         }
       ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "early-7-6",
+      section: 7,
+      sectionTitle: "Responsibility & Chores",
+      pageType: "reflection",
+      title: "Activity: My Chore Chart Builder",
+      subtitle: "Building Responsibility with Routine",
+      sections: [
+        { id: "e7-6-1", type: "paragraph", content: "Work WITH your child to create a chore routine. Kids who help CHOOSE their tasks are more likely to follow through." },
+        { id: "e7-6-2", type: "subheader", content: "Age-Appropriate Chores (5-7)" },
+        { id: "e7-6-3", type: "checklist", items: ["Make their bed (it won't be perfect — that's okay!)", "Set or clear the table", "Feed a pet", "Put dirty clothes in the hamper", "Help sort laundry by color", "Water plants", "Pick up toys before bed"] },
+        { id: "e7-6-4", type: "subheader", content: "My Child's Chosen Chores" },
+        { id: "e7-6-5", type: "checklist", items: ["Morning chore: _______________", "After school chore: _______________", "Before bed chore: _______________"] },
+        { id: "e7-6-6", type: "subheader", content: "Keys to Success" },
+        { id: "e7-6-7", type: "list", items: ["Do it WITH them first, then let them try alone", "Use a visual checklist they can see", "Praise effort over perfection", "Be consistent — same chores, same time, every day"] },
+        { id: "e7-6-8", type: "scripture", content: "\"Whatever you do, work at it with all your heart.\" — Colossians 3:23" }
+      ]
     }
   ]
 };
