@@ -176,6 +176,104 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 1
+    {
+      id: "middle-1-5",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "m1-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "m1-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "By 8-12, they should have full self-control.", fact: "The brain is preparing for adolescence — executive function is stronger but still developing." },
+            { myth: "Pre-teens don't need as much connection.", fact: "They need it MORE, just differently. Emotional distance is often a sign they need you most." },
+            { myth: "They're too old for meltdowns.", fact: "Hormonal changes can create emotional volatility even in previously calm kids." },
+            { myth: "Peer influence is always negative.", fact: "Peers help develop identity and social skills — your job is to guide, not isolate." },
+            { myth: "They should handle problems on their own now.", fact: "They're learning to — but still need coaching, not abandonment." }
+          ]
+        }
+      ]
+    },
+
+    // Activity: Brain Diagram
+    {
+      id: "middle-1-6",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Activity: Share What You Learned",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "m1-6-1", type: "paragraph", content: "Print out these pages and share what you learned about the brain with one person — your spouse, your child, or a friend." },
+        { id: "m1-6-2", type: "faith-image", faithImage: { src: "toddler-brain-diagram", caption: "The Three Brain States in Your Child's Developing Brain" } },
+        { id: "m1-6-3", type: "paragraph", content: "Understanding which brain state your child is in helps you respond with the right tool. Even at 8-12, stress can push them into survival or emotional mode." },
+        { id: "m1-6-8", type: "subheader", content: "Who did you share this with? What was their reaction?" },
+        { id: "m1-6-9", type: "checklist", items: ["______________________________________", "______________________________________", "______________________________________"] }
+      ]
+    },
+
+    // Survival Brain
+    {
+      id: "middle-1-7",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔴 Survival Brain",
+      subtitle: "Brainstem — \"Am I Safe?\"",
+      sections: [
+        { id: "m1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
+        { id: "m1-7-2", type: "paragraph", content: "The brainstem controls fight, flight, and freeze. At 8-12, kids face new threats: social rejection, academic pressure, and body changes can all trigger survival mode." },
+        { id: "m1-7-4", type: "paragraph", content: "Core Question: \"AM I SAFE?\" — Until they feel safe, no learning or cooperation is possible." },
+        { id: "m1-7-6", type: "paragraph", content: "Need: SAFETY — physical and emotional security, especially during puberty changes." },
+        { id: "m1-7-7", type: "header", content: "Emotions & Triggers" },
+        { id: "m1-7-8", type: "list", items: ["Emotions: terror, panic, rage, shutdown", "Triggers: bullying, social humiliation, academic failure, family conflict", "Fight: arguing, defiance, verbal aggression", "Flight: withdrawing to room, avoiding school, escaping to screens", "Freeze: shutting down, 'I don't care', emotional numbness"] },
+        { id: "m1-7-13", type: "scripture", content: "\"They CANNOT think or listen in this state. Your only job is to help them feel safe again.\"" }
+      ]
+    },
+
+    // Emotional Brain
+    {
+      id: "middle-1-8",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🟡 Emotional Brain",
+      subtitle: "Limbic System — \"Am I Loved?\"",
+      sections: [
+        { id: "m1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
+        { id: "m1-8-2", type: "paragraph", content: "The limbic system processes feelings and attachment. At 8-12, identity formation and peer acceptance become dominant — emotions run high as they figure out who they are." },
+        { id: "m1-8-4", type: "paragraph", content: "Core Question: \"AM I LOVED? Do I belong?\" — They need connection before correction." },
+        { id: "m1-8-6", type: "paragraph", content: "Need: CONNECTION — feeling valued for who they are, not just what they achieve." },
+        { id: "m1-8-7", type: "header", content: "Emotions & Triggers" },
+        { id: "m1-8-8", type: "list", items: ["Emotions: insecurity, jealousy, embarrassment, longing to fit in", "Triggers: exclusion, comparison, body changes, parental criticism", "Signs: mood swings, door slamming, 'you don't understand'", "Seeking approval from peers over parents"] },
+        { id: "m1-8-13", type: "scripture", content: "\"They may push you away, but don't go far. They still need your steady presence.\"" }
+      ]
+    },
+
+    // Thinking Brain
+    {
+      id: "middle-1-9",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔵 Thinking Brain",
+      subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
+      sections: [
+        { id: "m1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
+        { id: "m1-9-2", type: "paragraph", content: "The prefrontal cortex handles reasoning and decision-making. At 8-12, abstract thinking emerges — they can think about thinking, question fairness, and understand consequences better." },
+        { id: "m1-9-4", type: "paragraph", content: "Core Question: \"WHAT CAN I LEARN?\" — This is where curiosity, moral reasoning, and problem-solving live." },
+        { id: "m1-9-6", type: "paragraph", content: "Need: GROWTH — increased autonomy, real responsibility, and trust." },
+        { id: "m1-9-7", type: "header", content: "Emotions & Triggers" },
+        { id: "m1-9-8", type: "list", items: ["Emotions: curiosity, pride, sense of justice, empathy", "Loses access when: stressed, shamed, overwhelmed, sleep-deprived", "Signs when active: debating ideas, taking initiative, showing leadership", "Developing their own moral compass and values"] },
+        { id: "m1-9-13", type: "scripture", content: "\"Your job is to create safety and connection so the thinking brain comes online naturally.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 2: PEER INFLUENCE & IDENTITY
     // ============================================
