@@ -839,6 +839,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "teen-4-6",
+      section: 4,
+      sectionTitle: "Romantic Relationships",
+      pageType: "reflection",
+      title: "Activity: Healthy Relationship Checklist",
+      subtitle: "Knowing What Love Looks Like",
+      sections: [
+        { id: "tn4-6-1", type: "paragraph", content: "Help your teen identify what healthy vs. unhealthy relationships look like — before they're in one." },
+        { id: "tn4-6-2", type: "subheader", content: "Signs of a Healthy Relationship" },
+        { id: "tn4-6-3", type: "checklist", items: ["They respect your boundaries", "You can be yourself around them", "They encourage your goals and friendships", "Disagreements are handled with respect, not control", "You feel safe and valued"] },
+        { id: "tn4-6-4", type: "subheader", content: "Red Flags to Watch For" },
+        { id: "tn4-6-5", type: "checklist", items: ["They isolate you from friends/family", "They make you feel guilty for having boundaries", "They check your phone or demand to know where you are constantly", "You feel like you're walking on eggshells", "They use anger or silence to control you"] },
+        { id: "tn4-6-6", type: "subheader", content: "Discussion with My Teen" },
+        { id: "tn4-6-7", type: "checklist", items: ["What does respect look like in a relationship?", "What would you do if a partner crossed a boundary?", "What do you see in OUR relationship that you want to repeat?"] },
+        { id: "tn4-6-8", type: "scripture", content: "\"Love is patient, love is kind. It does not envy, it does not boast.\" — 1 Corinthians 13:4" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: MENTAL HEALTH
     // ============================================
