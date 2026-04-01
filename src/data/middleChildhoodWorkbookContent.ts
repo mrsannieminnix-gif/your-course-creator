@@ -644,6 +644,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 3
+    {
+      id: "middle-3-6",
+      section: 3,
+      sectionTitle: "Academic Pressure",
+      pageType: "reflection",
+      title: "Activity: Study Success Plan",
+      subtitle: "Building Healthy Learning Habits",
+      sections: [
+        { id: "m3-6-1", type: "paragraph", content: "Work with your child to create a study plan that reduces stress and builds confidence — focusing on effort, not perfection." },
+        { id: "m3-6-2", type: "subheader", content: "My Learning Style" },
+        { id: "m3-6-3", type: "checklist", items: ["I learn best by: seeing / hearing / doing (circle one)", "My best study time is: _______________", "I need breaks every ___ minutes", "My biggest school stress is: _______________"] },
+        { id: "m3-6-4", type: "subheader", content: "Homework Routine" },
+        { id: "m3-6-5", type: "checklist", items: ["Snack and decompress for 15 min after school", "Start homework at the same time each day: ___", "Break big tasks into small chunks", "Celebrate finishing, not just getting A's"] },
+        { id: "m3-6-6", type: "subheader", content: "Parent Phrases to Use" },
+        { id: "m3-6-7", type: "list", items: ["'I'm proud of how hard you worked on that.'", "'What part was hardest? How did you push through?'", "'Mistakes are how your brain grows.'", "'Your worth is not your grade.'"] },
+        { id: "m3-6-8", type: "scripture", content: "\"Whatever you do, work at it with all your heart.\" — Colossians 3:23" }
+      ]
+    },
+
     // ============================================
     // SECTION 4: TECHNOLOGY & SCREENS
     // ============================================
