@@ -958,6 +958,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 5
+    {
+      id: "middle-5-5", section: 5, sectionTitle: "Body Image & Puberty", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Body Image & Puberty",
+      sections: [
+        { id: "m5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m5-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "They're too young to worry about body image.", fact: "Body awareness and comparison begin as early as age 8." },
+          { myth: "Puberty talks should be one big conversation.", fact: "Many small, ongoing conversations are more effective and less overwhelming." },
+          { myth: "Boys don't struggle with body image.", fact: "Boys face pressure about size, strength, and appearance just as girls do." },
+          { myth: "If you don't talk about it, they won't think about it.", fact: "They'll learn from peers and media — better it comes from you." },
+          { myth: "Early puberty means they're emotionally mature.", fact: "Physical development far outpaces emotional maturity." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 6: EMOTIONAL REGULATION
     // ============================================
