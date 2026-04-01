@@ -176,6 +176,104 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 1
+    {
+      id: "teen-1-5",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "tn1-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "tn1-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Teens are just being difficult on purpose.", fact: "Their brain is under major construction — risk-taking and emotional intensity are biologically driven." },
+            { myth: "They don't need you anymore.", fact: "They need you differently — as a consultant, not a manager. Your presence still matters deeply." },
+            { myth: "The prefrontal cortex is fully developed by now.", fact: "It won't fully mature until the mid-20s. They genuinely struggle with long-term thinking." },
+            { myth: "They should know better at this age.", fact: "Knowing and doing are different brain functions. The gap between them is normal in teens." },
+            { myth: "Strict control prevents risky behavior.", fact: "Connection and trust are more protective than control. Teens rebel against control but lean into relationship." }
+          ]
+        }
+      ]
+    },
+
+    // Activity: Brain Diagram
+    {
+      id: "teen-1-6",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Activity: Share What You Learned",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "tn1-6-1", type: "paragraph", content: "Print out these pages and share what you learned about the brain with one person — your spouse, your teen, or a friend." },
+        { id: "tn1-6-2", type: "faith-image", faithImage: { src: "toddler-brain-diagram", caption: "The Three Brain States in Your Teen's Developing Brain" } },
+        { id: "tn1-6-3", type: "paragraph", content: "Understanding which brain state your teen is in changes everything. You can't lecture a survival brain or reason with an emotional one." },
+        { id: "tn1-6-8", type: "subheader", content: "Who did you share this with? What was their reaction?" },
+        { id: "tn1-6-9", type: "checklist", items: ["______________________________________", "______________________________________", "______________________________________"] }
+      ]
+    },
+
+    // Survival Brain
+    {
+      id: "teen-1-7",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔴 Survival Brain",
+      subtitle: "Brainstem — \"Am I Safe?\"",
+      sections: [
+        { id: "tn1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
+        { id: "tn1-7-2", type: "paragraph", content: "The brainstem controls fight, flight, and freeze. In teens, survival mode can be triggered by social threats, family conflict, or feeling out of control — not just physical danger." },
+        { id: "tn1-7-4", type: "paragraph", content: "Core Question: \"AM I SAFE?\" — Until they feel safe, no conversation or correction will land." },
+        { id: "tn1-7-6", type: "paragraph", content: "Need: SAFETY — emotional security, non-judgmental presence, predictability at home." },
+        { id: "tn1-7-7", type: "header", content: "Emotions & Triggers" },
+        { id: "tn1-7-8", type: "list", items: ["Emotions: panic, rage, numbness, desperation", "Triggers: public humiliation, family instability, breakups, academic failure", "Fight: explosive anger, verbal attacks, door slamming", "Flight: leaving the house, escaping to substances or screens", "Freeze: depression, dissociation, 'I don't care about anything'"] },
+        { id: "tn1-7-13", type: "scripture", content: "\"They CANNOT process your words in this state. Be safe. Be calm. Be present.\"" }
+      ]
+    },
+
+    // Emotional Brain
+    {
+      id: "teen-1-8",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🟡 Emotional Brain",
+      subtitle: "Limbic System — \"Am I Loved?\"",
+      sections: [
+        { id: "tn1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
+        { id: "tn1-8-2", type: "paragraph", content: "The limbic system processes feelings and drives belonging. In teens, this system is hyperactive — they feel everything at maximum intensity while identity and peer acceptance dominate." },
+        { id: "tn1-8-4", type: "paragraph", content: "Core Question: \"AM I LOVED? Do I matter?\" — They need to know your love isn't conditional on performance." },
+        { id: "tn1-8-6", type: "paragraph", content: "Need: CONNECTION — unconditional acceptance, being heard without being fixed." },
+        { id: "tn1-8-7", type: "header", content: "Emotions & Triggers" },
+        { id: "tn1-8-8", type: "list", items: ["Emotions: insecurity, shame, longing, heartbreak, identity confusion", "Triggers: rejection, comparison on social media, parental disappointment", "Signs: withdrawing, mood swings, 'you wouldn't understand'", "Testing boundaries to see if your love has limits"] },
+        { id: "tn1-8-13", type: "scripture", content: "\"They may push hardest when they need you most. Don't take the bait — stay connected.\"" }
+      ]
+    },
+
+    // Thinking Brain
+    {
+      id: "teen-1-9",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔵 Thinking Brain",
+      subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
+      sections: [
+        { id: "tn1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
+        { id: "tn1-9-2", type: "paragraph", content: "The prefrontal cortex handles reasoning, planning, and moral decision-making. In teens, it's maturing rapidly but still losing the battle to the reward center — which is why they take risks they 'know' are dangerous." },
+        { id: "tn1-9-4", type: "paragraph", content: "Core Question: \"WHAT CAN I LEARN? Who am I becoming?\" — This is where values, vision, and purpose take shape." },
+        { id: "tn1-9-6", type: "paragraph", content: "Need: GROWTH — real autonomy, meaningful responsibility, and trust to fail and recover." },
+        { id: "tn1-9-7", type: "header", content: "Emotions & Triggers" },
+        { id: "tn1-9-8", type: "list", items: ["Emotions: ambition, idealism, passion, empathy, purpose", "Loses access when: exhausted, shamed, micromanaged, anxious", "Signs when active: setting goals, debating ideas, mentoring younger kids", "Developing their own worldview and moral framework"] },
+        { id: "tn1-9-13", type: "scripture", content: "\"Your job is shifting from manager to consultant. Trust the foundation you've built.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 2: COMMUNICATION BREAKDOWN
     // ============================================
@@ -332,6 +430,22 @@ export const teenWorkbookData: WorkbookData = {
           type: "quote",
           content: "They may not walk through the door today. Make sure it's always open."
         }
+      ]
+    },
+
+    // Facts & Myths - Section 2
+    {
+      id: "teen-2-5", section: 2, sectionTitle: "Communication Breakdown", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Communication Breakdown",
+      sections: [
+        { id: "tn2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn2-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "If they won't talk, they don't care.", fact: "Silence often means they're processing or don't feel safe to share." },
+          { myth: "You should demand eye contact and respect.", fact: "Side-by-side conversations (car rides, walks) work better than face-to-face confrontation." },
+          { myth: "Teens should communicate like adults.", fact: "Their communication skills are still developing alongside their brain." },
+          { myth: "If you give them space, they'll come to you.", fact: "Stay gently present. They need to know the door is open without pressure." },
+          { myth: "Lecturing is teaching.", fact: "They stop listening after 30 seconds. Ask questions instead." }
+        ]}
       ]
     },
 
@@ -494,6 +608,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 3
+    {
+      id: "teen-3-5", section: 3, sectionTitle: "Risky Behavior", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Risky Behavior",
+      sections: [
+        { id: "tn3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn3-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Risk-taking means they have bad character.", fact: "The reward center of the brain overpowers the logic center — it's biological, not moral failure." },
+          { myth: "Scaring them straight works.", fact: "Fear-based approaches increase secrecy, not safety." },
+          { myth: "If you trust them, you're being naive.", fact: "Trust WITH verification builds responsibility. Suspicion destroys connection." },
+          { myth: "Good kids don't take risks.", fact: "ALL teens take risks — it's how the brain learns to assess danger." },
+          { myth: "Strict rules prevent risky behavior.", fact: "A strong relationship is more protective than strict rules alone." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 4: ROMANTIC RELATIONSHIPS
     // ============================================
@@ -650,6 +780,22 @@ export const teenWorkbookData: WorkbookData = {
           type: "quote",
           content: "How you respond to their first love determines if they'll tell you about the next one."
         }
+      ]
+    },
+
+    // Facts & Myths - Section 4
+    {
+      id: "teen-4-5", section: 4, sectionTitle: "Romantic Relationships", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Romantic Relationships",
+      sections: [
+        { id: "tn4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn4-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Teen relationships aren't real or important.", fact: "First relationships shape their template for love and attachment." },
+          { myth: "Forbidding dating keeps them safe.", fact: "It drives relationships underground where you can't guide them." },
+          { myth: "They're too young to feel heartbreak.", fact: "Teen heartbreak is neurologically as intense as adult heartbreak." },
+          { myth: "If you talk about it, you're encouraging it.", fact: "Open conversations build trust and help them make wise choices." },
+          { myth: "They'll figure relationships out on their own.", fact: "They learn what love looks like by watching YOUR relationship." }
+        ]}
       ]
     },
 
@@ -812,6 +958,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 5
+    {
+      id: "teen-5-5", section: 5, sectionTitle: "Mental Health", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Mental Health",
+      sections: [
+        { id: "tn5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn5-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Depression is just a phase.", fact: "Teen depression is a real medical condition that deserves professional attention." },
+          { myth: "Talking about suicide gives them ideas.", fact: "Asking directly shows you care and can be life-saving." },
+          { myth: "Anxiety means they can't handle life.", fact: "Anxiety is the brain's alarm system — it needs recalibration, not dismissal." },
+          { myth: "They should be able to pray it away.", fact: "Faith and professional help work together. Seeking help IS trusting God's provision." },
+          { myth: "It's just hormones — they'll grow out of it.", fact: "Some will, but many need support now. Early intervention has the best outcomes." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 6: FAITH & WORLDVIEW
     // ============================================
@@ -971,6 +1133,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 6
+    {
+      id: "teen-6-5", section: 6, sectionTitle: "Faith & Worldview", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Faith & Worldview",
+      sections: [
+        { id: "tn6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn6-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "If they question faith, they're losing it.", fact: "Questioning is a sign of maturing faith, not abandoning it." },
+          { myth: "You should force church attendance.", fact: "Forced faith creates resentment. Modeled faith creates curiosity." },
+          { myth: "Doubt is the opposite of faith.", fact: "Doubt is the soil where deeper faith can grow — if met with grace." },
+          { myth: "They should believe exactly what you believe.", fact: "They need to own their faith, not just inherit yours." },
+          { myth: "Exposure to other worldviews is dangerous.", fact: "Understanding other perspectives strengthens — not weakens — their convictions." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 7: LAUNCHING WELL
     // ============================================
@@ -1127,6 +1305,22 @@ export const teenWorkbookData: WorkbookData = {
           type: "quote",
           content: "You've given them roots. Now watch them grow wings."
         }
+      ]
+    },
+
+    // Facts & Myths - Section 7
+    {
+      id: "teen-7-5", section: 7, sectionTitle: "Launching Well", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Launching Well",
+      sections: [
+        { id: "tn7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn7-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "They should have it all figured out by 18.", fact: "Brain development continues until 25. They're still becoming who they'll be." },
+          { myth: "If they fail after launch, you failed as a parent.", fact: "Failure is part of growth. Your job was to prepare them, not prevent struggle." },
+          { myth: "Letting go means letting go of the relationship.", fact: "Letting go of control deepens the relationship into adult friendship." },
+          { myth: "They don't need your input anymore.", fact: "They need your wisdom — just delivered as advice, not instruction." },
+          { myth: "A successful launch means they never come back.", fact: "Healthy launching includes knowing they can always come home." }
+        ]}
       ]
     }
   ]

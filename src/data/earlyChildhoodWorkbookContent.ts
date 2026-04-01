@@ -176,6 +176,104 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 1
+    {
+      id: "early-1-5",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "e1-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e1-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "By age 5, kids should have full self-control.", fact: "The prefrontal cortex is still developing — impulse control is a work in progress until the mid-20s." },
+            { myth: "If they can read, they should be emotionally mature.", fact: "Academic and emotional development happen on completely different timelines." },
+            { myth: "School-age kids don't need co-regulation anymore.", fact: "They still need your calm presence, especially during transitions and social stress." },
+            { myth: "Comparing them to peers motivates them.", fact: "Comparison creates shame. Encouragement based on their unique growth builds confidence." },
+            { myth: "They should just toughen up for school.", fact: "Emotional safety at home is what gives them courage to face challenges at school." }
+          ]
+        }
+      ]
+    },
+
+    // Activity: Brain Diagram
+    {
+      id: "early-1-6",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Activity: Share What You Learned",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "e1-6-1", type: "paragraph", content: "Print out these pages and share what you learned about the brain with one person — your spouse, your child, or a friend." },
+        { id: "e1-6-2", type: "faith-image", faithImage: { src: "toddler-brain-diagram", caption: "The Three Brain States in Your Child's Developing Brain" } },
+        { id: "e1-6-3", type: "paragraph", content: "Understanding which brain state your child is in helps you respond with the right tool. You can't reason with a survival brain — you can only provide safety and co-regulation first." },
+        { id: "e1-6-8", type: "subheader", content: "Who did you share this with? What was their reaction?" },
+        { id: "e1-6-9", type: "checklist", items: ["______________________________________", "______________________________________", "______________________________________"] }
+      ]
+    },
+
+    // Survival Brain
+    {
+      id: "early-1-7",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔴 Survival Brain",
+      subtitle: "Brainstem — \"Am I Safe?\"",
+      sections: [
+        { id: "e1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
+        { id: "e1-7-2", type: "paragraph", content: "The brainstem controls fight, flight, and freeze. At ages 5-7, this alarm system is fully developed and activates quickly during stress, even though higher brain functions are still catching up." },
+        { id: "e1-7-4", type: "paragraph", content: "Core Question: \"AM I SAFE?\" — Until they feel safe, no learning or cooperation is possible." },
+        { id: "e1-7-6", type: "paragraph", content: "Need: SAFETY — a calm voice, predictability, and knowing someone is in charge." },
+        { id: "e1-7-7", type: "header", content: "Emotions & Triggers" },
+        { id: "e1-7-8", type: "list", items: ["Emotions: terror, panic, rage, shutdown", "Triggers: yelling, new school situations, bullying, feeling abandoned", "Fight: hitting, yelling back, defiance", "Flight: running to room, hiding, avoiding", "Freeze: shutting down, going silent, 'I don't know'"] },
+        { id: "e1-7-13", type: "scripture", content: "\"They CANNOT think or listen in this state. Your only job is to help them feel safe again.\"" }
+      ]
+    },
+
+    // Emotional Brain
+    {
+      id: "early-1-8",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🟡 Emotional Brain",
+      subtitle: "Limbic System — \"Am I Loved?\"",
+      sections: [
+        { id: "e1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
+        { id: "e1-8-2", type: "paragraph", content: "The limbic system processes feelings and attachment. At ages 5-7, social comparison begins and peer acceptance matters more, making this brain region highly active." },
+        { id: "e1-8-4", type: "paragraph", content: "Core Question: \"AM I LOVED? Do I belong?\" — They need connection before correction." },
+        { id: "e1-8-6", type: "paragraph", content: "Need: CONNECTION — feeling seen, heard, and valued, especially after school." },
+        { id: "e1-8-7", type: "header", content: "Emotions & Triggers" },
+        { id: "e1-8-8", type: "list", items: ["Emotions: sadness, jealousy, frustration, anxiety, shame", "Triggers: feeling left out, comparison to siblings/peers, academic struggles", "Signs: crying after school, clingy behavior, 'nobody likes me'", "Seeking reassurance: 'Am I good? Did I do it right?'"] },
+        { id: "e1-8-13", type: "scripture", content: "\"Their big emotions are not the problem — they are the invitation to connect.\"" }
+      ]
+    },
+
+    // Thinking Brain
+    {
+      id: "early-1-9",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔵 Thinking Brain",
+      subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
+      sections: [
+        { id: "e1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
+        { id: "e1-9-2", type: "paragraph", content: "The prefrontal cortex handles reasoning and impulse control. At ages 5-7, it's growing fast — they can follow multi-step instructions and think logically, but still lose access under stress." },
+        { id: "e1-9-4", type: "paragraph", content: "Core Question: \"WHAT CAN I LEARN?\" — This is where curiosity, creativity, and growth live." },
+        { id: "e1-9-6", type: "paragraph", content: "Need: GROWTH — opportunities to problem-solve, make choices, and learn from mistakes." },
+        { id: "e1-9-7", type: "header", content: "Emotions & Triggers" },
+        { id: "e1-9-8", type: "list", items: ["Emotions: curiosity, pride, confidence, patience, empathy", "Loses access when: stressed, tired, hungry, shamed, overwhelmed", "Signs when active: asking 'why?', trying new things, following rules", "Shows empathy and solves problems independently"] },
+        { id: "e1-9-13", type: "scripture", content: "\"Your job is to create safety and connection so the thinking brain comes online naturally.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 2: LYING & HONESTY
     // ============================================
@@ -331,6 +429,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
           id: "e2-4-4",
           type: "quote",
           content: "Children lie to protect themselves. Make truth the safer option."
+        }
+      ]
+    },
+
+    // Facts & Myths - Section 2
+    {
+      id: "early-2-5",
+      section: 2,
+      sectionTitle: "Lying & Honesty",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Lying & Honesty",
+      sections: [
+        { id: "e2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e2-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Kids who lie are bad kids.", fact: "Lying is a normal developmental milestone that shows cognitive growth." },
+            { myth: "You should punish every lie harshly.", fact: "Harsh punishment makes kids better liars, not more honest." },
+            { myth: "If they lie once, they'll always lie.", fact: "How you respond to lies shapes whether honesty feels safe." },
+            { myth: "Good kids never lie.", fact: "All children lie — it's how they test boundaries and learn social rules." },
+            { myth: "They should confess immediately when caught.", fact: "Fear prevents confession. Safety and connection invite honesty." }
+          ]
         }
       ]
     },
@@ -494,6 +616,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 3
+    {
+      id: "early-3-5",
+      section: 3,
+      sectionTitle: "School Anxiety",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "School Anxiety",
+      sections: [
+        { id: "e3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e3-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "School anxiety means your child is weak.", fact: "Anxiety is a sign of a sensitive nervous system, not weakness." },
+            { myth: "Pushing them harder builds resilience.", fact: "Pushing a stressed child deeper into stress causes shutdown, not growth." },
+            { myth: "They'll just get over it.", fact: "Unaddressed anxiety often intensifies. Co-regulation helps it resolve." },
+            { myth: "Good students don't feel anxious.", fact: "High-achieving kids often feel the MOST anxiety about performance." },
+            { myth: "If they cry at drop-off, you should leave faster.", fact: "A calm, connected goodbye builds security. Rushing increases panic." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 4: SIBLING CONFLICT
     // ============================================
@@ -649,6 +795,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
           id: "e4-4-4",
           type: "quote",
           content: "Your job is to coach them, not to referee every game."
+        }
+      ]
+    },
+
+    // Facts & Myths - Section 4
+    {
+      id: "early-4-5",
+      section: 4,
+      sectionTitle: "Sibling Conflict",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Sibling Conflict",
+      sections: [
+        { id: "e4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e4-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Siblings should naturally get along.", fact: "Sibling conflict is normal and actually teaches negotiation skills." },
+            { myth: "You should always find out who started it.", fact: "Focusing on 'who started it' creates competition, not resolution." },
+            { myth: "Treating them exactly the same is fair.", fact: "Fair means giving each child what THEY need, not identical treatment." },
+            { myth: "They fight because they don't love each other.", fact: "They fight because they're learning to share space, attention, and resources." },
+            { myth: "Punishing both kids stops the fighting.", fact: "Teaching conflict resolution skills prevents future fights." }
+          ]
         }
       ]
     },
@@ -812,6 +982,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 5
+    {
+      id: "early-5-5",
+      section: 5,
+      sectionTitle: "Emotional Outbursts",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Emotional Outbursts",
+      sections: [
+        { id: "e5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e5-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "By 5-7, they should control their emotions.", fact: "Emotional regulation is still developing. Meltdowns are normal at this age." },
+            { myth: "Ignoring outbursts makes them stop.", fact: "Ignoring teaches them their emotions don't matter, not how to manage them." },
+            { myth: "They're being dramatic on purpose.", fact: "Their emotional brain is still dominant. The feelings are 100% real to them." },
+            { myth: "Sending them to their room teaches regulation.", fact: "Isolation during distress teaches them to suppress, not regulate." },
+            { myth: "If you comfort them, you're rewarding the behavior.", fact: "Comfort teaches them emotions are safe, which builds true regulation." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 6: FRIENDSHIP STRUGGLES
     // ============================================
@@ -971,6 +1165,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 6
+    {
+      id: "early-6-5",
+      section: 6,
+      sectionTitle: "Friendship Struggles",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Friendship Struggles",
+      sections: [
+        { id: "e6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e6-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Popular kids are the happiest.", fact: "One or two close friendships matter more than popularity." },
+            { myth: "You should fix their friendship problems.", fact: "Coaching them through it builds lifelong social skills." },
+            { myth: "If they're excluded, something is wrong with them.", fact: "Social dynamics at this age are fluid. Exclusion is often situational." },
+            { myth: "They should be friends with everyone.", fact: "Learning to choose healthy friendships is a critical life skill." },
+            { myth: "Telling them to 'just be nice' solves everything.", fact: "They need specific social skills taught and practiced." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 7: RESPONSIBILITY & CHORES
     // ============================================
@@ -1126,6 +1344,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
           id: "e7-4-4",
           type: "quote",
           content: "You're not just getting a clean house - you're building a capable adult."
+        }
+      ]
+    },
+
+    // Facts & Myths - Section 7
+    {
+      id: "early-7-5",
+      section: 7,
+      sectionTitle: "Responsibility & Chores",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Responsibility & Chores",
+      sections: [
+        { id: "e7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e7-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Kids should do chores without being asked.", fact: "Executive function is still developing — they need reminders and routines." },
+            { myth: "If they don't do it right, they're being lazy.", fact: "Their skills are still developing. Progress matters more than perfection." },
+            { myth: "Rewards and allowance are bribes.", fact: "Age-appropriate incentives teach the connection between work and reward." },
+            { myth: "They should just know what needs to be done.", fact: "They need to be taught, modeled, and practiced alongside you." },
+            { myth: "Nagging is the only way to get them to help.", fact: "Visual checklists and routines reduce the need for verbal reminders." }
+          ]
         }
       ]
     }

@@ -176,6 +176,104 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 1
+    {
+      id: "middle-1-5",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "m1-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "m1-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "By 8-12, they should have full self-control.", fact: "The brain is preparing for adolescence — executive function is stronger but still developing." },
+            { myth: "Pre-teens don't need as much connection.", fact: "They need it MORE, just differently. Emotional distance is often a sign they need you most." },
+            { myth: "They're too old for meltdowns.", fact: "Hormonal changes can create emotional volatility even in previously calm kids." },
+            { myth: "Peer influence is always negative.", fact: "Peers help develop identity and social skills — your job is to guide, not isolate." },
+            { myth: "They should handle problems on their own now.", fact: "They're learning to — but still need coaching, not abandonment." }
+          ]
+        }
+      ]
+    },
+
+    // Activity: Brain Diagram
+    {
+      id: "middle-1-6",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Activity: Share What You Learned",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "m1-6-1", type: "paragraph", content: "Print out these pages and share what you learned about the brain with one person — your spouse, your child, or a friend." },
+        { id: "m1-6-2", type: "faith-image", faithImage: { src: "toddler-brain-diagram", caption: "The Three Brain States in Your Child's Developing Brain" } },
+        { id: "m1-6-3", type: "paragraph", content: "Understanding which brain state your child is in helps you respond with the right tool. Even at 8-12, stress can push them into survival or emotional mode." },
+        { id: "m1-6-8", type: "subheader", content: "Who did you share this with? What was their reaction?" },
+        { id: "m1-6-9", type: "checklist", items: ["______________________________________", "______________________________________", "______________________________________"] }
+      ]
+    },
+
+    // Survival Brain
+    {
+      id: "middle-1-7",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔴 Survival Brain",
+      subtitle: "Brainstem — \"Am I Safe?\"",
+      sections: [
+        { id: "m1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
+        { id: "m1-7-2", type: "paragraph", content: "The brainstem controls fight, flight, and freeze. At 8-12, kids face new threats: social rejection, academic pressure, and body changes can all trigger survival mode." },
+        { id: "m1-7-4", type: "paragraph", content: "Core Question: \"AM I SAFE?\" — Until they feel safe, no learning or cooperation is possible." },
+        { id: "m1-7-6", type: "paragraph", content: "Need: SAFETY — physical and emotional security, especially during puberty changes." },
+        { id: "m1-7-7", type: "header", content: "Emotions & Triggers" },
+        { id: "m1-7-8", type: "list", items: ["Emotions: terror, panic, rage, shutdown", "Triggers: bullying, social humiliation, academic failure, family conflict", "Fight: arguing, defiance, verbal aggression", "Flight: withdrawing to room, avoiding school, escaping to screens", "Freeze: shutting down, 'I don't care', emotional numbness"] },
+        { id: "m1-7-13", type: "scripture", content: "\"They CANNOT think or listen in this state. Your only job is to help them feel safe again.\"" }
+      ]
+    },
+
+    // Emotional Brain
+    {
+      id: "middle-1-8",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🟡 Emotional Brain",
+      subtitle: "Limbic System — \"Am I Loved?\"",
+      sections: [
+        { id: "m1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
+        { id: "m1-8-2", type: "paragraph", content: "The limbic system processes feelings and attachment. At 8-12, identity formation and peer acceptance become dominant — emotions run high as they figure out who they are." },
+        { id: "m1-8-4", type: "paragraph", content: "Core Question: \"AM I LOVED? Do I belong?\" — They need connection before correction." },
+        { id: "m1-8-6", type: "paragraph", content: "Need: CONNECTION — feeling valued for who they are, not just what they achieve." },
+        { id: "m1-8-7", type: "header", content: "Emotions & Triggers" },
+        { id: "m1-8-8", type: "list", items: ["Emotions: insecurity, jealousy, embarrassment, longing to fit in", "Triggers: exclusion, comparison, body changes, parental criticism", "Signs: mood swings, door slamming, 'you don't understand'", "Seeking approval from peers over parents"] },
+        { id: "m1-8-13", type: "scripture", content: "\"They may push you away, but don't go far. They still need your steady presence.\"" }
+      ]
+    },
+
+    // Thinking Brain
+    {
+      id: "middle-1-9",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔵 Thinking Brain",
+      subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
+      sections: [
+        { id: "m1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
+        { id: "m1-9-2", type: "paragraph", content: "The prefrontal cortex handles reasoning and decision-making. At 8-12, abstract thinking emerges — they can think about thinking, question fairness, and understand consequences better." },
+        { id: "m1-9-4", type: "paragraph", content: "Core Question: \"WHAT CAN I LEARN?\" — This is where curiosity, moral reasoning, and problem-solving live." },
+        { id: "m1-9-6", type: "paragraph", content: "Need: GROWTH — increased autonomy, real responsibility, and trust." },
+        { id: "m1-9-7", type: "header", content: "Emotions & Triggers" },
+        { id: "m1-9-8", type: "list", items: ["Emotions: curiosity, pride, sense of justice, empathy", "Loses access when: stressed, shamed, overwhelmed, sleep-deprived", "Signs when active: debating ideas, taking initiative, showing leadership", "Developing their own moral compass and values"] },
+        { id: "m1-9-13", type: "scripture", content: "\"Your job is to create safety and connection so the thinking brain comes online naturally.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 2: PEER INFLUENCE & IDENTITY
     // ============================================
@@ -332,6 +430,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           type: "quote",
           content: "They're not replacing you - they're expanding. Be their constant home base."
         }
+      ]
+    },
+
+    // Facts & Myths - Section 2
+    {
+      id: "middle-2-5", section: 2, sectionTitle: "Peer Influence & Identity", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Peer Influence & Identity",
+      sections: [
+        { id: "m2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m2-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Peer pressure is always bad.", fact: "Positive peer influence builds social skills, empathy, and healthy identity." },
+          { myth: "If they change who they are around friends, they're fake.", fact: "Identity exploration is normal — they're trying on different versions of themselves." },
+          { myth: "You should choose their friends for them.", fact: "Guiding without controlling teaches them to evaluate relationships themselves." },
+          { myth: "They don't care what you think anymore.", fact: "Your opinion still matters deeply, even when they act like it doesn't." },
+          { myth: "Fitting in is the same as belonging.", fact: "Fitting in means changing yourself. Belonging means being accepted as you are." }
+        ]}
       ]
     },
 
@@ -494,6 +608,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 3
+    {
+      id: "middle-3-5", section: 3, sectionTitle: "Academic Pressure", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Academic Pressure",
+      sections: [
+        { id: "m3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m3-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Grades reflect intelligence.", fact: "Grades reflect a mix of effort, environment, and executive function development." },
+          { myth: "More homework means more learning.", fact: "Research shows diminishing returns — quality matters more than quantity." },
+          { myth: "Pressure motivates kids.", fact: "Excessive pressure creates anxiety and avoidance, not motivation." },
+          { myth: "If they struggle, they need a tutor immediately.", fact: "Sometimes they need emotional support and co-regulation first." },
+          { myth: "Their grades determine their future.", fact: "Character, resilience, and relationships predict success more than GPA." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 4: TECHNOLOGY & SCREENS
     // ============================================
@@ -650,6 +780,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           type: "quote",
           content: "You're not just limiting screens - you're building their self-control muscle."
         }
+      ]
+    },
+
+    // Facts & Myths - Section 4
+    {
+      id: "middle-4-5", section: 4, sectionTitle: "Technology & Screens", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Technology & Screens",
+      sections: [
+        { id: "m4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m4-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "All screen time is harmful.", fact: "The TYPE of screen use matters more than the amount." },
+          { myth: "Taking devices away solves everything.", fact: "Removing without teaching digital literacy creates sneaky behavior." },
+          { myth: "They need a phone to fit in.", fact: "Social connection can happen without a personal device at this age." },
+          { myth: "Parental controls are enough.", fact: "Ongoing conversations about online safety matter more than filters alone." },
+          { myth: "Video games always cause aggression.", fact: "Context matters — many games build problem-solving and teamwork skills." }
+        ]}
       ]
     },
 
@@ -812,6 +958,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 5
+    {
+      id: "middle-5-5", section: 5, sectionTitle: "Body Image & Puberty", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Body Image & Puberty",
+      sections: [
+        { id: "m5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m5-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "They're too young to worry about body image.", fact: "Body awareness and comparison begin as early as age 8." },
+          { myth: "Puberty talks should be one big conversation.", fact: "Many small, ongoing conversations are more effective and less overwhelming." },
+          { myth: "Boys don't struggle with body image.", fact: "Boys face pressure about size, strength, and appearance just as girls do." },
+          { myth: "If you don't talk about it, they won't think about it.", fact: "They'll learn from peers and media — better it comes from you." },
+          { myth: "Early puberty means they're emotionally mature.", fact: "Physical development far outpaces emotional maturity." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 6: EMOTIONAL REGULATION
     // ============================================
@@ -971,6 +1133,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 6
+    {
+      id: "middle-6-5", section: 6, sectionTitle: "Emotional Regulation", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Emotional Regulation",
+      sections: [
+        { id: "m6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m6-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "By 8-12, they should manage emotions independently.", fact: "They're building skills but still need coaching during intense emotions." },
+          { myth: "Anger is a bad emotion.", fact: "Anger is a signal. Teaching them to listen to it is healthier than suppressing it." },
+          { myth: "If they cry, they're being manipulative.", fact: "Tears are an emotional release, not a strategy." },
+          { myth: "Tough love builds emotional strength.", fact: "Warmth and boundaries together build the strongest emotional resilience." },
+          { myth: "Talking about feelings makes boys weak.", fact: "Emotional literacy in boys prevents aggression and builds healthier relationships." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 7: BUILDING CHARACTER
     // ============================================
@@ -1127,6 +1305,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           type: "quote",
           content: "You're not just managing behavior - you're shaping a soul."
         }
+      ]
+    },
+
+    // Facts & Myths - Section 7
+    {
+      id: "middle-7-5", section: 7, sectionTitle: "Building Character", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Building Character",
+      sections: [
+        { id: "m7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m7-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Character is something you're born with.", fact: "Character is built through experience, modeling, and intentional teaching." },
+          { myth: "Lecturing builds character.", fact: "Living it in front of them is far more powerful than talking about it." },
+          { myth: "Kids this age are too young for real responsibility.", fact: "8-12 is the prime window for building habits of integrity and service." },
+          { myth: "If they make mistakes, the lessons didn't stick.", fact: "Mistakes ARE the lessons. How you respond shapes their character more." },
+          { myth: "Character building is the school's job.", fact: "Home is where character is forged — school reinforces what you model." }
+        ]}
       ]
     }
   ]
