@@ -660,6 +660,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 3
+    {
+      id: "early-3-6",
+      section: 3,
+      sectionTitle: "School Anxiety",
+      pageType: "reflection",
+      title: "Activity: My Brave Plan",
+      subtitle: "Building a Coping Toolkit",
+      sections: [
+        { id: "e3-6-1", type: "paragraph", content: "Help your child build a personalized anxiety toolkit they can use before, during, and after school." },
+        { id: "e3-6-2", type: "subheader", content: "Before School — Calming Routine" },
+        { id: "e3-6-3", type: "checklist", items: ["5 deep belly breaths together", "A special goodbye handshake or phrase", "Pack a comfort item (photo, note, small toy)", "Review the day's schedule so they know what to expect"] },
+        { id: "e3-6-4", type: "subheader", content: "During School — Brave Reminders" },
+        { id: "e3-6-5", type: "checklist", items: ["Write a note in their lunchbox", "Teach them to squeeze their hands and breathe", "Give them a 'brave word' to whisper to themselves", "Remind them: 'You can do hard things'"] },
+        { id: "e3-6-6", type: "subheader", content: "After School — Decompress Together" },
+        { id: "e3-6-7", type: "checklist", items: ["15 minutes of quiet time before questions", "Snack and connection before homework", "Ask 'What was the best part of your day?'", "Celebrate one brave thing they did"] },
+        { id: "e3-6-8", type: "scripture", content: "\"Be strong and courageous. Do not be afraid.\" — Joshua 1:9" }
+      ]
+    },
+
     // ============================================
     // SECTION 4: SIBLING CONFLICT
     // ============================================
