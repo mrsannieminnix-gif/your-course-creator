@@ -449,6 +449,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "middle-2-6",
+      section: 2,
+      sectionTitle: "Peer Influence & Identity",
+      pageType: "reflection",
+      title: "Activity: Who Am I? Identity Map",
+      subtitle: "Exploring Identity Together",
+      sections: [
+        { id: "m2-6-1", type: "paragraph", content: "Help your child explore who they are — beyond what their friends think. This builds a strong identity foundation." },
+        { id: "m2-6-2", type: "subheader", content: "My Identity Map" },
+        { id: "m2-6-3", type: "checklist", items: ["Things I'm good at: _______________", "Things I love to do: _______________", "What makes me different (in a good way): _______________", "People who believe in me: _______________", "What I want to be known for: _______________"] },
+        { id: "m2-6-4", type: "subheader", content: "Friend Check-In" },
+        { id: "m2-6-5", type: "checklist", items: ["Do my friends make me feel good about myself?", "Can I be myself around them?", "Do they encourage me or pressure me to change?", "Would I be proud of how I act around them?"] },
+        { id: "m2-6-6", type: "subheader", content: "Parent Discussion" },
+        { id: "m2-6-7", type: "checklist", items: ["What I admire most about my child: _______________", "A unique quality I want them to see in themselves: _______________", "How I can support their identity growth: _______________"] },
+        { id: "m2-6-8", type: "scripture", content: "\"You are fearfully and wonderfully made.\" — Psalm 139:14" }
+      ]
+    },
+
     // ============================================
     // SECTION 3: ACADEMIC PRESSURE
     // ============================================
