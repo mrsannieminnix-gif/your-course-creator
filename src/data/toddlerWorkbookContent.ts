@@ -258,6 +258,7 @@ export const toddlerWorkbookData: WorkbookData = {
       title: "🟡 Emotional Brain",
       subtitle: "Limbic System — \"Am I Loved?\"",
       sections: [
+        { id: "t1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
         { id: "t1-8-1", type: "header", content: "What Is the Emotional Brain?" },
         { id: "t1-8-2", type: "paragraph", content: "The limbic system is the middle layer of the brain, home to the amygdala (alarm center) and hippocampus (memory). It processes feelings, drives attachment, and is responsible for emotional memories. In toddlers ages 2-4, this is the DOMINANT brain state — they feel everything intensely." },
         { id: "t1-8-3", type: "header", content: "The Core Question" },
