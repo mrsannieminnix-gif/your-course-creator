@@ -1556,6 +1556,46 @@ export const toddlerWorkbookData: WorkbookData = {
           ]
         }
       ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "toddler-7-6",
+      section: 7,
+      sectionTitle: "Transitions & Change",
+      pageType: "reflection",
+      title: "Activity: Transition Toolkit",
+      subtitle: "Making Changes Easier for Everyone",
+      sections: [
+        { id: "t7-6-1", type: "paragraph", content: "Transitions are one of the hardest parts of toddler life. Use this toolkit to plan ahead for your toughest daily transitions." },
+        { id: "t7-6-2", type: "header", content: "Our Hardest Transitions" },
+        { id: "t7-6-3", type: "checklist", content: "Check the ones that are tough in your home:", items: [
+          "Leaving the park or playground",
+          "Getting in the car seat",
+          "Turning off screens",
+          "Coming inside from playing",
+          "Starting bath or bedtime",
+          "Leaving a friend's house",
+          "Dropping off at daycare"
+        ]},
+        { id: "t7-6-4", type: "header", content: "Transition Strategies to Try" },
+        { id: "t7-6-5", type: "checklist", content: "Pick 2-3 to practice this week:", items: [
+          "Give a 5-minute and 2-minute warning",
+          "Use a visual timer they can see",
+          "Sing a transition song together",
+          "Let them say \"goodbye\" to the activity",
+          "Offer a bridge: \"We can do this again tomorrow\"",
+          "Give a job: \"Can you carry the keys to the car?\"",
+          "Use a countdown: \"3 more pushes on the swing\""
+        ]},
+        { id: "t7-6-6", type: "header", content: "My Plan for Our #1 Hardest Transition" },
+        { id: "t7-6-7", type: "checklist", items: [
+          "The transition: ______________________________________",
+          "Strategy I'll try: ______________________________________",
+          "What I'll say: ______________________________________"
+        ]},
+        { id: "t7-6-8", type: "scripture", content: "\"Warnings aren't weakness — they're respect for a brain that needs time to shift gears.\"" }
+      ]
     }
   ]
 };
