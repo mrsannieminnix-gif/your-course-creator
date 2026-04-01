@@ -433,6 +433,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 2
+    {
+      id: "middle-2-5", section: 2, sectionTitle: "Peer Influence & Identity", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Peer Influence & Identity",
+      sections: [
+        { id: "m2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m2-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Peer pressure is always bad.", fact: "Positive peer influence builds social skills, empathy, and healthy identity." },
+          { myth: "If they change who they are around friends, they're fake.", fact: "Identity exploration is normal — they're trying on different versions of themselves." },
+          { myth: "You should choose their friends for them.", fact: "Guiding without controlling teaches them to evaluate relationships themselves." },
+          { myth: "They don't care what you think anymore.", fact: "Your opinion still matters deeply, even when they act like it doesn't." },
+          { myth: "Fitting in is the same as belonging.", fact: "Fitting in means changing yourself. Belonging means being accepted as you are." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 3: ACADEMIC PRESSURE
     // ============================================
