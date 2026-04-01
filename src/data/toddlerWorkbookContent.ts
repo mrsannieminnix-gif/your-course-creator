@@ -232,6 +232,7 @@ export const toddlerWorkbookData: WorkbookData = {
       title: "🔴 Survival Brain",
       subtitle: "Brainstem — \"Am I Safe?\"",
       sections: [
+        { id: "t1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
         { id: "t1-7-1", type: "header", content: "What Is the Survival Brain?" },
         { id: "t1-7-2", type: "paragraph", content: "The brainstem sits at the base of the brain and is the most primitive part. It controls automatic functions like breathing and heart rate, but also activates our fight, flight, and freeze responses. In toddlers, this part is fully developed — meaning their alarm system works perfectly, even when higher brain functions don't." },
         { id: "t1-7-3", type: "header", content: "The Core Question" },
@@ -257,6 +258,7 @@ export const toddlerWorkbookData: WorkbookData = {
       title: "🟡 Emotional Brain",
       subtitle: "Limbic System — \"Am I Loved?\"",
       sections: [
+        { id: "t1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
         { id: "t1-8-1", type: "header", content: "What Is the Emotional Brain?" },
         { id: "t1-8-2", type: "paragraph", content: "The limbic system is the middle layer of the brain, home to the amygdala (alarm center) and hippocampus (memory). It processes feelings, drives attachment, and is responsible for emotional memories. In toddlers ages 2-4, this is the DOMINANT brain state — they feel everything intensely." },
         { id: "t1-8-3", type: "header", content: "The Core Question" },
@@ -282,6 +284,7 @@ export const toddlerWorkbookData: WorkbookData = {
       title: "🔵 Thinking Brain",
       subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
       sections: [
+        { id: "t1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
         { id: "t1-9-1", type: "header", content: "What Is the Thinking Brain?" },
         { id: "t1-9-2", type: "paragraph", content: "The prefrontal cortex is the top layer of the brain, responsible for reasoning, impulse control, empathy, and decision-making. This is the part that allows us to pause before reacting, consider consequences, and regulate emotions. In toddlers, this part is BARELY online — it won't fully mature until around age 25." },
         { id: "t1-9-3", type: "header", content: "The Core Question" },
