@@ -799,6 +799,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 4
+    {
+      id: "early-4-5",
+      section: 4,
+      sectionTitle: "Sibling Conflict",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Sibling Conflict",
+      sections: [
+        { id: "e4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e4-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Siblings should naturally get along.", fact: "Sibling conflict is normal and actually teaches negotiation skills." },
+            { myth: "You should always find out who started it.", fact: "Focusing on 'who started it' creates competition, not resolution." },
+            { myth: "Treating them exactly the same is fair.", fact: "Fair means giving each child what THEY need, not identical treatment." },
+            { myth: "They fight because they don't love each other.", fact: "They fight because they're learning to share space, attention, and resources." },
+            { myth: "Punishing both kids stops the fighting.", fact: "Teaching conflict resolution skills prevents future fights." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 5: EMOTIONAL OUTBURSTS
     // ============================================
