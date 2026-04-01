@@ -1306,6 +1306,22 @@ export const teenWorkbookData: WorkbookData = {
           content: "You've given them roots. Now watch them grow wings."
         }
       ]
+    },
+
+    // Facts & Myths - Section 7
+    {
+      id: "teen-7-5", section: 7, sectionTitle: "Launching Well", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Launching Well",
+      sections: [
+        { id: "tn7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn7-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "They should have it all figured out by 18.", fact: "Brain development continues until 25. They're still becoming who they'll be." },
+          { myth: "If they fail after launch, you failed as a parent.", fact: "Failure is part of growth. Your job was to prepare them, not prevent struggle." },
+          { myth: "Letting go means letting go of the relationship.", fact: "Letting go of control deepens the relationship into adult friendship." },
+          { myth: "They don't need your input anymore.", fact: "They need your wisdom — just delivered as advice, not instruction." },
+          { myth: "A successful launch means they never come back.", fact: "Healthy launching includes knowing they can always come home." }
+        ]}
+      ]
     }
   ]
 };
