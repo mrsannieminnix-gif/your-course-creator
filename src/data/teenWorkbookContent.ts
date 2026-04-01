@@ -449,6 +449,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "teen-2-6",
+      section: 2,
+      sectionTitle: "Communication Breakdown",
+      pageType: "reflection",
+      title: "Activity: Conversation Starters",
+      subtitle: "Rebuilding Communication Bridges",
+      sections: [
+        { id: "tn2-6-1", type: "paragraph", content: "Teens talk more in low-pressure moments. Use these strategies to create natural openings for conversation." },
+        { id: "tn2-6-2", type: "subheader", content: "Side-by-Side Conversation Openers" },
+        { id: "tn2-6-3", type: "checklist", items: ["Car rides: 'What's the best thing that happened today?'", "Cooking together: 'If you could go anywhere, where would you go?'", "Walking the dog: 'What's something your friends are into right now?'", "Before bed: 'Anything on your mind tonight?'"] },
+        { id: "tn2-6-4", type: "subheader", content: "Questions That Open Doors (Not Interrogate)" },
+        { id: "tn2-6-5", type: "list", items: ["'Tell me more about that...'", "'What was that like for you?'", "'How did that make you feel?'", "'What do you think you'll do?'", "'That sounds hard. I'm here if you want to talk.'"] },
+        { id: "tn2-6-6", type: "subheader", content: "My Communication Log" },
+        { id: "tn2-6-7", type: "checklist", items: ["A moment they opened up: _______________", "What I did differently: _______________", "What I'll try next: _______________"] },
+        { id: "tn2-6-8", type: "scripture", content: "\"Be quick to listen, slow to speak.\" — James 1:19" }
+      ]
+    },
+
     // ============================================
     // SECTION 3: RISKY BEHAVIOR
     // ============================================
