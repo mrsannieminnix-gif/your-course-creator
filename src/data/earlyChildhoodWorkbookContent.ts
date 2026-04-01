@@ -457,6 +457,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "early-2-6",
+      section: 2,
+      sectionTitle: "Lying & Honesty",
+      pageType: "reflection",
+      title: "Activity: Truth Treasure Hunt",
+      subtitle: "Making Honesty Feel Safe",
+      sections: [
+        { id: "e2-6-1", type: "paragraph", content: "This week, practice creating safety for truth-telling. Use these steps when your child lies:" },
+        { id: "e2-6-2", type: "subheader", content: "Step 1: Stay Calm & State What You Know" },
+        { id: "e2-6-3", type: "checklist", items: ["Instead of: 'Did you eat the cookie?' → Say: 'I see the cookie is gone.'", "Instead of: 'Did you hit your sister?' → Say: 'I saw what happened.'", "Practice your own calm statement: ______________________________"] },
+        { id: "e2-6-4", type: "subheader", content: "Step 2: Make Truth the Easier Path" },
+        { id: "e2-6-5", type: "checklist", items: ["'Thank you for telling me the truth — that was brave.'", "'I'm glad you told me. Let's figure this out together.'", "'Honesty is always safe in this house.'"] },
+        { id: "e2-6-6", type: "subheader", content: "Step 3: Track Your Wins" },
+        { id: "e2-6-7", type: "checklist", items: ["Day 1: My child told the truth about _______________", "Day 2: I stayed calm when _______________", "Day 3: I praised honesty when _______________"] },
+        { id: "e2-6-8", type: "scripture", content: "\"The truth will set you free.\" — John 8:32" }
+      ]
+    },
+
     // ============================================
     // SECTION 3: SCHOOL ANXIETY & PERFORMANCE
     // ============================================
