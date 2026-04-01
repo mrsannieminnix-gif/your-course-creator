@@ -1111,6 +1111,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-6-5",
+      section: 6,
+      sectionTitle: "Aggression & Hitting",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Aggression & Correction",
+      sections: [
+        { id: "t6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t6-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Hitting back teaches them how it feels.", fact: "Hitting a child teaches them that bigger people can hurt smaller people. Model what you want to teach." },
+            { myth: "Aggressive toddlers will become aggressive adults.", fact: "Aggression is normal at this age. With guidance and co-regulation, most children outgrow it." },
+            { myth: "They hit because they're 'bad' kids.", fact: "They hit because they lack impulse control and language to express big feelings." },
+            { myth: "Time-out is the best response to hitting.", fact: "Connection after correction is more effective. Teach alternatives: stomp, squeeze, use words." },
+            { myth: "If you don't punish immediately, they won't learn.", fact: "Toddlers learn best when calm. Teach after the storm passes, not during it." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 7: TRANSITIONS & CHANGE
     // ============================================
