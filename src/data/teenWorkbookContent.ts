@@ -433,6 +433,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 2
+    {
+      id: "teen-2-5", section: 2, sectionTitle: "Communication Breakdown", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Communication Breakdown",
+      sections: [
+        { id: "tn2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn2-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "If they won't talk, they don't care.", fact: "Silence often means they're processing or don't feel safe to share." },
+          { myth: "You should demand eye contact and respect.", fact: "Side-by-side conversations (car rides, walks) work better than face-to-face confrontation." },
+          { myth: "Teens should communicate like adults.", fact: "Their communication skills are still developing alongside their brain." },
+          { myth: "If you give them space, they'll come to you.", fact: "Stay gently present. They need to know the door is open without pressure." },
+          { myth: "Lecturing is teaching.", fact: "They stop listening after 30 seconds. Ask questions instead." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 3: RISKY BEHAVIOR
     // ============================================
