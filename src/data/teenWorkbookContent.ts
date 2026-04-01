@@ -644,6 +644,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 3
+    {
+      id: "teen-3-6",
+      section: 3,
+      sectionTitle: "Risky Behavior",
+      pageType: "reflection",
+      title: "Activity: Decision-Making Framework",
+      subtitle: "Teaching Them to Think It Through",
+      sections: [
+        { id: "tn3-6-1", type: "paragraph", content: "Instead of saying 'Don't do that,' teach your teen HOW to evaluate risky situations. Walk through this framework together." },
+        { id: "tn3-6-2", type: "subheader", content: "The STOP Framework" },
+        { id: "tn3-6-3", type: "list", items: ["S — Stop: Pause before reacting. Take a breath.", "T — Think: What could happen? Best case? Worst case?", "O — Options: What are my choices right now?", "P — Pick: Choose the option I can live with tomorrow."] },
+        { id: "tn3-6-4", type: "subheader", content: "Practice Scenarios" },
+        { id: "tn3-6-5", type: "checklist", items: ["A friend offers you something you know is wrong — what do you do?", "Everyone is doing something risky at a party — how do you handle it?", "You're pressured to send something online — what's your move?", "A friend is in danger — who do you call?"] },
+        { id: "tn3-6-6", type: "subheader", content: "Our Family Safety Plan" },
+        { id: "tn3-6-7", type: "checklist", items: ["Code word to text if you need a pickup, no questions asked: ___", "Person you can always call: _______________", "Our rule: 'You will never be punished for calling for help'"] },
+        { id: "tn3-6-8", type: "scripture", content: "\"The prudent see danger and take refuge.\" — Proverbs 27:12" }
+      ]
+    },
+
     // ============================================
     // SECTION 4: ROMANTIC RELATIONSHIPS
     // ============================================
