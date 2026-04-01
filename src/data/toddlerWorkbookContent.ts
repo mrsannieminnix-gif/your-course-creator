@@ -737,6 +737,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-4-5",
+      section: 4,
+      sectionTitle: "Separation Anxiety",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Separation & Attachment",
+      sections: [
+        { id: "t4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t4-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Clingy children are spoiled — you've coddled them too much.", fact: "Clinginess is a sign of healthy attachment. They need you because you're their safe base." },
+            { myth: "Sneaking away makes goodbyes easier.", fact: "Sneaking away breaks trust and increases anxiety. Consistent goodbyes build security." },
+            { myth: "They should be independent by age 2.", fact: "True independence grows from secure attachment. Forcing independence creates more clinginess." },
+            { myth: "Crying at drop-off means they're not ready.", fact: "Crying is normal protest behavior. Most children calm within minutes of a confident goodbye." },
+            { myth: "Comforting their anxiety makes it worse.", fact: "Validating their fear while staying calm teaches them the world is safe and you always return." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 5: SLEEP CHALLENGES
     // ============================================
