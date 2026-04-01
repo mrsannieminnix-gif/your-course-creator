@@ -1422,6 +1422,26 @@ export const teenWorkbookData: WorkbookData = {
           { myth: "A successful launch means they never come back.", fact: "Healthy launching includes knowing they can always come home." }
         ]}
       ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "teen-7-6",
+      section: 7,
+      sectionTitle: "Launching Well",
+      pageType: "reflection",
+      title: "Activity: Launch Readiness Checklist",
+      subtitle: "Are They Ready? Are You?",
+      sections: [
+        { id: "tn7-6-1", type: "paragraph", content: "Use this checklist to assess launch readiness — and identify areas to work on before they leave home." },
+        { id: "tn7-6-2", type: "subheader", content: "Life Skills Check" },
+        { id: "tn7-6-3", type: "checklist", items: ["Can do their own laundry", "Can cook 3-5 basic meals", "Can manage a simple budget", "Knows how to schedule appointments", "Can navigate basic car/home maintenance", "Understands health insurance and doctor visits"] },
+        { id: "tn7-6-4", type: "subheader", content: "Emotional Readiness Check" },
+        { id: "tn7-6-5", type: "checklist", items: ["Can manage stress without destructive coping", "Has at least one trusted person to talk to", "Can ask for help when needed", "Can handle conflict respectfully", "Knows their own emotional triggers and tools"] },
+        { id: "tn7-6-6", type: "subheader", content: "Parent Readiness Check" },
+        { id: "tn7-6-7", type: "checklist", items: ["I've shifted from manager to consultant", "I can let them fail without rescuing", "I've told them I'm proud of who they're becoming", "I've released my need to control their path", "I trust God with their future"] },
+        { id: "tn7-6-8", type: "scripture", content: "\"For I know the plans I have for you, declares the Lord.\" — Jeremiah 29:11" }
+      ]
     }
   ]
 };
