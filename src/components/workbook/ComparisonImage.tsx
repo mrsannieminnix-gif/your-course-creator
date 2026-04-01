@@ -37,6 +37,7 @@ import jesusConnection from "@/assets/jesus-connection.png";
 import jesusGrow from "@/assets/jesus-grow.png";
 import jesusEmpower from "@/assets/jesus-empower.png";
 import jesusCorrection from "@/assets/jesus-correction.png";
+import toddlerBrainDiagram from "@/assets/toddler-brain-diagram.jpg";
 
 export const faithImageMap: Record<string, string> = {
   "anchoring-with-god": anchoringWithGod,
@@ -47,6 +48,7 @@ export const faithImageMap: Record<string, string> = {
   "jesus-grow": jesusGrow,
   "jesus-empower": jesusEmpower,
   "jesus-correction": jesusCorrection,
+  "toddler-brain-diagram": toddlerBrainDiagram,
 };
 
 interface ComparisonImageProps {
