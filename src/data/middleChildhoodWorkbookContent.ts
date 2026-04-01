@@ -1306,6 +1306,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           content: "You're not just managing behavior - you're shaping a soul."
         }
       ]
+    },
+
+    // Facts & Myths - Section 7
+    {
+      id: "middle-7-5", section: 7, sectionTitle: "Building Character", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Building Character",
+      sections: [
+        { id: "m7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m7-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Character is something you're born with.", fact: "Character is built through experience, modeling, and intentional teaching." },
+          { myth: "Lecturing builds character.", fact: "Living it in front of them is far more powerful than talking about it." },
+          { myth: "Kids this age are too young for real responsibility.", fact: "8-12 is the prime window for building habits of integrity and service." },
+          { myth: "If they make mistakes, the lessons didn't stick.", fact: "Mistakes ARE the lessons. How you respond shapes their character more." },
+          { myth: "Character building is the school's job.", fact: "Home is where character is forged — school reinforces what you model." }
+        ]}
+      ]
     }
   ]
 };
