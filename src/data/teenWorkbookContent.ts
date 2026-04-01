@@ -1034,6 +1034,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 5
+    {
+      id: "teen-5-6",
+      section: 5,
+      sectionTitle: "Mental Health",
+      pageType: "reflection",
+      title: "Activity: Wellness Check-In",
+      subtitle: "Monitoring Mental Health Together",
+      sections: [
+        { id: "tn5-6-1", type: "paragraph", content: "Create a weekly check-in habit. This normalizes mental health conversations and helps you catch warning signs early." },
+        { id: "tn5-6-2", type: "subheader", content: "Weekly Check-In Questions" },
+        { id: "tn5-6-3", type: "checklist", items: ["On a scale of 1-10, how are you feeling this week?", "What's been the hardest part of your week?", "Are you sleeping okay?", "Is there anything weighing on you?", "Do you feel connected to people who care about you?"] },
+        { id: "tn5-6-4", type: "subheader", content: "Warning Signs to Watch For" },
+        { id: "tn5-6-5", type: "list", items: ["Withdrawing from friends and activities they used to enjoy", "Changes in sleep, appetite, or energy", "Talking about feeling hopeless or worthless", "Giving away possessions or saying goodbye", "Self-harm or talk of not wanting to be here"] },
+        { id: "tn5-6-6", type: "subheader", content: "Our Support Plan" },
+        { id: "tn5-6-7", type: "checklist", items: ["Trusted adult they can talk to (besides me): _______________", "Crisis text line: Text HOME to 741741", "National Suicide Prevention: 988", "Our therapist/counselor: _______________"] },
+        { id: "tn5-6-8", type: "scripture", content: "\"The Lord is close to the brokenhearted.\" — Psalm 34:18" }
+      ]
+    },
+
     // ============================================
     // SECTION 6: FAITH & WORLDVIEW
     // ============================================
