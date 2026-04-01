@@ -924,6 +924,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-5-5",
+      section: 5,
+      sectionTitle: "Sleep Challenges",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Sleep & Boundaries",
+      sections: [
+        { id: "t5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t5-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "If they're not tired, they don't need to go to bed.", fact: "Overtired toddlers often appear wired and energetic. Consistent bedtimes prevent overtiredness." },
+            { myth: "Giving in 'just this once' won't matter.", fact: "Inconsistency teaches them that pushing back works. Calm consistency is kindness." },
+            { myth: "They're just stalling — ignore the requests.", fact: "Some requests are genuine needs (water, bathroom). Validate briefly, then hold the boundary." },
+            { myth: "Letting them cry alone at night builds toughness.", fact: "Nighttime fears are real at this age. Brief, calm reassurance builds courage, not abandonment." },
+            { myth: "A strict bedtime routine is controlling.", fact: "Predictable routines reduce anxiety and help their brain shift into sleep mode naturally." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 6: AGGRESSION & HITTING
     // ============================================
