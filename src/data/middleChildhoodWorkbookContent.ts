@@ -608,6 +608,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 3
+    {
+      id: "middle-3-5", section: 3, sectionTitle: "Academic Pressure", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Academic Pressure",
+      sections: [
+        { id: "m3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m3-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Grades reflect intelligence.", fact: "Grades reflect a mix of effort, environment, and executive function development." },
+          { myth: "More homework means more learning.", fact: "Research shows diminishing returns — quality matters more than quantity." },
+          { myth: "Pressure motivates kids.", fact: "Excessive pressure creates anxiety and avoidance, not motivation." },
+          { myth: "If they struggle, they need a tutor immediately.", fact: "Sometimes they need emotional support and co-regulation first." },
+          { myth: "Their grades determine their future.", fact: "Character, resilience, and relationships predict success more than GPA." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 4: TECHNOLOGY & SCREENS
     // ============================================
