@@ -1066,6 +1066,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 5
+    {
+      id: "early-5-6",
+      section: 5,
+      sectionTitle: "Emotional Outbursts",
+      pageType: "reflection",
+      title: "Activity: Feelings Thermometer",
+      subtitle: "Naming & Measuring Emotions",
+      sections: [
+        { id: "e5-6-1", type: "paragraph", content: "Help your child learn to identify how BIG their feeling is so they can pick the right tool to calm down." },
+        { id: "e5-6-2", type: "subheader", content: "The Feelings Scale (1-5)" },
+        { id: "e5-6-3", type: "list", items: ["1 — Calm & Happy 😊 (I'm okay!)", "2 — A Little Annoyed 😐 (Something's bugging me)", "3 — Frustrated 😤 (I need help calming down)", "4 — Very Upset 😢 (I need a grown-up)", "5 — Exploding 🌋 (I can't think right now)"] },
+        { id: "e5-6-4", type: "subheader", content: "Matching Tools to Levels" },
+        { id: "e5-6-5", type: "checklist", items: ["Level 1-2: Deep breaths, talk about it, draw", "Level 3: Take a break, squeeze a pillow, count to 10", "Level 4: Go to calm corner, hug a stuffed animal, co-regulate with parent", "Level 5: Just be safe — no talking, just presence and breathing together"] },
+        { id: "e5-6-6", type: "subheader", content: "Practice This Week" },
+        { id: "e5-6-7", type: "checklist", items: ["Ask 'What number are you at?' during calm moments", "Help them name their level during a real moment", "Celebrate when they use a tool independently"] },
+        { id: "e5-6-8", type: "scripture", content: "\"A gentle answer turns away wrath.\" — Proverbs 15:1" }
+      ]
+    },
+
     // ============================================
     // SECTION 6: FRIENDSHIP STRUGGLES
     // ============================================
