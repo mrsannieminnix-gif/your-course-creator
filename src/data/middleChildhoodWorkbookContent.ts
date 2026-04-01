@@ -1229,6 +1229,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "middle-6-6",
+      section: 6,
+      sectionTitle: "Emotional Regulation",
+      pageType: "reflection",
+      title: "Activity: Emotion Toolbox",
+      subtitle: "Building a Personal Regulation Kit",
+      sections: [
+        { id: "m6-6-1", type: "paragraph", content: "Help your child build their own toolbox of strategies for different emotional states. They pick what works for THEM." },
+        { id: "m6-6-2", type: "subheader", content: "When I'm Angry, I Can..." },
+        { id: "m6-6-3", type: "checklist", items: ["Take 10 deep breaths", "Go for a walk or run", "Write about it in a journal", "Squeeze ice cubes or a stress ball", "My own idea: _______________"] },
+        { id: "m6-6-4", type: "subheader", content: "When I'm Sad, I Can..." },
+        { id: "m6-6-5", type: "checklist", items: ["Talk to someone I trust", "Listen to music", "Cry — it's okay to let it out", "Wrap up in a blanket and rest", "My own idea: _______________"] },
+        { id: "m6-6-6", type: "subheader", content: "When I'm Anxious, I Can..." },
+        { id: "m6-6-7", type: "checklist", items: ["Name 5 things I can see, 4 I can touch, 3 I can hear", "Tell myself: 'This feeling will pass'", "Ask for a hug or sit with a parent", "Draw or color", "My own idea: _______________"] },
+        { id: "m6-6-8", type: "scripture", content: "\"Cast all your anxiety on Him because He cares for you.\" — 1 Peter 5:7" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: BUILDING CHARACTER
     // ============================================
