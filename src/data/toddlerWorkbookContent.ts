@@ -467,6 +467,39 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "toddler-2-6",
+      section: 2,
+      sectionTitle: "Tantrums & Big Emotions",
+      pageType: "reflection",
+      title: "Activity: Tantrum Response Plan",
+      subtitle: "Create Your Calm-Down Game Plan",
+      sections: [
+        { id: "t2-6-1", type: "paragraph", content: "Fill out this plan BEFORE the next tantrum so you're ready. Post it on your fridge!" },
+        { id: "t2-6-2", type: "header", content: "When My Child Has a Meltdown, I Will..." },
+        { id: "t2-6-3", type: "checklist", content: "Step 1: Regulate MYSELF first", items: [
+          "Drop my shoulders and take 3 slow breaths",
+          "Lower my voice to a whisper",
+          "Remind myself: this is not an emergency"
+        ]},
+        { id: "t2-6-4", type: "checklist", content: "Step 2: Connect with my child", items: [
+          "Get on their level physically",
+          "Say: \"I'm here. You're safe.\"",
+          "Offer a hug or sit nearby quietly"
+        ]},
+        { id: "t2-6-5", type: "checklist", content: "Step 3: Wait, then redirect", items: [
+          "Wait until the storm passes (don't rush it)",
+          "Name the feeling: \"You were so frustrated\"",
+          "Offer a simple choice when they're calm"
+        ]},
+        { id: "t2-6-6", type: "header", content: "My Personal Triggers During Tantrums" },
+        { id: "t2-6-7", type: "checklist", items: ["______________________________________", "______________________________________", "______________________________________"] },
+        { id: "t2-6-8", type: "header", content: "My Go-To Calming Phrase" },
+        { id: "t2-6-9", type: "checklist", items: ["______________________________________"] }
+      ]
+    },
+
     // ============================================
     // SECTION 3: DEFIANCE & POWER STRUGGLES
     // ============================================
