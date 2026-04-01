@@ -687,6 +687,31 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 3
+    {
+      id: "toddler-3-6",
+      section: 3,
+      sectionTitle: "Defiance & Power Struggles",
+      pageType: "reflection",
+      title: "Activity: The Power of Two Choices",
+      subtitle: "Practice Giving Choices Instead of Commands",
+      sections: [
+        { id: "t3-6-1", type: "paragraph", content: "Toddlers need to feel powerful. Instead of giving commands that invite defiance, offer two acceptable choices. Practice rewriting these common battles:" },
+        { id: "t3-6-2", type: "header", content: "Rewrite the Command → Two Choices" },
+        { id: "t3-6-3", type: "list", content: "❌ \"Put your shoes on NOW.\"", items: ["✅ \"Do you want to wear the red shoes or the blue shoes?\""] },
+        { id: "t3-6-4", type: "list", content: "❌ \"Eat your vegetables.\"", items: ["✅ \"Do you want carrots or peas with dinner?\""] },
+        { id: "t3-6-5", type: "list", content: "❌ \"Get in the car.\"", items: ["✅ \"Do you want to climb in yourself or want me to lift you?\""] },
+        { id: "t3-6-6", type: "header", content: "Now Write Your Own!" },
+        { id: "t3-6-7", type: "paragraph", content: "Think of 3 daily battles and rewrite them as two-choice options:" },
+        { id: "t3-6-8", type: "checklist", items: [
+          "Battle: __________________ → Choice A or B: __________________",
+          "Battle: __________________ → Choice A or B: __________________",
+          "Battle: __________________ → Choice A or B: __________________"
+        ]},
+        { id: "t3-6-9", type: "scripture", content: "\"The goal isn't obedience through fear — it's cooperation through connection.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 4: SEPARATION ANXIETY & CLINGINESS
     // ============================================
