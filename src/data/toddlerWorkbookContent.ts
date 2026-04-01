@@ -550,6 +550,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-3-5",
+      section: 3,
+      sectionTitle: "Defiance & Power Struggles",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Power Struggles",
+      sections: [
+        { id: "t3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t3-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "A defiant toddler is a disrespectful child.", fact: "Saying 'no' is a healthy sign of autonomy development — it means their brain is growing." },
+            { myth: "You must win every power struggle or they'll walk all over you.", fact: "Picking battles wisely teaches them cooperation. Winning every fight teaches them to fear you." },
+            { myth: "Obedience should be immediate and unquestioning.", fact: "Toddlers need processing time. Giving choices and time builds willing cooperation." },
+            { myth: "If you give them choices, you're letting them be the boss.", fact: "Offering limited choices gives them healthy autonomy within your boundaries." },
+            { myth: "Strong-willed children need to be broken.", fact: "Strong will is a gift — it needs to be guided, not crushed. These children become strong leaders." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 4: SEPARATION ANXIETY & CLINGINESS
     // ============================================
