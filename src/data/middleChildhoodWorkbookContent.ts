@@ -783,6 +783,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 4
+    {
+      id: "middle-4-5", section: 4, sectionTitle: "Technology & Screens", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Technology & Screens",
+      sections: [
+        { id: "m4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m4-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "All screen time is harmful.", fact: "The TYPE of screen use matters more than the amount." },
+          { myth: "Taking devices away solves everything.", fact: "Removing without teaching digital literacy creates sneaky behavior." },
+          { myth: "They need a phone to fit in.", fact: "Social connection can happen without a personal device at this age." },
+          { myth: "Parental controls are enough.", fact: "Ongoing conversations about online safety matter more than filters alone." },
+          { myth: "Video games always cause aggression.", fact: "Context matters — many games build problem-solving and teamwork skills." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 5: BODY IMAGE & PUBERTY
     // ============================================
