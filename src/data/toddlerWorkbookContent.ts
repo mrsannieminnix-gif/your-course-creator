@@ -1296,6 +1296,28 @@ export const toddlerWorkbookData: WorkbookData = {
           content: "For everything there is a season. Help them learn to flow with change."
         }
       ]
+    },
+    {
+      id: "toddler-7-5",
+      section: 7,
+      sectionTitle: "Transitions & Change",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Handling Change",
+      sections: [
+        { id: "t7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t7-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "They should just go with the flow — you're the parent.", fact: "Toddler brains can't shift focus easily. Warnings and preparation prevent most meltdowns." },
+            { myth: "Transition meltdowns are just disobedience.", fact: "Transitions require executive function skills that are still developing at this age." },
+            { myth: "If you give warnings, you're negotiating.", fact: "Warnings respect their brain's need for processing time. The boundary stays the same." },
+            { myth: "Making transitions fun is coddling.", fact: "Playful transitions teach cooperation and make life smoother for everyone." },
+            { myth: "They'll outgrow transition struggles on their own.", fact: "With practice and support, they build skills faster. Without it, struggles can intensify." }
+          ]
+        }
+      ]
     }
   ]
 };
