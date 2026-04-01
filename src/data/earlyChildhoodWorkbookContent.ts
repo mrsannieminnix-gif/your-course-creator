@@ -1165,6 +1165,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 6
+    {
+      id: "early-6-5",
+      section: 6,
+      sectionTitle: "Friendship Struggles",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Friendship Struggles",
+      sections: [
+        { id: "e6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e6-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Popular kids are the happiest.", fact: "One or two close friendships matter more than popularity." },
+            { myth: "You should fix their friendship problems.", fact: "Coaching them through it builds lifelong social skills." },
+            { myth: "If they're excluded, something is wrong with them.", fact: "Social dynamics at this age are fluid. Exclusion is often situational." },
+            { myth: "They should be friends with everyone.", fact: "Learning to choose healthy friendships is a critical life skill." },
+            { myth: "Telling them to 'just be nice' solves everything.", fact: "They need specific social skills taught and practiced." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 7: RESPONSIBILITY & CHORES
     // ============================================
