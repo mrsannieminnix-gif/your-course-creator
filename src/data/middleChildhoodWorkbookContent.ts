@@ -449,6 +449,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "middle-2-6",
+      section: 2,
+      sectionTitle: "Peer Influence & Identity",
+      pageType: "reflection",
+      title: "Activity: Who Am I? Identity Map",
+      subtitle: "Exploring Identity Together",
+      sections: [
+        { id: "m2-6-1", type: "paragraph", content: "Help your child explore who they are — beyond what their friends think. This builds a strong identity foundation." },
+        { id: "m2-6-2", type: "subheader", content: "My Identity Map" },
+        { id: "m2-6-3", type: "checklist", items: ["Things I'm good at: _______________", "Things I love to do: _______________", "What makes me different (in a good way): _______________", "People who believe in me: _______________", "What I want to be known for: _______________"] },
+        { id: "m2-6-4", type: "subheader", content: "Friend Check-In" },
+        { id: "m2-6-5", type: "checklist", items: ["Do my friends make me feel good about myself?", "Can I be myself around them?", "Do they encourage me or pressure me to change?", "Would I be proud of how I act around them?"] },
+        { id: "m2-6-6", type: "subheader", content: "Parent Discussion" },
+        { id: "m2-6-7", type: "checklist", items: ["What I admire most about my child: _______________", "A unique quality I want them to see in themselves: _______________", "How I can support their identity growth: _______________"] },
+        { id: "m2-6-8", type: "scripture", content: "\"You are fearfully and wonderfully made.\" — Psalm 139:14" }
+      ]
+    },
+
     // ============================================
     // SECTION 3: ACADEMIC PRESSURE
     // ============================================
@@ -621,6 +641,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           { myth: "If they struggle, they need a tutor immediately.", fact: "Sometimes they need emotional support and co-regulation first." },
           { myth: "Their grades determine their future.", fact: "Character, resilience, and relationships predict success more than GPA." }
         ]}
+      ]
+    },
+
+    // Activity - Section 3
+    {
+      id: "middle-3-6",
+      section: 3,
+      sectionTitle: "Academic Pressure",
+      pageType: "reflection",
+      title: "Activity: Study Success Plan",
+      subtitle: "Building Healthy Learning Habits",
+      sections: [
+        { id: "m3-6-1", type: "paragraph", content: "Work with your child to create a study plan that reduces stress and builds confidence — focusing on effort, not perfection." },
+        { id: "m3-6-2", type: "subheader", content: "My Learning Style" },
+        { id: "m3-6-3", type: "checklist", items: ["I learn best by: seeing / hearing / doing (circle one)", "My best study time is: _______________", "I need breaks every ___ minutes", "My biggest school stress is: _______________"] },
+        { id: "m3-6-4", type: "subheader", content: "Homework Routine" },
+        { id: "m3-6-5", type: "checklist", items: ["Snack and decompress for 15 min after school", "Start homework at the same time each day: ___", "Break big tasks into small chunks", "Celebrate finishing, not just getting A's"] },
+        { id: "m3-6-6", type: "subheader", content: "Parent Phrases to Use" },
+        { id: "m3-6-7", type: "list", items: ["'I'm proud of how hard you worked on that.'", "'What part was hardest? How did you push through?'", "'Mistakes are how your brain grows.'", "'Your worth is not your grade.'"] },
+        { id: "m3-6-8", type: "scripture", content: "\"Whatever you do, work at it with all your heart.\" — Colossians 3:23" }
       ]
     },
 
@@ -799,6 +839,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "middle-4-6",
+      section: 4,
+      sectionTitle: "Technology & Screens",
+      pageType: "reflection",
+      title: "Activity: Digital Wellness Contract",
+      subtitle: "Creating Healthy Tech Boundaries Together",
+      sections: [
+        { id: "m4-6-1", type: "paragraph", content: "Create a family tech agreement WITH your child — not FOR them. When they help make the rules, they're more likely to follow them." },
+        { id: "m4-6-2", type: "subheader", content: "Our Family Tech Agreement" },
+        { id: "m4-6-3", type: "checklist", items: ["Screen-free times: meals, bedtime, _______________", "Screen-free zones: bedrooms, _______________", "Daily screen limit: ___ hours", "Homework before screens: Yes / Sometimes / We'll discuss"] },
+        { id: "m4-6-4", type: "subheader", content: "Online Safety Rules" },
+        { id: "m4-6-5", type: "checklist", items: ["Never share personal info without asking a parent", "Tell a parent if something online makes me uncomfortable", "Only download apps/games with parent approval", "Be kind online — treat others as I want to be treated"] },
+        { id: "m4-6-6", type: "subheader", content: "Alternatives to Screens" },
+        { id: "m4-6-7", type: "checklist", items: ["Outside play: _______________", "Creative activities: _______________", "Family time: _______________", "Reading: _______________"] },
+        { id: "m4-6-8", type: "scripture", content: "\"Above all else, guard your heart, for everything you do flows from it.\" — Proverbs 4:23" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: BODY IMAGE & PUBERTY
     // ============================================
@@ -971,6 +1031,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           { myth: "If you don't talk about it, they won't think about it.", fact: "They'll learn from peers and media — better it comes from you." },
           { myth: "Early puberty means they're emotionally mature.", fact: "Physical development far outpaces emotional maturity." }
         ]}
+      ]
+    },
+
+    // Activity - Section 5
+    {
+      id: "middle-5-6",
+      section: 5,
+      sectionTitle: "Body Image & Puberty",
+      pageType: "reflection",
+      title: "Activity: Body Appreciation Journal",
+      subtitle: "Celebrating What My Body Can DO",
+      sections: [
+        { id: "m5-6-1", type: "paragraph", content: "Shift the focus from how their body LOOKS to what their body CAN DO. This builds resilience against comparison and shame." },
+        { id: "m5-6-2", type: "subheader", content: "My Body Is Amazing Because..." },
+        { id: "m5-6-3", type: "checklist", items: ["It lets me run/play/dance: _______________", "It heals when I get hurt", "It lets me hug the people I love", "It helps me learn new things every day", "It's growing and getting stronger: _______________"] },
+        { id: "m5-6-4", type: "subheader", content: "Puberty Talk Starters" },
+        { id: "m5-6-5", type: "list", items: ["'Your body is changing because it's getting ready to be an adult body.'", "'Every body develops at its own pace — there's no right timeline.'", "'You can ask me ANYTHING — no question is embarrassing.'", "'The changes you're feeling are totally normal.'"] },
+        { id: "m5-6-6", type: "subheader", content: "Questions My Child Has Asked" },
+        { id: "m5-6-7", type: "checklist", items: ["_______________________________________________", "_______________________________________________", "_______________________________________________"] },
+        { id: "m5-6-8", type: "scripture", content: "\"I praise you because I am fearfully and wonderfully made.\" — Psalm 139:14" }
       ]
     },
 
@@ -1149,6 +1229,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "middle-6-6",
+      section: 6,
+      sectionTitle: "Emotional Regulation",
+      pageType: "reflection",
+      title: "Activity: Emotion Toolbox",
+      subtitle: "Building a Personal Regulation Kit",
+      sections: [
+        { id: "m6-6-1", type: "paragraph", content: "Help your child build their own toolbox of strategies for different emotional states. They pick what works for THEM." },
+        { id: "m6-6-2", type: "subheader", content: "When I'm Angry, I Can..." },
+        { id: "m6-6-3", type: "checklist", items: ["Take 10 deep breaths", "Go for a walk or run", "Write about it in a journal", "Squeeze ice cubes or a stress ball", "My own idea: _______________"] },
+        { id: "m6-6-4", type: "subheader", content: "When I'm Sad, I Can..." },
+        { id: "m6-6-5", type: "checklist", items: ["Talk to someone I trust", "Listen to music", "Cry — it's okay to let it out", "Wrap up in a blanket and rest", "My own idea: _______________"] },
+        { id: "m6-6-6", type: "subheader", content: "When I'm Anxious, I Can..." },
+        { id: "m6-6-7", type: "checklist", items: ["Name 5 things I can see, 4 I can touch, 3 I can hear", "Tell myself: 'This feeling will pass'", "Ask for a hug or sit with a parent", "Draw or color", "My own idea: _______________"] },
+        { id: "m6-6-8", type: "scripture", content: "\"Cast all your anxiety on Him because He cares for you.\" — 1 Peter 5:7" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: BUILDING CHARACTER
     // ============================================
@@ -1321,6 +1421,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           { myth: "If they make mistakes, the lessons didn't stick.", fact: "Mistakes ARE the lessons. How you respond shapes their character more." },
           { myth: "Character building is the school's job.", fact: "Home is where character is forged — school reinforces what you model." }
         ]}
+      ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "middle-7-6",
+      section: 7,
+      sectionTitle: "Building Character",
+      pageType: "reflection",
+      title: "Activity: Character in Action",
+      subtitle: "Practicing Integrity This Week",
+      sections: [
+        { id: "m7-6-1", type: "paragraph", content: "Character isn't taught through lectures — it's built through practice. Use these challenges to make character tangible." },
+        { id: "m7-6-2", type: "subheader", content: "Daily Character Challenges" },
+        { id: "m7-6-3", type: "checklist", items: ["Monday: Do something kind without being asked", "Tuesday: Tell the truth even when it's hard", "Wednesday: Include someone who's left out", "Thursday: Admit a mistake and make it right", "Friday: Encourage someone who's struggling", "Weekend: Serve your family without complaining"] },
+        { id: "m7-6-4", type: "subheader", content: "Character Reflection" },
+        { id: "m7-6-5", type: "checklist", items: ["The hardest challenge was: _______________", "I was most proud when: _______________", "My child surprised me by: _______________"] },
+        { id: "m7-6-6", type: "subheader", content: "A Character Quality I Want to Model" },
+        { id: "m7-6-7", type: "checklist", items: ["The quality: _______________", "How I'll practice it this week: _______________", "How I'll talk about it with my child: _______________"] },
+        { id: "m7-6-8", type: "scripture", content: "\"Let your light shine before others.\" — Matthew 5:16" }
       ]
     }
   ]

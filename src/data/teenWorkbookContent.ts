@@ -449,6 +449,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "teen-2-6",
+      section: 2,
+      sectionTitle: "Communication Breakdown",
+      pageType: "reflection",
+      title: "Activity: Conversation Starters",
+      subtitle: "Rebuilding Communication Bridges",
+      sections: [
+        { id: "tn2-6-1", type: "paragraph", content: "Teens talk more in low-pressure moments. Use these strategies to create natural openings for conversation." },
+        { id: "tn2-6-2", type: "subheader", content: "Side-by-Side Conversation Openers" },
+        { id: "tn2-6-3", type: "checklist", items: ["Car rides: 'What's the best thing that happened today?'", "Cooking together: 'If you could go anywhere, where would you go?'", "Walking the dog: 'What's something your friends are into right now?'", "Before bed: 'Anything on your mind tonight?'"] },
+        { id: "tn2-6-4", type: "subheader", content: "Questions That Open Doors (Not Interrogate)" },
+        { id: "tn2-6-5", type: "list", items: ["'Tell me more about that...'", "'What was that like for you?'", "'How did that make you feel?'", "'What do you think you'll do?'", "'That sounds hard. I'm here if you want to talk.'"] },
+        { id: "tn2-6-6", type: "subheader", content: "My Communication Log" },
+        { id: "tn2-6-7", type: "checklist", items: ["A moment they opened up: _______________", "What I did differently: _______________", "What I'll try next: _______________"] },
+        { id: "tn2-6-8", type: "scripture", content: "\"Be quick to listen, slow to speak.\" — James 1:19" }
+      ]
+    },
+
     // ============================================
     // SECTION 3: RISKY BEHAVIOR
     // ============================================
@@ -621,6 +641,26 @@ export const teenWorkbookData: WorkbookData = {
           { myth: "Good kids don't take risks.", fact: "ALL teens take risks — it's how the brain learns to assess danger." },
           { myth: "Strict rules prevent risky behavior.", fact: "A strong relationship is more protective than strict rules alone." }
         ]}
+      ]
+    },
+
+    // Activity - Section 3
+    {
+      id: "teen-3-6",
+      section: 3,
+      sectionTitle: "Risky Behavior",
+      pageType: "reflection",
+      title: "Activity: Decision-Making Framework",
+      subtitle: "Teaching Them to Think It Through",
+      sections: [
+        { id: "tn3-6-1", type: "paragraph", content: "Instead of saying 'Don't do that,' teach your teen HOW to evaluate risky situations. Walk through this framework together." },
+        { id: "tn3-6-2", type: "subheader", content: "The STOP Framework" },
+        { id: "tn3-6-3", type: "list", items: ["S — Stop: Pause before reacting. Take a breath.", "T — Think: What could happen? Best case? Worst case?", "O — Options: What are my choices right now?", "P — Pick: Choose the option I can live with tomorrow."] },
+        { id: "tn3-6-4", type: "subheader", content: "Practice Scenarios" },
+        { id: "tn3-6-5", type: "checklist", items: ["A friend offers you something you know is wrong — what do you do?", "Everyone is doing something risky at a party — how do you handle it?", "You're pressured to send something online — what's your move?", "A friend is in danger — who do you call?"] },
+        { id: "tn3-6-6", type: "subheader", content: "Our Family Safety Plan" },
+        { id: "tn3-6-7", type: "checklist", items: ["Code word to text if you need a pickup, no questions asked: ___", "Person you can always call: _______________", "Our rule: 'You will never be punished for calling for help'"] },
+        { id: "tn3-6-8", type: "scripture", content: "\"The prudent see danger and take refuge.\" — Proverbs 27:12" }
       ]
     },
 
@@ -799,6 +839,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "teen-4-6",
+      section: 4,
+      sectionTitle: "Romantic Relationships",
+      pageType: "reflection",
+      title: "Activity: Healthy Relationship Checklist",
+      subtitle: "Knowing What Love Looks Like",
+      sections: [
+        { id: "tn4-6-1", type: "paragraph", content: "Help your teen identify what healthy vs. unhealthy relationships look like — before they're in one." },
+        { id: "tn4-6-2", type: "subheader", content: "Signs of a Healthy Relationship" },
+        { id: "tn4-6-3", type: "checklist", items: ["They respect your boundaries", "You can be yourself around them", "They encourage your goals and friendships", "Disagreements are handled with respect, not control", "You feel safe and valued"] },
+        { id: "tn4-6-4", type: "subheader", content: "Red Flags to Watch For" },
+        { id: "tn4-6-5", type: "checklist", items: ["They isolate you from friends/family", "They make you feel guilty for having boundaries", "They check your phone or demand to know where you are constantly", "You feel like you're walking on eggshells", "They use anger or silence to control you"] },
+        { id: "tn4-6-6", type: "subheader", content: "Discussion with My Teen" },
+        { id: "tn4-6-7", type: "checklist", items: ["What does respect look like in a relationship?", "What would you do if a partner crossed a boundary?", "What do you see in OUR relationship that you want to repeat?"] },
+        { id: "tn4-6-8", type: "scripture", content: "\"Love is patient, love is kind. It does not envy, it does not boast.\" — 1 Corinthians 13:4" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: MENTAL HEALTH
     // ============================================
@@ -971,6 +1031,26 @@ export const teenWorkbookData: WorkbookData = {
           { myth: "They should be able to pray it away.", fact: "Faith and professional help work together. Seeking help IS trusting God's provision." },
           { myth: "It's just hormones — they'll grow out of it.", fact: "Some will, but many need support now. Early intervention has the best outcomes." }
         ]}
+      ]
+    },
+
+    // Activity - Section 5
+    {
+      id: "teen-5-6",
+      section: 5,
+      sectionTitle: "Mental Health",
+      pageType: "reflection",
+      title: "Activity: Wellness Check-In",
+      subtitle: "Monitoring Mental Health Together",
+      sections: [
+        { id: "tn5-6-1", type: "paragraph", content: "Create a weekly check-in habit. This normalizes mental health conversations and helps you catch warning signs early." },
+        { id: "tn5-6-2", type: "subheader", content: "Weekly Check-In Questions" },
+        { id: "tn5-6-3", type: "checklist", items: ["On a scale of 1-10, how are you feeling this week?", "What's been the hardest part of your week?", "Are you sleeping okay?", "Is there anything weighing on you?", "Do you feel connected to people who care about you?"] },
+        { id: "tn5-6-4", type: "subheader", content: "Warning Signs to Watch For" },
+        { id: "tn5-6-5", type: "list", items: ["Withdrawing from friends and activities they used to enjoy", "Changes in sleep, appetite, or energy", "Talking about feeling hopeless or worthless", "Giving away possessions or saying goodbye", "Self-harm or talk of not wanting to be here"] },
+        { id: "tn5-6-6", type: "subheader", content: "Our Support Plan" },
+        { id: "tn5-6-7", type: "checklist", items: ["Trusted adult they can talk to (besides me): _______________", "Crisis text line: Text HOME to 741741", "National Suicide Prevention: 988", "Our therapist/counselor: _______________"] },
+        { id: "tn5-6-8", type: "scripture", content: "\"The Lord is close to the brokenhearted.\" — Psalm 34:18" }
       ]
     },
 
@@ -1149,6 +1229,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "teen-6-6",
+      section: 6,
+      sectionTitle: "Faith & Worldview",
+      pageType: "reflection",
+      title: "Activity: What I Believe & Why",
+      subtitle: "Exploring Faith on Their Own Terms",
+      sections: [
+        { id: "tn6-6-1", type: "paragraph", content: "Faith must become THEIRS, not just yours. Use these prompts to explore belief without pressure or judgment." },
+        { id: "tn6-6-2", type: "subheader", content: "Faith Exploration Questions" },
+        { id: "tn6-6-3", type: "checklist", items: ["What do I believe about God right now?", "What questions do I have that I haven't asked?", "What parts of faith feel real to me?", "What parts feel confusing or hard?", "Who do I know that lives their faith in a way I respect?"] },
+        { id: "tn6-6-4", type: "subheader", content: "For Parents: Creating Space" },
+        { id: "tn6-6-5", type: "list", items: ["Don't panic when they question — it's growth, not rebellion", "Share your own doubts and how you worked through them", "Let them see your faith in action, not just your words", "Pray FOR them more than you preach AT them"] },
+        { id: "tn6-6-6", type: "subheader", content: "Our Faith Conversation" },
+        { id: "tn6-6-7", type: "checklist", items: ["A question my teen asked about faith: _______________", "How I responded (with grace, not panic): _______________", "Something I'm praying about for them: _______________"] },
+        { id: "tn6-6-8", type: "scripture", content: "\"Train up a child in the way they should go.\" — Proverbs 22:6" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: LAUNCHING WELL
     // ============================================
@@ -1321,6 +1421,26 @@ export const teenWorkbookData: WorkbookData = {
           { myth: "They don't need your input anymore.", fact: "They need your wisdom — just delivered as advice, not instruction." },
           { myth: "A successful launch means they never come back.", fact: "Healthy launching includes knowing they can always come home." }
         ]}
+      ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "teen-7-6",
+      section: 7,
+      sectionTitle: "Launching Well",
+      pageType: "reflection",
+      title: "Activity: Launch Readiness Checklist",
+      subtitle: "Are They Ready? Are You?",
+      sections: [
+        { id: "tn7-6-1", type: "paragraph", content: "Use this checklist to assess launch readiness — and identify areas to work on before they leave home." },
+        { id: "tn7-6-2", type: "subheader", content: "Life Skills Check" },
+        { id: "tn7-6-3", type: "checklist", items: ["Can do their own laundry", "Can cook 3-5 basic meals", "Can manage a simple budget", "Knows how to schedule appointments", "Can navigate basic car/home maintenance", "Understands health insurance and doctor visits"] },
+        { id: "tn7-6-4", type: "subheader", content: "Emotional Readiness Check" },
+        { id: "tn7-6-5", type: "checklist", items: ["Can manage stress without destructive coping", "Has at least one trusted person to talk to", "Can ask for help when needed", "Can handle conflict respectfully", "Knows their own emotional triggers and tools"] },
+        { id: "tn7-6-6", type: "subheader", content: "Parent Readiness Check" },
+        { id: "tn7-6-7", type: "checklist", items: ["I've shifted from manager to consultant", "I can let them fail without rescuing", "I've told them I'm proud of who they're becoming", "I've released my need to control their path", "I trust God with their future"] },
+        { id: "tn7-6-8", type: "scripture", content: "\"For I know the plans I have for you, declares the Lord.\" — Jeremiah 29:11" }
       ]
     }
   ]

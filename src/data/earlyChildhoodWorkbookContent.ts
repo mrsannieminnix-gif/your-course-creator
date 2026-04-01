@@ -457,6 +457,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "early-2-6",
+      section: 2,
+      sectionTitle: "Lying & Honesty",
+      pageType: "reflection",
+      title: "Activity: Truth Treasure Hunt",
+      subtitle: "Making Honesty Feel Safe",
+      sections: [
+        { id: "e2-6-1", type: "paragraph", content: "This week, practice creating safety for truth-telling. Use these steps when your child lies:" },
+        { id: "e2-6-2", type: "subheader", content: "Step 1: Stay Calm & State What You Know" },
+        { id: "e2-6-3", type: "checklist", items: ["Instead of: 'Did you eat the cookie?' → Say: 'I see the cookie is gone.'", "Instead of: 'Did you hit your sister?' → Say: 'I saw what happened.'", "Practice your own calm statement: ______________________________"] },
+        { id: "e2-6-4", type: "subheader", content: "Step 2: Make Truth the Easier Path" },
+        { id: "e2-6-5", type: "checklist", items: ["'Thank you for telling me the truth — that was brave.'", "'I'm glad you told me. Let's figure this out together.'", "'Honesty is always safe in this house.'"] },
+        { id: "e2-6-6", type: "subheader", content: "Step 3: Track Your Wins" },
+        { id: "e2-6-7", type: "checklist", items: ["Day 1: My child told the truth about _______________", "Day 2: I stayed calm when _______________", "Day 3: I praised honesty when _______________"] },
+        { id: "e2-6-8", type: "scripture", content: "\"The truth will set you free.\" — John 8:32" }
+      ]
+    },
+
     // ============================================
     // SECTION 3: SCHOOL ANXIETY & PERFORMANCE
     // ============================================
@@ -637,6 +657,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
             { myth: "If they cry at drop-off, you should leave faster.", fact: "A calm, connected goodbye builds security. Rushing increases panic." }
           ]
         }
+      ]
+    },
+
+    // Activity - Section 3
+    {
+      id: "early-3-6",
+      section: 3,
+      sectionTitle: "School Anxiety",
+      pageType: "reflection",
+      title: "Activity: My Brave Plan",
+      subtitle: "Building a Coping Toolkit",
+      sections: [
+        { id: "e3-6-1", type: "paragraph", content: "Help your child build a personalized anxiety toolkit they can use before, during, and after school." },
+        { id: "e3-6-2", type: "subheader", content: "Before School — Calming Routine" },
+        { id: "e3-6-3", type: "checklist", items: ["5 deep belly breaths together", "A special goodbye handshake or phrase", "Pack a comfort item (photo, note, small toy)", "Review the day's schedule so they know what to expect"] },
+        { id: "e3-6-4", type: "subheader", content: "During School — Brave Reminders" },
+        { id: "e3-6-5", type: "checklist", items: ["Write a note in their lunchbox", "Teach them to squeeze their hands and breathe", "Give them a 'brave word' to whisper to themselves", "Remind them: 'You can do hard things'"] },
+        { id: "e3-6-6", type: "subheader", content: "After School — Decompress Together" },
+        { id: "e3-6-7", type: "checklist", items: ["15 minutes of quiet time before questions", "Snack and connection before homework", "Ask 'What was the best part of your day?'", "Celebrate one brave thing they did"] },
+        { id: "e3-6-8", type: "scripture", content: "\"Be strong and courageous. Do not be afraid.\" — Joshua 1:9" }
       ]
     },
 
@@ -823,6 +863,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "early-4-6",
+      section: 4,
+      sectionTitle: "Sibling Conflict",
+      pageType: "reflection",
+      title: "Activity: Peace Maker Practice",
+      subtitle: "Teaching Conflict Resolution",
+      sections: [
+        { id: "e4-6-1", type: "paragraph", content: "Instead of solving every fight, coach your children through these steps. Practice when everyone is calm first!" },
+        { id: "e4-6-2", type: "subheader", content: "The 4-Step Peace Process" },
+        { id: "e4-6-3", type: "list", items: ["1. STOP — Both kids freeze and take 3 breaths", "2. TELL — Each person says 'I felt ___ when ___'", "3. LISTEN — The other repeats back what they heard", "4. SOLVE — Together pick a solution that works for both"] },
+        { id: "e4-6-4", type: "subheader", content: "Practice Scenarios" },
+        { id: "e4-6-5", type: "checklist", items: ["Both want the same toy → take turns or find a different game", "One feels left out → invite them in or plan special time", "Name-calling happened → practice 'I felt hurt when you said...'", "Someone's thing got broken → practice apology + making it right"] },
+        { id: "e4-6-6", type: "subheader", content: "This Week I Noticed:" },
+        { id: "e4-6-7", type: "checklist", items: ["A conflict they resolved on their own: _______________", "A time I coached instead of solved: _______________", "Progress I celebrated: _______________"] },
+        { id: "e4-6-8", type: "scripture", content: "\"Blessed are the peacemakers.\" — Matthew 5:9" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: EMOTIONAL OUTBURSTS
     // ============================================
@@ -1003,6 +1063,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
             { myth: "If you comfort them, you're rewarding the behavior.", fact: "Comfort teaches them emotions are safe, which builds true regulation." }
           ]
         }
+      ]
+    },
+
+    // Activity - Section 5
+    {
+      id: "early-5-6",
+      section: 5,
+      sectionTitle: "Emotional Outbursts",
+      pageType: "reflection",
+      title: "Activity: Feelings Thermometer",
+      subtitle: "Naming & Measuring Emotions",
+      sections: [
+        { id: "e5-6-1", type: "paragraph", content: "Help your child learn to identify how BIG their feeling is so they can pick the right tool to calm down." },
+        { id: "e5-6-2", type: "subheader", content: "The Feelings Scale (1-5)" },
+        { id: "e5-6-3", type: "list", items: ["1 — Calm & Happy 😊 (I'm okay!)", "2 — A Little Annoyed 😐 (Something's bugging me)", "3 — Frustrated 😤 (I need help calming down)", "4 — Very Upset 😢 (I need a grown-up)", "5 — Exploding 🌋 (I can't think right now)"] },
+        { id: "e5-6-4", type: "subheader", content: "Matching Tools to Levels" },
+        { id: "e5-6-5", type: "checklist", items: ["Level 1-2: Deep breaths, talk about it, draw", "Level 3: Take a break, squeeze a pillow, count to 10", "Level 4: Go to calm corner, hug a stuffed animal, co-regulate with parent", "Level 5: Just be safe — no talking, just presence and breathing together"] },
+        { id: "e5-6-6", type: "subheader", content: "Practice This Week" },
+        { id: "e5-6-7", type: "checklist", items: ["Ask 'What number are you at?' during calm moments", "Help them name their level during a real moment", "Celebrate when they use a tool independently"] },
+        { id: "e5-6-8", type: "scripture", content: "\"A gentle answer turns away wrath.\" — Proverbs 15:1" }
       ]
     },
 
@@ -1189,6 +1269,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "early-6-6",
+      section: 6,
+      sectionTitle: "Friendship Struggles",
+      pageType: "reflection",
+      title: "Activity: Friendship Skills Builder",
+      subtitle: "Practicing Social Skills at Home",
+      sections: [
+        { id: "e6-6-1", type: "paragraph", content: "Social skills are LEARNED, not automatic. Practice these with your child through role-play and real-life situations." },
+        { id: "e6-6-2", type: "subheader", content: "Skills to Practice" },
+        { id: "e6-6-3", type: "checklist", items: ["Joining a group: 'Can I play too?' + wait for the answer", "Sharing: Taking turns without a timer", "Handling exclusion: 'That hurt my feelings' + finding another friend", "Being a good loser: 'Good game!' even when you lose", "Apologizing: 'I'm sorry I ___, next time I'll ___'"] },
+        { id: "e6-6-4", type: "subheader", content: "Role-Play Scenarios" },
+        { id: "e6-6-5", type: "checklist", items: ["'What if someone says you can't play?' — practice responses", "'What if a friend says something mean?' — practice 'I' statements", "'What if you want to play something different?' — practice compromise"] },
+        { id: "e6-6-6", type: "subheader", content: "Friendship Wins This Week" },
+        { id: "e6-6-7", type: "checklist", items: ["A kind thing my child did for a friend: _______________", "A hard social moment they handled well: _______________", "A skill we practiced together: _______________"] },
+        { id: "e6-6-8", type: "scripture", content: "\"A friend loves at all times.\" — Proverbs 17:17" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: RESPONSIBILITY & CHORES
     // ============================================
@@ -1369,6 +1469,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
             { myth: "Nagging is the only way to get them to help.", fact: "Visual checklists and routines reduce the need for verbal reminders." }
           ]
         }
+      ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "early-7-6",
+      section: 7,
+      sectionTitle: "Responsibility & Chores",
+      pageType: "reflection",
+      title: "Activity: My Chore Chart Builder",
+      subtitle: "Building Responsibility with Routine",
+      sections: [
+        { id: "e7-6-1", type: "paragraph", content: "Work WITH your child to create a chore routine. Kids who help CHOOSE their tasks are more likely to follow through." },
+        { id: "e7-6-2", type: "subheader", content: "Age-Appropriate Chores (5-7)" },
+        { id: "e7-6-3", type: "checklist", items: ["Make their bed (it won't be perfect — that's okay!)", "Set or clear the table", "Feed a pet", "Put dirty clothes in the hamper", "Help sort laundry by color", "Water plants", "Pick up toys before bed"] },
+        { id: "e7-6-4", type: "subheader", content: "My Child's Chosen Chores" },
+        { id: "e7-6-5", type: "checklist", items: ["Morning chore: _______________", "After school chore: _______________", "Before bed chore: _______________"] },
+        { id: "e7-6-6", type: "subheader", content: "Keys to Success" },
+        { id: "e7-6-7", type: "list", items: ["Do it WITH them first, then let them try alone", "Use a visual checklist they can see", "Praise effort over perfection", "Be consistent — same chores, same time, every day"] },
+        { id: "e7-6-8", type: "scripture", content: "\"Whatever you do, work at it with all your heart.\" — Colossians 3:23" }
       ]
     }
   ]
