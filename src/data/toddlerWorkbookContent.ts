@@ -207,55 +207,9 @@ export const toddlerWorkbookData: WorkbookData = {
       title: "Activity: Share What You Learned",
       subtitle: "The Developing Brain",
       sections: [
-        { id: "t1-6-1", type: "paragraph", content: "Print out this page and share what you learned about the brain with one person — your spouse, your child, or a friend. Use the diagram below to explain the three brain states." },
+        { id: "t1-6-1", type: "paragraph", content: "Print out these pages and share what you learned about the brain with one person — your spouse, your child, or a friend. Use the diagram below to explain the three brain states." },
         { id: "t1-6-2", type: "faith-image", faithImage: { src: "toddler-brain-diagram", caption: "The Three Brain States in Your Toddler's Developing Brain" } },
-        { id: "t1-6-3", type: "header", content: "The Three Brain States" },
-        {
-          id: "t1-6-4",
-          type: "list",
-          content: "🔴 Survival Brain (Brainstem) — \"Am I Safe?\"",
-          items: [
-            "Located at the base of the brain — the most primitive part",
-            "Core Question: \"Am I safe right now?\"",
-            "Developmental Need: SAFETY — physical and emotional security",
-            "Emotions: terror, panic, rage, shutdown, helplessness",
-            "Triggers: loud noises, sudden changes, feeling abandoned, physical pain, overstimulation",
-            "Controls fight (hitting, biting), flight (running away), and freeze (going limp, zoning out)",
-            "When activated, ALL other brain functions shut down — they CANNOT think, reason, or listen",
-            "Signs: screaming, hitting, running away, going limp, freezing up, glazed eyes"
-          ]
-        },
-        {
-          id: "t1-6-5",
-          type: "list",
-          content: "🟡 Emotional Brain (Limbic System) — \"Am I Loved?\"",
-          items: [
-            "The middle layer — processes feelings, attachment, and memory",
-            "Core Question: \"Am I loved? Do I belong? Does someone understand me?\"",
-            "Developmental Need: CONNECTION — feeling seen, heard, and valued",
-            "Emotions: sadness, jealousy, frustration, excitement, anxiety, joy, shame",
-            "Triggers: separation from caregiver, feeling ignored, not getting their way, transitions, new environments",
-            "Highly active in toddlers — this is their DOMINANT brain state",
-            "Drives big emotions, bonding, social awareness, and attachment behaviors",
-            "Signs: crying, clinging, seeking comfort, tantrums, expressing fear or joy intensely"
-          ]
-        },
-        {
-          id: "t1-6-6",
-          type: "list",
-          content: "🔵 Thinking Brain (Prefrontal Cortex) — \"What Can I Learn?\"",
-          items: [
-            "The top layer — handles reasoning, impulse control, and decision-making",
-            "Core Question: \"What can I learn? How do I solve this?\"",
-            "Developmental Need: GROWTH — opportunities to explore, practice, and problem-solve",
-            "Emotions: curiosity, pride, confidence, patience, empathy",
-            "Triggers for losing access: stress, hunger, tiredness, overwhelm (drops back to emotional or survival brain)",
-            "STILL DEVELOPING — not fully mature until age 25!",
-            "This is why they can't 'just calm down' or 'make good choices' consistently",
-            "Signs when active: problem-solving, using words, following instructions, showing empathy"
-          ]
-        },
-        { id: "t1-6-7", type: "paragraph", content: "Understanding which brain state your child is in helps you respond with the right tool. You can't reason with a survival brain — you can only provide safety and co-regulation first." },
+        { id: "t1-6-3", type: "paragraph", content: "Understanding which brain state your child is in helps you respond with the right tool. You can't reason with a survival brain — you can only provide safety and co-regulation first." },
         { id: "t1-6-8", type: "subheader", content: "Who did you share this with? What was their reaction?" },
         {
           id: "t1-6-9",
@@ -266,6 +220,81 @@ export const toddlerWorkbookData: WorkbookData = {
             "______________________________________"
           ]
         }
+      ]
+    },
+
+    // Survival Brain deep dive
+    {
+      id: "toddler-1-7",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔴 Survival Brain",
+      subtitle: "Brainstem — \"Am I Safe?\"",
+      sections: [
+        { id: "t1-7-1", type: "header", content: "What Is the Survival Brain?" },
+        { id: "t1-7-2", type: "paragraph", content: "The brainstem sits at the base of the brain and is the most primitive part. It controls automatic functions like breathing and heart rate, but also activates our fight, flight, and freeze responses. In toddlers, this part is fully developed — meaning their alarm system works perfectly, even when higher brain functions don't." },
+        { id: "t1-7-3", type: "header", content: "The Core Question" },
+        { id: "t1-7-4", type: "paragraph", content: "When a child is in survival mode, their brain is asking one thing: \"AM I SAFE RIGHT NOW?\" Until they feel safe, no learning, reasoning, or cooperation is possible." },
+        { id: "t1-7-5", type: "header", content: "Developmental Need: SAFETY" },
+        { id: "t1-7-6", type: "paragraph", content: "Physical safety: being held, protected, warm, fed. Emotional safety: a calm voice, a regulated caregiver, predictability, and knowing someone is in charge." },
+        { id: "t1-7-7", type: "header", content: "Emotions in This State" },
+        { id: "t1-7-8", type: "list", items: ["Terror & panic", "Rage (uncontrollable, not intentional)", "Complete shutdown & helplessness", "Feeling trapped or overwhelmed"] },
+        { id: "t1-7-9", type: "header", content: "Common Triggers" },
+        { id: "t1-7-10", type: "list", items: ["Loud noises or yelling", "Sudden changes or surprises", "Feeling abandoned (even briefly)", "Physical pain or discomfort", "Overstimulation (crowds, noise, lights)", "A dysregulated caregiver"] },
+        { id: "t1-7-11", type: "header", content: "What You'll See" },
+        { id: "t1-7-12", type: "list", items: ["Fight: hitting, biting, kicking, throwing", "Flight: running away, hiding, escaping", "Freeze: going limp, zoning out, glazed eyes, silence"] },
+        { id: "t1-7-13", type: "scripture", content: "\"When ALL other brain functions shut down, they CANNOT think, reason, or listen. Your only job is to help them feel safe again.\"" }
+      ]
+    },
+
+    // Emotional Brain deep dive
+    {
+      id: "toddler-1-8",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🟡 Emotional Brain",
+      subtitle: "Limbic System — \"Am I Loved?\"",
+      sections: [
+        { id: "t1-8-1", type: "header", content: "What Is the Emotional Brain?" },
+        { id: "t1-8-2", type: "paragraph", content: "The limbic system is the middle layer of the brain, home to the amygdala (alarm center) and hippocampus (memory). It processes feelings, drives attachment, and is responsible for emotional memories. In toddlers ages 2-4, this is the DOMINANT brain state — they feel everything intensely." },
+        { id: "t1-8-3", type: "header", content: "The Core Question" },
+        { id: "t1-8-4", type: "paragraph", content: "When a child is in their emotional brain, they are asking: \"AM I LOVED? Do I belong? Does someone understand me?\" They need connection before correction." },
+        { id: "t1-8-5", type: "header", content: "Developmental Need: CONNECTION" },
+        { id: "t1-8-6", type: "paragraph", content: "Feeling seen, heard, and valued. Knowing their emotions are acceptable even when their behavior isn't. Having a caregiver who mirrors and validates their inner world." },
+        { id: "t1-8-7", type: "header", content: "Emotions in This State" },
+        { id: "t1-8-8", type: "list", items: ["Sadness & grief (even over small losses)", "Jealousy & frustration", "Excitement & overwhelming joy", "Anxiety & worry", "Shame & embarrassment", "Deep attachment needs"] },
+        { id: "t1-8-9", type: "header", content: "Common Triggers" },
+        { id: "t1-8-10", type: "list", items: ["Separation from caregiver", "Feeling ignored or unseen", "Not getting their way (toy taken, told 'no')", "Transitions (leaving the park, bedtime)", "New environments or unfamiliar people", "A sibling getting attention"] },
+        { id: "t1-8-11", type: "header", content: "What You'll See" },
+        { id: "t1-8-12", type: "list", items: ["Crying & clinging", "Tantrums & meltdowns", "Seeking comfort (wanting to be held)", "Saying 'I need you' or 'don't leave'", "Expressing fear or joy with full intensity"] },
+        { id: "t1-8-13", type: "scripture", content: "\"Your child's big emotions are not the problem — they are the invitation to connect.\"" }
+      ]
+    },
+
+    // Thinking Brain deep dive
+    {
+      id: "toddler-1-9",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔵 Thinking Brain",
+      subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
+      sections: [
+        { id: "t1-9-1", type: "header", content: "What Is the Thinking Brain?" },
+        { id: "t1-9-2", type: "paragraph", content: "The prefrontal cortex is the top layer of the brain, responsible for reasoning, impulse control, empathy, and decision-making. This is the part that allows us to pause before reacting, consider consequences, and regulate emotions. In toddlers, this part is BARELY online — it won't fully mature until around age 25." },
+        { id: "t1-9-3", type: "header", content: "The Core Question" },
+        { id: "t1-9-4", type: "paragraph", content: "When a child has access to their thinking brain, they are asking: \"WHAT CAN I LEARN? How do I solve this? What happens if I try?\" This is where curiosity, creativity, and growth live." },
+        { id: "t1-9-5", type: "header", content: "Developmental Need: GROWTH" },
+        { id: "t1-9-6", type: "paragraph", content: "Opportunities to explore safely, practice new skills, make age-appropriate choices, and learn from natural consequences — all within the safety of a connected relationship." },
+        { id: "t1-9-7", type: "header", content: "Emotions in This State" },
+        { id: "t1-9-8", type: "list", items: ["Curiosity & wonder", "Pride & accomplishment", "Confidence & independence", "Patience (in small doses!)", "Empathy & caring for others"] },
+        { id: "t1-9-9", type: "header", content: "Triggers for LOSING Access" },
+        { id: "t1-9-10", type: "list", items: ["Stress or feeling threatened (drops to survival brain)", "Hunger, tiredness, or illness", "Overwhelm or too many demands", "Feeling disconnected from caregiver", "Being shamed or criticized (drops to emotional brain)"] },
+        { id: "t1-9-11", type: "header", content: "What You'll See When It's Active" },
+        { id: "t1-9-12", type: "list", items: ["Problem-solving & trying new approaches", "Using words to express needs", "Following simple instructions", "Showing empathy ('Are you okay?')", "Making choices & feeling proud"] },
+        { id: "t1-9-13", type: "scripture", content: "\"Your job is not to force the thinking brain online — it's to create the safety and connection that allow it to come online naturally.\"" }
       ]
     },
 
