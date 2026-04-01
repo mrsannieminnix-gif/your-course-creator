@@ -199,6 +199,64 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-1-6",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Activity: Share What You Learned",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "t1-6-1", type: "paragraph", content: "Print out this page and share what you learned about the brain with one person — your spouse, your child, or a friend. Use the diagram below to explain the three brain states." },
+        { id: "t1-6-2", type: "faith-image", faithImage: { src: "toddler-brain-diagram", caption: "The Three Brain States in Your Toddler's Developing Brain" } },
+        { id: "t1-6-3", type: "header", content: "The Three Brain States" },
+        {
+          id: "t1-6-4",
+          type: "list",
+          content: "🔴 Survival Brain (Brainstem)",
+          items: [
+            "Located at the base of the brain — the most primitive part",
+            "Controls fight, flight, and freeze responses",
+            "When your toddler is in survival mode, they CANNOT think or reason",
+            "Signs: screaming, hitting, running away, going limp, freezing up"
+          ]
+        },
+        {
+          id: "t1-6-5",
+          type: "list",
+          content: "🟡 Emotional Brain (Limbic System / Amygdala)",
+          items: [
+            "The middle layer — processes feelings and attachment",
+            "Highly active in toddlers — this is their dominant brain state",
+            "Drives big emotions, bonding, and social connection",
+            "Signs: crying, clinging, seeking comfort, expressing fear or joy intensely"
+          ]
+        },
+        {
+          id: "t1-6-6",
+          type: "list",
+          content: "🔵 Thinking Brain (Prefrontal Cortex)",
+          items: [
+            "The top layer — handles reasoning, impulse control, and decision-making",
+            "STILL DEVELOPING in toddlers — not fully mature until age 25!",
+            "This is why they can't 'just calm down' or 'make good choices' consistently",
+            "Signs when active: problem-solving, using words, following instructions"
+          ]
+        },
+        { id: "t1-6-7", type: "paragraph", content: "Understanding which brain state your child is in helps you respond with the right tool. You can't reason with a survival brain — you can only provide safety and co-regulation first." },
+        { id: "t1-6-8", type: "subheader", content: "Who did you share this with? What was their reaction?" },
+        {
+          id: "t1-6-9",
+          type: "checklist",
+          items: [
+            "______________________________________",
+            "______________________________________",
+            "______________________________________"
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 2: TANTRUMS & EMOTIONAL MELTDOWNS
     // ============================================
