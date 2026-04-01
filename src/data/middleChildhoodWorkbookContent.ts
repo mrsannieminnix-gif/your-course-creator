@@ -1034,6 +1034,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 5
+    {
+      id: "middle-5-6",
+      section: 5,
+      sectionTitle: "Body Image & Puberty",
+      pageType: "reflection",
+      title: "Activity: Body Appreciation Journal",
+      subtitle: "Celebrating What My Body Can DO",
+      sections: [
+        { id: "m5-6-1", type: "paragraph", content: "Shift the focus from how their body LOOKS to what their body CAN DO. This builds resilience against comparison and shame." },
+        { id: "m5-6-2", type: "subheader", content: "My Body Is Amazing Because..." },
+        { id: "m5-6-3", type: "checklist", items: ["It lets me run/play/dance: _______________", "It heals when I get hurt", "It lets me hug the people I love", "It helps me learn new things every day", "It's growing and getting stronger: _______________"] },
+        { id: "m5-6-4", type: "subheader", content: "Puberty Talk Starters" },
+        { id: "m5-6-5", type: "list", items: ["'Your body is changing because it's getting ready to be an adult body.'", "'Every body develops at its own pace — there's no right timeline.'", "'You can ask me ANYTHING — no question is embarrassing.'", "'The changes you're feeling are totally normal.'"] },
+        { id: "m5-6-6", type: "subheader", content: "Questions My Child Has Asked" },
+        { id: "m5-6-7", type: "checklist", items: ["_______________________________________________", "_______________________________________________", "_______________________________________________"] },
+        { id: "m5-6-8", type: "scripture", content: "\"I praise you because I am fearfully and wonderfully made.\" — Psalm 139:14" }
+      ]
+    },
+
     // ============================================
     // SECTION 6: EMOTIONAL REGULATION
     // ============================================
