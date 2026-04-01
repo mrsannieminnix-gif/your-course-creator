@@ -363,6 +363,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-2-5",
+      section: 2,
+      sectionTitle: "Tantrums & Big Emotions",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Tantrums & Meltdowns",
+      sections: [
+        { id: "t2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t2-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Tantrums are manipulation — they're trying to control you.", fact: "Toddlers lack the cognitive ability to manipulate. Tantrums are genuine emotional overwhelm." },
+            { myth: "Ignoring a tantrum teaches them to stop.", fact: "Ignoring teaches them their emotions aren't safe to express. Co-regulation teaches them to manage." },
+            { myth: "If you comfort them during a tantrum, you're rewarding bad behavior.", fact: "Comfort during distress builds secure attachment and teaches them emotions are manageable." },
+            { myth: "A good parent can prevent all tantrums.", fact: "Tantrums are a normal, healthy part of development. They're how toddlers process big emotions." },
+            { myth: "They need to 'cry it out' and learn to self-soothe.", fact: "Self-regulation is built through co-regulation first. They need your calm before they can find their own." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 3: DEFIANCE & POWER STRUGGLES
     // ============================================
