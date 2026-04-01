@@ -176,6 +176,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-1-5",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "t1-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t1-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Toddlers misbehave on purpose to push your buttons.", fact: "Their prefrontal cortex is still developing — they literally cannot plan manipulation at this age." },
+            { myth: "If they can talk, they should be able to control themselves.", fact: "Language and impulse control develop in different parts of the brain at different rates." },
+            { myth: "You should expect your 2-year-old to sit still and listen.", fact: "Their brains are wired for movement and exploration — stillness is biologically difficult." },
+            { myth: "They should know better by now.", fact: "Brain development follows a timeline, not a parenting schedule. Repetition is how they learn." },
+            { myth: "Strict discipline speeds up brain maturity.", fact: "Safety, connection, and co-regulation build stronger neural pathways than punishment." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 2: TANTRUMS & EMOTIONAL MELTDOWNS
     // ============================================
@@ -336,6 +359,29 @@ export const toddlerWorkbookData: WorkbookData = {
           id: "t2-4-4",
           type: "quote",
           content: "The goal isn't to stop the tantrum - it's to be WITH them through it."
+        }
+      ]
+    },
+
+    {
+      id: "toddler-2-5",
+      section: 2,
+      sectionTitle: "Tantrums & Big Emotions",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Tantrums & Meltdowns",
+      sections: [
+        { id: "t2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t2-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Tantrums are manipulation — they're trying to control you.", fact: "Toddlers lack the cognitive ability to manipulate. Tantrums are genuine emotional overwhelm." },
+            { myth: "Ignoring a tantrum teaches them to stop.", fact: "Ignoring teaches them their emotions aren't safe to express. Co-regulation teaches them to manage." },
+            { myth: "If you comfort them during a tantrum, you're rewarding bad behavior.", fact: "Comfort during distress builds secure attachment and teaches them emotions are manageable." },
+            { myth: "A good parent can prevent all tantrums.", fact: "Tantrums are a normal, healthy part of development. They're how toddlers process big emotions." },
+            { myth: "They need to 'cry it out' and learn to self-soothe.", fact: "Self-regulation is built through co-regulation first. They need your calm before they can find their own." }
+          ]
         }
       ]
     },
@@ -504,6 +550,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-3-5",
+      section: 3,
+      sectionTitle: "Defiance & Power Struggles",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Power Struggles",
+      sections: [
+        { id: "t3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t3-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "A defiant toddler is a disrespectful child.", fact: "Saying 'no' is a healthy sign of autonomy development — it means their brain is growing." },
+            { myth: "You must win every power struggle or they'll walk all over you.", fact: "Picking battles wisely teaches them cooperation. Winning every fight teaches them to fear you." },
+            { myth: "Obedience should be immediate and unquestioning.", fact: "Toddlers need processing time. Giving choices and time builds willing cooperation." },
+            { myth: "If you give them choices, you're letting them be the boss.", fact: "Offering limited choices gives them healthy autonomy within your boundaries." },
+            { myth: "Strong-willed children need to be broken.", fact: "Strong will is a gift — it needs to be guided, not crushed. These children become strong leaders." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 4: SEPARATION ANXIETY & CLINGINESS
     // ============================================
@@ -664,6 +733,29 @@ export const toddlerWorkbookData: WorkbookData = {
           id: "t4-4-4",
           type: "quote",
           content: "Every return builds their trust that love doesn't disappear."
+        }
+      ]
+    },
+
+    {
+      id: "toddler-4-5",
+      section: 4,
+      sectionTitle: "Separation Anxiety",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Separation & Attachment",
+      sections: [
+        { id: "t4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t4-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Clingy children are spoiled — you've coddled them too much.", fact: "Clinginess is a sign of healthy attachment. They need you because you're their safe base." },
+            { myth: "Sneaking away makes goodbyes easier.", fact: "Sneaking away breaks trust and increases anxiety. Consistent goodbyes build security." },
+            { myth: "They should be independent by age 2.", fact: "True independence grows from secure attachment. Forcing independence creates more clinginess." },
+            { myth: "Crying at drop-off means they're not ready.", fact: "Crying is normal protest behavior. Most children calm within minutes of a confident goodbye." },
+            { myth: "Comforting their anxiety makes it worse.", fact: "Validating their fear while staying calm teaches them the world is safe and you always return." }
+          ]
         }
       ]
     },
@@ -832,6 +924,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-5-5",
+      section: 5,
+      sectionTitle: "Sleep Challenges",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Sleep & Boundaries",
+      sections: [
+        { id: "t5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t5-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "If they're not tired, they don't need to go to bed.", fact: "Overtired toddlers often appear wired and energetic. Consistent bedtimes prevent overtiredness." },
+            { myth: "Giving in 'just this once' won't matter.", fact: "Inconsistency teaches them that pushing back works. Calm consistency is kindness." },
+            { myth: "They're just stalling — ignore the requests.", fact: "Some requests are genuine needs (water, bathroom). Validate briefly, then hold the boundary." },
+            { myth: "Letting them cry alone at night builds toughness.", fact: "Nighttime fears are real at this age. Brief, calm reassurance builds courage, not abandonment." },
+            { myth: "A strict bedtime routine is controlling.", fact: "Predictable routines reduce anxiety and help their brain shift into sleep mode naturally." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 6: AGGRESSION & HITTING
     // ============================================
@@ -996,6 +1111,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-6-5",
+      section: 6,
+      sectionTitle: "Aggression & Hitting",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Aggression & Correction",
+      sections: [
+        { id: "t6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t6-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Hitting back teaches them how it feels.", fact: "Hitting a child teaches them that bigger people can hurt smaller people. Model what you want to teach." },
+            { myth: "Aggressive toddlers will become aggressive adults.", fact: "Aggression is normal at this age. With guidance and co-regulation, most children outgrow it." },
+            { myth: "They hit because they're 'bad' kids.", fact: "They hit because they lack impulse control and language to express big feelings." },
+            { myth: "Time-out is the best response to hitting.", fact: "Connection after correction is more effective. Teach alternatives: stomp, squeeze, use words." },
+            { myth: "If you don't punish immediately, they won't learn.", fact: "Toddlers learn best when calm. Teach after the storm passes, not during it." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 7: TRANSITIONS & CHANGE
     // ============================================
@@ -1156,6 +1294,28 @@ export const toddlerWorkbookData: WorkbookData = {
           id: "t7-4-4",
           type: "quote",
           content: "For everything there is a season. Help them learn to flow with change."
+        }
+      ]
+    },
+    {
+      id: "toddler-7-5",
+      section: 7,
+      sectionTitle: "Transitions & Change",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Handling Change",
+      sections: [
+        { id: "t7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t7-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "They should just go with the flow — you're the parent.", fact: "Toddler brains can't shift focus easily. Warnings and preparation prevent most meltdowns." },
+            { myth: "Transition meltdowns are just disobedience.", fact: "Transitions require executive function skills that are still developing at this age." },
+            { myth: "If you give warnings, you're negotiating.", fact: "Warnings respect their brain's need for processing time. The boundary stays the same." },
+            { myth: "Making transitions fun is coddling.", fact: "Playful transitions teach cooperation and make life smoother for everyone." },
+            { myth: "They'll outgrow transition struggles on their own.", fact: "With practice and support, they build skills faster. Without it, struggles can intensify." }
+          ]
         }
       ]
     }
