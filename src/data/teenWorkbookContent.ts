@@ -176,6 +176,104 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 1
+    {
+      id: "teen-1-5",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "tn1-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "tn1-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Teens are just being difficult on purpose.", fact: "Their brain is under major construction — risk-taking and emotional intensity are biologically driven." },
+            { myth: "They don't need you anymore.", fact: "They need you differently — as a consultant, not a manager. Your presence still matters deeply." },
+            { myth: "The prefrontal cortex is fully developed by now.", fact: "It won't fully mature until the mid-20s. They genuinely struggle with long-term thinking." },
+            { myth: "They should know better at this age.", fact: "Knowing and doing are different brain functions. The gap between them is normal in teens." },
+            { myth: "Strict control prevents risky behavior.", fact: "Connection and trust are more protective than control. Teens rebel against control but lean into relationship." }
+          ]
+        }
+      ]
+    },
+
+    // Activity: Brain Diagram
+    {
+      id: "teen-1-6",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Activity: Share What You Learned",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "tn1-6-1", type: "paragraph", content: "Print out these pages and share what you learned about the brain with one person — your spouse, your teen, or a friend." },
+        { id: "tn1-6-2", type: "faith-image", faithImage: { src: "toddler-brain-diagram", caption: "The Three Brain States in Your Teen's Developing Brain" } },
+        { id: "tn1-6-3", type: "paragraph", content: "Understanding which brain state your teen is in changes everything. You can't lecture a survival brain or reason with an emotional one." },
+        { id: "tn1-6-8", type: "subheader", content: "Who did you share this with? What was their reaction?" },
+        { id: "tn1-6-9", type: "checklist", items: ["______________________________________", "______________________________________", "______________________________________"] }
+      ]
+    },
+
+    // Survival Brain
+    {
+      id: "teen-1-7",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔴 Survival Brain",
+      subtitle: "Brainstem — \"Am I Safe?\"",
+      sections: [
+        { id: "tn1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
+        { id: "tn1-7-2", type: "paragraph", content: "The brainstem controls fight, flight, and freeze. In teens, survival mode can be triggered by social threats, family conflict, or feeling out of control — not just physical danger." },
+        { id: "tn1-7-4", type: "paragraph", content: "Core Question: \"AM I SAFE?\" — Until they feel safe, no conversation or correction will land." },
+        { id: "tn1-7-6", type: "paragraph", content: "Need: SAFETY — emotional security, non-judgmental presence, predictability at home." },
+        { id: "tn1-7-7", type: "header", content: "Emotions & Triggers" },
+        { id: "tn1-7-8", type: "list", items: ["Emotions: panic, rage, numbness, desperation", "Triggers: public humiliation, family instability, breakups, academic failure", "Fight: explosive anger, verbal attacks, door slamming", "Flight: leaving the house, escaping to substances or screens", "Freeze: depression, dissociation, 'I don't care about anything'"] },
+        { id: "tn1-7-13", type: "scripture", content: "\"They CANNOT process your words in this state. Be safe. Be calm. Be present.\"" }
+      ]
+    },
+
+    // Emotional Brain
+    {
+      id: "teen-1-8",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🟡 Emotional Brain",
+      subtitle: "Limbic System — \"Am I Loved?\"",
+      sections: [
+        { id: "tn1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
+        { id: "tn1-8-2", type: "paragraph", content: "The limbic system processes feelings and drives belonging. In teens, this system is hyperactive — they feel everything at maximum intensity while identity and peer acceptance dominate." },
+        { id: "tn1-8-4", type: "paragraph", content: "Core Question: \"AM I LOVED? Do I matter?\" — They need to know your love isn't conditional on performance." },
+        { id: "tn1-8-6", type: "paragraph", content: "Need: CONNECTION — unconditional acceptance, being heard without being fixed." },
+        { id: "tn1-8-7", type: "header", content: "Emotions & Triggers" },
+        { id: "tn1-8-8", type: "list", items: ["Emotions: insecurity, shame, longing, heartbreak, identity confusion", "Triggers: rejection, comparison on social media, parental disappointment", "Signs: withdrawing, mood swings, 'you wouldn't understand'", "Testing boundaries to see if your love has limits"] },
+        { id: "tn1-8-13", type: "scripture", content: "\"They may push hardest when they need you most. Don't take the bait — stay connected.\"" }
+      ]
+    },
+
+    // Thinking Brain
+    {
+      id: "teen-1-9",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "🔵 Thinking Brain",
+      subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
+      sections: [
+        { id: "tn1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
+        { id: "tn1-9-2", type: "paragraph", content: "The prefrontal cortex handles reasoning, planning, and moral decision-making. In teens, it's maturing rapidly but still losing the battle to the reward center — which is why they take risks they 'know' are dangerous." },
+        { id: "tn1-9-4", type: "paragraph", content: "Core Question: \"WHAT CAN I LEARN? Who am I becoming?\" — This is where values, vision, and purpose take shape." },
+        { id: "tn1-9-6", type: "paragraph", content: "Need: GROWTH — real autonomy, meaningful responsibility, and trust to fail and recover." },
+        { id: "tn1-9-7", type: "header", content: "Emotions & Triggers" },
+        { id: "tn1-9-8", type: "list", items: ["Emotions: ambition, idealism, passion, empathy, purpose", "Loses access when: exhausted, shamed, micromanaged, anxious", "Signs when active: setting goals, debating ideas, mentoring younger kids", "Developing their own worldview and moral framework"] },
+        { id: "tn1-9-13", type: "scripture", content: "\"Your job is shifting from manager to consultant. Trust the foundation you've built.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 2: COMMUNICATION BREAKDOWN
     // ============================================
