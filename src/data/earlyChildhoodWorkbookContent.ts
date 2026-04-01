@@ -863,6 +863,26 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "early-4-6",
+      section: 4,
+      sectionTitle: "Sibling Conflict",
+      pageType: "reflection",
+      title: "Activity: Peace Maker Practice",
+      subtitle: "Teaching Conflict Resolution",
+      sections: [
+        { id: "e4-6-1", type: "paragraph", content: "Instead of solving every fight, coach your children through these steps. Practice when everyone is calm first!" },
+        { id: "e4-6-2", type: "subheader", content: "The 4-Step Peace Process" },
+        { id: "e4-6-3", type: "list", items: ["1. STOP — Both kids freeze and take 3 breaths", "2. TELL — Each person says 'I felt ___ when ___'", "3. LISTEN — The other repeats back what they heard", "4. SOLVE — Together pick a solution that works for both"] },
+        { id: "e4-6-4", type: "subheader", content: "Practice Scenarios" },
+        { id: "e4-6-5", type: "checklist", items: ["Both want the same toy → take turns or find a different game", "One feels left out → invite them in or plan special time", "Name-calling happened → practice 'I felt hurt when you said...'", "Someone's thing got broken → practice apology + making it right"] },
+        { id: "e4-6-6", type: "subheader", content: "This Week I Noticed:" },
+        { id: "e4-6-7", type: "checklist", items: ["A conflict they resolved on their own: _______________", "A time I coached instead of solved: _______________", "Progress I celebrated: _______________"] },
+        { id: "e4-6-8", type: "scripture", content: "\"Blessed are the peacemakers.\" — Matthew 5:9" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: EMOTIONAL OUTBURSTS
     // ============================================
