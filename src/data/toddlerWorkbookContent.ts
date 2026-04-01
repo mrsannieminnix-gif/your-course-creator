@@ -232,6 +232,7 @@ export const toddlerWorkbookData: WorkbookData = {
       title: "🔴 Survival Brain",
       subtitle: "Brainstem — \"Am I Safe?\"",
       sections: [
+        { id: "t1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
         { id: "t1-7-1", type: "header", content: "What Is the Survival Brain?" },
         { id: "t1-7-2", type: "paragraph", content: "The brainstem sits at the base of the brain and is the most primitive part. It controls automatic functions like breathing and heart rate, but also activates our fight, flight, and freeze responses. In toddlers, this part is fully developed — meaning their alarm system works perfectly, even when higher brain functions don't." },
         { id: "t1-7-3", type: "header", content: "The Core Question" },
