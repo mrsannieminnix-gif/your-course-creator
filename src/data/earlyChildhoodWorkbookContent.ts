@@ -982,6 +982,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 5
+    {
+      id: "early-5-5",
+      section: 5,
+      sectionTitle: "Emotional Outbursts",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Emotional Outbursts",
+      sections: [
+        { id: "e5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e5-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "By 5-7, they should control their emotions.", fact: "Emotional regulation is still developing. Meltdowns are normal at this age." },
+            { myth: "Ignoring outbursts makes them stop.", fact: "Ignoring teaches them their emotions don't matter, not how to manage them." },
+            { myth: "They're being dramatic on purpose.", fact: "Their emotional brain is still dominant. The feelings are 100% real to them." },
+            { myth: "Sending them to their room teaches regulation.", fact: "Isolation during distress teaches them to suppress, not regulate." },
+            { myth: "If you comfort them, you're rewarding the behavior.", fact: "Comfort teaches them emotions are safe, which builds true regulation." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 6: FRIENDSHIP STRUGGLES
     // ============================================
