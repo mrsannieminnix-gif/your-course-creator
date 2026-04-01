@@ -1133,6 +1133,22 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 6
+    {
+      id: "middle-6-5", section: 6, sectionTitle: "Emotional Regulation", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Emotional Regulation",
+      sections: [
+        { id: "m6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "m6-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "By 8-12, they should manage emotions independently.", fact: "They're building skills but still need coaching during intense emotions." },
+          { myth: "Anger is a bad emotion.", fact: "Anger is a signal. Teaching them to listen to it is healthier than suppressing it." },
+          { myth: "If they cry, they're being manipulative.", fact: "Tears are an emotional release, not a strategy." },
+          { myth: "Tough love builds emotional strength.", fact: "Warmth and boundaries together build the strongest emotional resilience." },
+          { myth: "Talking about feelings makes boys weak.", fact: "Emotional literacy in boys prevents aggression and builds healthier relationships." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 7: BUILDING CHARACTER
     // ============================================
