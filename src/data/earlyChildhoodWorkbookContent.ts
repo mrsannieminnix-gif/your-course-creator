@@ -616,6 +616,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 3
+    {
+      id: "early-3-5",
+      section: 3,
+      sectionTitle: "School Anxiety",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "School Anxiety",
+      sections: [
+        { id: "e3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e3-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "School anxiety means your child is weak.", fact: "Anxiety is a sign of a sensitive nervous system, not weakness." },
+            { myth: "Pushing them harder builds resilience.", fact: "Pushing a stressed child deeper into stress causes shutdown, not growth." },
+            { myth: "They'll just get over it.", fact: "Unaddressed anxiety often intensifies. Co-regulation helps it resolve." },
+            { myth: "Good students don't feel anxious.", fact: "High-achieving kids often feel the MOST anxiety about performance." },
+            { myth: "If they cry at drop-off, you should leave faster.", fact: "A calm, connected goodbye builds security. Rushing increases panic." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 4: SIBLING CONFLICT
     // ============================================
