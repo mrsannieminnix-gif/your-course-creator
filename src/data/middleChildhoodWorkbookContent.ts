@@ -839,6 +839,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "middle-4-6",
+      section: 4,
+      sectionTitle: "Technology & Screens",
+      pageType: "reflection",
+      title: "Activity: Digital Wellness Contract",
+      subtitle: "Creating Healthy Tech Boundaries Together",
+      sections: [
+        { id: "m4-6-1", type: "paragraph", content: "Create a family tech agreement WITH your child — not FOR them. When they help make the rules, they're more likely to follow them." },
+        { id: "m4-6-2", type: "subheader", content: "Our Family Tech Agreement" },
+        { id: "m4-6-3", type: "checklist", items: ["Screen-free times: meals, bedtime, _______________", "Screen-free zones: bedrooms, _______________", "Daily screen limit: ___ hours", "Homework before screens: Yes / Sometimes / We'll discuss"] },
+        { id: "m4-6-4", type: "subheader", content: "Online Safety Rules" },
+        { id: "m4-6-5", type: "checklist", items: ["Never share personal info without asking a parent", "Tell a parent if something online makes me uncomfortable", "Only download apps/games with parent approval", "Be kind online — treat others as I want to be treated"] },
+        { id: "m4-6-6", type: "subheader", content: "Alternatives to Screens" },
+        { id: "m4-6-7", type: "checklist", items: ["Outside play: _______________", "Creative activities: _______________", "Family time: _______________", "Reading: _______________"] },
+        { id: "m4-6-8", type: "scripture", content: "\"Above all else, guard your heart, for everything you do flows from it.\" — Proverbs 4:23" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: BODY IMAGE & PUBERTY
     // ============================================
