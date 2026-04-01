@@ -1117,6 +1117,39 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 5
+    {
+      id: "toddler-5-6",
+      section: 5,
+      sectionTitle: "Sleep Challenges",
+      pageType: "reflection",
+      title: "Activity: Bedtime Routine Builder",
+      subtitle: "Design a Calming Sleep Routine",
+      sections: [
+        { id: "t5-6-1", type: "paragraph", content: "A predictable bedtime routine signals the brain to start winding down. Build your family's routine below (aim for 20-30 minutes):" },
+        { id: "t5-6-2", type: "header", content: "Our Bedtime Routine (in order)" },
+        { id: "t5-6-3", type: "checklist", content: "Choose 4-6 steps:", items: [
+          "Bath or warm washcloth",
+          "Put on pajamas",
+          "Brush teeth",
+          "Read 1-2 books together",
+          "Sing a song or play soft music",
+          "Say prayers together",
+          "Goodnight hugs and kisses",
+          "Lights out with nightlight"
+        ]},
+        { id: "t5-6-4", type: "header", content: "Bedtime is: _______ PM" },
+        { id: "t5-6-5", type: "header", content: "Wind-down starts at: _______ PM" },
+        { id: "t5-6-6", type: "header", content: "When They Get Out of Bed, I Will..." },
+        { id: "t5-6-7", type: "checklist", items: [
+          "Calmly walk them back without engaging",
+          "Use the same short phrase: \"It's sleep time\"",
+          "Stay calm no matter how many times it happens"
+        ]},
+        { id: "t5-6-8", type: "scripture", content: "\"Consistency is the gift you give their nervous system. Same routine, same calm, every night.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 6: AGGRESSION & HITTING
     // ============================================
