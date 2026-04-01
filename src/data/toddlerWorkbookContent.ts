@@ -213,34 +213,46 @@ export const toddlerWorkbookData: WorkbookData = {
         {
           id: "t1-6-4",
           type: "list",
-          content: "🔴 Survival Brain (Brainstem)",
+          content: "🔴 Survival Brain (Brainstem) — \"Am I Safe?\"",
           items: [
             "Located at the base of the brain — the most primitive part",
-            "Controls fight, flight, and freeze responses",
-            "When your toddler is in survival mode, they CANNOT think or reason",
-            "Signs: screaming, hitting, running away, going limp, freezing up"
+            "Core Question: \"Am I safe right now?\"",
+            "Developmental Need: SAFETY — physical and emotional security",
+            "Emotions: terror, panic, rage, shutdown, helplessness",
+            "Triggers: loud noises, sudden changes, feeling abandoned, physical pain, overstimulation",
+            "Controls fight (hitting, biting), flight (running away), and freeze (going limp, zoning out)",
+            "When activated, ALL other brain functions shut down — they CANNOT think, reason, or listen",
+            "Signs: screaming, hitting, running away, going limp, freezing up, glazed eyes"
           ]
         },
         {
           id: "t1-6-5",
           type: "list",
-          content: "🟡 Emotional Brain (Limbic System / Amygdala)",
+          content: "🟡 Emotional Brain (Limbic System) — \"Am I Loved?\"",
           items: [
-            "The middle layer — processes feelings and attachment",
-            "Highly active in toddlers — this is their dominant brain state",
-            "Drives big emotions, bonding, and social connection",
-            "Signs: crying, clinging, seeking comfort, expressing fear or joy intensely"
+            "The middle layer — processes feelings, attachment, and memory",
+            "Core Question: \"Am I loved? Do I belong? Does someone understand me?\"",
+            "Developmental Need: CONNECTION — feeling seen, heard, and valued",
+            "Emotions: sadness, jealousy, frustration, excitement, anxiety, joy, shame",
+            "Triggers: separation from caregiver, feeling ignored, not getting their way, transitions, new environments",
+            "Highly active in toddlers — this is their DOMINANT brain state",
+            "Drives big emotions, bonding, social awareness, and attachment behaviors",
+            "Signs: crying, clinging, seeking comfort, tantrums, expressing fear or joy intensely"
           ]
         },
         {
           id: "t1-6-6",
           type: "list",
-          content: "🔵 Thinking Brain (Prefrontal Cortex)",
+          content: "🔵 Thinking Brain (Prefrontal Cortex) — \"What Can I Learn?\"",
           items: [
             "The top layer — handles reasoning, impulse control, and decision-making",
-            "STILL DEVELOPING in toddlers — not fully mature until age 25!",
+            "Core Question: \"What can I learn? How do I solve this?\"",
+            "Developmental Need: GROWTH — opportunities to explore, practice, and problem-solve",
+            "Emotions: curiosity, pride, confidence, patience, empathy",
+            "Triggers for losing access: stress, hunger, tiredness, overwhelm (drops back to emotional or survival brain)",
+            "STILL DEVELOPING — not fully mature until age 25!",
             "This is why they can't 'just calm down' or 'make good choices' consistently",
-            "Signs when active: problem-solving, using words, following instructions"
+            "Signs when active: problem-solving, using words, following instructions, showing empathy"
           ]
         },
         { id: "t1-6-7", type: "paragraph", content: "Understanding which brain state your child is in helps you respond with the right tool. You can't reason with a survival brain — you can only provide safety and co-regulation first." },
