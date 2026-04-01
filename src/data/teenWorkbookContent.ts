@@ -1229,6 +1229,26 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "teen-6-6",
+      section: 6,
+      sectionTitle: "Faith & Worldview",
+      pageType: "reflection",
+      title: "Activity: What I Believe & Why",
+      subtitle: "Exploring Faith on Their Own Terms",
+      sections: [
+        { id: "tn6-6-1", type: "paragraph", content: "Faith must become THEIRS, not just yours. Use these prompts to explore belief without pressure or judgment." },
+        { id: "tn6-6-2", type: "subheader", content: "Faith Exploration Questions" },
+        { id: "tn6-6-3", type: "checklist", items: ["What do I believe about God right now?", "What questions do I have that I haven't asked?", "What parts of faith feel real to me?", "What parts feel confusing or hard?", "Who do I know that lives their faith in a way I respect?"] },
+        { id: "tn6-6-4", type: "subheader", content: "For Parents: Creating Space" },
+        { id: "tn6-6-5", type: "list", items: ["Don't panic when they question — it's growth, not rebellion", "Share your own doubts and how you worked through them", "Let them see your faith in action, not just your words", "Pray FOR them more than you preach AT them"] },
+        { id: "tn6-6-6", type: "subheader", content: "Our Faith Conversation" },
+        { id: "tn6-6-7", type: "checklist", items: ["A question my teen asked about faith: _______________", "How I responded (with grace, not panic): _______________", "Something I'm praying about for them: _______________"] },
+        { id: "tn6-6-8", type: "scripture", content: "\"Train up a child in the way they should go.\" — Proverbs 22:6" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: LAUNCHING WELL
     // ============================================
