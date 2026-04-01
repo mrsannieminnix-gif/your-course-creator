@@ -233,19 +233,12 @@ export const toddlerWorkbookData: WorkbookData = {
       subtitle: "Brainstem — \"Am I Safe?\"",
       sections: [
         { id: "t1-7-0", type: "faith-image", faithImage: { src: "brain-survival", caption: "The Survival Brain — Brainstem" } },
-        { id: "t1-7-1", type: "header", content: "What Is the Survival Brain?" },
-        { id: "t1-7-2", type: "paragraph", content: "The brainstem sits at the base of the brain and is the most primitive part. It controls automatic functions like breathing and heart rate, but also activates our fight, flight, and freeze responses. In toddlers, this part is fully developed — meaning their alarm system works perfectly, even when higher brain functions don't." },
-        { id: "t1-7-3", type: "header", content: "The Core Question" },
-        { id: "t1-7-4", type: "paragraph", content: "When a child is in survival mode, their brain is asking one thing: \"AM I SAFE RIGHT NOW?\" Until they feel safe, no learning, reasoning, or cooperation is possible." },
-        { id: "t1-7-5", type: "header", content: "Developmental Need: SAFETY" },
-        { id: "t1-7-6", type: "paragraph", content: "Physical safety: being held, protected, warm, fed. Emotional safety: a calm voice, a regulated caregiver, predictability, and knowing someone is in charge." },
-        { id: "t1-7-7", type: "header", content: "Emotions in This State" },
-        { id: "t1-7-8", type: "list", items: ["Terror & panic", "Rage (uncontrollable, not intentional)", "Complete shutdown & helplessness", "Feeling trapped or overwhelmed"] },
-        { id: "t1-7-9", type: "header", content: "Common Triggers" },
-        { id: "t1-7-10", type: "list", items: ["Loud noises or yelling", "Sudden changes or surprises", "Feeling abandoned (even briefly)", "Physical pain or discomfort", "Overstimulation (crowds, noise, lights)", "A dysregulated caregiver"] },
-        { id: "t1-7-11", type: "header", content: "What You'll See" },
-        { id: "t1-7-12", type: "list", items: ["Fight: hitting, biting, kicking, throwing", "Flight: running away, hiding, escaping", "Freeze: going limp, zoning out, glazed eyes, silence"] },
-        { id: "t1-7-13", type: "scripture", content: "\"When ALL other brain functions shut down, they CANNOT think, reason, or listen. Your only job is to help them feel safe again.\"" }
+        { id: "t1-7-2", type: "paragraph", content: "The brainstem is the most primitive part of the brain. It controls fight, flight, and freeze. In toddlers, this alarm system is fully developed — even when higher brain functions aren't." },
+        { id: "t1-7-4", type: "paragraph", content: "Core Question: \"AM I SAFE?\" — Until they feel safe, no learning or cooperation is possible." },
+        { id: "t1-7-6", type: "paragraph", content: "Need: SAFETY — being held, a calm voice, predictability." },
+        { id: "t1-7-7", type: "header", content: "Emotions & Triggers" },
+        { id: "t1-7-8", type: "list", items: ["Emotions: terror, panic, rage, shutdown", "Triggers: loud noises, sudden changes, feeling abandoned, overstimulation", "Fight: hitting, biting, kicking", "Flight: running away, hiding", "Freeze: going limp, zoning out, glazed eyes"] },
+        { id: "t1-7-13", type: "scripture", content: "\"They CANNOT think or listen. Your only job is to help them feel safe again.\"" }
       ]
     },
 
