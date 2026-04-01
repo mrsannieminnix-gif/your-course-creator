@@ -252,18 +252,11 @@ export const toddlerWorkbookData: WorkbookData = {
       subtitle: "Limbic System — \"Am I Loved?\"",
       sections: [
         { id: "t1-8-0", type: "faith-image", faithImage: { src: "brain-emotional", caption: "The Emotional Brain — Limbic System" } },
-        { id: "t1-8-1", type: "header", content: "What Is the Emotional Brain?" },
-        { id: "t1-8-2", type: "paragraph", content: "The limbic system is the middle layer of the brain, home to the amygdala (alarm center) and hippocampus (memory). It processes feelings, drives attachment, and is responsible for emotional memories. In toddlers ages 2-4, this is the DOMINANT brain state — they feel everything intensely." },
-        { id: "t1-8-3", type: "header", content: "The Core Question" },
-        { id: "t1-8-4", type: "paragraph", content: "When a child is in their emotional brain, they are asking: \"AM I LOVED? Do I belong? Does someone understand me?\" They need connection before correction." },
-        { id: "t1-8-5", type: "header", content: "Developmental Need: CONNECTION" },
-        { id: "t1-8-6", type: "paragraph", content: "Feeling seen, heard, and valued. Knowing their emotions are acceptable even when their behavior isn't. Having a caregiver who mirrors and validates their inner world." },
-        { id: "t1-8-7", type: "header", content: "Emotions in This State" },
-        { id: "t1-8-8", type: "list", items: ["Sadness & grief (even over small losses)", "Jealousy & frustration", "Excitement & overwhelming joy", "Anxiety & worry", "Shame & embarrassment", "Deep attachment needs"] },
-        { id: "t1-8-9", type: "header", content: "Common Triggers" },
-        { id: "t1-8-10", type: "list", items: ["Separation from caregiver", "Feeling ignored or unseen", "Not getting their way (toy taken, told 'no')", "Transitions (leaving the park, bedtime)", "New environments or unfamiliar people", "A sibling getting attention"] },
-        { id: "t1-8-11", type: "header", content: "What You'll See" },
-        { id: "t1-8-12", type: "list", items: ["Crying & clinging", "Tantrums & meltdowns", "Seeking comfort (wanting to be held)", "Saying 'I need you' or 'don't leave'", "Expressing fear or joy with full intensity"] },
+        { id: "t1-8-2", type: "paragraph", content: "The limbic system processes feelings, attachment, and memory. In toddlers ages 2-4, this is the DOMINANT brain state — they feel everything intensely." },
+        { id: "t1-8-4", type: "paragraph", content: "Core Question: \"AM I LOVED? Do I belong?\" — They need connection before correction." },
+        { id: "t1-8-6", type: "paragraph", content: "Need: CONNECTION — feeling seen, heard, and valued." },
+        { id: "t1-8-7", type: "header", content: "Emotions & Triggers" },
+        { id: "t1-8-8", type: "list", items: ["Emotions: sadness, jealousy, frustration, anxiety, shame, joy", "Triggers: separation, feeling ignored, transitions, new environments", "Signs: crying, clinging, tantrums, seeking comfort", "Saying 'I need you' or 'don't leave'"] },
         { id: "t1-8-13", type: "scripture", content: "\"Your child's big emotions are not the problem — they are the invitation to connect.\"" }
       ]
     },
