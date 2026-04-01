@@ -783,6 +783,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 4
+    {
+      id: "teen-4-5", section: 4, sectionTitle: "Romantic Relationships", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Romantic Relationships",
+      sections: [
+        { id: "tn4-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn4-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Teen relationships aren't real or important.", fact: "First relationships shape their template for love and attachment." },
+          { myth: "Forbidding dating keeps them safe.", fact: "It drives relationships underground where you can't guide them." },
+          { myth: "They're too young to feel heartbreak.", fact: "Teen heartbreak is neurologically as intense as adult heartbreak." },
+          { myth: "If you talk about it, you're encouraging it.", fact: "Open conversations build trust and help them make wise choices." },
+          { myth: "They'll figure relationships out on their own.", fact: "They learn what love looks like by watching YOUR relationship." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 5: MENTAL HEALTH
     // ============================================
