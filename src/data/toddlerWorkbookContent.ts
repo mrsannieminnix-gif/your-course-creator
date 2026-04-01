@@ -271,19 +271,12 @@ export const toddlerWorkbookData: WorkbookData = {
       subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
       sections: [
         { id: "t1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
-        { id: "t1-9-1", type: "header", content: "What Is the Thinking Brain?" },
-        { id: "t1-9-2", type: "paragraph", content: "The prefrontal cortex is the top layer of the brain, responsible for reasoning, impulse control, empathy, and decision-making. This is the part that allows us to pause before reacting, consider consequences, and regulate emotions. In toddlers, this part is BARELY online — it won't fully mature until around age 25." },
-        { id: "t1-9-3", type: "header", content: "The Core Question" },
-        { id: "t1-9-4", type: "paragraph", content: "When a child has access to their thinking brain, they are asking: \"WHAT CAN I LEARN? How do I solve this? What happens if I try?\" This is where curiosity, creativity, and growth live." },
-        { id: "t1-9-5", type: "header", content: "Developmental Need: GROWTH" },
-        { id: "t1-9-6", type: "paragraph", content: "Opportunities to explore safely, practice new skills, make age-appropriate choices, and learn from natural consequences — all within the safety of a connected relationship." },
-        { id: "t1-9-7", type: "header", content: "Emotions in This State" },
-        { id: "t1-9-8", type: "list", items: ["Curiosity & wonder", "Pride & accomplishment", "Confidence & independence", "Patience (in small doses!)", "Empathy & caring for others"] },
-        { id: "t1-9-9", type: "header", content: "Triggers for LOSING Access" },
-        { id: "t1-9-10", type: "list", items: ["Stress or feeling threatened (drops to survival brain)", "Hunger, tiredness, or illness", "Overwhelm or too many demands", "Feeling disconnected from caregiver", "Being shamed or criticized (drops to emotional brain)"] },
-        { id: "t1-9-11", type: "header", content: "What You'll See When It's Active" },
-        { id: "t1-9-12", type: "list", items: ["Problem-solving & trying new approaches", "Using words to express needs", "Following simple instructions", "Showing empathy ('Are you okay?')", "Making choices & feeling proud"] },
-        { id: "t1-9-13", type: "scripture", content: "\"Your job is not to force the thinking brain online — it's to create the safety and connection that allow it to come online naturally.\"" }
+        { id: "t1-9-2", type: "paragraph", content: "The prefrontal cortex handles reasoning, impulse control, and decision-making. In toddlers, this part is BARELY online — it won't fully mature until around age 25." },
+        { id: "t1-9-4", type: "paragraph", content: "Core Question: \"WHAT CAN I LEARN?\" — This is where curiosity, creativity, and growth live." },
+        { id: "t1-9-6", type: "paragraph", content: "Need: GROWTH — safe opportunities to explore, practice, and make choices." },
+        { id: "t1-9-7", type: "header", content: "Emotions & Triggers" },
+        { id: "t1-9-8", type: "list", items: ["Emotions: curiosity, pride, confidence, patience, empathy", "Loses access when: stressed, hungry, tired, shamed, overwhelmed", "Signs when active: problem-solving, using words, following instructions", "Shows empathy and makes choices independently"] },
+        { id: "t1-9-13", type: "scripture", content: "\"Your job is not to force this brain online — it's to create safety and connection so it comes online naturally.\"" }
       ]
     },
 
