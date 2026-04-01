@@ -467,6 +467,39 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 2
+    {
+      id: "toddler-2-6",
+      section: 2,
+      sectionTitle: "Tantrums & Big Emotions",
+      pageType: "reflection",
+      title: "Activity: Tantrum Response Plan",
+      subtitle: "Create Your Calm-Down Game Plan",
+      sections: [
+        { id: "t2-6-1", type: "paragraph", content: "Fill out this plan BEFORE the next tantrum so you're ready. Post it on your fridge!" },
+        { id: "t2-6-2", type: "header", content: "When My Child Has a Meltdown, I Will..." },
+        { id: "t2-6-3", type: "checklist", content: "Step 1: Regulate MYSELF first", items: [
+          "Drop my shoulders and take 3 slow breaths",
+          "Lower my voice to a whisper",
+          "Remind myself: this is not an emergency"
+        ]},
+        { id: "t2-6-4", type: "checklist", content: "Step 2: Connect with my child", items: [
+          "Get on their level physically",
+          "Say: \"I'm here. You're safe.\"",
+          "Offer a hug or sit nearby quietly"
+        ]},
+        { id: "t2-6-5", type: "checklist", content: "Step 3: Wait, then redirect", items: [
+          "Wait until the storm passes (don't rush it)",
+          "Name the feeling: \"You were so frustrated\"",
+          "Offer a simple choice when they're calm"
+        ]},
+        { id: "t2-6-6", type: "header", content: "My Personal Triggers During Tantrums" },
+        { id: "t2-6-7", type: "checklist", items: ["______________________________________", "______________________________________", "______________________________________"] },
+        { id: "t2-6-8", type: "header", content: "My Go-To Calming Phrase" },
+        { id: "t2-6-9", type: "checklist", items: ["______________________________________"] }
+      ]
+    },
+
     // ============================================
     // SECTION 3: DEFIANCE & POWER STRUGGLES
     // ============================================
@@ -651,6 +684,31 @@ export const toddlerWorkbookData: WorkbookData = {
             { myth: "Strong-willed children need to be broken.", fact: "Strong will is a gift — it needs to be guided, not crushed. These children become strong leaders." }
           ]
         }
+      ]
+    },
+
+    // Activity - Section 3
+    {
+      id: "toddler-3-6",
+      section: 3,
+      sectionTitle: "Defiance & Power Struggles",
+      pageType: "reflection",
+      title: "Activity: The Power of Two Choices",
+      subtitle: "Practice Giving Choices Instead of Commands",
+      sections: [
+        { id: "t3-6-1", type: "paragraph", content: "Toddlers need to feel powerful. Instead of giving commands that invite defiance, offer two acceptable choices. Practice rewriting these common battles:" },
+        { id: "t3-6-2", type: "header", content: "Rewrite the Command → Two Choices" },
+        { id: "t3-6-3", type: "list", content: "❌ \"Put your shoes on NOW.\"", items: ["✅ \"Do you want to wear the red shoes or the blue shoes?\""] },
+        { id: "t3-6-4", type: "list", content: "❌ \"Eat your vegetables.\"", items: ["✅ \"Do you want carrots or peas with dinner?\""] },
+        { id: "t3-6-5", type: "list", content: "❌ \"Get in the car.\"", items: ["✅ \"Do you want to climb in yourself or want me to lift you?\""] },
+        { id: "t3-6-6", type: "header", content: "Now Write Your Own!" },
+        { id: "t3-6-7", type: "paragraph", content: "Think of 3 daily battles and rewrite them as two-choice options:" },
+        { id: "t3-6-8", type: "checklist", items: [
+          "Battle: __________________ → Choice A or B: __________________",
+          "Battle: __________________ → Choice A or B: __________________",
+          "Battle: __________________ → Choice A or B: __________________"
+        ]},
+        { id: "t3-6-9", type: "scripture", content: "\"The goal isn't obedience through fear — it's cooperation through connection.\"" }
       ]
     },
 
@@ -841,6 +899,37 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "toddler-4-6",
+      section: 4,
+      sectionTitle: "Separation Anxiety",
+      pageType: "reflection",
+      title: "Activity: Goodbye Routine Builder",
+      subtitle: "Create a Predictable, Loving Goodbye",
+      sections: [
+        { id: "t4-6-1", type: "paragraph", content: "A consistent goodbye routine gives your toddler predictability and security. Design your family's goodbye ritual below:" },
+        { id: "t4-6-2", type: "header", content: "Our Goodbye Routine" },
+        { id: "t4-6-3", type: "checklist", content: "Choose your steps (check the ones you'll use):", items: [
+          "Special handshake or high-five",
+          "\"I love you\" + specific return time (\"after snack\")",
+          "Blow a kiss and catch it",
+          "Leave a comfort object (blanket, photo, bracelet)",
+          "Draw a heart on their hand and yours",
+          "Say the same phrase every time: \"I always come back\""
+        ]},
+        { id: "t4-6-4", type: "header", content: "Our Family's Goodbye Phrase" },
+        { id: "t4-6-5", type: "checklist", items: ["______________________________________"] },
+        { id: "t4-6-6", type: "header", content: "When They Cry at Drop-Off, I Will..." },
+        { id: "t4-6-7", type: "checklist", items: [
+          "______________________________________",
+          "______________________________________",
+          "______________________________________"
+        ]},
+        { id: "t4-6-8", type: "scripture", content: "\"A calm, confident goodbye tells their brain: 'You are safe, and I will return.'\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: SLEEP CHALLENGES
     // ============================================
@@ -1025,6 +1114,39 @@ export const toddlerWorkbookData: WorkbookData = {
             { myth: "A strict bedtime routine is controlling.", fact: "Predictable routines reduce anxiety and help their brain shift into sleep mode naturally." }
           ]
         }
+      ]
+    },
+
+    // Activity - Section 5
+    {
+      id: "toddler-5-6",
+      section: 5,
+      sectionTitle: "Sleep Challenges",
+      pageType: "reflection",
+      title: "Activity: Bedtime Routine Builder",
+      subtitle: "Design a Calming Sleep Routine",
+      sections: [
+        { id: "t5-6-1", type: "paragraph", content: "A predictable bedtime routine signals the brain to start winding down. Build your family's routine below (aim for 20-30 minutes):" },
+        { id: "t5-6-2", type: "header", content: "Our Bedtime Routine (in order)" },
+        { id: "t5-6-3", type: "checklist", content: "Choose 4-6 steps:", items: [
+          "Bath or warm washcloth",
+          "Put on pajamas",
+          "Brush teeth",
+          "Read 1-2 books together",
+          "Sing a song or play soft music",
+          "Say prayers together",
+          "Goodnight hugs and kisses",
+          "Lights out with nightlight"
+        ]},
+        { id: "t5-6-4", type: "header", content: "Bedtime is: _______ PM" },
+        { id: "t5-6-5", type: "header", content: "Wind-down starts at: _______ PM" },
+        { id: "t5-6-6", type: "header", content: "When They Get Out of Bed, I Will..." },
+        { id: "t5-6-7", type: "checklist", items: [
+          "Calmly walk them back without engaging",
+          "Use the same short phrase: \"It's sleep time\"",
+          "Stay calm no matter how many times it happens"
+        ]},
+        { id: "t5-6-8", type: "scripture", content: "\"Consistency is the gift you give their nervous system. Same routine, same calm, every night.\"" }
       ]
     },
 
@@ -1215,6 +1337,41 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 6
+    {
+      id: "toddler-6-6",
+      section: 6,
+      sectionTitle: "Aggression & Hitting",
+      pageType: "reflection",
+      title: "Activity: Hands Are For Helping",
+      subtitle: "Teaching Gentle Touch & Safe Alternatives",
+      sections: [
+        { id: "t6-6-1", type: "paragraph", content: "When toddlers hit, they're communicating with their body because their words can't keep up. Use this sheet to plan your response and teach alternatives." },
+        { id: "t6-6-2", type: "header", content: "When My Child Hits, I Will Say:" },
+        { id: "t6-6-3", type: "list", items: [
+          "\"I won't let you hit. Hitting hurts.\"",
+          "\"You're upset. I'm going to keep everyone safe.\"",
+          "\"You can hit this pillow, but not people.\""
+        ]},
+        { id: "t6-6-4", type: "header", content: "Safe Alternatives to Teach" },
+        { id: "t6-6-5", type: "checklist", content: "Practice these BEFORE the moment:", items: [
+          "Stomp feet instead of hitting",
+          "Squeeze a stuffed animal tightly",
+          "Hit a pillow or cushion",
+          "Use words: \"I'm MAD!\"",
+          "Come to a parent for a big hug",
+          "Take deep \"dragon breaths\""
+        ]},
+        { id: "t6-6-6", type: "header", content: "Situations That Trigger Aggression" },
+        { id: "t6-6-7", type: "checklist", items: [
+          "______________________________________",
+          "______________________________________",
+          "______________________________________"
+        ]},
+        { id: "t6-6-8", type: "scripture", content: "\"They're not giving you a hard time — they're having a hard time. Teach, don't punish.\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 7: TRANSITIONS & CHANGE
     // ============================================
@@ -1398,6 +1555,46 @@ export const toddlerWorkbookData: WorkbookData = {
             { myth: "They'll outgrow transition struggles on their own.", fact: "With practice and support, they build skills faster. Without it, struggles can intensify." }
           ]
         }
+      ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "toddler-7-6",
+      section: 7,
+      sectionTitle: "Transitions & Change",
+      pageType: "reflection",
+      title: "Activity: Transition Toolkit",
+      subtitle: "Making Changes Easier for Everyone",
+      sections: [
+        { id: "t7-6-1", type: "paragraph", content: "Transitions are one of the hardest parts of toddler life. Use this toolkit to plan ahead for your toughest daily transitions." },
+        { id: "t7-6-2", type: "header", content: "Our Hardest Transitions" },
+        { id: "t7-6-3", type: "checklist", content: "Check the ones that are tough in your home:", items: [
+          "Leaving the park or playground",
+          "Getting in the car seat",
+          "Turning off screens",
+          "Coming inside from playing",
+          "Starting bath or bedtime",
+          "Leaving a friend's house",
+          "Dropping off at daycare"
+        ]},
+        { id: "t7-6-4", type: "header", content: "Transition Strategies to Try" },
+        { id: "t7-6-5", type: "checklist", content: "Pick 2-3 to practice this week:", items: [
+          "Give a 5-minute and 2-minute warning",
+          "Use a visual timer they can see",
+          "Sing a transition song together",
+          "Let them say \"goodbye\" to the activity",
+          "Offer a bridge: \"We can do this again tomorrow\"",
+          "Give a job: \"Can you carry the keys to the car?\"",
+          "Use a countdown: \"3 more pushes on the swing\""
+        ]},
+        { id: "t7-6-6", type: "header", content: "My Plan for Our #1 Hardest Transition" },
+        { id: "t7-6-7", type: "checklist", items: [
+          "The transition: ______________________________________",
+          "Strategy I'll try: ______________________________________",
+          "What I'll say: ______________________________________"
+        ]},
+        { id: "t7-6-8", type: "scripture", content: "\"Warnings aren't weakness — they're respect for a brain that needs time to shift gears.\"" }
       ]
     }
   ]
