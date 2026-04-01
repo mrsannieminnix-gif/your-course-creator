@@ -284,6 +284,7 @@ export const toddlerWorkbookData: WorkbookData = {
       title: "🔵 Thinking Brain",
       subtitle: "Prefrontal Cortex — \"What Can I Learn?\"",
       sections: [
+        { id: "t1-9-0", type: "faith-image", faithImage: { src: "brain-thinking", caption: "The Thinking Brain — Prefrontal Cortex" } },
         { id: "t1-9-1", type: "header", content: "What Is the Thinking Brain?" },
         { id: "t1-9-2", type: "paragraph", content: "The prefrontal cortex is the top layer of the brain, responsible for reasoning, impulse control, empathy, and decision-making. This is the part that allows us to pause before reacting, consider consequences, and regulate emotions. In toddlers, this part is BARELY online — it won't fully mature until around age 25." },
         { id: "t1-9-3", type: "header", content: "The Core Question" },
