@@ -1422,6 +1422,26 @@ export const middleChildhoodWorkbookData: WorkbookData = {
           { myth: "Character building is the school's job.", fact: "Home is where character is forged — school reinforces what you model." }
         ]}
       ]
+    },
+
+    // Activity - Section 7
+    {
+      id: "middle-7-6",
+      section: 7,
+      sectionTitle: "Building Character",
+      pageType: "reflection",
+      title: "Activity: Character in Action",
+      subtitle: "Practicing Integrity This Week",
+      sections: [
+        { id: "m7-6-1", type: "paragraph", content: "Character isn't taught through lectures — it's built through practice. Use these challenges to make character tangible." },
+        { id: "m7-6-2", type: "subheader", content: "Daily Character Challenges" },
+        { id: "m7-6-3", type: "checklist", items: ["Monday: Do something kind without being asked", "Tuesday: Tell the truth even when it's hard", "Wednesday: Include someone who's left out", "Thursday: Admit a mistake and make it right", "Friday: Encourage someone who's struggling", "Weekend: Serve your family without complaining"] },
+        { id: "m7-6-4", type: "subheader", content: "Character Reflection" },
+        { id: "m7-6-5", type: "checklist", items: ["The hardest challenge was: _______________", "I was most proud when: _______________", "My child surprised me by: _______________"] },
+        { id: "m7-6-6", type: "subheader", content: "A Character Quality I Want to Model" },
+        { id: "m7-6-7", type: "checklist", items: ["The quality: _______________", "How I'll practice it this week: _______________", "How I'll talk about it with my child: _______________"] },
+        { id: "m7-6-8", type: "scripture", content: "\"Let your light shine before others.\" — Matthew 5:16" }
+      ]
     }
   ]
 };
