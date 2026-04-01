@@ -176,6 +176,29 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    {
+      id: "toddler-1-5",
+      section: 1,
+      sectionTitle: "The Developing Brain",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "The Developing Brain",
+      sections: [
+        { id: "t1-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "t1-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Toddlers misbehave on purpose to push your buttons.", fact: "Their prefrontal cortex is still developing — they literally cannot plan manipulation at this age." },
+            { myth: "If they can talk, they should be able to control themselves.", fact: "Language and impulse control develop in different parts of the brain at different rates." },
+            { myth: "You should expect your 2-year-old to sit still and listen.", fact: "Their brains are wired for movement and exploration — stillness is biologically difficult." },
+            { myth: "They should know better by now.", fact: "Brain development follows a timeline, not a parenting schedule. Repetition is how they learn." },
+            { myth: "Strict discipline speeds up brain maturity.", fact: "Safety, connection, and co-regulation build stronger neural pathways than punishment." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 2: TANTRUMS & EMOTIONAL MELTDOWNS
     // ============================================
