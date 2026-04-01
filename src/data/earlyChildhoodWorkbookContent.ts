@@ -1346,6 +1346,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
           content: "You're not just getting a clean house - you're building a capable adult."
         }
       ]
+    },
+
+    // Facts & Myths - Section 7
+    {
+      id: "early-7-5",
+      section: 7,
+      sectionTitle: "Responsibility & Chores",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Responsibility & Chores",
+      sections: [
+        { id: "e7-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e7-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Kids should do chores without being asked.", fact: "Executive function is still developing — they need reminders and routines." },
+            { myth: "If they don't do it right, they're being lazy.", fact: "Their skills are still developing. Progress matters more than perfection." },
+            { myth: "Rewards and allowance are bribes.", fact: "Age-appropriate incentives teach the connection between work and reward." },
+            { myth: "They should just know what needs to be done.", fact: "They need to be taught, modeled, and practiced alongside you." },
+            { myth: "Nagging is the only way to get them to help.", fact: "Visual checklists and routines reduce the need for verbal reminders." }
+          ]
+        }
+      ]
     }
   ]
 };
