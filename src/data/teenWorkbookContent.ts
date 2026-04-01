@@ -958,6 +958,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 5
+    {
+      id: "teen-5-5", section: 5, sectionTitle: "Mental Health", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Mental Health",
+      sections: [
+        { id: "tn5-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn5-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Depression is just a phase.", fact: "Teen depression is a real medical condition that deserves professional attention." },
+          { myth: "Talking about suicide gives them ideas.", fact: "Asking directly shows you care and can be life-saving." },
+          { myth: "Anxiety means they can't handle life.", fact: "Anxiety is the brain's alarm system — it needs recalibration, not dismissal." },
+          { myth: "They should be able to pray it away.", fact: "Faith and professional help work together. Seeking help IS trusting God's provision." },
+          { myth: "It's just hormones — they'll grow out of it.", fact: "Some will, but many need support now. Early intervention has the best outcomes." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 6: FAITH & WORLDVIEW
     // ============================================
