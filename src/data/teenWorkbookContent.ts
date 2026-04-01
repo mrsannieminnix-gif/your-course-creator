@@ -1133,6 +1133,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 6
+    {
+      id: "teen-6-5", section: 6, sectionTitle: "Faith & Worldview", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Faith & Worldview",
+      sections: [
+        { id: "tn6-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn6-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "If they question faith, they're losing it.", fact: "Questioning is a sign of maturing faith, not abandoning it." },
+          { myth: "You should force church attendance.", fact: "Forced faith creates resentment. Modeled faith creates curiosity." },
+          { myth: "Doubt is the opposite of faith.", fact: "Doubt is the soil where deeper faith can grow — if met with grace." },
+          { myth: "They should believe exactly what you believe.", fact: "They need to own their faith, not just inherit yours." },
+          { myth: "Exposure to other worldviews is dangerous.", fact: "Understanding other perspectives strengthens — not weakens — their convictions." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 7: LAUNCHING WELL
     // ============================================
