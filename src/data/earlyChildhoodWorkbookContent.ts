@@ -433,6 +433,30 @@ export const earlyChildhoodWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 2
+    {
+      id: "early-2-5",
+      section: 2,
+      sectionTitle: "Lying & Honesty",
+      pageType: "reflection",
+      title: "Facts & Myths",
+      subtitle: "Lying & Honesty",
+      sections: [
+        { id: "e2-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        {
+          id: "e2-5-2",
+          type: "facts-myths",
+          factsMythsItems: [
+            { myth: "Kids who lie are bad kids.", fact: "Lying is a normal developmental milestone that shows cognitive growth." },
+            { myth: "You should punish every lie harshly.", fact: "Harsh punishment makes kids better liars, not more honest." },
+            { myth: "If they lie once, they'll always lie.", fact: "How you respond to lies shapes whether honesty feels safe." },
+            { myth: "Good kids never lie.", fact: "All children lie — it's how they test boundaries and learn social rules." },
+            { myth: "They should confess immediately when caught.", fact: "Fear prevents confession. Safety and connection invite honesty." }
+          ]
+        }
+      ]
+    },
+
     // ============================================
     // SECTION 3: SCHOOL ANXIETY & PERFORMANCE
     // ============================================
