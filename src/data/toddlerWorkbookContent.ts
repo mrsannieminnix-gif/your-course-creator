@@ -899,6 +899,37 @@ export const toddlerWorkbookData: WorkbookData = {
       ]
     },
 
+    // Activity - Section 4
+    {
+      id: "toddler-4-6",
+      section: 4,
+      sectionTitle: "Separation Anxiety",
+      pageType: "reflection",
+      title: "Activity: Goodbye Routine Builder",
+      subtitle: "Create a Predictable, Loving Goodbye",
+      sections: [
+        { id: "t4-6-1", type: "paragraph", content: "A consistent goodbye routine gives your toddler predictability and security. Design your family's goodbye ritual below:" },
+        { id: "t4-6-2", type: "header", content: "Our Goodbye Routine" },
+        { id: "t4-6-3", type: "checklist", content: "Choose your steps (check the ones you'll use):", items: [
+          "Special handshake or high-five",
+          "\"I love you\" + specific return time (\"after snack\")",
+          "Blow a kiss and catch it",
+          "Leave a comfort object (blanket, photo, bracelet)",
+          "Draw a heart on their hand and yours",
+          "Say the same phrase every time: \"I always come back\""
+        ]},
+        { id: "t4-6-4", type: "header", content: "Our Family's Goodbye Phrase" },
+        { id: "t4-6-5", type: "checklist", items: ["______________________________________"] },
+        { id: "t4-6-6", type: "header", content: "When They Cry at Drop-Off, I Will..." },
+        { id: "t4-6-7", type: "checklist", items: [
+          "______________________________________",
+          "______________________________________",
+          "______________________________________"
+        ]},
+        { id: "t4-6-8", type: "scripture", content: "\"A calm, confident goodbye tells their brain: 'You are safe, and I will return.'\"" }
+      ]
+    },
+
     // ============================================
     // SECTION 5: SLEEP CHALLENGES
     // ============================================
