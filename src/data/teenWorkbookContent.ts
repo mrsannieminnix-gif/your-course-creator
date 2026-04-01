@@ -608,6 +608,22 @@ export const teenWorkbookData: WorkbookData = {
       ]
     },
 
+    // Facts & Myths - Section 3
+    {
+      id: "teen-3-5", section: 3, sectionTitle: "Risky Behavior", pageType: "reflection",
+      title: "Facts & Myths", subtitle: "Risky Behavior",
+      sections: [
+        { id: "tn3-5-1", type: "header", content: "Common Myths vs. Evidence-Based Facts" },
+        { id: "tn3-5-2", type: "facts-myths", factsMythsItems: [
+          { myth: "Risk-taking means they have bad character.", fact: "The reward center of the brain overpowers the logic center — it's biological, not moral failure." },
+          { myth: "Scaring them straight works.", fact: "Fear-based approaches increase secrecy, not safety." },
+          { myth: "If you trust them, you're being naive.", fact: "Trust WITH verification builds responsibility. Suspicion destroys connection." },
+          { myth: "Good kids don't take risks.", fact: "ALL teens take risks — it's how the brain learns to assess danger." },
+          { myth: "Strict rules prevent risky behavior.", fact: "A strong relationship is more protective than strict rules alone." }
+        ]}
+      ]
+    },
+
     // ============================================
     // SECTION 4: ROMANTIC RELATIONSHIPS
     // ============================================
